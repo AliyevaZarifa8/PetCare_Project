@@ -4,6 +4,7 @@ header {
   top: 0;
   left: 0;
   background-color: transparent;
+
   #header-top {
     nav {
       display: flex;
@@ -56,6 +57,7 @@ header {
     }
   }
   #header-bottom {
+    padding-bottom: 20px;
     display: flex;
     justify-content: end;
     div {

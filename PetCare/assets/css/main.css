@@ -60,6 +60,7 @@ header #header-top nav #ul .dropdown-toggle::after {
   display: none;
 }
 header #header-bottom {
+  padding-bottom: 20px;
   display: flex;
   justify-content: end;
 }
