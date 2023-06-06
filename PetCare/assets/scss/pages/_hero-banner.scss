@@ -2,6 +2,9 @@
   height: 100vh;
   padding-top: 20vh;
   background-image: url("../image/hero-dog.jpg");
+  border-bottom-left-radius: 13%;
+  border-bottom-right-radius: 13%;
+  background-attachment: fixed;
 
   #hero-text {
     display: flex;
@@ -32,7 +35,6 @@
       &:hover {
         background-color: transparent;
         border-color: #3cb371;
-      
       }
       i {
         font-size: 27px;

@@ -114,6 +114,9 @@ header #header-bottom div #dark-mode:hover {
   height: 100vh;
   padding-top: 20vh;
   background-image: url("../image/hero-dog.jpg");
+  border-bottom-left-radius: 13%;
+  border-bottom-right-radius: 13%;
+  background-attachment: fixed;
 }
 #hero-banner #hero-text {
   display: flex;
@@ -148,6 +151,47 @@ header #header-bottom div #dark-mode:hover {
 }
 #hero-banner #hero-text a i {
   font-size: 27px;
+}
+
+#hero {
+  background-color: aliceblue;
+  border-radius: 12%;
+}
+#hero #hero-img-text {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#hero #hero-img1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#hero #hero-img1 img {
+  width: 100%;
+  border-radius: 12%;
+}
+#hero #hero-img2 img {
+  height: 58vh;
+  border-radius: 8%;
+}
+#hero #hero-text {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#hero #hero-text h1 {
+  font-size: 50px;
+  color: rgb(17, 147, 17);
+}
+#hero #hero-text .text {
+  width: 100%;
+}
+#hero #hero-text .text p {
+  font-size: 20px;
+  width: 87%;
+  color: rgb(169, 167, 167);
 }
 
 /*# sourceMappingURL=main.css.map */
