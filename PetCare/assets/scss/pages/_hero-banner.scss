@@ -1,0 +1,42 @@
+#hero-banner {
+  height: 100vh;
+  padding-top: 20vh;
+  background-image: url("../image/hero-dog.jpg");
+
+  #hero-text {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 12vh;
+    row-gap: 20px;
+    h1 {
+      font-size: 50px;
+      color: #fff;
+      font-weight: bold;
+    }
+    p {
+      font-size: 30px;
+      color: rgb(244, 227, 227);
+    }
+    a {
+      margin-left: 15px;
+      width: 44%;
+      text-decoration: none;
+      color: #fff;
+      font-size: 30px;
+      background-color: #3cb371;
+      padding: 7px 20px;
+      border-radius: 10px;
+      font-weight: 500;
+      border: 3px solid transparent;
+      &:hover {
+        background-color: transparent;
+        border-color: #3cb371;
+      
+      }
+      i {
+        font-size: 27px;
+      }
+    }
+  }
+}

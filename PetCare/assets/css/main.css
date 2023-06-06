@@ -19,8 +19,9 @@ header #header-top nav {
   align-items: center;
   height: 10vh;
 }
-header #header-top nav img {
-  width: 120px;
+header #header-top nav h1 {
+  text-shadow: 3px 3px 3px rgb(43, 252, 43);
+  color: #fff;
 }
 header #header-top nav #ul {
   display: flex;
@@ -29,24 +30,30 @@ header #header-top nav #ul {
   column-gap: 20px;
 }
 header #header-top nav #ul li .a-tag {
+  font-size: 20px;
+  text-shadow: 4px 2px 2px rgb(2, 17, 2);
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-weight: bold;
   border: 2px solid transparent;
   padding: 5px 10px;
   border-radius: 7px;
 }
 header #header-top nav #ul li .a-tag:hover {
+  color: rgb(14, 184, 14);
   border-color: rgb(14, 184, 14);
 }
 header #header-top nav #ul .dropdown-toggle {
-  color: #000;
+  font-size: 20px;
+  text-shadow: 4px 2px 2px rgb(2, 17, 2);
+  color: #fff;
   font-weight: bold;
   border: 2px solid transparent;
   padding: 5px 10px;
   border-radius: 7px;
 }
 header #header-top nav #ul .dropdown-toggle:hover {
+  color: rgb(14, 184, 14);
   border-color: rgb(14, 184, 14);
 }
 header #header-top nav #ul .dropdown-toggle::after {
@@ -61,21 +68,33 @@ header #header-bottom div {
   column-gap: 40px;
   align-items: center;
 }
-header #header-bottom div #login {
+header #header-bottom div .signin {
   text-decoration: none;
-  border: 2px solid rgb(49, 199, 49);
-  padding: 5px 19px;
-  color: black;
-  border-radius: 7px;
+  border: 2px solid transparent;
+  padding: 5px 29px;
+  color: #fff;
+  border-radius: 23px;
   font-weight: bold;
 }
-header #header-bottom div #login:hover {
+header #header-bottom div .signin:hover {
   border-color: transparent;
   background-color: rgb(49, 199, 40);
+  color: #000;
+}
+header #header-bottom div .login {
+  text-decoration: none;
+  border: 2px solid rgb(101, 176, 101);
+  padding: 5px 29px;
   color: #fff;
+  border-radius: 23px;
+  font-weight: bold;
+}
+header #header-bottom div .login:hover {
+  background-color: transparent;
+  color: #000;
 }
 header #header-bottom div #person-icon {
-  color: black;
+  color: #fff;
 }
 header #header-bottom div #person-icon:hover {
   color: rgb(49, 199, 49);
@@ -85,9 +104,50 @@ header #header-bottom div #person-icon i {
 }
 header #header-bottom div #dark-mode {
   font-size: 20px;
+  color: #fff;
 }
 header #header-bottom div #dark-mode:hover {
   color: rgb(49, 199, 49);
+}
+
+#hero-banner {
+  height: 100vh;
+  padding-top: 20vh;
+  background-image: url("../image/hero-dog.jpg");
+}
+#hero-banner #hero-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12vh;
+  row-gap: 20px;
+}
+#hero-banner #hero-text h1 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+#hero-banner #hero-text p {
+  font-size: 30px;
+  color: rgb(244, 227, 227);
+}
+#hero-banner #hero-text a {
+  margin-left: 15px;
+  width: 44%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  background-color: #3cb371;
+  padding: 7px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 3px solid transparent;
+}
+#hero-banner #hero-text a:hover {
+  background-color: transparent;
+  border-color: #3cb371;
+}
+#hero-banner #hero-text a i {
+  font-size: 27px;
 }
 
 /*# sourceMappingURL=main.css.map */
