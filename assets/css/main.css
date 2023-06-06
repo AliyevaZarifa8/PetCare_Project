@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+header #header-top nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+header #header-top nav img {
+  width: 120px;
+}
+header #header-top nav #ul {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  column-gap: 20px;
+}
+header #header-top nav #ul li .a-tag {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+header #header-top nav #ul li .a-tag:hover {
+  border-color: rgb(14, 184, 14);
+}
+header #header-top nav #ul .dropdown-toggle {
+  color: #000;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+header #header-top nav #ul .dropdown-toggle:hover {
+  border-color: rgb(14, 184, 14);
+}
+header #header-top nav #ul .dropdown-toggle::after {
+  display: none;
+}
+header #header-bottom {
+  display: flex;
+  justify-content: end;
+}
+header #header-bottom div {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+header #header-bottom div #login {
+  text-decoration: none;
+  border: 2px solid rgb(49, 199, 49);
+  padding: 5px 19px;
+  color: black;
+  border-radius: 7px;
+  font-weight: bold;
+}
+header #header-bottom div #login:hover {
+  border-color: transparent;
+  background-color: rgb(49, 199, 40);
+  color: #fff;
+}
+header #header-bottom div #person-icon {
+  color: black;
+}
+header #header-bottom div #person-icon:hover {
+  color: rgb(49, 199, 49);
+}
+header #header-bottom div #person-icon i {
+  font-size: 20px;
+}
+header #header-bottom div #dark-mode {
+  font-size: 20px;
+}
+header #header-bottom div #dark-mode:hover {
+  color: rgb(49, 199, 49);
+}
+
+/*# sourceMappingURL=main.css.map */
