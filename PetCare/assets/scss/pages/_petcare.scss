@@ -6,7 +6,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    row-gap: 14px;
+    row-gap: 7px;
     h1 {
       color: #2e8b57;
       font-size: 54px;
@@ -17,6 +17,7 @@
     }
   }
   .petcare-cards {
+    margin-top: 40px;
     .petcare-card {
       display: flex;
       margin-bottom: 50px;

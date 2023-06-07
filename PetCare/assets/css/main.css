@@ -13,6 +13,11 @@ header {
   left: 0;
   background-color: transparent;
 }
+header #header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 header #header-top nav {
   display: flex;
   justify-content: space-between;
@@ -22,12 +27,13 @@ header #header-top nav {
 header #header-top nav h1 {
   text-shadow: 3px 3px 3px rgb(43, 252, 43);
   color: #fff;
+  margin-right: 35px;
 }
 header #header-top nav #ul {
   display: flex;
   margin: auto 0;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 30px;
 }
 header #header-top nav #ul li .a-tag {
   font-size: 20px;
@@ -59,56 +65,10 @@ header #header-top nav #ul .dropdown-toggle:hover {
 header #header-top nav #ul .dropdown-toggle::after {
   display: none;
 }
-header #header-bottom {
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: end;
-}
-header #header-bottom div {
-  display: flex;
-  column-gap: 40px;
-  align-items: center;
-}
-header #header-bottom div .signin {
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 29px;
+header #header-top #header-icon i {
   color: #fff;
-  border-radius: 23px;
-  font-weight: bold;
-}
-header #header-bottom div .signin:hover {
-  border-color: transparent;
-  background-color: rgb(49, 199, 40);
-  color: #000;
-}
-header #header-bottom div .login {
-  text-decoration: none;
-  border: 2px solid rgb(101, 176, 101);
-  padding: 5px 29px;
-  color: #fff;
-  border-radius: 23px;
-  font-weight: bold;
-}
-header #header-bottom div .login:hover {
-  background-color: transparent;
-  color: #000;
-}
-header #header-bottom div #person-icon {
-  color: #fff;
-}
-header #header-bottom div #person-icon:hover {
-  color: rgb(49, 199, 49);
-}
-header #header-bottom div #person-icon i {
-  font-size: 20px;
-}
-header #header-bottom div #dark-mode {
-  font-size: 20px;
-  color: #fff;
-}
-header #header-bottom div #dark-mode:hover {
-  color: rgb(49, 199, 49);
+  font-size: 23px;
+  text-shadow: 1px 2px 2px rgb(31, 208, 31);
 }
 
 #hero-banner {
@@ -118,6 +78,7 @@ header #header-bottom div #dark-mode:hover {
   border-bottom-left-radius: 13%;
   border-bottom-right-radius: 13%;
   background-attachment: fixed;
+  background-size: cover;
 }
 #hero-banner #hero-text {
   display: flex;
@@ -155,8 +116,8 @@ header #header-bottom div #dark-mode:hover {
 }
 
 #hero {
-  background-color: aliceblue;
-  border-radius: 12%;
+  background-color: #fff;
+  border-radius: 5%;
 }
 #hero #hero-img-text {
   height: 100vh;
@@ -247,7 +208,7 @@ header #header-bottom div #dark-mode:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
-  row-gap: 14px;
+  row-gap: 7px;
 }
 #petcare .petcare-text h1 {
   color: #2e8b57;
@@ -256,6 +217,9 @@ header #header-bottom div #dark-mode:hover {
 #petcare .petcare-text p {
   font-size: 23px;
   color: rgb(86, 84, 84);
+}
+#petcare .petcare-cards {
+  margin-top: 40px;
 }
 #petcare .petcare-cards .petcare-card {
   display: flex;
@@ -277,6 +241,15 @@ header #header-bottom div #dark-mode:hover {
 #petcare .petcare-cards .petcare-card .pet-text p {
   color: rgb(96, 91, 91);
   width: 70%;
+}
+
+#upicon {
+  position: fixed;
+  right: 90px;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 36px;
+  color: #3cb371;
 }
 
 /*# sourceMappingURL=main.css.map */
