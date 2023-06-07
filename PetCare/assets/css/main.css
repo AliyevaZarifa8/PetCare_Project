@@ -195,4 +195,88 @@ header #header-bottom div #dark-mode:hover {
   color: rgb(169, 167, 167);
 }
 
+#acres {
+  background-color: #e0e8d9;
+  border-radius: 12%;
+}
+#acres #acres-img-text {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#acres #acres-img1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#acres #acres-img1 img {
+  width: 100%;
+  border-radius: 12%;
+}
+#acres #acres-img2 {
+  margin-right: 20px;
+}
+#acres #acres-img2 img {
+  height: 58vh;
+  border-radius: 8%;
+}
+#acres #acres-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#acres #acres-text h1 {
+  font-size: 60px;
+  color: #2e8b57;
+}
+#acres #acres-text .text {
+  width: 100%;
+}
+#acres #acres-text .text p {
+  font-size: 20px;
+  width: 87%;
+  color: rgb(122, 120, 120);
+}
+
+#petcare {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#petcare .petcare-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+#petcare .petcare-text h1 {
+  color: #2e8b57;
+  font-size: 54px;
+}
+#petcare .petcare-text p {
+  font-size: 23px;
+  color: rgb(86, 84, 84);
+}
+#petcare .petcare-cards .petcare-card {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+#petcare .petcare-cards .petcare-card i {
+  margin-top: 20px;
+  font-size: 42px;
+  color: #55db90;
+}
+#petcare .petcare-cards .petcare-card h3 {
+  color: #2e8b57;
+  font-size: 23px;
+}
+#petcare .petcare-cards .petcare-card .pet-text {
+  width: 100%;
+}
+#petcare .petcare-cards .petcare-card .pet-text p {
+  color: rgb(96, 91, 91);
+  width: 70%;
+}
+
 /*# sourceMappingURL=main.css.map */
