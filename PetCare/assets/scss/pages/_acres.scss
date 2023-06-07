@@ -10,17 +10,29 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    overflow: hidden;
     img {
       width: 100%;
+      height: 100%;
+      transition: scale 2s;
       border-radius: 12%;
+      &:hover {
+        scale: 90%;
+      }
     }
   }
   #acres-img2 {
     margin-right: 20px;
+    overflow: hidden;
     img {
       height: 58vh;
-
+      width: 100%;
+      height: 100%;
+      transition: scale 2s;
       border-radius: 8%;
+      &:hover {
+        scale: 90%;
+      }
     }
   }
   #acres-text {
