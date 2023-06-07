@@ -255,7 +255,7 @@ header #header-top #header-icon i {
 #request-callback {
   background-image: url("../image/young-couple-walk-dog-in-rain-PYF7W7R.jpg");
   background-size: cover;
-  border-radius: 12%;
+  border-radius: 5%;
 }
 #request-callback .callback {
   display: flex;
@@ -302,6 +302,75 @@ header #header-top #header-icon i {
 #request-callback .callback button:hover {
   border-color: #3cbc73;
   background-color: transparent;
+}
+
+#opinion-customers {
+  margin-top: 30px;
+}
+#opinion-customers .customers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  row-gap: 27px;
+}
+#opinion-customers .customers .customers-text {
+  text-align: center;
+}
+#opinion-customers .customers .customers-text h1 {
+  color: #2e8b57;
+  font-size: 40px;
+  font-weight: bold;
+}
+#opinion-customers .customers .customers-text p {
+  color: rgb(184, 183, 183);
+  font-size: 26px;
+}
+#opinion-customers .customers .customers-cards {
+  position: relative;
+}
+#opinion-customers .customers .customers-cards .customers-img {
+  position: relative;
+}
+#opinion-customers .customers .customers-cards .customers-img img {
+  border-radius: 10%;
+}
+#opinion-customers .customers .customers-cards .customers-card {
+  position: absolute;
+  top: 120px;
+  left: 590px;
+  display: flex;
+  align-items: center;
+  height: 44vh;
+  background-color: #fafdfb;
+  border-radius: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+}
+#opinion-customers .customers .customers-cards .customers-card i {
+  color: #77d19e;
+  font-size: 45px;
+  position: absolute;
+  top: -10px;
+  left: -60px;
+}
+#opinion-customers .customers .customers-cards .customers-card .customers-parag {
+  width: 100%;
+}
+#opinion-customers .customers .customers-cards .customers-card .customers-parag p {
+  width: 90%;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(141, 138, 138);
+}
+#opinion-customers .customers .customers-cards .customers-card .customers-heading h5 {
+  color: rgb(105, 104, 104);
+}
+#opinion-customers .customers .customers-cards .customers-card .customers-heading p {
+  color: rgb(182, 179, 179);
+  padding-left: 27px;
 }
 
 /*# sourceMappingURL=main.css.map */
