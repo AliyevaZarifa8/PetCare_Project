@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e8b57;
+  height: 15vh;
+
+  &:hover {
+    p {
+      color: #3cbe74;
+    }
+    span {
+      color: #fff;
+    }
+    i {
+      color: #fff;
+    }
+  }
+  p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+    i {
+      color: #18c262;
+    }
+    span {
+      color: #41ed8c;
+      text-shadow: 1px 1px 1px rgb(88, 221, 88);
+    }
+  }
+}
