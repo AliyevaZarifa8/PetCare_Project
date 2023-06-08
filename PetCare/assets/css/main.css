@@ -288,6 +288,7 @@ header #header-top #header-icon i {
   padding: 10px;
   font-size: 36px;
   color: #3cb371;
+  z-index: 10;
 }
 
 #request-callback {
@@ -340,9 +341,11 @@ header #header-top #header-icon i {
 #request-callback .callback button:hover {
   border-color: #3cbc73;
   background-color: transparent;
+  color: #3cbc73;
 }
 
 #opinion-customers {
+  height: 110vh;
   margin-top: 10px;
 }
 #opinion-customers .customers {
@@ -431,6 +434,74 @@ header #header-top #header-icon i {
 #opinion-customers .customers .customers-cards .customers-card .customers-heading p {
   color: rgb(182, 179, 179);
   padding-left: 27px;
+}
+
+#asked-questions {
+  height: 100vh;
+  background-color: #fafcf7;
+  display: flex;
+  align-items: center;
+  border-radius: 7%;
+}
+#asked-questions .questions .questions-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+#asked-questions .questions .questions-text .questions-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#asked-questions .questions .questions-text .questions-heading h1 {
+  width: 80%;
+  font-size: 50px;
+  color: #1e7443;
+}
+#asked-questions .questions .questions-text .questions-parag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#asked-questions .questions .questions-text .questions-parag p {
+  width: 80%;
+  font-size: 20px;
+  color: rgb(158, 156, 156);
+}
+#asked-questions .questions .questions-text a {
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 7px 20px;
+  margin-left: 66px;
+  color: #fff;
+  background-color: #2e8b57;
+  border-radius: 17px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#asked-questions .questions .questions-text a:hover {
+  background-color: transparent;
+  border-color: #2e8b57;
+  color: #2e8b57;
+}
+#asked-questions .questions .questions-text a i {
+  font-size: 23px;
+}
+#asked-questions .questions .questions-accardion #accordionExample .accordion-item h2 button {
+  padding: 40px 20px;
+  background-color: #d1f9e2;
+  color: rgb(126, 121, 121);
+  font-size: 20px;
+  font-weight: 500;
+}
+#asked-questions .questions .questions-accardion #accordionExample .accordion-item .accordion-body {
+  background-color: #ebf9f1;
+}
+#asked-questions .questions .questions-accardion #accordionExample .accordion-item .accordion-body p {
+  font-size: 20px;
+  color: #214b33;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
