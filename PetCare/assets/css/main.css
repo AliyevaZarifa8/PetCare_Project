@@ -346,7 +346,7 @@ header #header-top #header-icon i {
 
 #opinion-customers {
   height: 110vh;
-  margin-top: 10px;
+  margin-top: 17px;
 }
 #opinion-customers .customers {
   display: flex;
@@ -437,7 +437,7 @@ header #header-top #header-icon i {
 }
 
 #asked-questions {
-  height: 160vh;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -488,14 +488,14 @@ header #header-top #header-icon i {
 }
 #asked-questions .questions .questions-accardion #accordionExample .accordion-item h2 button {
   padding: 40px 20px;
-  background-color: #d1f9e2;
+  background-color: #e8faf0;
   color: rgb(126, 121, 121);
   font-size: 20px;
   font-weight: 500;
   padding-left: 50px;
 }
 #asked-questions .questions .questions-accardion #accordionExample .accordion-item .accordion-body {
-  background-color: #ebf9f1;
+  background-color: #f8fcfa;
 }
 #asked-questions .questions .questions-accardion #accordionExample .accordion-item .accordion-body p {
   font-size: 20px;
