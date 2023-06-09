@@ -1,38 +1,20 @@
 #request-callback {
-  background-image: url("../image/young-couple-walk-dog-in-rain-PYF7W7R.jpg");
-  background-size: cover;
-  border-radius: 5%;
-
-  .callback {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10vh;
-    height: 86vh;
-    text-align: center;
-    row-gap: 10px;
+  .carousel-caption {
+    top: 300px;
+    color: black;
+ 
     .callback-heading {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
       h1 {
-        width: 67%;
         color: #fff;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 37px;
       }
     }
     .callback-parag {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       p {
-        width: 54%;
         font-weight: 500;
-        color: #fff;
-        font-size: 25px;
+        color: rgb(71, 192, 99);
+        font-size: 23px;
       }
     }
     button {

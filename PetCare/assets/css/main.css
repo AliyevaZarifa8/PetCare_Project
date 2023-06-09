@@ -42,34 +42,52 @@ header #header-top nav #ul li .a-tag {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  border: 2px solid transparent;
   padding: 5px 10px;
   border-radius: 7px;
+  position: relative;
 }
 header #header-top nav #ul li .a-tag:hover {
   color: rgb(14, 184, 14);
-  border-color: rgb(14, 184, 14);
+}
+header #header-top nav #ul li .a-tag:hover::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 65%;
+  background-color: rgb(12, 218, 18);
+  bottom: -20%;
+  left: 19%;
 }
 header #header-top nav #ul .dropdown-toggle {
   font-size: 20px;
   text-shadow: 4px 2px 2px rgb(2, 17, 2);
   color: #fff;
   font-weight: bold;
-  border: 2px solid transparent;
-  padding: 5px 10px;
-  border-radius: 7px;
-}
-header #header-top nav #ul .dropdown-toggle:hover {
-  color: rgb(14, 184, 14);
-  border-color: rgb(14, 184, 14);
 }
 header #header-top nav #ul .dropdown-toggle::after {
   display: none;
+}
+header #header-top nav #ul .dropdown-toggle:hover {
+  color: rgb(14, 184, 14);
+  border-bottom: 2px solid rgb(14, 184, 14);
 }
 header #header-top #header-icon i {
   color: #fff;
   font-size: 23px;
   text-shadow: 1px 2px 2px rgb(31, 208, 31);
+}
+header #header-top #header-icon i:hover {
+  font-size: 23px;
+  color: rgb(35, 151, 35);
+}
+header #upicon {
+  position: fixed;
+  right: 90px;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 36px;
+  color: #3cb371;
+  z-index: 10;
 }
 
 #hero-banner {
@@ -249,7 +267,7 @@ header #header-top #header-icon i {
   height: 2px;
   width: 17%;
   background-color: rgb(12, 218, 18);
-  bottom: -30%;
+  bottom: -23%;
   left: 42%;
 }
 #petcare .petcare-text p {
@@ -281,54 +299,21 @@ header #header-top #header-icon i {
   width: 70%;
 }
 
-#upicon {
-  position: fixed;
-  right: 90px;
-  bottom: 30px;
-  padding: 10px;
-  font-size: 36px;
-  color: #3cb371;
-  z-index: 10;
+#request-callback .carousel-caption {
+  top: 300px;
+  color: black;
 }
-
-#request-callback {
-  background-image: url("../image/young-couple-walk-dog-in-rain-PYF7W7R.jpg");
-  background-size: cover;
-  border-radius: 5%;
-}
-#request-callback .callback {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10vh;
-  height: 86vh;
-  text-align: center;
-  row-gap: 10px;
-}
-#request-callback .callback .callback-heading {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#request-callback .callback .callback-heading h1 {
-  width: 67%;
+#request-callback .carousel-caption .callback-heading h1 {
   color: #fff;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 37px;
 }
-#request-callback .callback .callback-parag {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#request-callback .callback .callback-parag p {
-  width: 54%;
+#request-callback .carousel-caption .callback-parag p {
   font-weight: 500;
-  color: #fff;
-  font-size: 25px;
+  color: rgb(71, 192, 99);
+  font-size: 23px;
 }
-#request-callback .callback button {
+#request-callback .carousel-caption button {
   padding: 10px 23px;
   color: #fff;
   border: none;
@@ -338,7 +323,7 @@ header #header-top #header-icon i {
   border-radius: 12px;
   border: 2px solid transparent;
 }
-#request-callback .callback button:hover {
+#request-callback .carousel-caption button:hover {
   border-color: #3cbc73;
   background-color: transparent;
   color: #3cbc73;
@@ -436,6 +421,63 @@ header #header-top #header-icon i {
   padding-left: 27px;
 }
 
+#our-partners {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #f8fdf3;
+  border-radius: 12%;
+}
+#our-partners .partners-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+  margin-bottom: 40px;
+}
+#our-partners .partners-text h1 {
+  color: #2e8b57;
+  font-size: 54px;
+  position: relative;
+}
+#our-partners .partners-text h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 17%;
+  background-color: rgb(12, 218, 18);
+  bottom: -30%;
+  left: 42%;
+}
+#our-partners .partners-text p {
+  font-size: 23px;
+  color: rgb(86, 84, 84);
+}
+#our-partners .swiper {
+  width: 100%;
+  height: 100%;
+}
+#our-partners .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#our-partners .swiper .swiper-slide img {
+  display: block;
+  object-fit: cover;
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+}
+#our-partners .swiper .swiper-slide img:hover {
+  scale: 90%;
+}
+
 #asked-questions {
   height: 100vh;
   display: flex;
@@ -486,7 +528,7 @@ header #header-top #header-icon i {
 #asked-questions .questions .questions-text a i {
   font-size: 23px;
 }
-#asked-questions .questions .questions-accardion #accordionExample .accordion-item h2 button {
+#asked-questions .questions .questions-accardion .accordion .accordion-item h2 button {
   padding: 40px 20px;
   background-color: #e8faf0;
   color: rgb(126, 121, 121);
@@ -494,59 +536,13 @@ header #header-top #header-icon i {
   font-weight: 500;
   padding-left: 50px;
 }
-#asked-questions .questions .questions-accardion #accordionExample .accordion-item .accordion-body {
+#asked-questions .questions .questions-accardion .accordion .accordion-item .accordion-body {
   background-color: #f8fcfa;
 }
-#asked-questions .questions .questions-accardion #accordionExample .accordion-item .accordion-body p {
+#asked-questions .questions .questions-accardion .accordion .accordion-item .accordion-body p {
   font-size: 20px;
   color: #214b33;
   text-align: center;
-}
-
-#our-partners {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-color: #f8fdf3;
-  border-radius: 12%;
-}
-#our-partners .partners-text {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  row-gap: 14px;
-  margin-bottom: 20px;
-}
-#our-partners .partners-text h1 {
-  color: #2e8b57;
-  font-size: 54px;
-  position: relative;
-}
-#our-partners .partners-text h1::after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 17%;
-  background-color: rgb(12, 218, 18);
-  bottom: -30%;
-  left: 42%;
-}
-#our-partners .partners-text p {
-  font-size: 23px;
-  color: rgb(86, 84, 84);
-}
-#our-partners .partner-img .our-img {
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-#our-partners .partner-img .our-img img {
-  border-radius: 5%;
-  width: 100%;
-  height: 100%;
-  transition: scale 2s;
-}
-#our-partners .partner-img .our-img img:hover {
-  scale: 90%;
 }
 
 footer {
