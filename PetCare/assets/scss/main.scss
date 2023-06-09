@@ -1,11 +1,16 @@
-@import"./base/reset";
-@import"./layout/header";
-@import"./pages/hero-banner";
-@import"./pages/hero";
-@import"./pages/acres";
-@import"./pages/petcare";
-@import"./pages/request-callback";
-@import"./pages/opinion-customers";
-@import"./pages/our-partners";
-@import"./pages/asked-questions.scss";
-@import"./layout/footer";
+@import "./base/reset";
+@import "./layout/header";
+@import "./pages/hero-banner";
+@import "./pages/hero";
+@import "./pages/acres";
+@import "./pages/petcare";
+@import "./pages/request-callback";
+@import "./pages/opinion-customers";
+@import "./pages/our-partners";
+@import "./pages/asked-questions.scss";
+@import "./services/services";
+@import "./services/medical-checkup";
+@import "./services/pet-grooming";
+@import "./services/pet-transport";
+
+@import "./layout/footer";

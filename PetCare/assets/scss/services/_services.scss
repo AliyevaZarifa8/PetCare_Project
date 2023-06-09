@@ -1,0 +1,21 @@
+#services {
+  background-image: url("../image/services-bg.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  #services-text {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    h1 {
+      font-size: 63px;
+    }
+    p {
+      font-size: 23px;
+    }
+  }
+}

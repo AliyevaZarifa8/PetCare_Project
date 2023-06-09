@@ -1,0 +1,39 @@
+#pet-transport{
+    .pet-transport {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .transport-text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 29px;
+        text-align: center;
+        h1 {
+          color: #2e8b57;
+        }
+        .transport-parag {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          p {
+            width: 80%;
+            font-size: 23px;
+          }
+        }
+      }
+      .transport-img {
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: scale 2s;
+          border-radius: 6%;
+          &:hover {
+            scale: 90%;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,41 @@
+#pet-grooming {
+  background-color: #f0fef6;
+  border-radius: 12%;
+  .pet-grooming {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .grooming-text {
+      display: flex;
+      flex-direction: column;
+      row-gap: 29px;
+      text-align: center;
+      h1 {
+        color: #2e8b57;
+      }
+      .grooming-parag {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        p {
+          width: 80%;
+          font-size: 23px;
+        }
+      }
+    }
+    .grooming-img {
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        transition: scale 2s;
+        border-radius: 6%;
+        &:hover {
+          scale: 90%;
+        }
+      }
+    }
+  }
+}

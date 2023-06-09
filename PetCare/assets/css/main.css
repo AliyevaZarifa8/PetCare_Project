@@ -545,6 +545,151 @@ header #upicon {
   text-align: center;
 }
 
+#services {
+  background-image: url("../image/services-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#services #services-text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#services #services-text h1 {
+  font-size: 63px;
+}
+#services #services-text p {
+  font-size: 23px;
+}
+
+#medical-checkup .medical-checkup {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#medical-checkup .medical-checkup .medical-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 29px;
+  text-align: center;
+}
+#medical-checkup .medical-checkup .medical-text h1 {
+  color: #2e8b57;
+}
+#medical-checkup .medical-checkup .medical-text .parag {
+  width: 20%;
+  margin-left: 200px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 6px 20px;
+  background-color: #67c08d;
+}
+#medical-checkup .medical-checkup .medical-text .medical-parag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#medical-checkup .medical-checkup .medical-text .medical-parag p {
+  width: 80%;
+  font-size: 23px;
+}
+#medical-checkup .medical-checkup .medical-img {
+  overflow: hidden;
+}
+#medical-checkup .medical-checkup .medical-img img {
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+  border-radius: 6%;
+}
+#medical-checkup .medical-checkup .medical-img img:hover {
+  scale: 90%;
+}
+
+#pet-grooming {
+  background-color: #f0fef6;
+  border-radius: 12%;
+}
+#pet-grooming .pet-grooming {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pet-grooming .pet-grooming .grooming-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 29px;
+  text-align: center;
+}
+#pet-grooming .pet-grooming .grooming-text h1 {
+  color: #2e8b57;
+}
+#pet-grooming .pet-grooming .grooming-text .grooming-parag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#pet-grooming .pet-grooming .grooming-text .grooming-parag p {
+  width: 80%;
+  font-size: 23px;
+}
+#pet-grooming .pet-grooming .grooming-img {
+  overflow: hidden;
+}
+#pet-grooming .pet-grooming .grooming-img img {
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+  border-radius: 6%;
+}
+#pet-grooming .pet-grooming .grooming-img img:hover {
+  scale: 90%;
+}
+
+#pet-transport .pet-transport {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pet-transport .pet-transport .transport-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 29px;
+  text-align: center;
+}
+#pet-transport .pet-transport .transport-text h1 {
+  color: #2e8b57;
+}
+#pet-transport .pet-transport .transport-text .transport-parag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#pet-transport .pet-transport .transport-text .transport-parag p {
+  width: 80%;
+  font-size: 23px;
+}
+#pet-transport .pet-transport .transport-img {
+  overflow: hidden;
+}
+#pet-transport .pet-transport .transport-img img {
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+  border-radius: 6%;
+}
+#pet-transport .pet-transport .transport-img img:hover {
+  scale: 90%;
+}
+
 footer {
   display: flex;
   justify-content: center;
