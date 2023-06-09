@@ -1,0 +1,70 @@
+#prices-plans {
+  background-color: #f0fef6;
+  border-radius: 9%;
+  .prices-plans {
+    height: 100vh;
+    display: flex;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .prices-heading {
+      text-align: center;
+      h1 {
+        color: #359e62;
+        font-size: 49px;
+      }
+      p {
+        color: rgb(176, 170, 170);
+        font-size: 27px;
+      }
+    }
+    .prices-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 10px;
+      padding: 10px;
+      font-size: 19px;
+      text-align: center;
+      height: 70vh;
+      border-radius: 27px;
+      color: rgb(176, 170, 170);
+
+      h1 {
+        color: #359e62;
+        font-size: 30px;
+      }
+      h2 {
+        color: #4ff999;
+      }
+      i {
+        color: rgb(142, 139, 139);
+      }
+      .card-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          width: 69%;
+          font-size: 19px;
+        }
+      }
+      button {
+        border: 2px solid #42c179;
+
+        color: #42c179;
+
+        padding: 7px 10px;
+        border-radius: 7px;
+        font-weight: bold;
+        &:hover {
+          background-color: #42c179;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
