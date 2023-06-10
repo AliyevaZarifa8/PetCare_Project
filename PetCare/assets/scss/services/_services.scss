@@ -3,20 +3,24 @@
   margin-top: 10vh;
   background-position: center;
   background-size: cover;
+  .services-text {
+    height: 90vh;
 
-  #services-text {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h1 {
-      color: #359e62;
-      font-size: 63px;
-    }
-    p {
-      font-size: 23px;
-      color: #fff;
+    #services-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #fff;
+
+      h1 {
+        color: #fff;
+        font-size: 63px;
+      }
+      p {
+        font-size: 23px;
+        color: #fff;
+      }
     }
   }
 }

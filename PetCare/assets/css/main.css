@@ -551,18 +551,21 @@ header #upicon {
   background-position: center;
   background-size: cover;
 }
-#services #services-text {
-  height: 100vh;
+#services .services-text {
+  height: 90vh;
+}
+#services .services-text #services-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 3px solid #fff;
 }
-#services #services-text h1 {
-  color: #359e62;
+#services .services-text #services-text h1 {
+  color: #fff;
   font-size: 63px;
 }
-#services #services-text p {
+#services .services-text #services-text p {
   font-size: 23px;
   color: #fff;
 }
@@ -801,6 +804,42 @@ header #upicon {
   font-size: 23px;
   text-align: center;
   height: 10vh;
+}
+
+#team {
+  margin-top: 12vh;
+  position: relative;
+}
+#team .team-img {
+  overflow: hidden;
+}
+#team .team-img img {
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+  border-radius: 9%;
+}
+#team .team-img img:hover {
+  scale: 90%;
+}
+#team .team-text {
+  border: 3px solid rgb(69, 154, 69);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 270px;
+  right: 130px;
+  height: 30vh;
+  color: rgb(104, 197, 104);
+}
+#team .team-text h1 {
+  font-size: 53px;
+}
+#team .team-text p {
+  font-size: 23px;
 }
 
 footer {
