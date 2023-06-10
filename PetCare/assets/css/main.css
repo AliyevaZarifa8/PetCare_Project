@@ -846,6 +846,7 @@ header #upicon {
   width: 100%;
   height: 100%;
   transition: scale 2s;
+  border-radius: 10px;
 }
 #team .team-img img:hover {
   scale: 120%;
@@ -966,6 +967,40 @@ header #upicon {
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+
+#our-branches {
+  height: 100vh;
+  margin-top: 13vh;
+  display: flex;
+  align-items: center;
+}
+#our-branches .branches-circle {
+  overflow: hidden;
+}
+#our-branches .branches-circle img {
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+  border-radius: 50%;
+}
+#our-branches .branches-circle img:hover {
+  scale: 97%;
+}
+#our-branches .branches-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#our-branches .branches-text h1 {
+  font-size: 47px;
+  text-transform: uppercase;
+  color: rgb(7, 133, 99);
+}
+#our-branches .branches-text p {
+  text-transform: capitalize;
+  font-size: 23px;
 }
 
 footer {
