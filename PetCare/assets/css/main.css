@@ -817,14 +817,14 @@ header #upicon {
   width: 100%;
   height: 100%;
   transition: scale 2s;
-  border-radius: 9%;
+  border-radius: 10%;
 }
 #team .team-img img:hover {
   scale: 90%;
 }
 #team .team-text {
   border: 3px solid rgb(69, 154, 69);
-  border-radius: 12px;
+  border-radius: 9px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -840,6 +840,91 @@ header #upicon {
 }
 #team .team-text p {
   font-size: 23px;
+}
+
+#meet-team {
+  background-color: #e3fce4;
+  border-radius: 7%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 10vh;
+  align-items: center;
+}
+#meet-team .meet-text {
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+#meet-team .meet-text h1 {
+  color: #2e8b57;
+  font-size: 54px;
+  position: relative;
+}
+#meet-team .meet-text h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 17%;
+  background-color: rgb(12, 218, 18);
+  bottom: -23%;
+  left: 42%;
+}
+#meet-team .meet-text p {
+  font-size: 23px;
+  color: rgb(86, 84, 84);
+}
+#meet-team .meet-cards {
+  row-gap: 20px;
+}
+#meet-team .meet-cards .card {
+  border: 1px solid rgb(9, 249, 9);
+  border-radius: 23px;
+  position: relative;
+}
+#meet-team .meet-cards .card:hover .meet-card .meet-hover {
+  display: flex;
+  border-radius: 23px;
+  background-color: rgba(34, 138, 241, 0.4);
+}
+#meet-team .meet-cards .card img {
+  width: 100%;
+  border-radius: 23px;
+  height: 30vh;
+}
+#meet-team .meet-cards .card .meet-card {
+  display: flex;
+  flex-direction: column;
+  padding: 29px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#meet-team .meet-cards .card .meet-card .meets-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#meet-team .meet-cards .card .meet-card .meets-text h1 p {
+  color: gray;
+}
+#meet-team .meet-cards .card .meet-card .meet-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  row-gap: 20px;
+  padding-right: 29px;
+  width: 100%;
+  height: 100%;
+}
+#meet-team .meet-cards .card .meet-card .meet-hover i {
+  color: #fff;
+  font-size: 30px;
 }
 
 footer {
