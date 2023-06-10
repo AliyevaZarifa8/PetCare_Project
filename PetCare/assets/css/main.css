@@ -1065,6 +1065,73 @@ header #upicon {
   color: #36a567;
 }
 
+#pet-food1 {
+  margin-top: 10vh;
+  background-image: url("../image/pet-food5.jpg");
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+#pet-food1 .pet-food1 {
+  position: absolute;
+  top: 140px;
+  left: 220px;
+  font-size: 50px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#pet-food {
+  margin-top: 10vh;
+}
+#pet-food .swiper {
+  width: 100%;
+  height: 100vh;
+}
+#pet-food .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pet-food .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+#pet-food .autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+#pet-food .autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
 footer {
   display: flex;
   justify-content: center;
