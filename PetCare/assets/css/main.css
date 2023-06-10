@@ -1004,7 +1004,11 @@ header #upicon {
 }
 
 #branches-work {
-  margin-bottom: 50px;
+  margin-bottom: 90px;
+  background-color: #eafbf0;
+  border-radius: 12%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 #branches-work .branches-prices {
   display: flex;
@@ -1028,13 +1032,14 @@ header #upicon {
   width: 90%;
 }
 #branches-work .branches-prices .branches-table table tr:hover {
-  background-color: #edfdf4;
+  background-color: #cbf5df;
 }
 #branches-work .branches-prices .branches-table table th {
   color: #359e62;
   font-size: 23px;
   text-align: center;
   height: 8vh;
+  padding-right: 20px;
 }
 #branches-work .branches-prices .branches-table table td {
   color: rgb(84, 82, 82);
