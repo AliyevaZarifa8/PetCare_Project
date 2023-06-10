@@ -808,7 +808,36 @@ header #upicon {
 
 #team {
   margin-top: 12vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#team .creative-text {
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+#team .creative-text h1 {
+  color: #2e8b57;
+  font-size: 54px;
   position: relative;
+}
+#team .creative-text h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 17%;
+  background-color: #43a66e;
+  bottom: -23%;
+  left: 42%;
+}
+#team .creative-text p {
+  font-size: 23px;
+  color: rgb(46, 44, 44);
 }
 #team .team-img {
   overflow: hidden;
@@ -817,29 +846,34 @@ header #upicon {
   width: 100%;
   height: 100%;
   transition: scale 2s;
-  border-radius: 10%;
 }
 #team .team-img img:hover {
-  scale: 90%;
+  scale: 120%;
 }
 #team .team-text {
-  border: 3px solid rgb(69, 154, 69);
   border-radius: 9px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 270px;
-  right: 130px;
-  height: 30vh;
-  color: rgb(104, 197, 104);
 }
 #team .team-text h1 {
-  font-size: 53px;
+  font-size: 45px;
+  color: #43a66e;
 }
 #team .team-text p {
   font-size: 23px;
+  color: rgb(124, 118, 118);
+}
+#team .team-text .creative-parag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team .team-text .creative-parag p {
+  width: 80%;
+  text-align: center;
 }
 
 #meet-team {
@@ -925,6 +959,13 @@ header #upicon {
 #meet-team .meet-cards .card .meet-card .meet-hover i {
   color: #fff;
   font-size: 30px;
+}
+
+#our-staff {
+  background-image: url("../image/team.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 footer {

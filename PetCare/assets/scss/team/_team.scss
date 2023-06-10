@@ -1,36 +1,72 @@
 #team {
   margin-top: 12vh;
-  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .creative-text {
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    h1 {
+      color: #2e8b57;
+      font-size: 54px;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 17%;
+        background-color: #43a66e;
+        bottom: -23%;
+        left: 42%;
+      }
+    }
+    p {
+      font-size: 23px;
+      color: rgb(46, 44, 44);
+    }
+  }
   .team-img {
     overflow: hidden;
     img {
       width: 100%;
       height: 100%;
       transition: scale 2s;
-      border-radius: 10%;
       &:hover {
-        scale: 90%;
+        scale: 120%;
       }
     }
   }
 
   .team-text {
-    border: 3px solid rgb(69, 154, 69);
     border-radius: 9px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 270px;
-    right: 130px;
-    height: 30vh;
-    color: rgb(104, 197, 104);
+
     h1 {
-      font-size: 53px;
+      font-size: 45px;
+      color: #43a66e;
     }
     p {
       font-size: 23px;
+      color: rgb(124, 118, 118);
+    }
+    .creative-parag {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        width: 80%;
+        text-align: center;
+      }
     }
   }
 }
