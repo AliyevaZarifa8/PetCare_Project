@@ -58,25 +58,25 @@ header #header-top nav #ul li .a-tag:hover::after {
   bottom: -20%;
   left: 19%;
 }
-header #header-top nav #ul .dropdown-toggle {
+header #header-top #header-icon .dropdown-toggle {
   font-size: 20px;
   text-shadow: 4px 2px 2px rgb(2, 17, 2);
   color: #fff;
   font-weight: bold;
 }
-header #header-top nav #ul .dropdown-toggle::after {
+header #header-top #header-icon .dropdown-toggle::after {
   display: none;
 }
-header #header-top nav #ul .dropdown-toggle:hover {
+header #header-top #header-icon .dropdown-toggle:hover {
   color: rgb(14, 184, 14);
   border-bottom: 2px solid rgb(14, 184, 14);
 }
-header #header-top #header-icon i {
+header #header-top #header-icon .dropdown-toggle i {
   color: #fff;
   font-size: 23px;
   text-shadow: 1px 2px 2px rgb(31, 208, 31);
 }
-header #header-top #header-icon i:hover {
+header #header-top #header-icon .dropdown-toggle i:hover {
   font-size: 23px;
   color: rgb(35, 151, 35);
 }
@@ -557,13 +557,14 @@ header #upicon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
 }
 #services #services-text h1 {
+  color: #359e62;
   font-size: 63px;
 }
 #services #services-text p {
   font-size: 23px;
+  color: #fff;
 }
 
 #medical-checkup .medical-checkup {
@@ -757,6 +758,49 @@ header #upicon {
 #prices-plans .prices-plans .prices-card button:hover {
   background-color: #42c179;
   color: #fff;
+}
+
+#boarding-prices .boarding-prices {
+  height: 100vh;
+  display: flex;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#boarding-prices .boarding-prices .boarding-heading {
+  text-align: center;
+}
+#boarding-prices .boarding-prices .boarding-heading h1 {
+  color: #359e62;
+  font-size: 49px;
+}
+#boarding-prices .boarding-prices .boarding-heading p {
+  color: rgb(176, 170, 170);
+  font-size: 27px;
+}
+#boarding-prices .boarding-prices .boarding-table {
+  width: 90%;
+}
+#boarding-prices .boarding-prices .boarding-table table .two-dogs {
+  background-color: #e8f8ef;
+}
+#boarding-prices .boarding-prices .boarding-table table .two-dogs:hover {
+  background-color: transparent;
+}
+#boarding-prices .boarding-prices .boarding-table table th {
+  color: #359e62;
+  font-size: 23px;
+  text-align: center;
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#boarding-prices .boarding-prices .boarding-table table td {
+  color: rgb(108, 100, 100);
+  font-size: 23px;
+  text-align: center;
+  height: 10vh;
 }
 
 footer {

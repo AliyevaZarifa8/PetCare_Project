@@ -1,0 +1,46 @@
+#boarding-prices {
+  .boarding-prices {
+    height: 100vh;
+    display: flex;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .boarding-heading {
+      text-align: center;
+      h1 {
+        color: #359e62;
+        font-size: 49px;
+      }
+      p {
+        color: rgb(176, 170, 170);
+        font-size: 27px;
+      }
+    }
+    .boarding-table {
+      width: 90%;
+      table {
+        .two-dogs {
+          background-color: #e8f8ef;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+        th {
+          color: #359e62;
+          font-size: 23px;
+          text-align: center;
+          height: 8vh;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+        td {
+          color: rgb(108, 100, 100);
+          font-size: 23px;
+          text-align: center;
+          height: 10vh;
+        }
+      }
+    }
+  }
+}
