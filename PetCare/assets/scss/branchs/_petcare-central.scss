@@ -1,0 +1,24 @@
+#petcare-central {
+  .petcare-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    .petcare-map {
+      iframe {
+        border-radius: 5%;
+      }
+    }
+    .petcare-info {
+      text-align: center;
+    }
+    h1 {
+      font-size: 44px;
+      color: #28cb6e;
+    }
+    h2 {
+      font-size: 37px;
+      color: #f34a2c;
+    }
+  }
+}

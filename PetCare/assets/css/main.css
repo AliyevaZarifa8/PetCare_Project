@@ -1065,6 +1065,27 @@ header #upicon {
   color: #36a567;
 }
 
+#petcare-central .petcare-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+#petcare-central .petcare-central .petcare-map iframe {
+  border-radius: 5%;
+}
+#petcare-central .petcare-central .petcare-info {
+  text-align: center;
+}
+#petcare-central .petcare-central h1 {
+  font-size: 44px;
+  color: #28cb6e;
+}
+#petcare-central .petcare-central h2 {
+  font-size: 37px;
+  color: #f34a2c;
+}
+
 #pet-food1 {
   margin-top: 10vh;
   background-image: url("../image/pet-food5.jpg");
