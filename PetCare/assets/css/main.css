@@ -1110,7 +1110,6 @@ header #upicon {
   border-radius: 7%;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-top: 10vh;
   align-items: center;
 }
 #category .category-texts {
@@ -1154,8 +1153,8 @@ header #upicon {
 }
 #category .category-accardion .accordion .accordion-item h2 button {
   padding: 30px 20px;
-  background-color: #f9f5d0;
-  color: rgb(56, 180, 139);
+  background-color: #e8faec;
+  color: rgb(2, 147, 98);
   font-size: 29px;
   font-weight: 500;
   padding-left: 50px;
@@ -1199,7 +1198,7 @@ header #upicon {
   padding: 14px 27px;
   text-align: center;
   border-radius: 27px;
-  border: 2px solid rgb(236, 236, 1);
+  border: 2px solid #fed56c;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -1226,6 +1225,52 @@ header #upicon {
   border-radius: 19px;
 }
 #food-dinamik .cards .card button:hover {
+  background-color: rgb(240, 62, 3);
+  color: #fff;
+  font-weight: bold;
+}
+
+#eat-food .eat-food {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+#eat-food .eat-food .eat-img {
+  overflow: hidden;
+}
+#eat-food .eat-food .eat-img img {
+  width: 100%;
+  height: 100%;
+  transition: scale 3s;
+  border-radius: 17px;
+}
+#eat-food .eat-food .eat-img img:hover {
+  scale: 120%;
+}
+#eat-food .eat-food .eat-text {
+  margin-left: 30px;
+}
+#eat-food .eat-food .eat-text h1 {
+  font-size: 43px;
+  color: rgb(216, 62, 10);
+}
+#eat-food .eat-food .eat-text h2 {
+  font-size: 33px;
+  color: rgb(247, 117, 74);
+  text-transform: inherit;
+}
+#eat-food .eat-food .eat-text p {
+  font-size: 21px;
+  color: rgb(231, 179, 75);
+}
+#eat-food .eat-food .eat-text button {
+  border: 2px solid rgb(240, 62, 3);
+  background-color: transparent;
+  padding: 7px 19px;
+  color: rgb(240, 62, 3);
+  border-radius: 23px;
+}
+#eat-food .eat-food .eat-text button:hover {
   background-color: rgb(240, 62, 3);
   color: #fff;
   font-weight: bold;
