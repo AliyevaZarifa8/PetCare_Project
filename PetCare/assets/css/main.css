@@ -961,6 +961,9 @@ header #upicon {
   color: #fff;
   font-size: 30px;
 }
+#meet-team .meet-cards .card .meet-card .meet-hover i:hover {
+  color: #3af9f9;
+}
 
 #our-staff {
   background-image: url("../image/team.jpg");
@@ -1118,7 +1121,7 @@ header #upicon {
   row-gap: 14px;
 }
 #category .category-texts h1 {
-  color: #2e8b57;
+  color: rgb(56, 180, 139);
   font-size: 54px;
   position: relative;
 }
@@ -1127,7 +1130,7 @@ header #upicon {
   content: "";
   height: 2px;
   width: 14%;
-  background-color: #c98574;
+  background-color: #0af790;
   bottom: -23%;
   left: 43%;
 }
@@ -1152,7 +1155,7 @@ header #upicon {
 #category .category-accardion .accordion .accordion-item h2 button {
   padding: 30px 20px;
   background-color: #f9f5d0;
-  color: rgb(3, 154, 103);
+  color: rgb(56, 180, 139);
   font-size: 29px;
   font-weight: 500;
   padding-left: 50px;
@@ -1167,6 +1170,65 @@ header #upicon {
 #category .category-accardion .accordion .accordion-item .accordion-body strong {
   color: #aa6857;
   font-size: 20px;
+}
+
+#food-dinamik {
+  background-color: rgb(250, 250, 224);
+  border-radius: 6%;
+}
+#food-dinamik h1 {
+  text-align: center;
+  color: rgb(6, 177, 21);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+#food-dinamik h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 14%;
+  background-color: rgb(6, 217, 24);
+  bottom: -23%;
+  left: 43%;
+}
+#food-dinamik .cards {
+  row-gap: 20px;
+}
+#food-dinamik .cards .card {
+  padding: 14px 27px;
+  text-align: center;
+  border-radius: 27px;
+  border: 2px solid rgb(236, 236, 1);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#food-dinamik .cards .card img {
+  height: 32vh;
+}
+#food-dinamik .cards .card h2 {
+  color: rgb(87, 86, 86);
+  font-size: 20px;
+}
+#food-dinamik .cards .card h3 {
+  color: rgb(125, 118, 118);
+  font-size: 23px;
+}
+#food-dinamik .cards .card i {
+  color: rgb(255, 196, 0);
+}
+#food-dinamik .cards .card button {
+  border: 1px solid rgb(240, 62, 3);
+  background-color: transparent;
+  padding: 7px 19px;
+  color: rgb(240, 62, 3);
+  border-radius: 19px;
+}
+#food-dinamik .cards .card button:hover {
+  background-color: rgb(240, 62, 3);
+  color: #fff;
+  font-weight: bold;
 }
 
 footer {
