@@ -1451,6 +1451,37 @@ header #upicon {
   font-size: 17px;
 }
 
+#pet-breeds4 .pet-breeds4 {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pet-breeds4 .pet-breeds4 iframe {
+  border-radius: 23px;
+}
+#pet-breeds4 .pet-breeds4 h1 {
+  font-size: 50px;
+  color: rgb(243, 82, 28);
+  margin-bottom: 30px;
+}
+#pet-breeds4 .pet-breeds4 h1 i {
+  color: rgb(254, 79, 79);
+  font-size: 30px;
+}
+#pet-breeds4 .pet-breeds4 a {
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  border-radius: 23px;
+  padding: 10px 20px;
+  font-size: 17px;
+}
+#pet-breeds4 .pet-breeds4 a:hover {
+  background-color: rgb(243, 82, 28);
+  color: #fff;
+}
+
 footer {
   display: flex;
   justify-content: center;
