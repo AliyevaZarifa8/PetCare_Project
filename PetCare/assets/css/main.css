@@ -1308,13 +1308,12 @@ header #upicon {
   background-position: center;
   background-image: url("../image/pet-breeds1.jpg");
 }
-#pet-breeds .swiper-slide .slider-text {
-  color: rgb(67, 247, 232);
-}
 #pet-breeds .swiper-slide .slider-text h1 {
+  color: rgb(82, 179, 7);
   font-size: 80px;
 }
 #pet-breeds .swiper-slide .slider-text h2 {
+  color: rgb(89, 47, 26);
   font-size: 73px;
   margin-top: 25vh;
 }
@@ -1394,6 +1393,62 @@ header #upicon {
 }
 #owner-dog .owner-dog .own-img img:hover {
   scale: 120%;
+}
+
+#pet-breeds3 {
+  background-color: rgb(250, 250, 224);
+  border-radius: 6%;
+  margin-bottom: 17vh;
+}
+#pet-breeds3 h1 {
+  text-align: center;
+  color: rgb(240, 75, 60);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+#pet-breeds3 h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 14%;
+  background-color: rgb(6, 217, 24);
+  bottom: -23%;
+  left: 43%;
+}
+#pet-breeds3 p {
+  color: rgb(218, 95, 42);
+  text-align: center;
+  font-size: 23px;
+}
+#pet-breeds3 .cards {
+  row-gap: 20px;
+}
+#pet-breeds3 .cards .card {
+  padding: 14px 27px;
+  text-align: center;
+  border-radius: 27px;
+  border: 2px solid #fed56c;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#pet-breeds3 .cards .card img {
+  border-radius: 20px;
+  height: 30vh;
+}
+#pet-breeds3 .cards .card h2 {
+  color: rgb(252, 121, 45);
+  font-size: 20px;
+}
+#pet-breeds3 .cards .card h3 {
+  color: rgb(253, 85, 85);
+  font-size: 23px;
+}
+#pet-breeds3 .cards .card p {
+  color: rgb(119, 115, 113);
+  text-align: center;
+  font-size: 17px;
 }
 
 footer {

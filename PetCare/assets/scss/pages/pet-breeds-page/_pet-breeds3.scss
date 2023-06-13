@@ -1,0 +1,57 @@
+#pet-breeds3 {
+  background-color: rgb(250, 250, 224);
+  border-radius: 6%;
+  margin-bottom: 17vh;
+  h1 {
+    text-align: center;
+    color: rgb(240, 75, 60);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 2px;
+      width: 14%;
+      background-color: rgb(6, 217, 24);
+      bottom: -23%;
+      left: 43%;
+    }
+  }
+  p {
+    color: rgb(218, 95, 42);
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .cards {
+    row-gap: 20px;
+
+    .card {
+      padding: 14px 27px;
+      text-align: center;
+      border-radius: 27px;
+      border: 2px solid #fed56c;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      img {
+        border-radius: 20px;
+        height: 30vh;
+      }
+      h2 {
+        color: rgb(252, 121, 45);
+        font-size: 20px;
+      }
+      h3 {
+        color: rgb(253, 85, 85);
+        font-size: 23px;
+      }
+      p {
+        color: rgb(119, 115, 113);
+        text-align: center;
+        font-size: 17px;
+      }
+    }
+  }
+}
