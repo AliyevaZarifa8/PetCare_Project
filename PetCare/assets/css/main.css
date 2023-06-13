@@ -1574,7 +1574,7 @@ header #upicon {
 }
 #about .about .about-social p i {
   font-size: 20px;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 #about .about .about-social p .fa-phone-volume {
   color: rgb(54, 194, 54);
@@ -1584,6 +1584,10 @@ header #upicon {
 }
 #about .about .about-social p .fa-instagram {
   color: rgb(237, 47, 79);
+}
+#about .about .about-social p .fa-shield-dog {
+  font-size: 23px;
+  color: rgb(14, 195, 141);
 }
 
 footer {
