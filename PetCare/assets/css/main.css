@@ -1293,11 +1293,11 @@ header #upicon {
   font-weight: bold;
 }
 
-#pet-branches .swiper {
+#pet-breeds .swiper {
   width: 100%;
   height: 100vh;
 }
-#pet-branches .swiper-slide {
+#pet-breeds .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -1308,17 +1308,17 @@ header #upicon {
   background-position: center;
   background-image: url("../image/pet-breeds1.jpg");
 }
-#pet-branches .swiper-slide .slider-text {
-  color: rgb(237, 222, 222);
+#pet-breeds .swiper-slide .slider-text {
+  color: rgb(67, 247, 232);
 }
-#pet-branches .swiper-slide .slider-text h1 {
+#pet-breeds .swiper-slide .slider-text h1 {
   font-size: 80px;
 }
-#pet-branches .swiper-slide .slider-text h2 {
-  padding-top: 4px;
-  font-size: 75px;
+#pet-breeds .swiper-slide .slider-text h2 {
+  font-size: 73px;
+  margin-top: 25vh;
 }
-#pet-branches .autoplay-progress {
+#pet-breeds .autoplay-progress {
   position: absolute;
   right: 16px;
   bottom: 16px;
@@ -1331,7 +1331,7 @@ header #upicon {
   font-weight: bold;
   color: var(--swiper-theme-color);
 }
-#pet-branches .autoplay-progress svg {
+#pet-breeds .autoplay-progress svg {
   --progress: 0;
   position: absolute;
   left: 0;
@@ -1345,6 +1345,55 @@ header #upicon {
   stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
+}
+
+#owner-dog .owner-dog {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#owner-dog .owner-dog .own-text {
+  text-align: center;
+}
+#owner-dog .owner-dog .own-text h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  color: rgb(11, 165, 129);
+}
+#owner-dog .owner-dog .own-text div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#owner-dog .owner-dog .own-text div p {
+  width: 90%;
+  font-size: 19px;
+  color: rgb(157, 146, 146);
+}
+#owner-dog .owner-dog .own-text a {
+  text-decoration: none;
+  color: rgb(11, 165, 129);
+  border: 2px solid rgb(11, 165, 129);
+  border-radius: 23px;
+  padding: 8px 24px;
+}
+#owner-dog .owner-dog .own-text a:hover {
+  color: #fff;
+  background-color: rgb(11, 165, 129);
+}
+#owner-dog .owner-dog .own-img {
+  overflow: hidden;
+}
+#owner-dog .owner-dog .own-img img {
+  width: 100%;
+  height: 100%;
+  transition: scale 2s;
+  border-radius: 20px;
+}
+#owner-dog .owner-dog .own-img img:hover {
+  scale: 120%;
 }
 
 footer {
