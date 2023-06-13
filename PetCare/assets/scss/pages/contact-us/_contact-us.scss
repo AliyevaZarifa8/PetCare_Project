@@ -1,0 +1,58 @@
+#contacr-us {
+  margin-top: 17vh;
+  .contacr-us {
+    img {
+      position: relative;
+    }
+    .form-contactus {
+      position: absolute;
+      top: 65vh;
+      left: 59vh;
+      width: 40%;
+
+      h3 {
+        color: brown;
+        text-align: center;
+      }
+      label {
+        color: brown;
+      }
+      input {
+        text-indent: 4px;
+        accent-color: brown;
+        &::placeholder {
+          color: rgb(94, 76, 76);
+        }
+      }
+      textarea {
+        text-indent: 8px;
+        &::placeholder {
+          color: brown;
+        }
+      }
+      select {
+        height: 40px;
+        color: brown;
+        border: 1px solid rgb(186, 182, 182);
+        text-indent: 8px;
+      }
+
+      .form-check-label {
+        color: rgb(99, 98, 98);
+      }
+
+      .button {
+        border: 1px solid brown;
+        border-radius: 9px;
+        margin-left: 34vh;
+        padding: 7px 29px;
+        color: black;
+        font-size: 18px;
+        &:hover {
+          background-color: rgb(197, 100, 100);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
