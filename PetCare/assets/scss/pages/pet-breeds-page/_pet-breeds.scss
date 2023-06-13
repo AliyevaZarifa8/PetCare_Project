@@ -1,5 +1,4 @@
-#pet-food {
-  margin-top: 10vh;
+#pet-branches {
   .swiper {
     width: 100%;
     height: 100vh;
@@ -12,14 +11,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    background-size: cover;
+    background-position: center;
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    background-image: url("../image/pet-breeds1.jpg");
 
+    .slider-text {
+      color: rgb(237, 222, 222);
+      h1 {
+        font-size: 80px;
+      }
+      h2 {
+        padding-top: 4px;
+        font-size: 75px;
+      }
+    }
   }
 
   .autoplay-progress {

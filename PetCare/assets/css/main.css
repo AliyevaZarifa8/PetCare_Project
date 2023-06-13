@@ -969,7 +969,23 @@ header #upicon {
   background-image: url("../image/team.jpg");
   background-position: center;
   background-size: cover;
+}
+#our-staff .staff-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+}
+#our-staff .staff-text .our-staff {
+  margin-top: 50vh;
+  margin-left: 70px;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 60px 100px;
+  border-radius: 13px;
+}
+#our-staff .staff-text .our-staff h1 {
+  font-size: 50px;
 }
 
 #our-branches {
@@ -1110,6 +1126,7 @@ header #upicon {
   border-radius: 7%;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 13vh;
   align-items: center;
 }
 #category .category-texts {
@@ -1152,11 +1169,10 @@ header #upicon {
   background-color: #fcfbf0;
 }
 #category .category-accardion .accordion .accordion-item h2 button {
-  padding: 30px 20px;
-  background-color: #e8faec;
-  color: rgb(2, 147, 98);
-  font-size: 29px;
-  font-weight: 500;
+  padding: 20px 20px;
+  background-color: #f5fbf4;
+  color: rgb(241, 161, 55);
+  font-size: 25px;
   padding-left: 50px;
   text-align: center;
 }
@@ -1167,13 +1183,14 @@ header #upicon {
   text-align: center;
 }
 #category .category-accardion .accordion .accordion-item .accordion-body strong {
-  color: #aa6857;
+  color: #d28b79;
   font-size: 20px;
 }
 
 #food-dinamik {
   background-color: rgb(250, 250, 224);
   border-radius: 6%;
+  margin-bottom: 17vh;
 }
 #food-dinamik h1 {
   text-align: center;
@@ -1274,6 +1291,60 @@ header #upicon {
   background-color: rgb(240, 62, 3);
   color: #fff;
   font-weight: bold;
+}
+
+#pet-branches .swiper {
+  width: 100%;
+  height: 100vh;
+}
+#pet-branches .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../image/pet-breeds1.jpg");
+}
+#pet-branches .swiper-slide .slider-text {
+  color: rgb(237, 222, 222);
+}
+#pet-branches .swiper-slide .slider-text h1 {
+  font-size: 80px;
+}
+#pet-branches .swiper-slide .slider-text h2 {
+  padding-top: 4px;
+  font-size: 75px;
+}
+#pet-branches .autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+#pet-branches .autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
 }
 
 footer {
