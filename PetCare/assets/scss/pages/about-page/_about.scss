@@ -1,0 +1,55 @@
+#about {
+  .about {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      border-radius: 50%;
+      width: 100%;
+    }
+    h1 {
+      position: relative;
+      margin-bottom: 20px;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 14%;
+        background-color: #383a39;
+        bottom: -23%;
+        left: 0;
+      }
+    }
+    .about-text {
+      width: 100%;
+
+      p {
+        font-size: 19px;
+        width: 90%;
+        color: rgb(141, 136, 136);
+      }
+    }
+
+    .about-social {
+      p {
+        font-weight: bold;
+        color: rgb(130, 109, 109);
+        i {
+          font-size: 20px;
+          margin-right: 10px;
+        }
+
+        .fa-phone-volume {
+          color: rgb(54, 194, 54);
+        }
+        .fa-envelope {
+          color: rgb(240, 66, 8);
+        }
+        .fa-instagram {
+          color: rgb(237, 47, 79);
+        }
+      }
+    }
+  }
+}

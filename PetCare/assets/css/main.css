@@ -1537,6 +1537,55 @@ header #upicon {
   color: #fff;
 }
 
+#about .about {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .about img {
+  border-radius: 50%;
+  width: 100%;
+}
+#about .about h1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+#about .about h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 14%;
+  background-color: #383a39;
+  bottom: -23%;
+  left: 0;
+}
+#about .about .about-text {
+  width: 100%;
+}
+#about .about .about-text p {
+  font-size: 19px;
+  width: 90%;
+  color: rgb(141, 136, 136);
+}
+#about .about .about-social p {
+  font-weight: bold;
+  color: rgb(130, 109, 109);
+}
+#about .about .about-social p i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+#about .about .about-social p .fa-phone-volume {
+  color: rgb(54, 194, 54);
+}
+#about .about .about-social p .fa-envelope {
+  color: rgb(240, 66, 8);
+}
+#about .about .about-social p .fa-instagram {
+  color: rgb(237, 47, 79);
+}
+
 footer {
   display: flex;
   justify-content: center;
