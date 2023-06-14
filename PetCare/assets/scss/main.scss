@@ -1,6 +1,7 @@
-//Home Page
+//Header
 @import "./base/reset";
 @import "./layout/header";
+//Home Page
 @import "./pages/home-page/hero-banner";
 @import "./pages/home-page/hero";
 @import "./pages/home-page/acres";
@@ -44,7 +45,8 @@
 
 //About Page
 @import "./pages/about-page/about";
-
-
-
+//Footer
 @import "./layout/footer";
+
+//Admin Page
+@import"./pages/admin-page/admin.scss";

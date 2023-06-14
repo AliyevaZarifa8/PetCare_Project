@@ -1619,4 +1619,61 @@ footer p span {
   text-shadow: 1px 1px 1px rgb(88, 221, 88);
 }
 
+#admin {
+  margin-top: 15px;
+}
+#admin .admin h1 {
+  text-align: center;
+  color: rgb(10, 169, 169);
+}
+#admin .admin hr {
+  color: rgb(87, 205, 205);
+}
+#admin .admin .admin-panel {
+  border: 1px solid rgb(9, 151, 118);
+  height: 90vh;
+}
+#admin .admin .admin-panel .admin-photo {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#admin .admin .admin-panel .admin-photo img {
+  border-radius: 50%;
+}
+#admin .admin .admin-panel .admin-photo h3 {
+  color: rgb(69, 124, 241);
+}
+#admin .admin .admin-panel .admin-photo p {
+  color: rgb(9, 149, 173);
+  font-size: 19px;
+}
+#admin .admin .admin-panel .admin-photo p i {
+  font-size: 20px;
+  color: rgb(7, 212, 212);
+}
+#admin .admin ul {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+#admin .admin ul li a {
+  text-decoration: none;
+  color: rgb(15, 190, 202);
+  font-weight: bold;
+}
+#admin .admin .admin-help a {
+  text-decoration: none;
+  color: rgb(12, 173, 223);
+  margin-left: 29px;
+}
+#admin .admin .admin-help a i {
+  font-size: 17px;
+  color: rgb(34, 180, 212);
+}
+
 /*# sourceMappingURL=main.css.map */
