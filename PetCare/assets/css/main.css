@@ -910,6 +910,29 @@ header #upicon {
   font-size: 23px;
   color: rgb(86, 84, 84);
 }
+#meet-team .search-sort {
+  margin-bottom: 20px;
+}
+#meet-team .search-sort input {
+  width: 72%;
+  text-indent: 20px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid rgb(77, 199, 77);
+  outline: none;
+  margin-left: 10px;
+}
+#meet-team .search-sort input::placeholder {
+  color: #2e8b57;
+}
+#meet-team .search-sort .button {
+  border: 1px solid rgb(77, 199, 77);
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #0dc78f;
+  background-color: transparent;
+  margin-left: 40px;
+}
 #meet-team .meet-cards {
   row-gap: 20px;
 }
@@ -963,6 +986,19 @@ header #upicon {
 }
 #meet-team .meet-cards .card .meet-card .meet-hover i:hover {
   color: #3af9f9;
+}
+#meet-team #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#meet-team #showmore .showmore {
+  border: 1px solid rgb(77, 199, 77);
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #0dc78f;
+  background-color: transparent;
 }
 
 #our-staff {
@@ -1047,8 +1083,26 @@ header #upicon {
   color: rgb(176, 170, 170);
   font-size: 27px;
 }
+#branches-work .branches-prices .search-sort {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#branches-work .branches-prices .search-sort input {
+  text-indent: 10px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid rgb(77, 199, 77);
+  outline: none;
+  margin-left: 10px;
+  background-color: transparent;
+}
+#branches-work .branches-prices .search-sort input::placeholder {
+  color: #22b462;
+}
 #branches-work .branches-prices .branches-table {
-  width: 90%;
+  width: 100%;
 }
 #branches-work .branches-prices .branches-table table tr:hover {
   background-color: #cbf5df;
@@ -1058,11 +1112,12 @@ header #upicon {
   font-size: 23px;
   text-align: center;
   height: 8vh;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-left: 47px;
 }
 #branches-work .branches-prices .branches-table table td {
   color: rgb(84, 82, 82);
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   height: 10vh;
 }
@@ -1097,11 +1152,11 @@ header #upicon {
   text-align: center;
 }
 #petcare-central .petcare-central h1 {
-  font-size: 44px;
+  font-size: 33px;
   color: #28cb6e;
 }
 #petcare-central .petcare-central h2 {
-  font-size: 37px;
+  font-size: 30px;
   color: #f34a2c;
 }
 
@@ -1617,63 +1672,6 @@ footer p i {
 footer p span {
   color: #41ed8c;
   text-shadow: 1px 1px 1px rgb(88, 221, 88);
-}
-
-#admin {
-  margin-top: 15px;
-}
-#admin .admin h1 {
-  text-align: center;
-  color: rgb(10, 169, 169);
-}
-#admin .admin hr {
-  color: rgb(87, 205, 205);
-}
-#admin .admin .admin-panel {
-  border: 1px solid rgb(9, 151, 118);
-  height: 90vh;
-}
-#admin .admin .admin-panel .admin-photo {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#admin .admin .admin-panel .admin-photo img {
-  border-radius: 50%;
-}
-#admin .admin .admin-panel .admin-photo h3 {
-  color: rgb(69, 124, 241);
-}
-#admin .admin .admin-panel .admin-photo p {
-  color: rgb(9, 149, 173);
-  font-size: 19px;
-}
-#admin .admin .admin-panel .admin-photo p i {
-  font-size: 20px;
-  color: rgb(7, 212, 212);
-}
-#admin .admin ul {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
-}
-#admin .admin ul li a {
-  text-decoration: none;
-  color: rgb(15, 190, 202);
-  font-weight: bold;
-}
-#admin .admin .admin-help a {
-  text-decoration: none;
-  color: rgb(12, 173, 223);
-  margin-left: 29px;
-}
-#admin .admin .admin-help a i {
-  font-size: 17px;
-  color: rgb(34, 180, 212);
 }
 
 /*# sourceMappingURL=main.css.map */

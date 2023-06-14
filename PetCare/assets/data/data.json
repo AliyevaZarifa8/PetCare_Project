@@ -1,296 +1,269 @@
 {
-    "prices-plans":[
-        {
-            "id":1,
-        "title"  :"Dog Walking"  ,
-        "prices":20,
-        "daily":"Per Hour",
-        "dailypay":"12 for half an hour",
-        "dailyextr":"12 for half an hour $5 for extra dog",
-        "text":" Timing 9 AM to 7 PM One time free Kibble 15 Minute Training."
-        },
-        {
-            "id":2,
-        "title"  :"Day Boarding"  ,
-        "prices":129,
-        "daily":"Per Day",
-        "dailypay":"2k monthly subscription",
-        "dailyextr":"3 times quality meals",
-        "text":" Timing 9 AM to 7 PM Free grooming and bathing Play and train sessions."
-        },
-        {
-            "id":3,
-        "title"  :"Pet Taxi"  ,
-        "prices":15,
-        "daily":"Per Hour",
-        "dailypay":"Home Pickup",
-        "dailyextr":">Minimum charge $15",
-        "text":"  Trainer staff with the vehicle $0.5 extra for each mile 30% discount for extra dog."
-        }
-    ],
-    "meet-team":[
-        {
-            "id":1,
-            "photo":"./image/grany.jpg",
-            "fullname":"Elizabeth Wood",
-            "position":"Founder, CEO"
-        },
-        {
-            "id":2,
-            "photo":"./image/doctor.jpg",
-            "fullname":"Harper Ross",
-            "position":"Sr. Veterinary Doctor"
-        },
-        {
-            "id":3,
-            "photo":"./image/girs-dog3.jpg",
-            "fullname":"Emma Sanchez",
-            "position":"Vet Dieticia"
-        },
-        {
-            "id":4,
-            "photo":"./image/bob.jpg",
-            "fullname":"Logan Powell",
-            "position":"Pet Behaviour Expert"
-        },
-        {
-            "id":5,
-            "photo":"./image/dnmk-bg1.avif",
-            "fullname":"Harmer zEM",
-            "position":"Founder, CEO"
-        },
-        {
-            "id":6,
-            "photo":"./image/girl-dog.jpg",
-            "fullname":"Isabella Hall",
-            "position":"Dermatologist, DMV"
-        },
-        {
-            "id":7,
-            "photo":"./image/man-dog.jpg",
-            "fullname":"Harper Ross",
-            "position":"Sr.Veterinary Doctor"
-        },
-        {
-            "id":8,
-            "photo":"./image/girl-dog1.jpg",
-            "fullname":"Zamutr Frev",
-            "position":"Sr.Veterinary Doctor"
-        },
-        {
-            "id":9,
-            "photo":"./image/hero-1.jpg",
-            "fullname":"Harmet Snazur",
-            "position":"Dermatologist, DMV"
-        }
-    ],
-    "branches":[
-        {
-            "id":1,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":2,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":3,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":4,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":5,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":6,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":7,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":8,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":9,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":10,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":11,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":12,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":13,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":14,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        },
-        {
-            "id":15,
-            "placename":"Ticarat branch",
-            "placeposition":" Baku city, Garadag district, Lokbatan settlement",
-            "weekdays":" Weekdays: 09:00 –17:00",
-            "phone":196
-        }
-    ],
-    "dog-food":[
-        {
-            "id":1,
-            "photo":"./image/dry-food1.webp",
-            "category":"Dry Food",
-            "price":23.78,
-            "starprice":12.345
-        },
-        {
-            "id":2,
-            "photo":"./image/wet-food2.png",
-            "category":"Wet Food",
-            "price":239.78,
-            "starprice":12.345
-        },
-        {
-            "id":3,
-            "photo":"./image/vegtr-food2.webp",
-            "category":"Veterinary Diets",
-            "price":34.78,
-            "starprice":11.345
-        },
-        {
-            "id":4,
-            "photo":"./image/premium-food2.png",
-            "category":"Premium Food",
-            "price":16.78,
-            "starprice":12.345
-        },
-        {
-            "id":5,
-            "photo":"./image/fresh-food2.jpg",
-            "category":"Fresh & Prepared Meals",
-            "price":27.99,
-            "starprice":19.345
-        },
-       
-        {
-            "id":6,
-            "photo":"./image/topping-food2.jpg",
-            "category": "Food Toppings",
-            "price":37.9,
-            "starprice":29.345
-        },
-        {
-            "id":7,
-            "photo":"./image/raw-food2.webp",
-            "category":"Raw Food",
-            "price":45.78,
-            "starprice":35.345
-        }
-    ],
-    "pet-breeds":[
-        {
-           "id":1,
-           "photo":"./image/peet-breeds11.jpg",
-           "breedsname":"Alaskan Klee Kai" ,
-           "breedstext":"The Alaskan Klee Kai is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":2,
-           "photo":"./image/pet-breeds16.webp",
-           "breedsname":"Maltese" ,
-           "breedstext":"The Maltese is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":3,
-           "photo":"./image/pet-breeds13.webp",
-           "breedsname":"Welsh Springer Spaniel" ,
-           "breedstext":"The Welsh Springer Spaniel is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":4,
-           "photo":"./image/pet-breeds14.webp",
-           "breedsname":"Yorkshire Terrier" ,
-           "breedstext":"The Yorkshire Terrier is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":5,
-           "photo":"./image/pet-breeds15.webp",
-           "breedsname":"Neapolitan Mastiff" ,
-           "breedstext":"The Neapolitan Mastiff is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":6,
-           "photo":"./image/pet-breeds12.jpg",
-           "breedsname":"Basset Hound" ,
-           "breedstext":"The Basset Hound is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":7,
-           "photo":"./image/pet-breeds17.webp",
-           "breedsname":"Löwchen" ,
-           "breedstext":"The Löwchen is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        },
-        {
-           "id":8,
-           "photo":"./image/pet-breeds18.webpg",
-           "breedsname":"Finnish Lapphund" ,
-           "breedstext":"The Finnish Lapphund is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
-        }
-    ]
+  "prices-plans": [
+    {
+      "id": 1,
+      "title": "Dog Walking",
+      "prices": 20,
+      "daily": "Per Hour",
+      "dailypay": "12 for half an hour",
+      "dailyextr": "12 for half an hour $5 for extra dog",
+      "text": " Timing 9 AM to 7 PM One time free Kibble 15 Minute Training."
+    },
+    {
+      "id": 2,
+      "title": "Day Boarding",
+      "prices": 129,
+      "daily": "Per Day",
+      "dailypay": "2k monthly subscription",
+      "dailyextr": "3 times quality meals",
+      "text": " Timing 9 AM to 7 PM Free grooming and bathing Play and train sessions."
+    },
+    {
+      "id": 3,
+      "title": "Pet Taxi",
+      "prices": 15,
+      "daily": "Per Hour",
+      "dailypay": "Home Pickup",
+      "dailyextr": ">Minimum charge $15",
+      "text": "  Trainer staff with the vehicle $0.5 extra for each mile 30% discount for extra dog."
+    }
+  ],
+  "meet-team": [
+    {
+      "id": 1,
+      "photo": "./assets/image/grany.jpg",
+      "fullname": "Elizabeth Wood",
+      "position": "Founder, CEO"
+    },
+    {
+      "id": 2,
+      "photo": "./assets/image/doctor.jpg",
+      "fullname": "Harper Ross",
+      "position": "Sr. Veterinary Doctor"
+    },
+    {
+      "id": 3,
+      "photo": "./assets/image/girs-dog3.jpg",
+      "fullname": "Emma Sanchez",
+      "position": "Vet Dieticia"
+    },
+    {
+      "id": 4,
+      "photo": "./assets/image/bob.jpg",
+      "fullname": "Logan Powell",
+      "position": "Pet Behaviour Expert"
+    },
+    {
+      "id": 5,
+      "photo": "./assets/image/dnmk-bg1.avif",
+      "fullname": "Harmer zEM",
+      "position": "Founder, CEO"
+    },
+    {
+      "id": 6,
+      "photo": "./assets/image/girl-dog.jpg",
+      "fullname": "Isabella Hall",
+      "position": "Dermatologist, DMV"
+    },
+    {
+      "id": 7,
+      "photo": "./assets/image/man-dog.jpg",
+      "fullname": "Harper Ross",
+      "position": "Sr.Veterinary Doctor"
+    },
+    {
+      "id": 8,
+      "photo": "./assets/image/girl-dog1.jpg",
+      "fullname": "Zamutr Frev",
+      "position": "Sr.Veterinary Doctor"
+    },
+    {
+      "id": 9,
+      "photo": "./assets/image/hero-1.jpg",
+      "fullname": "Harmet Snazur",
+      "position": "Dermatologist, DMV"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "placename": "Ticarat",
+      "placeposition": " Baku city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 2,
+      "placename": "Ticarat ",
+      "placeposition": " Ucar city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 3,
+      "placename": "Ticarat ",
+      "placeposition": " Ganca city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 4,
+      "placename": "Ticarat ",
+      "placeposition": " Berde city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 5,
+      "placename": "Ticarat ",
+      "placeposition": " Yevlax city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 6,
+      "placename": "Ticarat ",
+      "placeposition": " Agdas city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 7,
+      "placename": "Ticarat ",
+      "placeposition": " Semkir city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 8,
+      "placename": "Ticarat ",
+      "placeposition": " Goran city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 9,
+      "placename": "Ticarat ",
+      "placeposition": " Agsu city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+
+    {
+      "id": 11,
+      "placename": "Ticarat ",
+      "placeposition": " Seki city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    },
+    {
+      "id": 12,
+      "placename": "Ticarat ",
+      "placeposition": " Xizi city, Garadag district, Lokbatan settlement",
+      "weekdays": " Weekdays: 09:00 –17:00",
+      "phone": 196
+    }
+  ],
+  "dog-food": [
+    {
+      "id": 1,
+      "photo": "./assets/image/dry-food1.webp",
+      "category": "Dry Food",
+      "price": 23.78,
+      "starprice": 12.345
+    },
+    {
+      "id": 2,
+      "photo": "./assets/image/wet-food2.png",
+      "category": "Wet Food",
+      "price": 239.78,
+      "starprice": 12.345
+    },
+    {
+      "id": 3,
+      "photo": "./assets/image/vegtr-food2.webp",
+      "category": "Veterinary Diets",
+      "price": 34.78,
+      "starprice": 11.345
+    },
+    {
+      "id": 4,
+      "photo": "./assets/image/premium-food2.png",
+      "category": "Premium Food",
+      "price": 16.78,
+      "starprice": 12.345
+    },
+    {
+      "id": 5,
+      "photo": "./assets/image/fresh-food2.jpg",
+      "category": "Fresh & Prepared Meals",
+      "price": 27.99,
+      "starprice": 19.345
+    },
+
+    {
+      "id": 6,
+      "photo": "./assets/image/topping-food2.jpg",
+      "category": "Food Toppings",
+      "price": 37.9,
+      "starprice": 29.345
+    },
+    {
+      "id": 7,
+      "photo": "./assets/image/raw-food2.webp",
+      "category": "Raw Food",
+      "price": 45.78,
+      "starprice": 35.345
+    }
+  ],
+  "pet-breeds": [
+    {
+      "id": 1,
+      "photo": "./assets/image/peet-breeds11.jpg",
+      "breedsname": "Alaskan Klee Kai",
+      "breedstext": "The Alaskan Klee Kai is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 2,
+      "photo": "./image/pet-breeds16.webp",
+      "breedsname": "Maltese",
+      "breedstext": "The Maltese is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 3,
+      "photo": "./image/pet-breeds13.webp",
+      "breedsname": "Welsh Springer Spaniel",
+      "breedstext": "The Welsh Springer Spaniel is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 4,
+      "photo": "./image/pet-breeds14.webp",
+      "breedsname": "Yorkshire Terrier",
+      "breedstext": "The Yorkshire Terrier is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 5,
+      "photo": "./image/pet-breeds15.webp",
+      "breedsname": "Neapolitan Mastiff",
+      "breedstext": "The Neapolitan Mastiff is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 6,
+      "photo": "./image/pet-breeds12.jpg",
+      "breedsname": "Basset Hound",
+      "breedstext": "The Basset Hound is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 7,
+      "photo": "./image/pet-breeds17.webp",
+      "breedsname": "Löwchen",
+      "breedstext": "The Löwchen is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    },
+    {
+      "id": 8,
+      "photo": "./image/pet-breeds18.webpg",
+      "breedsname": "Finnish Lapphund",
+      "breedstext": "The Finnish Lapphund is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    }
+  ]
 }
