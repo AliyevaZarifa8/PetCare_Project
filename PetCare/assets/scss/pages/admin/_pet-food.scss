@@ -1,0 +1,116 @@
+#admin {
+  #food-dinamik {
+    background-color: #fff;
+    border-radius: 6%;
+    margin-bottom: 17vh;
+    padding-bottom: 10vh;
+    h1 {
+      text-align: center;
+      color: rgb(6, 177, 21);
+      margin-top: 40px;
+      margin-bottom: 40px;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 14%;
+        background-color: rgb(6, 217, 24);
+        bottom: -23%;
+        left: 43%;
+      }
+    }
+    .search-sort {
+      margin-bottom: 50px;
+      padding-top: 20px;
+
+      input {
+        width: 72%;
+        text-indent: 20px;
+        height: 6vh;
+        border-radius: 7px;
+        border: 1px solid #29bce4;
+        outline: none;
+        margin-left: 10px;
+        background-color: transparent;
+        &::placeholder {
+          color: #29bce4;
+        }
+      }
+      select {
+        height: 39.33px;
+        color: #29bce4;
+        border: 1px solid #29bce4;
+        text-indent: 8px;
+        background-color: transparent;
+        border-radius: 7px;
+        outline: none;
+      }
+
+      .button {
+        border: 1px solid #29bce4;
+        border-radius: 7px;
+        padding: 7px 38px;
+        color: #29bce4;
+        background-color: transparent;
+        margin-left: 80px;
+      }
+    }
+
+    .food-table {
+      width: 100%;
+      table {
+        tr {
+          &:hover {
+            background-color: #cedeeb;
+          }
+        }
+        th {
+          color: rgb(9, 92, 131);
+          font-size: 23px;
+          text-align: center;
+          height: 8vh;
+          padding-right: 30px;
+          padding-left: 47px;
+        }
+        td {
+          color: rgb(7, 84, 90);
+          font-size: 20px;
+          text-align: center;
+          height: 10vh;
+          img {
+            width: 20%;
+          }
+          i {
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 3px;
+          }
+
+          .fa-eraser {
+            color: red;
+            font-size: 22px;
+            margin-right: 10px;
+          }
+          .fa-pen-to-square {
+            font-size: 20px;
+            color: rgb(30, 187, 30);
+          }
+        }
+      }
+    }
+    #showmore {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      .showmore {
+        border: 1px solid #29bce4;
+        border-radius: 7px;
+        padding: 7px 38px;
+        color: #29bce4;
+        background-color: transparent;
+      }
+    }
+  }
+}

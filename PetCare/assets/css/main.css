@@ -1971,20 +1971,20 @@ footer p span {
   background-color: transparent;
 }
 
-#branches-work {
+#admin #branches-work {
   margin-bottom: 90px;
   background-color: #fff;
   border-radius: 12%;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-#branches-work .branches-prices .search-sort {
+#admin #branches-work .branches-prices .search-sort {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#branches-work .branches-prices .search-sort input {
+#admin #branches-work .branches-prices .search-sort input {
   text-indent: 10px;
   height: 6vh;
   border-radius: 7px;
@@ -1993,16 +1993,16 @@ footer p span {
   margin-left: 10px;
   background-color: transparent;
 }
-#branches-work .branches-prices .search-sort input::placeholder {
+#admin #branches-work .branches-prices .search-sort input::placeholder {
   color: rgb(40, 119, 214);
 }
-#branches-work .branches-prices .branches-table {
+#admin #branches-work .branches-prices .branches-table {
   width: 100%;
 }
-#branches-work .branches-prices .branches-table table tr:hover {
+#admin #branches-work .branches-prices .branches-table table tr:hover {
   background-color: #cedeeb;
 }
-#branches-work .branches-prices .branches-table table th {
+#admin #branches-work .branches-prices .branches-table table th {
   color: rgb(40, 119, 214);
   font-size: 23px;
   text-align: center;
@@ -2010,37 +2010,144 @@ footer p span {
   padding-right: 30px;
   padding-left: 47px;
 }
-#branches-work .branches-prices .branches-table table td {
+#admin #branches-work .branches-prices .branches-table table td {
   color: rgb(10, 147, 157);
   font-size: 20px;
   text-align: center;
   height: 10vh;
 }
-#branches-work .branches-prices .branches-table table td i {
+#admin #branches-work .branches-prices .branches-table table td i {
   font-size: 20px;
   padding-left: 20px;
   padding-right: 3px;
 }
-#branches-work .branches-prices .branches-table table td .fa-landmark-dome {
+#admin #branches-work .branches-prices .branches-table table td .fa-landmark-dome {
   color: rgb(7, 105, 104);
 }
-#branches-work .branches-prices .branches-table table td .fa-location-dot {
+#admin #branches-work .branches-prices .branches-table table td .fa-location-dot {
   color: rgb(252, 46, 5);
 }
-#branches-work .branches-prices .branches-table table td .fa-calendar-check {
+#admin #branches-work .branches-prices .branches-table table td .fa-calendar-check {
   color: #0c59b1;
 }
-#branches-work .branches-prices .branches-table table td .fa-phone-volume {
+#admin #branches-work .branches-prices .branches-table table td .fa-phone-volume {
   color: #36a567;
 }
-#branches-work .branches-prices .branches-table table td .fa-eraser {
+#admin #branches-work .branches-prices .branches-table table td .fa-eraser {
   color: red;
   font-size: 22px;
   margin-right: 10px;
 }
-#branches-work .branches-prices .branches-table table td .fa-pen-to-square {
+#admin #branches-work .branches-prices .branches-table table td .fa-pen-to-square {
   font-size: 20px;
   color: rgb(30, 187, 30);
+}
+
+#admin #food-dinamik {
+  background-color: #fff;
+  border-radius: 6%;
+  margin-bottom: 17vh;
+  padding-bottom: 10vh;
+}
+#admin #food-dinamik h1 {
+  text-align: center;
+  color: rgb(6, 177, 21);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+#admin #food-dinamik h1::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 14%;
+  background-color: rgb(6, 217, 24);
+  bottom: -23%;
+  left: 43%;
+}
+#admin #food-dinamik .search-sort {
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+#admin #food-dinamik .search-sort input {
+  width: 72%;
+  text-indent: 20px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid #29bce4;
+  outline: none;
+  margin-left: 10px;
+  background-color: transparent;
+}
+#admin #food-dinamik .search-sort input::placeholder {
+  color: #29bce4;
+}
+#admin #food-dinamik .search-sort select {
+  height: 39.33px;
+  color: #29bce4;
+  border: 1px solid #29bce4;
+  text-indent: 8px;
+  background-color: transparent;
+  border-radius: 7px;
+  outline: none;
+}
+#admin #food-dinamik .search-sort .button {
+  border: 1px solid #29bce4;
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #29bce4;
+  background-color: transparent;
+  margin-left: 80px;
+}
+#admin #food-dinamik .food-table {
+  width: 100%;
+}
+#admin #food-dinamik .food-table table tr:hover {
+  background-color: #cedeeb;
+}
+#admin #food-dinamik .food-table table th {
+  color: rgb(9, 92, 131);
+  font-size: 23px;
+  text-align: center;
+  height: 8vh;
+  padding-right: 30px;
+  padding-left: 47px;
+}
+#admin #food-dinamik .food-table table td {
+  color: rgb(7, 84, 90);
+  font-size: 20px;
+  text-align: center;
+  height: 10vh;
+}
+#admin #food-dinamik .food-table table td img {
+  width: 20%;
+}
+#admin #food-dinamik .food-table table td i {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 3px;
+}
+#admin #food-dinamik .food-table table td .fa-eraser {
+  color: red;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#admin #food-dinamik .food-table table td .fa-pen-to-square {
+  font-size: 20px;
+  color: rgb(30, 187, 30);
+}
+#admin #food-dinamik #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#admin #food-dinamik #showmore .showmore {
+  border: 1px solid #29bce4;
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #29bce4;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */

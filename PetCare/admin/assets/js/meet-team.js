@@ -49,7 +49,7 @@ drawTeam();
 
 showMore.addEventListener("click", function () {
   getallData.length > maxLen + 2
-    ? maxLen + 3
+    ? (maxLen += 3)
     : (maxLen = maxLen - (maxLen - getallData.length));
   drawTeam();
   filterData = getallData.slice(0, maxLen);
