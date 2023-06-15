@@ -1575,11 +1575,12 @@ header #upicon {
 }
 #pet-breeds3 .cards .card h2 {
   color: rgb(252, 121, 45);
-  font-size: 20px;
+  font-size: 17px;
+  padding-top: 10px;
 }
 #pet-breeds3 .cards .card h3 {
   color: rgb(253, 85, 85);
-  font-size: 23px;
+  font-size: 21px;
 }
 #pet-breeds3 .cards .card i {
   color: rgb(236, 114, 114);
