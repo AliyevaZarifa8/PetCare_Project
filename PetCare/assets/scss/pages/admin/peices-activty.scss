@@ -1,0 +1,55 @@
+#admin {
+  .admin {
+    .prices-activity {
+      width: 75%;
+      h2 {
+        text-align: center;
+        color: rgb(13, 13, 109);
+      }
+      #fa-medrt {
+        display: flex;
+        justify-content: end;
+        .fa-medrt {
+          margin-right: 49px;
+          font-size: 23px;
+        }
+      }
+
+      #prices-plans {
+        background-color: #fff;
+
+        .prices-plans {
+          height: 90vh;
+          
+          .prices-dinamk {
+            .prices-card {
+              border-color: rgb(4, 4, 148);
+              h1 {
+                color: rgb(76, 76, 234);
+              }
+              h2 {
+                color: rgb(36, 196, 196);
+              }
+              i {
+                color: aquamarine;
+              }
+
+              p {
+                color: rgb(15, 96, 96);
+              }
+              .fa-eraser {
+                color: red;
+                font-size: 22px;
+                margin-right: 10px;
+              }
+              .fa-pen-to-square {
+                font-size: 20px;
+                color: rgb(38, 192, 38);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

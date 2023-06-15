@@ -32,7 +32,7 @@
     {
       "id": 1,
       "photo": "./assets/image/grany.jpg",
-      "fullname": "Eliz Wood",
+      "fullname": "Eliza Wood",
       "position": "Founder, CEO"
     },
     {
@@ -233,49 +233,49 @@
   "pet-breeds": [
     {
       "id": 1,
-      "prices":234,
+      "prices": 234,
       "photo": "./assets/image/peet-breeds11.jpg",
       "breedsname": "Alaskan Klee Kai",
       "breedstext": "The Alaskan Klee Kai is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 2,
-      "prices":534,
+      "prices": 534,
       "photo": "./assets/image/pet-breeds16.webp",
       "breedsname": "Maltese",
       "breedstext": "The Maltese is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 3,
-      "prices":334,
+      "prices": 334,
       "photo": "./assets/image/pet-breeds13.webp",
       "breedsname": "Welsh Springer ",
       "breedstext": "The Welsh Springer Spaniel is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 4,
-      "prices":421,
+      "prices": 421,
       "photo": "./assets/image/pet-breeds14.webp",
       "breedsname": "Yorkshire Terrier",
       "breedstext": "The Yorkshire Terrier is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 5,
-      "prices":652,
+      "prices": 652,
       "photo": "./assets/image/pet-breeds15.webp",
       "breedsname": "Neapolitan Mastiff",
       "breedstext": "The Neapolitan Mastiff is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 6,
-      "prices":124,
+      "prices": 124,
       "photo": "./assets/image/pet-breeds12.jpg",
       "breedsname": "Basset Hound",
       "breedstext": "The Basset Hound is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 7,
-      "prices":498,
+      "prices": 498,
       "photo": "./assets/image/pet-breeds17.webp",
       "breedsname": "Löwchen",
       "breedstext": "The Löwchen is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
@@ -283,14 +283,14 @@
 
     {
       "id": 8,
-      "prices":294,
+      "prices": 294,
       "photo": "./assets/image/pet-breeds18.webp",
       "breedsname": "Finnish Lapphund",
       "breedstext": "The Finnish Lapphund is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
     {
       "id": 9,
-      "prices":734,
+      "prices": 734,
       "photo": "./assets/image/pet-breeds17.webp",
       "breedsname": "Löwchen",
       "breedstext": "The Löwchen is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."

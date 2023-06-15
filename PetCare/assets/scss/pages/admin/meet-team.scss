@@ -1,0 +1,85 @@
+#admin {
+  .admin {
+    .meet-activity {
+      width: 75%;
+      h2 {
+        text-align: center;
+        color: rgb(13, 13, 109);
+      }
+      #fa-medrt {
+        display: flex;
+        justify-content: end;
+        .fa-medrt {
+          margin-right: 49px;
+          font-size: 23px;
+        }
+      }
+      #meet-team {
+        background-color: #fff;
+
+        .search-sort {
+          input {
+            border: 1px solid rgb(32, 94, 240);
+            &::placeholder {
+              color: rgb(32, 94, 240);
+            }
+          }
+          .button {
+            border: 1px solid rgb(32, 94, 240);
+            color: rgb(32, 94, 240);
+            margin-left: 120px;
+          }
+        }
+        .meet-cards {
+          .card {
+            border: 1px solid rgb(32, 94, 240);
+            padding: 10px 20px;
+            img {
+              width: 100%;
+              border-radius: 23px;
+              height: 26vh;
+            }
+
+            .meet-card {
+              .meets-text {
+                h1 {
+                  color: rgb(20, 94, 159);
+                  font-size: 27px;
+                }
+                p {
+                  color: rgb(81, 162, 237);
+                }
+              }
+              .meet-hover {
+                display: none;
+              }
+              .fa-eraser {
+                color: red;
+                font-size: 22px;
+                margin-right: 10px;
+              }
+              .fa-pen-to-square {
+                font-size: 20px;
+                color: rgb(38, 192, 38);
+              }
+            }
+          }
+        }
+
+        #showmore {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+          .showmore {
+            border: 1px solid rgb(32, 94, 240);
+            border-radius: 7px;
+            padding: 7px 38px;
+            color: rgb(32, 94, 240);
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

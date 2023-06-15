@@ -940,6 +940,7 @@ header #upicon {
   border: 1px solid rgb(9, 249, 9);
   border-radius: 23px;
   position: relative;
+  padding: 10px 19px;
 }
 #meet-team .meet-cards .card:hover .meet-card .meet-hover {
   display: flex;
@@ -949,7 +950,7 @@ header #upicon {
 #meet-team .meet-cards .card img {
   width: 100%;
   border-radius: 23px;
-  height: 30vh;
+  height: 27vh;
 }
 #meet-team .meet-cards .card .meet-card {
   display: flex;
@@ -961,7 +962,7 @@ header #upicon {
   text-align: center;
 }
 #meet-team .meet-cards .card .meet-card .meets-text h1 {
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
 }
 #meet-team .meet-cards .card .meet-card .meets-text h1 p {
@@ -1776,19 +1777,28 @@ footer p span {
 #admin {
   margin-top: 15px;
 }
-#admin .admin h1 {
+#admin h1 {
   text-align: center;
   color: rgb(10, 169, 169);
+  margin-bottom: 4vh;
+}
+#admin .admin {
+  display: flex;
 }
 #admin .admin hr {
   color: rgb(87, 205, 205);
+  width: 80%;
+  margin-left: 27px;
 }
 #admin .admin .admin-panel {
+  border-radius: 11px;
   border: 1px solid rgb(9, 151, 118);
   height: 90vh;
+  width: 25%;
+  margin-left: 5px;
 }
 #admin .admin .admin-panel .admin-photo {
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1800,6 +1810,10 @@ footer p span {
 #admin .admin .admin-panel .admin-photo h3 {
   color: rgb(69, 124, 241);
 }
+#admin .admin .admin-panel .admin-photo i {
+  font-size: 20px;
+  color: rgb(26, 119, 185);
+}
 #admin .admin .admin-panel .admin-photo p {
   color: rgb(9, 149, 173);
   font-size: 19px;
@@ -1808,26 +1822,153 @@ footer p span {
   font-size: 20px;
   color: rgb(7, 212, 212);
 }
-#admin .admin ul {
+#admin .admin .admin-panel ul {
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 10px;
 }
-#admin .admin ul li a {
+#admin .admin .admin-panel ul li a {
   text-decoration: none;
   color: rgb(15, 190, 202);
   font-weight: bold;
 }
-#admin .admin .admin-help a {
+#admin .admin .admin-panel .admin-help {
+  height: 20vh;
+}
+#admin .admin .admin-panel .admin-help a {
   text-decoration: none;
   color: rgb(12, 173, 223);
   margin-left: 29px;
 }
-#admin .admin .admin-help a i {
+#admin .admin .admin-panel .admin-help a i {
   font-size: 17px;
   color: rgb(34, 180, 212);
+}
+#admin .admin .daily-activity {
+  width: 75%;
+}
+#admin .admin .daily-activity h2 {
+  text-align: center;
+  color: rgb(13, 13, 109);
+}
+
+#admin .admin .prices-activity {
+  width: 75%;
+}
+#admin .admin .prices-activity h2 {
+  text-align: center;
+  color: rgb(13, 13, 109);
+}
+#admin .admin .prices-activity #fa-medrt {
+  display: flex;
+  justify-content: end;
+}
+#admin .admin .prices-activity #fa-medrt .fa-medrt {
+  margin-right: 49px;
+  font-size: 23px;
+}
+#admin .admin .prices-activity #prices-plans {
+  background-color: #fff;
+}
+#admin .admin .prices-activity #prices-plans .prices-plans {
+  height: 90vh;
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card {
+  border-color: rgb(4, 4, 148);
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card h1 {
+  color: rgb(76, 76, 234);
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card h2 {
+  color: rgb(36, 196, 196);
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card i {
+  color: aquamarine;
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card p {
+  color: rgb(15, 96, 96);
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card .fa-eraser {
+  color: red;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card .fa-pen-to-square {
+  font-size: 20px;
+  color: rgb(38, 192, 38);
+}
+
+#admin .admin .meet-activity {
+  width: 75%;
+}
+#admin .admin .meet-activity h2 {
+  text-align: center;
+  color: rgb(13, 13, 109);
+}
+#admin .admin .meet-activity #fa-medrt {
+  display: flex;
+  justify-content: end;
+}
+#admin .admin .meet-activity #fa-medrt .fa-medrt {
+  margin-right: 49px;
+  font-size: 23px;
+}
+#admin .admin .meet-activity #meet-team {
+  background-color: #fff;
+}
+#admin .admin .meet-activity #meet-team .search-sort input {
+  border: 1px solid rgb(32, 94, 240);
+}
+#admin .admin .meet-activity #meet-team .search-sort input::placeholder {
+  color: rgb(32, 94, 240);
+}
+#admin .admin .meet-activity #meet-team .search-sort .button {
+  border: 1px solid rgb(32, 94, 240);
+  color: rgb(32, 94, 240);
+  margin-left: 120px;
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card {
+  border: 1px solid rgb(32, 94, 240);
+  padding: 10px 20px;
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card img {
+  width: 100%;
+  border-radius: 23px;
+  height: 26vh;
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .meets-text h1 {
+  color: rgb(20, 94, 159);
+  font-size: 27px;
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .meets-text p {
+  color: rgb(81, 162, 237);
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .meet-hover {
+  display: none;
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .fa-eraser {
+  color: red;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .fa-pen-to-square {
+  font-size: 20px;
+  color: rgb(38, 192, 38);
+}
+#admin .admin .meet-activity #meet-team #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#admin .admin .meet-activity #meet-team #showmore .showmore {
+  border: 1px solid rgb(32, 94, 240);
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: rgb(32, 94, 240);
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */

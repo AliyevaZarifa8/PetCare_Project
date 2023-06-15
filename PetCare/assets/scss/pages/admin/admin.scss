@@ -1,18 +1,26 @@
 #admin {
   margin-top: 15px;
+  h1 {
+    text-align: center;
+    color: rgb(10, 169, 169);
+    margin-bottom: 4vh;
+  }
   .admin {
-    h1 {
-      text-align: center;
-      color: rgb(10, 169, 169);
-    }
+    display: flex;
     hr {
       color: rgb(87, 205, 205);
+      width: 80%;
+      margin-left: 27px;
     }
     .admin-panel {
+      border-radius: 11px;
       border: 1px solid rgb(9, 151, 118);
       height: 90vh;
+      width: 25%;
+      margin-left: 5px;
+
       .admin-photo {
-        height: 30vh;
+        height: 40vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -23,6 +31,10 @@
         h3 {
           color: rgb(69, 124, 241);
         }
+        i {
+          font-size: 20px;
+          color: rgb(26, 119, 185);
+        }
         p {
           color: rgb(9, 149, 173);
           font-size: 19px;
@@ -32,30 +44,39 @@
           }
         }
       }
-    }
-    ul {
-      height: 30vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      row-gap: 10px;
-      li {
+      ul {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        row-gap: 10px;
+        li {
+          a {
+            text-decoration: none;
+            color: rgb(15, 190, 202);
+            font-weight: bold;
+          }
+        }
+      }
+      .admin-help {
+        height: 20vh;
         a {
           text-decoration: none;
-          color: rgb(15, 190, 202);
-          font-weight: bold;
+          color: rgb(12, 173, 223);
+          margin-left: 29px;
+          i {
+            font-size: 17px;
+            color: rgb(34, 180, 212);
+          }
         }
       }
     }
-    .admin-help {
-      a {
-        text-decoration: none;
-        color: rgb(12, 173, 223);
-        margin-left: 29px;
-        i {
-          font-size: 17px;
-          color: rgb(34, 180, 212);
-        }
+    .daily-activity {
+      width: 75%;
+      h2 {
+        text-align: center;
+        color: rgb(13, 13, 109);
       }
     }
   }

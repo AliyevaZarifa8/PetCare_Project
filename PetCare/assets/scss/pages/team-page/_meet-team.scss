@@ -63,6 +63,7 @@
       border: 1px solid rgb(9, 249, 9);
       border-radius: 23px;
       position: relative;
+      padding: 10px 19px;
       &:hover {
         .meet-card {
           .meet-hover {
@@ -76,7 +77,7 @@
       img {
         width: 100%;
         border-radius: 23px;
-        height: 30vh;
+        height: 27vh;
       }
 
       .meet-card {
@@ -90,7 +91,7 @@
 
         .meets-text {
           h1 {
-            font-size: 30px;
+            font-size: 23px;
             font-weight: bold;
             p {
               color: gray;
