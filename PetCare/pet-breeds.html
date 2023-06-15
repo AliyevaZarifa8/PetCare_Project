@@ -166,8 +166,41 @@
           <h1>The Dog Breeds</h1>
           <p>This is the official list of all Azerbaijan Club dog breeds.</p>
         </div>
+        <div class="row search-sort">
+          <div class="col-lg-7">
+            <input
+              type="text"
+              id="search"
+              placeholder="Search a food category..."
+            />
+          </div>
+
+          <div class="col-lg-1">
+            <select name="" id="">
+              <option value="">Select Dog Breeds</option>
+              <option value="alaskanKleeKai">Alaskan Klee Kai</option>
+              <option value="altese">Maltese</option>
+              <option value="welshSpringerSpaniel">
+                Welsh Springer Spaniel
+              </option>
+              <option value="yorkshireTerrier">Yorkshire Terrier</option>
+              <option value="neapolitanMastiff">Neapolitan Mastiff</option>
+              <option value="bassetHound">Basset Hound</option>
+              <option value="löwchen">Löwchen</option>
+              <option value="finnishLapphund">Finnish Lapphund</option>
+            </select>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+            <button class="button" id="sort">Sort</button>
+          </div>
+        </div>
         <div class="row cards">
-          <div class="col-lg-3">
+          <div class="justify-content-center my-3" id="spinner">
+            <div class="spinner-border text-warning text-center" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3">
             <div class="card">
               <img src="./assets/image/peet-breeds11.jpg" alt="" />
               <h2>Dog Breeds:</h2>
@@ -180,105 +213,12 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds16.webp" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Maltese</h3>
-              <div>
-                <p>
-                  The Maltese is a small-sized companion dog that is alert,
-                  energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds13.webp" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Welsh Springer Spaniel</h3>
-              <div>
-                <p>
-                  The Welsh Springer Spaniel is a small-sized companion dog that
-                  is alert, energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds14.webp" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Yorkshire Terrier</h3>
-              <div>
-                <p>
-                  The Yorkshire Terrier is a small-sized companion dog that is
-                  alert, energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds15.webp" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Neapolitan Mastiff</h3>
-              <div>
-                <p>
-                  The Neapolitan Mastiff is a small-sized companion dog that is
-                  alert, energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds12.jpg" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Basset Hound</h3>
-              <div>
-                <p>
-                  The Basset Hound is a small-sized companion dog that is alert,
-                  energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds17.webp" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Löwchen</h3>
-              <div>
-                <p>
-                  The Löwchen is a small-sized companion dog that is alert,
-                  energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/pet-breeds18.webp" alt="" />
-              <h2>Dog Breeds:</h2>
-              <h3>Finnish Lapphund</h3>
-              <div>
-                <p>
-                  The Finnish Lapphund is a small-sized companion dog that is
-                  alert, energetic, and curious, Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                </p>
-              </div>
-            </div>
+          </div> -->
+         
+        </div>
+        <div class="row" id="showmore">
+          <div class="col-lg-2">
+            <button class="showmore">Show More</button>
           </div>
         </div>
       </div>

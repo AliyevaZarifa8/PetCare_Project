@@ -931,7 +931,7 @@ header #upicon {
   padding: 7px 38px;
   color: #0dc78f;
   background-color: transparent;
-  margin-left: 40px;
+  margin-left: 80px;
 }
 #meet-team .meet-cards {
   row-gap: 20px;
@@ -1246,6 +1246,7 @@ header #upicon {
   background-color: rgb(250, 250, 224);
   border-radius: 6%;
   margin-bottom: 17vh;
+  padding-bottom: 10vh;
 }
 #food-dinamik h1 {
   text-align: center;
@@ -1263,6 +1264,39 @@ header #upicon {
   bottom: -23%;
   left: 43%;
 }
+#food-dinamik .search-sort {
+  margin-bottom: 50px;
+}
+#food-dinamik .search-sort input {
+  width: 72%;
+  text-indent: 20px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid #fb8107;
+  outline: none;
+  margin-left: 10px;
+  background-color: transparent;
+}
+#food-dinamik .search-sort input::placeholder {
+  color: #fb8107;
+}
+#food-dinamik .search-sort select {
+  height: 39.33px;
+  color: #fb8107;
+  border: 1px solid #fb8107;
+  text-indent: 8px;
+  background-color: transparent;
+  border-radius: 7px;
+  outline: none;
+}
+#food-dinamik .search-sort .button {
+  border: 1px solid #fb8107;
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #fb8107;
+  background-color: transparent;
+  margin-left: 80px;
+}
 #food-dinamik .cards {
   row-gap: 20px;
 }
@@ -1270,7 +1304,7 @@ header #upicon {
   padding: 14px 27px;
   text-align: center;
   border-radius: 27px;
-  border: 2px solid #fed56c;
+  border: 2px solid #ffa64d;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -1284,7 +1318,7 @@ header #upicon {
 }
 #food-dinamik .cards .card h3 {
   color: rgb(125, 118, 118);
-  font-size: 23px;
+  font-size: 20px;
 }
 #food-dinamik .cards .card i {
   color: rgb(255, 196, 0);
@@ -1300,6 +1334,19 @@ header #upicon {
   background-color: rgb(240, 62, 3);
   color: #fff;
   font-weight: bold;
+}
+#food-dinamik #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#food-dinamik #showmore .showmore {
+  border: 1px solid #fb8107;
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #fb8107;
+  background-color: transparent;
 }
 
 #eat-food .eat-food {
@@ -1672,6 +1719,63 @@ footer p i {
 footer p span {
   color: #41ed8c;
   text-shadow: 1px 1px 1px rgb(88, 221, 88);
+}
+
+#admin {
+  margin-top: 15px;
+}
+#admin .admin h1 {
+  text-align: center;
+  color: rgb(10, 169, 169);
+}
+#admin .admin hr {
+  color: rgb(87, 205, 205);
+}
+#admin .admin .admin-panel {
+  border: 1px solid rgb(9, 151, 118);
+  height: 90vh;
+}
+#admin .admin .admin-panel .admin-photo {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#admin .admin .admin-panel .admin-photo img {
+  border-radius: 50%;
+}
+#admin .admin .admin-panel .admin-photo h3 {
+  color: rgb(69, 124, 241);
+}
+#admin .admin .admin-panel .admin-photo p {
+  color: rgb(9, 149, 173);
+  font-size: 19px;
+}
+#admin .admin .admin-panel .admin-photo p i {
+  font-size: 20px;
+  color: rgb(7, 212, 212);
+}
+#admin .admin ul {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+#admin .admin ul li a {
+  text-decoration: none;
+  color: rgb(15, 190, 202);
+  font-weight: bold;
+}
+#admin .admin .admin-help a {
+  text-decoration: none;
+  color: rgb(12, 173, 223);
+  margin-left: 29px;
+}
+#admin .admin .admin-help a i {
+  font-size: 17px;
+  color: rgb(34, 180, 212);
 }
 
 /*# sourceMappingURL=main.css.map */

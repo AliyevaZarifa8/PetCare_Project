@@ -19,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
+
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -324,8 +324,39 @@
         <div class="row">
           <h1>The Dog Foods</h1>
         </div>
-        <div class="row cards">
-          <div class="col-lg-3">
+        <div class="row search-sort">
+          <div class="col-lg-7">
+            <input
+              type="text"
+              id="search"
+              placeholder="Search a food category..."
+            />
+          </div>
+
+          <div class="col-lg-1">
+            <select name="" id="select">
+              <option value="">Select Category</option>
+              <option value="dry">Dry Food</option>
+              <option value="wet">Wet Food</option>
+              <option value="veterinary">Veterinary Diets</option>
+              <option value="premium">Premium Food</option>
+              <option value="fresh">Fresh & Prepared Meals</option>
+              <option value="toppings">Food Toppings</option>
+              <option value="raw">Raw Food</option>
+            </select>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+            <button class="button" id="sort">Sort</button>
+          </div>
+        </div>
+        <div class="row cards" id="pet-foods">
+          <div class="justify-content-center my-3" id="spinner">
+            <div class="spinner-border text-warning text-center" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-3">
             <div class="card">
               <img src="./assets/image/dry-food1.webp" alt="" />
               <h2>Category:Dry Food</h2>
@@ -340,103 +371,11 @@
               </p>
               <div><button>Buy Now</button></div>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/wet-food2.png" alt="" />
-              <h2>Category:Wet Food</h2>
-              <h3>Price: $239.78</h3>
-              <p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <span>12.345</span>
-              </p>
-              <div><button>Buy Now</button></div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/vegtr-food2.webp" alt="" />
-              <h2>Category: Veterinary Diets</h2>
-              <h3>Price: $34.99</h3>
-              <p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <span>12.345</span>
-              </p>
-              <div><button>Buy Now</button></div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/premium-food2.png" alt="" />
-              <h2>Category: Premium Food</h2>
-              <h3>Price: $12.78</h3>
-              <p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <span>6.345</span>
-              </p>
-              <div><button>Buy Now</button></div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/fresh-food2.jpg" alt="" />
-              <h2>Category: Fresh & Prepared Meals</h2>
-              <h3>Price: $27.99</h3>
-              <p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <span>19.345</span>
-              </p>
-              <div><button>Buy Now</button></div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/topping-food2.jpg" alt="" />
-              <h2>Category: Food Toppings</h2>
-              <h3>Price: $37.99</h3>
-              <p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <span>29.345</span>
-              </p>
-              <div><button>Buy Now</button></div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="./assets/image/raw-food2.webp" alt="" />
-              <h2>Category:Raw Food</h2>
-              <h3>Price: $43.99</h3>
-              <p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-
-                <span>39.345</span>
-              </p>
-              <div><button>Buy Now</button></div>
-            </div>
+          </div> -->
+        </div>
+        <div class="row" id="showmore">
+          <div class="col-lg-2">
+            <button class="showmore">Show More</button>
           </div>
         </div>
       </div>
@@ -450,8 +389,6 @@
       </p>
     </footer>
 
-
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -463,7 +400,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-  
 
     <script src="./assets/js/pet-food.js"></script>
   </body>

@@ -32,7 +32,7 @@
     {
       "id": 1,
       "photo": "./assets/image/grany.jpg",
-      "fullname": "Elizabeth Wood",
+      "fullname": "Eliz Wood",
       "position": "Founder, CEO"
     },
     {
@@ -44,7 +44,7 @@
     {
       "id": 3,
       "photo": "./assets/image/girs-dog3.jpg",
-      "fullname": "Emma Sanchez",
+      "fullname": "Emma Sanc",
       "position": "Vet Dieticia"
     },
     {
@@ -56,7 +56,7 @@
     {
       "id": 5,
       "photo": "./assets/image/dnmk-bg1.avif",
-      "fullname": "Harmer zEM",
+      "fullname": "Harmer Zema",
       "position": "Founder, CEO"
     },
     {
@@ -80,7 +80,7 @@
     {
       "id": 9,
       "photo": "./assets/image/hero-1.jpg",
-      "fullname": "Harmet Snazur",
+      "fullname": "Harm Snazur",
       "position": "Dermatologist, DMV"
     }
   ],
@@ -196,7 +196,7 @@
     {
       "id": 5,
       "photo": "./assets/image/fresh-food2.jpg",
-      "category": "Fresh & Prepared Meals",
+      "category": "Fresh Meals",
       "price": 27.99,
       "starprice": 19.345
     },
@@ -210,6 +210,20 @@
     },
     {
       "id": 7,
+      "photo": "./assets/image/raw-food2.webp",
+      "category": "Raw Food",
+      "price": 45.78,
+      "starprice": 35.345
+    },
+    {
+      "id": 8,
+      "photo": "./assets/image/premium-food2.png",
+      "category": "Premium Food",
+      "price": 16.78,
+      "starprice": 12.345
+    },
+    {
+      "id": 9,
       "photo": "./assets/image/raw-food2.webp",
       "category": "Raw Food",
       "price": 45.78,
