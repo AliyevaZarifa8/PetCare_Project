@@ -1971,4 +1971,76 @@ footer p span {
   background-color: transparent;
 }
 
+#branches-work {
+  margin-bottom: 90px;
+  background-color: #fff;
+  border-radius: 12%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#branches-work .branches-prices .search-sort {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#branches-work .branches-prices .search-sort input {
+  text-indent: 10px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid rgb(40, 119, 214);
+  outline: none;
+  margin-left: 10px;
+  background-color: transparent;
+}
+#branches-work .branches-prices .search-sort input::placeholder {
+  color: rgb(40, 119, 214);
+}
+#branches-work .branches-prices .branches-table {
+  width: 100%;
+}
+#branches-work .branches-prices .branches-table table tr:hover {
+  background-color: #cedeeb;
+}
+#branches-work .branches-prices .branches-table table th {
+  color: rgb(40, 119, 214);
+  font-size: 23px;
+  text-align: center;
+  height: 8vh;
+  padding-right: 30px;
+  padding-left: 47px;
+}
+#branches-work .branches-prices .branches-table table td {
+  color: rgb(10, 147, 157);
+  font-size: 20px;
+  text-align: center;
+  height: 10vh;
+}
+#branches-work .branches-prices .branches-table table td i {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 3px;
+}
+#branches-work .branches-prices .branches-table table td .fa-landmark-dome {
+  color: rgb(7, 105, 104);
+}
+#branches-work .branches-prices .branches-table table td .fa-location-dot {
+  color: rgb(252, 46, 5);
+}
+#branches-work .branches-prices .branches-table table td .fa-calendar-check {
+  color: #0c59b1;
+}
+#branches-work .branches-prices .branches-table table td .fa-phone-volume {
+  color: #36a567;
+}
+#branches-work .branches-prices .branches-table table td .fa-eraser {
+  color: red;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#branches-work .branches-prices .branches-table table td .fa-pen-to-square {
+  font-size: 20px;
+  color: rgb(30, 187, 30);
+}
+
 /*# sourceMappingURL=main.css.map */

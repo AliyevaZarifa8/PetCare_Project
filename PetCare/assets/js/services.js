@@ -4,24 +4,7 @@ const pricesDnmk = document.querySelector(".prices-dinamk");
 navbar.style.background = "#2e8b57";
 const pricesUrl = "http://localhost:8080/prices-plans";
 
-function scrollFun() {
-  let x =
-    document.body.scrollTop > 200 || document.documentElement.scrollTop > 200;
-  if (x) {
-    upIcon.style.display = "block";
-  } else {
-    upIcon.style.display = "none";
-  }
-}
 
-window.addEventListener("scroll", function () {
-  scrollFun();
-});
-
-upIcon.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
 
 function drawPrices(array) {
   pricesDnmk.innerHTML = "";
@@ -53,3 +36,24 @@ async function getallData() {
   drawPrices(data);
 }
 getallData();
+
+
+
+function scrollFun() {
+  let x =
+    document.body.scrollTop > 200 || document.documentElement.scrollTop > 200;
+  if (x) {
+    upIcon.style.display = "block";
+  } else {
+    upIcon.style.display = "none";
+  }
+}
+
+window.addEventListener("scroll", function () {
+  scrollFun();
+});
+
+upIcon.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
