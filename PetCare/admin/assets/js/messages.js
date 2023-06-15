@@ -27,21 +27,28 @@ async function drawMessages() {
           <i>Dog Breeds :${element.select} </i>
           </div>
           <div id="icon">
-          <i class="fa-solid fa-eraser"></i>
+          <i class="fa-solid fa-eraser" onclick=deleteCard("${element.id}")></i>
           </div>
-        
       </div>
     </div>
-          
           `;
   });
 }
 drawMessages();
 
+
+async function deleteCard(id) {
+  await axios.delete(`${contactUrl}/${id}`);
+ }
+
+ 
 showMore.addEventListener("click", function () {
-  getallData.length > maxLen + 3
-    ? (maxLen += 3)
+  getallData.length > maxLen + 1
+    ? (maxLen += 2)
     : (maxLen = maxLen - (maxLen - getallData.length));
   drawMessages();
   filterData = getallData.slice(0, maxLen);
 });
+
+
+
