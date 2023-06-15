@@ -1664,8 +1664,13 @@ header #upicon {
 #contacr-us .contacr-us .form-contactus input::placeholder {
   color: rgb(94, 76, 76);
 }
+#contacr-us .contacr-us .form-contactus #exampleInputPhoto {
+  background-color: rgb(245, 237, 245);
+}
 #contacr-us .contacr-us .form-contactus textarea {
   text-indent: 8px;
+  outline: none;
+  border-color: rgb(219, 210, 210);
 }
 #contacr-us .contacr-us .form-contactus textarea::placeholder {
   color: brown;
@@ -2262,6 +2267,58 @@ footer p span {
   border-radius: 7px;
   padding: 7px 38px;
   color: #703ee4;
+  background-color: transparent;
+}
+
+#admin #meessages {
+  margin-top: 10vh;
+  width: 75%;
+}
+#admin #meessages .card {
+  border-color: red;
+  padding: 10px 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+#admin #meessages .card #img-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#admin #meessages .card #img-text img {
+  width: 14%;
+  height: 10vh;
+  border-radius: 50%;
+}
+#admin #meessages .card #img-text b {
+  color: red;
+}
+#admin #meessages .card #text {
+  text-align: center;
+  color: rgb(24, 5, 133);
+}
+#admin #meessages .card #icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#admin #meessages .card #icon .fa-eraser {
+  color: red;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#admin #meessages #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#admin #meessages #showmore .showmore {
+  border: 1px solid rgb(240, 7, 89);
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: rgb(240, 9, 117);
   background-color: transparent;
 }
 

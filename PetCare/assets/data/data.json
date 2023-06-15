@@ -148,7 +148,6 @@
       "weekdays": " Weekdays: 09:00 –17:00",
       "phone": 196
     },
-
     {
       "id": 11,
       "placename": "Ticarat ",
@@ -200,7 +199,6 @@
       "price": 27.99,
       "starprice": 19.345
     },
-
     {
       "id": 6,
       "photo": "./assets/image/topping-food2.jpg",
@@ -280,7 +278,6 @@
       "breedsname": "Löwchen",
       "breedstext": "The Löwchen is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
     },
-
     {
       "id": 8,
       "prices": 294,
@@ -294,6 +291,53 @@
       "photo": "./assets/image/pet-breeds17.webp",
       "breedsname": "Löwchen",
       "breedstext": "The Löwchen is a small-sized companion dog that is alert, energetic, and curious, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, perferendis magnam."
+    }
+  ],
+  "contact": [
+    {
+      "photo": "./assets/image/profil.jpg",
+      "email": "zarifa@gmail.com",
+      "firstname": "Zarifa",
+      "lastname": "Alieffa",
+      "commit": "I want buy a dog",
+      "select": "löwchen",
+      "id": 1
+    },
+    {
+      "photo": "./assets/image/branches.jpg",
+      "email": "bejeca@mailinator.com",
+      "firstname": "Candace",
+      "lastname": "Black",
+      "commit": "Omnis voluptatem ne",
+      "select": "neapolitan",
+      "id": 2
+    },
+    {
+      "photo": "./assets/image/ct-dg1.jpg",
+      "email": "hidicyqabo@mailinator.com",
+      "firstname": "Sheila",
+      "lastname": "Mccoy",
+      "commit": "Animi magni volupta",
+      "select": "altese",
+      "id": 3
+    },
+    {
+      "photo": "./assets/image/ct-dg3.jpg",
+      "email": "gehirovuhu@mailinator.com",
+      "firstname": "Rana",
+      "lastname": "Reeves",
+      "commit": "Tempora rerum incidi",
+      "select": "löwchen",
+      "id": 4
+    },
+    {
+      "photo": "./assets/image/bg-dog.jpg",
+      "email": "bajanizeg@mailinator.com",
+      "firstname": "Paki",
+      "lastname": "Leblanc",
+      "commit": "Sint exercitation ad",
+      "select": "finnish",
+      "id": 5
     }
   ]
 }

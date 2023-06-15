@@ -93,7 +93,7 @@
               <input
                 type="text"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="exampleInputFirstName"
                 placeholder="Enter a firstname..."
               />
             </div>
@@ -104,8 +104,18 @@
               <input
                 type="text"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="exampleInputLastName"
                 placeholder="Enter a lastname..."
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPhoto" class="form-label">Photo</label>
+              <input
+                type="file"
+                class="form-control "
+                id="exampleInputPhoto"
+                aria-describedby="emailHelp"
+                placeholder="Enter a photo..."
               />
             </div>
             <div class="mb-3">
@@ -124,8 +134,8 @@
             <div class="mb-3">
               <textarea
                 name=""
-                id=""
-                cols="77"
+                id="textArea"
+                cols="70"
                 rows="5"
                 placeholder="Commit and Quistions..."
               ></textarea>
@@ -145,16 +155,6 @@
               </select>
             </div>
 
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >I'm not Robot.</label
-              >
-            </div>
             <button type="submit" class="btn button">Submit</button>
           </form>
         </div>
@@ -162,6 +162,7 @@
     </section>
 
     <footer>
+    
       <p>
         Copyright <i class="fa-regular fa-copyright"></i> 2023 All rights
         reserved | This template is made with

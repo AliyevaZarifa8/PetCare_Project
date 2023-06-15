@@ -1,0 +1,54 @@
+#admin {
+  #meessages {
+    margin-top: 10vh;
+    width: 75%;
+    .card {
+      border-color: red;
+      padding: 10px 30px;
+      margin-left: 40px;
+      margin-bottom: 20px;
+      #img-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 14%;
+          height: 10vh;
+          border-radius: 50%;
+        }
+        b {
+          color: red;
+        }
+      }
+      #text {
+        text-align: center;
+        color: rgb(24, 5, 133);
+      }
+
+      #icon {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        .fa-eraser {
+          color: red;
+          font-size: 22px;
+          margin-right: 10px;
+        }
+      }
+    }
+    #showmore {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      .showmore {
+        border: 1px solid rgb(240, 7, 89);
+        border-radius: 7px;
+        padding: 7px 38px;
+        color: rgb(240, 9, 117);
+        background-color: transparent;
+      }
+    }
+  }
+}
