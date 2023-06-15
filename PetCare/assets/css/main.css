@@ -1984,7 +1984,7 @@ footer p span {
   padding-bottom: 40px;
 }
 #admin .branches-activity #branches-work .branches-prices .search-sort {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2008,7 +2008,7 @@ footer p span {
   background-color: #cedeeb;
 }
 #admin .branches-activity #branches-work .branches-prices .branches-table table th {
-  color: rgb(40, 119, 214);
+  color: rgb(79, 146, 227);
   font-size: 23px;
   text-align: center;
   height: 8vh;
@@ -2046,6 +2046,19 @@ footer p span {
 #admin .branches-activity #branches-work .branches-prices .branches-table table td .fa-pen-to-square {
   font-size: 20px;
   color: rgb(30, 187, 30);
+}
+#admin .branches-activity #branches-work .branches-prices .branches-table #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#admin .branches-activity #branches-work .branches-prices .branches-table #showmore .showmore {
+  border: 1px solid rgb(40, 119, 214);
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: rgb(40, 119, 214);
+  background-color: transparent;
 }
 
 #admin #food-dinamik {

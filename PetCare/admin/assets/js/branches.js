@@ -2,8 +2,10 @@ let searchInp = document.querySelector("#search");
 let tBody = document.querySelector("tbody");
 let spinnerInfo = document.querySelector("#spinner");
 spinnerInfo.style.display = "flex";
+let showMore = document.querySelector(".showmore");
 let filterData = [];
 let getallData = [];
+let maxLen = 5;
 const branchesUrl = "http://localhost:8080/branches";
 
 async function drawBranches() {
@@ -11,7 +13,10 @@ async function drawBranches() {
   const data = res.data;
   getallData = data;
   spinnerInfo.style.display = "none";
-  filterData = filterData.length || searchInp.value ? filterData : getallData;
+  filterData =
+    filterData.length || searchInp.value
+      ? filterData.slice(0, maxLen)
+      : getallData.slice(0, maxLen);
   tBody.innerHTML = "";
 
   filterData.forEach((element) => {
@@ -47,4 +52,12 @@ searchInp.addEventListener("input", function (e) {
   });
   drawBranches();
   spinnerInfo.style.display = "none";
+});
+
+showMore.addEventListener("click", function () {
+  getallData.length > maxLen + 4
+    ? (maxLen += 5)
+    : (maxLen = maxLen - (maxLen - getallData.length));
+  drawBranches();
+  filterData = getallData.slice(0, maxLen);
 });

@@ -13,7 +13,7 @@
       padding-bottom: 40px;
       .branches-prices {
         .search-sort {
-          margin-bottom: 20px;
+          margin-bottom: 35px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -39,7 +39,7 @@
               }
             }
             th {
-              color: rgb(40, 119, 214);
+              color: rgb(79, 146, 227);
               font-size: 23px;
               text-align: center;
               height: 8vh;
@@ -77,6 +77,19 @@
                 font-size: 20px;
                 color: rgb(30, 187, 30);
               }
+            }
+          }
+          #showmore {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            .showmore {
+              border: 1px solid rgb(40, 119, 214);
+              border-radius: 7px;
+              padding: 7px 38px;
+              color: rgb(40, 119, 214);
+              background-color: transparent;
             }
           }
         }
