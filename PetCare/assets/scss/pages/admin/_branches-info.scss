@@ -1,75 +1,82 @@
 #admin {
-  #branches-work {
-    margin-bottom: 90px;
-    background-color: #fff;
-    border-radius: 12%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    .branches-prices {
-      .search-sort {
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        input {
-          text-indent: 10px;
-          height: 6vh;
-          border-radius: 7px;
-          border: 1px solid rgb(40, 119, 214);
-          outline: none;
-          margin-left: 10px;
-          background-color: transparent;
-          &::placeholder {
-            color: rgb(40, 119, 214);
+  .branches-activity {
+    h2 {
+      text-align: center;
+      font-size: 34px;
+      color: #063e7f;
+    }
+    #branches-work {
+      margin-bottom: 90px;
+      background-color: #fff;
+      border-radius: 12%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .branches-prices {
+        .search-sort {
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          input {
+            text-indent: 10px;
+            height: 6vh;
+            border-radius: 7px;
+            border: 1px solid rgb(40, 119, 214);
+            outline: none;
+            margin-left: 10px;
+            background-color: transparent;
+            &::placeholder {
+              color: rgb(40, 119, 214);
+            }
           }
         }
-      }
-      .branches-table {
-        width: 100%;
-        table {
-          tr {
-            &:hover {
-              background-color: #cedeeb;
+        .branches-table {
+          width: 100%;
+          table {
+            tr {
+              &:hover {
+                background-color: #cedeeb;
+              }
             }
-          }
-          th {
-            color: rgb(40, 119, 214);
-            font-size: 23px;
-            text-align: center;
-            height: 8vh;
-            padding-right: 30px;
-            padding-left: 47px;
-          }
-          td {
-            color: rgb(10, 147, 157);
-            font-size: 20px;
-            text-align: center;
-            height: 10vh;
-            i {
+            th {
+              color: rgb(40, 119, 214);
+              font-size: 23px;
+              text-align: center;
+              height: 8vh;
+              padding-right: 30px;
+              padding-left: 47px;
+            }
+            td {
+              color: rgb(10, 147, 157);
               font-size: 20px;
-              padding-left: 20px;
-              padding-right: 3px;
-            }
-            .fa-landmark-dome {
-              color: rgb(7, 105, 104);
-            }
-            .fa-location-dot {
-              color: rgb(252, 46, 5);
-            }
-            .fa-calendar-check {
-              color: #0c59b1;
-            }
-            .fa-phone-volume {
-              color: #36a567;
-            }
-            .fa-eraser {
-              color: red;
-              font-size: 22px;
-              margin-right: 10px;
-            }
-            .fa-pen-to-square {
-              font-size: 20px;
-              color: rgb(30, 187, 30);
+              text-align: center;
+              height: 10vh;
+              i {
+                font-size: 20px;
+                padding-left: 20px;
+                padding-right: 3px;
+              }
+              .fa-landmark-dome {
+                color: rgb(7, 105, 104);
+              }
+              .fa-location-dot {
+                color: rgb(252, 46, 5);
+              }
+              .fa-calendar-check {
+                color: #0c59b1;
+              }
+              .fa-phone-volume {
+                color: #36a567;
+              }
+              .fa-eraser {
+                color: red;
+                font-size: 22px;
+                margin-right: 10px;
+              }
+              .fa-pen-to-square {
+                font-size: 20px;
+                color: rgb(30, 187, 30);
+              }
             }
           }
         }
