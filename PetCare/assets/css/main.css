@@ -1501,6 +1501,7 @@ header #upicon {
   background-color: rgb(250, 250, 224);
   border-radius: 6%;
   margin-bottom: 17vh;
+  padding-bottom: 10vh;
 }
 #pet-breeds3 h1 {
   text-align: center;
@@ -1522,6 +1523,39 @@ header #upicon {
   color: rgb(218, 95, 42);
   text-align: center;
   font-size: 23px;
+}
+#pet-breeds3 .search-sort {
+  margin-bottom: 50px;
+}
+#pet-breeds3 .search-sort input {
+  width: 72%;
+  text-indent: 20px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid #fb8107;
+  outline: none;
+  margin-left: 10px;
+  background-color: transparent;
+}
+#pet-breeds3 .search-sort input::placeholder {
+  color: #fb8107;
+}
+#pet-breeds3 .search-sort select {
+  height: 39.33px;
+  color: #fb8107;
+  border: 1px solid #fb8107;
+  text-indent: 8px;
+  background-color: transparent;
+  border-radius: 7px;
+  outline: none;
+}
+#pet-breeds3 .search-sort .button {
+  border: 1px solid #fb8107;
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #fb8107;
+  background-color: transparent;
+  margin-left: 80px;
 }
 #pet-breeds3 .cards {
   row-gap: 20px;
@@ -1547,10 +1581,27 @@ header #upicon {
   color: rgb(253, 85, 85);
   font-size: 23px;
 }
+#pet-breeds3 .cards .card i {
+  color: rgb(236, 114, 114);
+  font-size: 17px;
+}
 #pet-breeds3 .cards .card p {
   color: rgb(119, 115, 113);
   text-align: center;
   font-size: 17px;
+}
+#pet-breeds3 #showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#pet-breeds3 #showmore .showmore {
+  border: 1px solid #fb8107;
+  border-radius: 7px;
+  padding: 7px 38px;
+  color: #fb8107;
+  background-color: transparent;
 }
 
 #pet-breeds4 .pet-breeds4 {

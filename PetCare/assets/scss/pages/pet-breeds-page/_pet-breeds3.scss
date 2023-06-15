@@ -2,6 +2,7 @@
   background-color: rgb(250, 250, 224);
   border-radius: 6%;
   margin-bottom: 17vh;
+  padding-bottom: 10vh;
   h1 {
     text-align: center;
     color: rgb(240, 75, 60);
@@ -22,6 +23,42 @@
     color: rgb(218, 95, 42);
     text-align: center;
     font-size: 23px;
+  }
+
+  .search-sort {
+    margin-bottom: 50px;
+
+    input {
+      width: 72%;
+      text-indent: 20px;
+      height: 6vh;
+      border-radius: 7px;
+      border: 1px solid #fb8107;
+      outline: none;
+      margin-left: 10px;
+      background-color: transparent;
+      &::placeholder {
+        color: #fb8107;
+      }
+    }
+    select {
+      height: 39.33px;
+      color: #fb8107;
+      border: 1px solid #fb8107;
+      text-indent: 8px;
+      background-color: transparent;
+      border-radius: 7px;
+      outline: none;
+    }
+
+    .button {
+      border: 1px solid #fb8107;
+      border-radius: 7px;
+      padding: 7px 38px;
+      color: #fb8107;
+      background-color: transparent;
+      margin-left: 80px;
+    }
   }
 
   .cards {
@@ -47,11 +84,28 @@
         color: rgb(253, 85, 85);
         font-size: 23px;
       }
+      i {
+        color: rgb(236, 114, 114);
+        font-size: 17px;
+      }
       p {
         color: rgb(119, 115, 113);
         text-align: center;
         font-size: 17px;
       }
+    }
+  }
+  #showmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .showmore {
+      border: 1px solid #fb8107;
+      border-radius: 7px;
+      padding: 7px 38px;
+      color: #fb8107;
+      background-color: transparent;
     }
   }
 }
