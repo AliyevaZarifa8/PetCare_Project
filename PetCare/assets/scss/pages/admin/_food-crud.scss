@@ -1,0 +1,117 @@
+#admin {
+  margin-top: 15px;
+  h1 {
+    text-align: center;
+    color: rgb(10, 169, 169);
+    margin-bottom: 4vh;
+  }
+  .admin {
+    display: flex;
+    hr {
+      color: rgb(87, 205, 205);
+      width: 80%;
+      margin-left: 27px;
+    }
+    .admin-panel {
+      border-radius: 11px;
+      border: 1px solid rgb(9, 151, 118);
+      height: 90vh;
+      width: 25%;
+      margin-left: 5px;
+
+      .admin-photo {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+          border-radius: 50%;
+        }
+        h3 {
+          color: rgb(69, 124, 241);
+        }
+        i {
+          font-size: 20px;
+          color: rgb(26, 119, 185);
+        }
+        p {
+          color: rgb(9, 149, 173);
+          font-size: 19px;
+          i {
+            font-size: 20px;
+            color: rgb(7, 212, 212);
+          }
+        }
+      }
+      ul {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        row-gap: 10px;
+        li {
+          a {
+            text-decoration: none;
+            color: rgb(15, 190, 202);
+            font-weight: bold;
+          }
+        }
+      }
+      .admin-help {
+        height: 20vh;
+        a {
+          text-decoration: none;
+          color: rgb(12, 173, 223);
+          margin-left: 29px;
+          i {
+            font-size: 17px;
+            color: rgb(34, 180, 212);
+          }
+        }
+      }
+    }
+    .crud-activity {
+      width: 75%;
+      h2 {
+        text-align: center;
+        color: rgb(241, 15, 15);
+      }
+      #food-crud {
+        display: flex;
+        justify-content: center;
+        .form-food {
+          margin-top: 50px;
+          label {
+            color: rgb(241, 15, 15);
+            font-weight: bold;
+          }
+          input {
+            text-indent: 4px;
+            border-color: rgb(241, 15, 15);
+            &::placeholder {
+              color: rgb(244, 128, 128);
+            }
+          }
+          #photo {
+            background-color: rgb(246, 188, 188);
+          }
+
+          .button {
+            border: 1px solid rgb(241, 15, 15);
+            border-radius: 9px;
+            margin-bottom: 14vh;
+            padding: 7px 29px;
+            color: black;
+            font-size: 18px;
+            &:hover {
+              background-color: rgb(241, 15, 15);
+              color: rgb(239, 197, 197);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -34,8 +34,8 @@ async function drawFood() {
                   <td> ${element.category} </td>
                   <td>${element.price}</td>
                   <td>${element.starprice}</td>
-                  <td>  <i class="fa-solid fa-eraser"></i></td>
-                  <td>  <a href=""><i class="fa-regular fa-pen-to-square"></i></a></td>
+                  <td>  <i class="fa-solid fa-eraser" onclick=deleteFood("${element.id}")></i></td>
+                  <td>  <a href="food-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a></td>
       </tr>
         
         `;
@@ -45,7 +45,7 @@ drawFood();
 
 showMore.addEventListener("click", function () {
   getallData.length > maxLen + 4
-    ? maxLen + 5
+    ? (maxLen += 5)
     : (maxLen = maxLen - (maxLen - getallData.length));
   drawFood();
   filterData = getallData.slice(0, maxLen);
@@ -93,3 +93,7 @@ sortBtn.addEventListener("click", function () {
     drawFood();
   }
 });
+
+async function deleteFood(id) {
+  axios.delete(`${foodUrl}/${id}`);
+}

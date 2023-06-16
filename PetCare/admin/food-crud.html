@@ -57,68 +57,72 @@
             </div>
           </div>
 
-          <div class="meet-activity">
-            <h2>Dog Food</h2>
+          <div class="crud-activity">
+            <h2 id="heading">Add Pet-Food</h2>
+            <section id="food-crud">
+             <div class="container">
+              <div class="row">
+                
+            <div class="col-lg-6 offset-lg-3">
 
-            <section id="food-dinamik">
-              <div class="container">
-                <div class="row search-sort">
-                  <div class="col-lg-7">
+              <form action="" class="form-food">
+                <div class="mb-3">
+                    <label for="categoryy" class="form-label"
+                      >Category : </label>
                     <input
                       type="text"
-                      id="search"
-                      placeholder="Search a food category..."
+                      class="form-control shadow-none"
+                      id="categoryy"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter a category..."
                     />
                   </div>
+                  
+                <div class="mb-3">
+                  <label for="price" class="form-label"
+                    >Price : </label>
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="price"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a price..."
+                  />
+                </div>
+               
+                <div class="mb-3">
+                    <label for="photo" class="form-label"
+                      >Photo :</label
+                    >
+                    <input
+                      type="file"
+                      class="form-control shadow-none"
+                      id="photo"
+                      placeholder="Enter a photo..."
+                    />
+                  </div>
+                <div class="mb-3">
+                  <label for="starprice" class="form-label"
+                    >Star Price: </label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="starprice"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a starprice..."
+                  />
+                </div>
 
-                  <div class="col-lg-1">
-                    <select name="" id="select">
-                      <option value="">Select Category</option>
-                      <option value="dry">Dry Food</option>
-                      <option value="wet">Wet Food</option>
-                      <option value="veterinary">Veterinary Diets</option>
-                      <option value="premium">Premium Food</option>
-                      <option value="fresh">Fresh Meals</option>
-                      <option value="toppings">Food Toppings</option>
-                      <option value="raw">Raw Food</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-3 offset-lg-1">
-                    <button class="button" id="sort">Sort</button>
-                  </div>
-                </div>
-                <div class="row cards" id="pet-foods">
-                  <div class="justify-content-center my-3" id="spinner"></div>
-                  <div class="food-table">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>Id</th>
-                          <th>Photo</th>
-                          <th>Category</th>
-                          <th>Price</th>
-                          <th>starprice</th>
-                          <th></th>
-                          <th>
-                            <a href="./food-crud.html"><i class="fa-brands fa-medrt"></i></a>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <div class="justify-content-center" id="spinnerr">
-                          <div class="spinner-border text-info" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                          </div>
-                        </div>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="row" id="showmore">
-                  <div class="col-lg-4">
-                    <button class="showmore">Show More</button>
-                  </div>
-                </div>
+                  <div class="row">
+                    <div class="col-lg-3 offset-lg-5">
+                      <button type="submit" class="btn button">Submit</button>
+                    </div>
+                  </div> 
+              </form>
+            </div>
+              </div>
+             </div>
               </div>
             </section>
           </div>
@@ -137,6 +141,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="../admin/assets/js/dog-food.js"></script>
+    <script src="../admin/assets/js/food-crud.js"></script>
   </body>
 </html>
