@@ -1643,12 +1643,14 @@ header #upicon {
 }
 #contacr-us .contacr-us img {
   position: relative;
+  width: 70%;
+  margin-left: 240px;
 }
 #contacr-us .contacr-us .form-contactus {
   position: absolute;
-  top: 54vh;
-  left: 59vh;
-  width: 40%;
+  top: 37vh;
+  left: 77vh;
+  width: 30%;
 }
 #contacr-us .contacr-us .form-contactus h3 {
   color: brown;
@@ -1687,7 +1689,7 @@ header #upicon {
 #contacr-us .contacr-us .form-contactus .button {
   border: 1px solid brown;
   border-radius: 9px;
-  margin-left: 34vh;
+  margin-left: 24vh;
   padding: 7px 29px;
   color: black;
   font-size: 18px;

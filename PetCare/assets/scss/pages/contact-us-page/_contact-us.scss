@@ -4,12 +4,14 @@
   .contacr-us {
     img {
       position: relative;
+      width: 70%;
+      margin-left: 240px;
     }
     .form-contactus {
       position: absolute;
-      top: 54vh;
-      left: 59vh;
-      width: 40%;
+      top: 37vh;
+      left: 77vh;
+      width: 30%;
 
       h3 {
         color: brown;
@@ -50,7 +52,7 @@
       .button {
         border: 1px solid brown;
         border-radius: 9px;
-        margin-left: 34vh;
+        margin-left: 24vh;
         padding: 7px 29px;
         color: black;
         font-size: 18px;
