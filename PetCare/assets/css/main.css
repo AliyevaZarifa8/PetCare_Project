@@ -700,7 +700,6 @@ header #upicon {
   border-radius: 9%;
 }
 #prices-plans .prices-plans {
-  height: 100vh;
   display: flex;
   row-gap: 20px;
   justify-content: center;
@@ -709,6 +708,7 @@ header #upicon {
 }
 #prices-plans .prices-plans .prices-heading {
   text-align: center;
+  padding-top: 60px;
 }
 #prices-plans .prices-plans .prices-heading h1 {
   color: #359e62;
@@ -730,6 +730,7 @@ header #upicon {
   height: 70vh;
   border-radius: 27px;
   color: rgb(176, 170, 170);
+  margin-bottom: 30px;
 }
 #prices-plans .prices-plans .prices-card h1 {
   color: #359e62;
@@ -1879,10 +1880,8 @@ footer p span {
 #admin .admin .prices-activity #prices-plans {
   background-color: #fff;
 }
-#admin .admin .prices-activity #prices-plans .prices-plans {
-  height: 90vh;
-}
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card {
+  margin-top: 20px;
   border-color: rgb(4, 4, 148);
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card h1 {
@@ -2322,6 +2321,128 @@ footer p span {
   padding: 7px 38px;
   color: rgb(240, 9, 117);
   background-color: transparent;
+}
+
+#admin {
+  margin-top: 15px;
+}
+#admin h1 {
+  text-align: center;
+  color: rgb(10, 169, 169);
+  margin-bottom: 4vh;
+}
+#admin .admin {
+  display: flex;
+}
+#admin .admin hr {
+  color: rgb(87, 205, 205);
+  width: 80%;
+  margin-left: 27px;
+}
+#admin .admin .admin-panel {
+  border-radius: 11px;
+  border: 1px solid rgb(9, 151, 118);
+  height: 90vh;
+  width: 25%;
+  margin-left: 5px;
+}
+#admin .admin .admin-panel .admin-photo {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#admin .admin .admin-panel .admin-photo img {
+  border-radius: 50%;
+}
+#admin .admin .admin-panel .admin-photo h3 {
+  color: rgb(69, 124, 241);
+}
+#admin .admin .admin-panel .admin-photo i {
+  font-size: 20px;
+  color: rgb(26, 119, 185);
+}
+#admin .admin .admin-panel .admin-photo p {
+  color: rgb(9, 149, 173);
+  font-size: 19px;
+}
+#admin .admin .admin-panel .admin-photo p i {
+  font-size: 20px;
+  color: rgb(7, 212, 212);
+}
+#admin .admin .admin-panel ul {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+#admin .admin .admin-panel ul li a {
+  text-decoration: none;
+  color: rgb(15, 190, 202);
+  font-weight: bold;
+}
+#admin .admin .admin-panel .admin-help {
+  height: 20vh;
+}
+#admin .admin .admin-panel .admin-help a {
+  text-decoration: none;
+  color: rgb(12, 173, 223);
+  margin-left: 29px;
+}
+#admin .admin .admin-panel .admin-help a i {
+  font-size: 17px;
+  color: rgb(34, 180, 212);
+}
+#admin .admin .crud-activity {
+  width: 75%;
+}
+#admin .admin .crud-activity h2 {
+  text-align: center;
+  color: rgb(34, 34, 186);
+}
+#admin .admin .crud-activity #prices-crud {
+  display: flex;
+  justify-content: center;
+}
+#admin .admin .crud-activity #prices-crud .form-prices {
+  margin-top: 50px;
+}
+#admin .admin .crud-activity #prices-crud .form-prices label {
+  color: rgb(9, 84, 145);
+  font-weight: bold;
+}
+#admin .admin .crud-activity #prices-crud .form-prices input {
+  text-indent: 4px;
+  border-color: rgb(96, 96, 212);
+}
+#admin .admin .crud-activity #prices-crud .form-prices input::placeholder {
+  color: rgb(59, 142, 244);
+}
+#admin .admin .crud-activity #prices-crud .form-prices #photo {
+  background-color: rgb(241, 247, 250);
+}
+#admin .admin .crud-activity #prices-crud .form-prices textarea {
+  border-radius: 11px;
+  text-indent: 8px;
+  outline: none;
+  border-color: rgb(96, 96, 212);
+}
+#admin .admin .crud-activity #prices-crud .form-prices textarea::placeholder {
+  color: rgb(59, 142, 244);
+}
+#admin .admin .crud-activity #prices-crud .form-prices .button {
+  border: 1px solid rgb(96, 96, 212);
+  border-radius: 9px;
+  margin-bottom: 14vh;
+  padding: 7px 29px;
+  color: black;
+  font-size: 18px;
+}
+#admin .admin .crud-activity #prices-crud .form-prices .button:hover {
+  background-color: rgb(162, 232, 248);
+  color: rgb(65, 67, 135);
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 const pricesDnmk = document.querySelector(".prices-dinamk");
 const pricesUrl = "http://localhost:8080/prices-plans";
 
+
 function drawPrices(array) {
   pricesDnmk.innerHTML = "";
   array.forEach((element) => {
@@ -19,8 +20,8 @@ function drawPrices(array) {
                   </p>
                 </div>
                 <div>
-                <i class="fa-solid fa-eraser"></i>
-                <a href=""><i class="fa-regular fa-pen-to-square"></i></a>
+                <i class="fa-solid fa-eraser" onclick=deleteCard("${element.id}")></i>
+               <a href="prices-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a>
                 </div>
               </div>
             </div>
@@ -33,4 +34,11 @@ async function getallData() {
   const data = res.data;
   drawPrices(data);
 }
+
 getallData();
+
+
+async function deleteCard(id) {
+  axios.delete(`${pricesUrl}/${id}`);
+}
+

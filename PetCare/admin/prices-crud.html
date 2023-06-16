@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/image/logo.jpg" />
-    <title>Havhav</title>
+    <title>Admin</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
   <body>
     <section id="admin">
@@ -57,88 +57,89 @@
             </div>
           </div>
 
-          <div class="branches-activity">
-            <h2>Add Prices-Plans</h2>
-            <section id="contacr-us">
-              <div class="container">
-                <div class="row contacr-us">
-                  <img src="./assets/image/contact-us.png" alt="" />
-
-                  <form action="" class="form-contactus">
-                    <div class="mb-3">
-                      <label for="exampleInputFirstName" class="form-label"
-                        >First Name :</label
-                      >
-                      <input
-                        type="text"
-                        class="form-control shadow-none"
-                        id="exampleInputFirstName"
-                        placeholder="Enter a firstname..."
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputLastName" class="form-label"
-                        >Last Name :</label
-                      >
-                      <input
-                        type="text"
-                        class="form-control shadow-none"
-                        id="exampleInputLastName"
-                        placeholder="Enter a lastname..."
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPhoto" class="form-label"
-                        >Photo</label
-                      >
-                      <input
-                        type="file"
-                        class="form-control shadow-none"
-                        id="exampleInputPhoto"
-                        aria-describedby="emailHelp"
-                        placeholder="Enter a photo..."
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label"
-                        >Email address</label
-                      >
-                      <input
-                        type="email"
-                        class="form-control shadow-none"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                        placeholder="Enter a email..."
-                      />
-                    </div>
-
-                    <div class="mb-3">
-                      <textarea
-                        name=""
-                        id="textArea"
-                        cols="70"
-                        rows="5"
-                        placeholder="Commit and Quistions..."
-                      ></textarea>
-                    </div>
-
-                    <div class="mb-3">
-                      <select name="" id="select">
-                        <option value="">Select Dog Breeds</option>
-                        <option value="alaska">Alaskan Klee Kai</option>
-                        <option value="altese">Maltese</option>
-                        <option value="welshs">Welsh Springer</option>
-                        <option value="yorkshire">Yorkshire Terrier</option>
-                        <option value="neapolitan">Neapolitan Mastiff</option>
-                        <option value="basset">Basset Hound</option>
-                        <option value="löwchen">Löwchen</option>
-                        <option value="finnish">Finnish Lapphund</option>
-                      </select>
-                    </div>
-
-                    <button type="submit" class="btn button">Submit</button>
-                  </form>
+          <div class="crud-activity">
+            <h2 id="heading">Add Prices-Plans</h2>
+            <section id="prices-crud">
+             <div class="container">
+              <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <form action="" class="form-prices">
+                <div class="mb-3">
+                  <label for="title" class="form-label"
+                    >Title :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="title"
+                    placeholder="Enter a firstname..."
+                  />
                 </div>
+                <div class="mb-3">
+                  <label for="price" class="form-label"
+                    >Price :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="price"
+                    placeholder="Enter a lastname..."
+                  />
+                </div>
+              
+                <div class="mb-3">
+                  <label for="daily" class="form-label"
+                    >Daily : </label
+                  >
+                  <input
+                    type="email"
+                    class="form-control shadow-none"
+                    id="daily"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a email..."
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="dailypay" class="form-label"
+                    >Daily Pay: </label
+                  >
+                  <input
+                    type="email"
+                    class="form-control shadow-none"
+                    id="dailypay"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a email..."
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <textarea
+                    name=""
+                    id="dailytext"
+                    cols="72"
+                    rows="4"
+                    placeholder="Write a daily text..."
+                  ></textarea>
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    name=""
+                    id="text"
+                    cols="72"
+                    rows="4"
+                    placeholder="Write a text..."
+                  ></textarea>
+                </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 offset-lg-5">
+                      <button type="submit" class="btn button">Submit</button>
+                    </div>
+                  </div> 
+              </form>
+            </div>
+              </div>
+             </div>
               </div>
             </section>
           </div>
@@ -157,6 +158,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src=""></script>
+    <script src="../admin/assets/js/prices-crud.js"></script>
   </body>
 </html>
