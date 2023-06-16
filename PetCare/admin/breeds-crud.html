@@ -57,69 +57,70 @@
             </div>
           </div>
 
-          <div class="meet-activity">
-            <h2>Dog Breeds</h2>
-            <div id="fa-medrt">
-              <a href="./breeds-crud.html"><i class="fa-brands fa-medrt"></i></a>
+          <div class="crud-activity">
+            <h2 id="heading">Add Prices-Plans</h2>
+            <section id="breeds-crud">
+             <div class="container">
+              <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <form action="" class="form-breeds">
+                <div class="mb-3">
+                  <label for="breedsname" class="form-label"
+                    >Breeds Name :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="breedsname"
+                    placeholder="Enter a breeds name..."
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="prices" class="form-label"
+                    >Price :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="prices"
+                    placeholder="Enter a price..."
+                  />
+                </div>
+              
+                <div class="mb-3">
+                  <label for="photo" class="form-label"
+                    >Photo : </label>
+                  <input
+                    type="file"
+                    class="form-control shadow-none"
+                    id="photo"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a photo..."
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="breedstext" class="form-label"
+                    >Breeds Text: </label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="breedstext"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a breeds text..."
+                  />
+                </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 offset-lg-5">
+                      <button type="submit" class="btn button">Submit</button>
+                    </div>
+                  </div> 
+              </form>
             </div>
-
-            <section id="pet-breeds3">
-              <div class="container">
-                <div class="row search-sort">
-                  <div class="col-lg-7">
-                    <input
-                      type="text"
-                      id="search"
-                      placeholder="Search a food category..."
-                    />
-                  </div>
-
-                  <div class="col-lg-1">
-                    <select name="" id="select">
-                      <option value="">Select Dog Breeds</option>
-                      <option value="alaska">Alaskan Klee Kai</option>
-                      <option value="altese">Maltese</option>
-                      <option value="welshs">Welsh Springer</option>
-                      <option value="yorkshire">Yorkshire Terrier</option>
-                      <option value="neapolitan">Neapolitan Mastiff</option>
-                      <option value="basset">Basset Hound</option>
-                      <option value="löwchen">Löwchen</option>
-                      <option value="finnish">Finnish Lapphund</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-3 offset-lg-1">
-                    <button class="button" id="sort">Sort</button>
-                  </div>
-                </div>
-                <div class="row cards" id="pet-breedss">
-                  <div class="justify-content-center my-3" id="spinner">
-                    <div
-                      class="spinner-border text-warning text-center"
-                      role="status"
-                    >
-                      <span class="visually-hidden">Loading...</span>
-                    </div>
-                  </div>
-                  <!-- <div class="col-lg-3">
-                    <div class="card">
-                      <img src="./assets/image/peet-breeds11.jpg" alt="" />
-                      <h2>Dog Breeds:</h2>
-                      <h3>Alaskan Klee Kai</h3>
-                      <div>
-                        <p>
-                          The Alaskan Klee Kai is a small-sized companion dog that is
-                          alert, energetic, and curious, Lorem ipsum dolor sit amet
-                          consectetur, adipisicing elit. Cupiditate, perferendis magnam.
-                        </p>
-                      </div>
-                    </div>
-                  </div> -->
-                </div>
-                <div class="row" id="showmore">
-                  <div class="col-lg-3">
-                    <button class="showmore">Show More</button>
-                  </div>
-                </div>
+              </div>
+             </div>
               </div>
             </section>
           </div>
@@ -138,6 +139,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="../admin/assets/js/dog-breeds.js"></script>
+    <script src="../admin/assets/js/breeds-crud.js"></script>
   </body>
 </html>

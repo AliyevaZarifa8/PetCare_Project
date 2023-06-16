@@ -39,8 +39,8 @@ async function drawBranches() {
         </p>
       </div>
       <div>
-      <i class="fa-solid fa-eraser"></i>
-      <a href=""><i class="fa-regular fa-pen-to-square"></i></a>
+      <i class="fa-solid fa-eraser" onclick=deleteBreeds("${element.id}")></i>
+      <a href="breeds-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a>
       </div>
     </div>
   </div>
@@ -100,3 +100,10 @@ sortBtn.addEventListener("click", function () {
     drawBranches();
   }
 });
+
+
+
+
+async function deleteBreeds(id) {
+  axios.delete(`${breedsUrl}/${id}`);
+}
