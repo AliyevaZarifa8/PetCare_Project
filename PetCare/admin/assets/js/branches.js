@@ -34,8 +34,8 @@ async function drawBranches() {
                    
                   </td>
                   <td><i class="fa-solid fa-phone-volume"></i> ${element.phone}</td>
-                  <td>  <i class="fa-solid fa-eraser"></i></td>
-                  <td>  <a href=""><i class="fa-regular fa-pen-to-square"></i></a></td>
+                  <td>  <i class="fa-solid fa-eraser" onclick=deleteBranches("${element.id}")></i></td>
+                  <td>  <a href="branches-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a></td>
       </tr>
           
           `;
@@ -61,3 +61,7 @@ showMore.addEventListener("click", function () {
   drawBranches();
   filterData = getallData.slice(0, maxLen);
 });
+
+async function deleteBranches(id) {
+  axios.delete(`${branchesUrl}/${id}`);
+}

@@ -10,13 +10,13 @@
       "text": " Timing 9 AM to 7 PM One time free Kibble 15 Minute Training."
     },
     {
-      "id": 2,
       "title": "Day Boarding",
-      "prices": 129,
+      "prices": "123",
       "daily": "Per Day",
       "dailypay": "2k monthly subscription",
       "dailyextr": "3 times quality meals",
-      "text": " Timing 9 AM to 7 PM Free grooming and bathing Play and train sessions."
+      "text": " Timing 9 AM to 7 PM Free grooming and bathing Play and train sessions.",
+      "id": 2
     },
     {
       "id": 3,
@@ -26,15 +26,6 @@
       "dailypay": "Home Pickup",
       "dailyextr": ">Minimum charge $15",
       "text": "  Trainer staff with the vehicle $0.5 extra for each mile 30% discount for extra dog."
-    },
-    {
-      "title": "Repellendus A numqu",
-      "prices": "815",
-      "daily": "qiwyhibasy@mailinator.com",
-      "dailypay": "nafo@mailinator.com",
-      "dailyextr": "Eos voluptatem simi",
-      "text": "Ab nisi est eveniet",
-      "id": 4
     }
   ],
   "meet-team": [
@@ -95,11 +86,11 @@
   ],
   "branches": [
     {
-      "id": 1,
       "placename": "Ticarat",
       "placeposition": " Baku city, Garadag district, Lokbatan settlement",
       "weekdays": " Weekdays: 09:00 –17:00",
-      "phone": 196
+      "phone": "196",
+      "id": 1
     },
     {
       "id": 2,
@@ -158,18 +149,25 @@
       "phone": 196
     },
     {
-      "id": 11,
-      "placename": "Ticarat ",
-      "placeposition": " Seki city, Garadag district, Lokbatan settlement",
-      "weekdays": " Weekdays: 09:00 –17:00",
-      "phone": 196
+      "placename": "Kelly Guy",
+      "placeposition": "Ut sapiente aspernat",
+      "weekdays": "1",
+      "phone": "+1 (221) 762-6817",
+      "id": 14
     },
     {
-      "id": 12,
-      "placename": "Ticarat ",
-      "placeposition": " Xizi city, Garadag district, Lokbatan settlement",
-      "weekdays": " Weekdays: 09:00 –17:00",
-      "phone": 196
+      "placename": "Malik Hahn",
+      "placeposition": "Facilis iusto dolore",
+      "weekdays": "22",
+      "phone": "+1 (231) 632-6073",
+      "id": 15
+    },
+    {
+      "placename": "Mason Terry",
+      "placeposition": "Explicabo Excepteur",
+      "weekdays": "25",
+      "phone": "+1 (335) 604-6334",
+      "id": 16
     }
   ],
   "dog-food": [
