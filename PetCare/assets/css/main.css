@@ -2558,4 +2558,117 @@ footer p span {
   color: rgb(102, 106, 222);
 }
 
+#admin {
+  margin-top: 15px;
+}
+#admin h1 {
+  text-align: center;
+  color: rgb(10, 169, 169);
+  margin-bottom: 4vh;
+}
+#admin .admin {
+  display: flex;
+}
+#admin .admin hr {
+  color: rgb(87, 205, 205);
+  width: 80%;
+  margin-left: 27px;
+}
+#admin .admin .admin-panel {
+  border-radius: 11px;
+  border: 1px solid rgb(9, 151, 118);
+  height: 90vh;
+  width: 25%;
+  margin-left: 5px;
+}
+#admin .admin .admin-panel .admin-photo {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#admin .admin .admin-panel .admin-photo img {
+  border-radius: 50%;
+}
+#admin .admin .admin-panel .admin-photo h3 {
+  color: rgb(69, 124, 241);
+}
+#admin .admin .admin-panel .admin-photo i {
+  font-size: 20px;
+  color: rgb(26, 119, 185);
+}
+#admin .admin .admin-panel .admin-photo p {
+  color: rgb(9, 149, 173);
+  font-size: 19px;
+}
+#admin .admin .admin-panel .admin-photo p i {
+  font-size: 20px;
+  color: rgb(7, 212, 212);
+}
+#admin .admin .admin-panel ul {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+#admin .admin .admin-panel ul li a {
+  text-decoration: none;
+  color: rgb(15, 190, 202);
+  font-weight: bold;
+}
+#admin .admin .admin-panel .admin-help {
+  height: 20vh;
+}
+#admin .admin .admin-panel .admin-help a {
+  text-decoration: none;
+  color: rgb(12, 173, 223);
+  margin-left: 29px;
+}
+#admin .admin .admin-panel .admin-help a i {
+  font-size: 17px;
+  color: rgb(34, 180, 212);
+}
+#admin .admin .crud-activity {
+  width: 75%;
+}
+#admin .admin .crud-activity h2 {
+  text-align: center;
+  color: rgb(249, 56, 22);
+}
+#admin .admin .crud-activity #meet-crud {
+  display: flex;
+  justify-content: center;
+}
+#admin .admin .crud-activity #meet-crud .form-meet {
+  margin-top: 50px;
+}
+#admin .admin .crud-activity #meet-crud .form-meet label {
+  color: rgb(249, 56, 22);
+  font-weight: bold;
+}
+#admin .admin .crud-activity #meet-crud .form-meet input {
+  text-indent: 4px;
+  border-color: rgb(249, 56, 22);
+}
+#admin .admin .crud-activity #meet-crud .form-meet input::placeholder {
+  color: rgb(244, 59, 219);
+}
+#admin .admin .crud-activity #meet-crud .form-meet #photo {
+  background-color: rgb(253, 224, 253);
+}
+#admin .admin .crud-activity #meet-crud .form-meet .button {
+  border: 1px solid rgb(249, 56, 22);
+  border-radius: 9px;
+  margin-bottom: 14vh;
+  padding: 7px 29px;
+  color: black;
+  font-size: 18px;
+}
+#admin .admin .crud-activity #meet-crud .form-meet .button:hover {
+  background-color: rgb(241, 162, 248);
+  color: rgb(188, 42, 173);
+}
+
 /*# sourceMappingURL=main.css.map */

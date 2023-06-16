@@ -30,10 +30,10 @@
   ],
   "meet-team": [
     {
-      "id": 1,
       "photo": "./assets/image/grany.jpg",
-      "fullname": "Eliza Wood",
-      "position": "Founder, CEO"
+      "fullname": "Elizm Wood",
+      "position": "Founder, CEO",
+      "id": 1
     },
     {
       "id": 2,

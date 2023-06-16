@@ -34,7 +34,7 @@ async function drawBranches() {
                    
                   </td>
                   <td><i class="fa-solid fa-phone-volume"></i> ${element.phone}</td>
-                  <td>  <i class="fa-solid fa-eraser" onclick=deleteBranches("${element.id}")></i></td>
+                  <td>  <i class="fa-solid fa-eraser" c></i></td>
                   <td>  <a href="branches-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a></td>
       </tr>
           

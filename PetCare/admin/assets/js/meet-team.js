@@ -35,8 +35,8 @@ async function drawTeam() {
           <p>${element.position}</p>
         </div>
         <div>
-                <i class="fa-solid fa-eraser"></i>
-                <a href=""><i class="fa-regular fa-pen-to-square"></i></a>
+                <i class="fa-solid fa-eraser" onclick=deleteTeam("${element.id}")></i>
+                <a href="team-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a>
                 </div>
       </div>
     </div>
@@ -88,3 +88,11 @@ sortBtn.addEventListener("click", function () {
     drawTeam();
   }
 });
+
+
+
+
+
+async function deleteTeam(id) {
+  axios.delete(`${teamUrl}/${id}`);
+}
