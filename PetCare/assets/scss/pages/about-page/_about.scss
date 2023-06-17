@@ -6,18 +6,19 @@
     align-items: center;
 
     .about-card {
-      border-left: 2px solid rgb(36, 179, 223);
+      border-left: 3px solid rgb(223, 36, 86);
       h6 {
         position: relative;
         margin-bottom: 20px;
         color: #053d42;
         font-family: "Vast Shadow", cursive;
+        font-size: 26px;
         &::after {
           position: absolute;
           content: "";
-          height: 1px;
+          height: 2px;
           width: 13%;
-          background-color: #1a5892;
+          background-color: #12869e;
           bottom: -23%;
           left: 0;
         }

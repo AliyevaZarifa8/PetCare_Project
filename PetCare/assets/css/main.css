@@ -1214,13 +1214,9 @@ header #upicon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-}
-#petcare-central .petcare-central .petcare-map iframe {
-  border-radius: 5%;
-}
-#petcare-central .petcare-central .petcare-info {
+  height: 120vh;
   text-align: center;
+  margin-bottom: 10vh;
 }
 #petcare-central .petcare-central h1 {
   font-size: 33px;
@@ -1231,6 +1227,11 @@ header #upicon {
   font-size: 30px;
   color: #f34a2c;
   font-family: "Sail", cursive;
+}
+#petcare-central .petcare-central .petcare-map iframe {
+  border-radius: 4%;
+  width: 100%;
+  height: 90vh;
 }
 
 #pet-food1 {
@@ -1866,20 +1867,21 @@ header #upicon {
   align-items: center;
 }
 #about .about .about-card {
-  border-left: 2px solid rgb(36, 179, 223);
+  border-left: 3px solid rgb(223, 36, 86);
 }
 #about .about .about-card h6 {
   position: relative;
   margin-bottom: 20px;
   color: #053d42;
   font-family: "Vast Shadow", cursive;
+  font-size: 26px;
 }
 #about .about .about-card h6::after {
   position: absolute;
   content: "";
-  height: 1px;
+  height: 2px;
   width: 13%;
-  background-color: #1a5892;
+  background-color: #12869e;
   bottom: -23%;
   left: 0;
 }

@@ -3,15 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    .petcare-map {
-      iframe {
-        border-radius: 5%;
-      }
-    }
-    .petcare-info {
-      text-align: center;
-    }
+    height: 120vh;
+    text-align: center;
+    margin-bottom: 10vh;
     h1 {
       font-size: 33px;
       color: #28cb6e;
@@ -21,6 +15,13 @@
       font-size: 30px;
       color: #f34a2c;
       font-family: "Sail", cursive;
+    }
+    .petcare-map {
+      iframe {
+        border-radius: 4%;
+        width: 100%;
+        height: 90vh;
+      }
     }
   }
 }
