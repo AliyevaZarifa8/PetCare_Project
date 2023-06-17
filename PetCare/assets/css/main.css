@@ -1087,6 +1087,46 @@ header #upicon {
   font-family: "Nosifer", cursive;
 }
 
+#count {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../image/new15.jpg");
+  background-position-y: center;
+  background-size: cover;
+  margin-bottom: 10vh;
+}
+#count .count {
+  text-align: center;
+}
+#count .count h2 {
+  color: rgb(26, 172, 128);
+  font-family: "Nosifer", cursive;
+  font-size: 40px;
+}
+#count .count p {
+  color: rgb(58, 188, 151);
+  font-family: "Tilt Prism", cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+#count .count h1 {
+  color: rgb(18, 193, 111);
+  font-size: 23px;
+  margin-bottom: 30px;
+  font-family: "Rye", cursive;
+  font-weight: bold;
+}
+#count .count span {
+  font-family: "Rye", cursive;
+  border-radius: 50%;
+  color: #3da693;
+  background-color: rgba(33, 184, 126, 0.1);
+  padding: 25px;
+  font-size: 37px;
+}
+
 #our-branches {
   height: 70vh;
   margin-top: 10vh;
@@ -1722,7 +1762,7 @@ header #upicon {
   margin-bottom: 10vh;
 }
 #pet-breeds4 .pet-breeds4 {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1754,7 +1794,7 @@ header #upicon {
   background-image: linear-gradient(90deg, #9a0e91 0%, #8e1ac8 35%, #e11141 100%);
 }
 #pet-breeds4 .video iframe {
-  height: 76vh;
+  height: 70vh;
   margin-top: 40px;
   width: 100%;
 }
@@ -1765,7 +1805,7 @@ header #upicon {
 }
 #pet-breeds4 .video #fa-solid .fa-solid {
   padding: 10px 20px;
-  background-color: rgb(9, 163, 130);
+  background-color: rgb(229, 33, 190);
   color: #fff;
   border: 1px solid #f2f2f2;
   border-radius: 15px;

@@ -1,0 +1,39 @@
+#count {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../image/new15.jpg");
+  background-position-y: center;
+  background-size: cover;
+  margin-bottom: 10vh;
+  .count {
+    text-align: center;
+    h2 {
+      color: rgb(26, 172, 128);
+      font-family: "Nosifer", cursive;
+      font-size: 40px;
+    }
+    p {
+      color: rgb(58, 188, 151);
+      font-family: "Tilt Prism", cursive;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    h1 {
+      color: rgb(18, 193, 111);
+      font-size: 23px;
+      margin-bottom: 30px;
+      font-family: "Rye", cursive;
+      font-weight: bold;
+    }
+    span {
+      font-family: "Rye", cursive;
+      border-radius: 50%;
+      color: #3da693;
+      background-color: rgba($color: #21b87e, $alpha: 0.1);
+      padding: 25px;
+      font-size: 37px;
+    }
+  }
+}
