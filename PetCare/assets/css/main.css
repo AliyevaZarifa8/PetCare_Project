@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Pirata+One&family=Rye&family=Sansita+Swashed:wght@300&family=Trade+Winds&family=Trocchi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rye&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Wallpoet&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -597,12 +597,16 @@ header #upicon {
   border: 3px solid #fff;
 }
 #services .services-text #services-text h1 {
+  transform: rotate(-10deg);
   color: #fff;
   font-size: 63px;
+  font-family: "Tilt Prism", cursive;
 }
 #services .services-text #services-text p {
-  font-size: 23px;
+  transform: rotate(-10deg);
+  font-size: 25px;
   color: #fff;
+  font-family: "Wallpoet", cursive;
 }
 
 #medical-checkup .medical-checkup {
@@ -619,16 +623,7 @@ header #upicon {
 }
 #medical-checkup .medical-checkup .medical-text h1 {
   color: #2e8b57;
-}
-#medical-checkup .medical-checkup .medical-text .parag {
-  width: 20%;
-  margin-left: 200px;
-  border-radius: 9px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fff;
-  padding: 6px 20px;
-  background-color: #67c08d;
+  font-family: "Tilt Prism", cursive;
 }
 #medical-checkup .medical-checkup .medical-text .medical-parag {
   width: 100%;
@@ -636,8 +631,9 @@ header #upicon {
   justify-content: center;
 }
 #medical-checkup .medical-checkup .medical-text .medical-parag p {
-  width: 80%;
-  font-size: 23px;
+  width: 100%;
+  font-size: 33px;
+  font-family: "Smokum", cursive;
 }
 #medical-checkup .medical-checkup .medical-img {
   overflow: hidden;
@@ -670,6 +666,7 @@ header #upicon {
 }
 #pet-grooming .pet-grooming .grooming-text h1 {
   color: #2e8b57;
+  font-family: "Tilt Prism", cursive;
 }
 #pet-grooming .pet-grooming .grooming-text .grooming-parag {
   width: 100%;
@@ -677,8 +674,9 @@ header #upicon {
   justify-content: center;
 }
 #pet-grooming .pet-grooming .grooming-text .grooming-parag p {
-  width: 80%;
-  font-size: 23px;
+  width: 90%;
+  font-size: 30px;
+  font-family: "Smokum", cursive;
 }
 #pet-grooming .pet-grooming .grooming-img {
   overflow: hidden;
@@ -707,6 +705,7 @@ header #upicon {
 }
 #pet-transport .pet-transport .transport-text h1 {
   color: #2e8b57;
+  font-family: "Tilt Prism", cursive;
 }
 #pet-transport .pet-transport .transport-text .transport-parag {
   width: 100%;
@@ -714,8 +713,9 @@ header #upicon {
   justify-content: center;
 }
 #pet-transport .pet-transport .transport-text .transport-parag p {
-  width: 80%;
-  font-size: 23px;
+  width: 100%;
+  font-size: 33px;
+  font-family: "Smokum", cursive;
 }
 #pet-transport .pet-transport .transport-img {
   overflow: hidden;
@@ -748,12 +748,15 @@ header #upicon {
 #prices-plans .prices-plans .prices-heading h1 {
   color: #359e62;
   font-size: 49px;
+  font-family: "Tilt Prism", cursive;
 }
 #prices-plans .prices-plans .prices-heading p {
   color: rgb(176, 170, 170);
   font-size: 27px;
+  font-family: "Smokum", cursive;
 }
 #prices-plans .prices-plans .prices-card {
+  font-family: "Pattaya", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -769,7 +772,8 @@ header #upicon {
 }
 #prices-plans .prices-plans .prices-card h1 {
   color: #359e62;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "Smokum", cursive;
 }
 #prices-plans .prices-plans .prices-card h2 {
   color: #4ff999;
@@ -789,6 +793,7 @@ header #upicon {
 }
 #prices-plans .prices-plans .prices-card button {
   border: 2px solid #42c179;
+  font-family: "Smokum", cursive;
   color: #42c179;
   padding: 7px 10px;
   border-radius: 7px;
@@ -813,13 +818,18 @@ header #upicon {
 #boarding-prices .boarding-prices .boarding-heading h1 {
   color: #359e62;
   font-size: 49px;
+  font-family: "Tilt Prism", cursive;
 }
 #boarding-prices .boarding-prices .boarding-heading p {
   color: rgb(176, 170, 170);
   font-size: 27px;
+  font-family: "Smokum", cursive;
 }
 #boarding-prices .boarding-prices .boarding-table {
   width: 90%;
+}
+#boarding-prices .boarding-prices .boarding-table table {
+  font-family: "Pattaya", sans-serif;
 }
 #boarding-prices .boarding-prices .boarding-table table .two-dogs {
   background-color: #e8f8ef;
@@ -828,6 +838,7 @@ header #upicon {
   background-color: transparent;
 }
 #boarding-prices .boarding-prices .boarding-table table th {
+  font-family: "Tilt Prism", cursive;
   color: #359e62;
   font-size: 23px;
   text-align: center;

@@ -14,12 +14,16 @@
       border: 3px solid #fff;
 
       h1 {
+        transform: rotate(-10deg);
         color: #fff;
         font-size: 63px;
+        font-family: "Tilt Prism", cursive;
       }
       p {
-        font-size: 23px;
+        transform: rotate(-10deg);
+        font-size: 25px;
         color: #fff;
+        font-family: "Wallpoet", cursive;
       }
     }
   }

@@ -13,13 +13,16 @@
       h1 {
         color: #359e62;
         font-size: 49px;
+        font-family: "Tilt Prism", cursive;
       }
       p {
         color: rgb(176, 170, 170);
         font-size: 27px;
+        font-family: "Smokum", cursive;
       }
     }
     .prices-card {
+      font-family: "Pattaya", sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -35,7 +38,8 @@
 
       h1 {
         color: #359e62;
-        font-size: 30px;
+        font-size: 40px;
+        font-family: "Smokum", cursive;
       }
       h2 {
         color: #4ff999;
@@ -55,7 +59,7 @@
       }
       button {
         border: 2px solid #42c179;
-
+        font-family: "Smokum", cursive;
         color: #42c179;
 
         padding: 7px 10px;

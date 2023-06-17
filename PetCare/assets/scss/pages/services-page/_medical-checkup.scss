@@ -12,24 +12,17 @@
       text-align: center;
       h1 {
         color: #2e8b57;
+        font-family: "Tilt Prism", cursive;
       }
-      .parag {
-        width: 20%;
-        margin-left: 200px;
-        border-radius: 9px;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: #fff;
-        padding: 6px 20px;
-        background-color: #67c08d;
-      }
+
       .medical-parag {
         width: 100%;
         display: flex;
         justify-content: center;
         p {
-          width: 80%;
-          font-size: 23px;
+          width: 100%;
+          font-size: 33px;
+          font-family: "Smokum", cursive;
         }
       }
     }

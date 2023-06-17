@@ -11,15 +11,18 @@
       h1 {
         color: #359e62;
         font-size: 49px;
+        font-family: "Tilt Prism", cursive;
       }
       p {
         color: rgb(176, 170, 170);
         font-size: 27px;
+        font-family: "Smokum", cursive;
       }
     }
     .boarding-table {
       width: 90%;
       table {
+        font-family: "Pattaya", sans-serif;
         .two-dogs {
           background-color: #e8f8ef;
           &:hover {
@@ -27,6 +30,7 @@
           }
         }
         th {
+          font-family: "Tilt Prism", cursive;
           color: #359e62;
           font-size: 23px;
           text-align: center;
