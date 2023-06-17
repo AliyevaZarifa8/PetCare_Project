@@ -9,6 +9,7 @@
     margin-top: 40px;
     margin-bottom: 20px;
     position: relative;
+    font-family: "Kumar One Outline", cursive;
     &::after {
       position: absolute;
       content: "";
@@ -23,11 +24,12 @@
     color: rgb(218, 95, 42);
     text-align: center;
     font-size: 23px;
+    font-family: "Nova Oval", cursive;
   }
 
   .search-sort {
     margin-bottom: 50px;
-
+    font-family: "Neonderthaw", cursive;
     input {
       width: 72%;
       text-indent: 20px;
@@ -36,12 +38,14 @@
       border: 1px solid #fb8107;
       outline: none;
       margin-left: 10px;
+      font-size: 27px;
       background-color: transparent;
       &::placeholder {
         color: #fb8107;
       }
     }
     select {
+      font-size: 25px;
       height: 39.33px;
       color: #fb8107;
       border: 1px solid #fb8107;
@@ -54,7 +58,8 @@
     .button {
       border: 1px solid #fb8107;
       border-radius: 7px;
-      padding: 7px 38px;
+      padding: 2px 38px;
+      font-size: 27px;
       color: #fb8107;
       background-color: transparent;
       margin-left: 80px;
@@ -77,17 +82,20 @@
         height: 30vh;
       }
       h2 {
+        font-family: "Neonderthaw", cursive;
         color: rgb(252, 121, 45);
-        font-size: 17px;
+        font-size: 23px;
         padding-top: 10px;
       }
       h3 {
         color: rgb(253, 85, 85);
-        font-size: 21px;
+        font-size: 27px;
+        font-family: "Alumni Sans Inline One", cursive;
       }
       i {
-        color: rgb(236, 114, 114);
-        font-size: 17px;
+        color: rgb(250, 150, 150);
+        font-size: 21px;
+        font-family: "Fruktur", cursive;
       }
       p {
         color: rgb(119, 115, 113);
@@ -97,6 +105,8 @@
     }
   }
   #showmore {
+    font-family: "Neonderthaw", cursive;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;

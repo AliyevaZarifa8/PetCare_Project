@@ -39,7 +39,7 @@ async function drawBranches() {
       <i>Prices : $${element.prices}</i>
       <div>
         <p>
-        ${element.breedstext.slice(0, 30)} ...
+        ${element.breedstext.slice(0, 40)} ...
         </p>
       </div>
     </div>

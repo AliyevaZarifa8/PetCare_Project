@@ -9,9 +9,10 @@
       border-radius: 23px;
     }
     h1 {
-      font-size: 50px;
+      font-size: 42px;
       color: rgb(243, 82, 28);
       margin-bottom: 30px;
+      font-family: "Kumar One Outline", cursive;
       i {
         color: rgb(254, 79, 79);
         font-size: 30px;
@@ -20,10 +21,11 @@
     a {
       text-decoration: none;
       color: red;
+      font-family: "Neonderthaw", cursive;
       border: 1px solid red;
       border-radius: 23px;
       padding: 10px 20px;
-      font-size: 17px;
+      font-size: 24px;
       &:hover {
         background-color: rgb(243, 82, 28);
         color: #fff;

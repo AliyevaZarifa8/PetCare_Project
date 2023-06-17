@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Emblema+One&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Alumni+Sans+Inline+One:ital@1&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Diplomata+SC&family=Emblema+One&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Fruktur:ital@1&family=Kumar+One+Outline&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Neonderthaw&family=Nosifer&family=Nova+Oval&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1506,11 +1506,13 @@ header #upicon {
 #pet-breeds .swiper-slide .slider-text h1 {
   color: rgb(82, 179, 7);
   font-size: 80px;
+  font-family: "Nosifer", cursive;
 }
 #pet-breeds .swiper-slide .slider-text h2 {
   color: rgb(89, 47, 26);
-  font-size: 73px;
+  font-size: 72px;
   margin-top: 25vh;
+  font-family: "Nosifer", cursive;
 }
 #pet-breeds .autoplay-progress {
   position: absolute;
@@ -1551,9 +1553,10 @@ header #upicon {
   text-align: center;
 }
 #owner-dog .owner-dog .own-text h1 {
-  font-size: 46px;
+  font-size: 36px;
   text-transform: capitalize;
   color: rgb(11, 165, 129);
+  font-family: "Diplomata SC", cursive;
 }
 #owner-dog .owner-dog .own-text div {
   width: 100%;
@@ -1565,6 +1568,7 @@ header #upicon {
   width: 90%;
   font-size: 19px;
   color: rgb(157, 146, 146);
+  font-family: "Nova Oval", cursive;
 }
 #owner-dog .owner-dog .own-text a {
   text-decoration: none;
@@ -1572,6 +1576,7 @@ header #upicon {
   border: 2px solid rgb(11, 165, 129);
   border-radius: 23px;
   padding: 8px 24px;
+  font-family: "Nova Oval", cursive;
 }
 #owner-dog .owner-dog .own-text a:hover {
   color: #fff;
@@ -1602,6 +1607,7 @@ header #upicon {
   margin-top: 40px;
   margin-bottom: 20px;
   position: relative;
+  font-family: "Kumar One Outline", cursive;
 }
 #pet-breeds3 h1::after {
   position: absolute;
@@ -1616,9 +1622,11 @@ header #upicon {
   color: rgb(218, 95, 42);
   text-align: center;
   font-size: 23px;
+  font-family: "Nova Oval", cursive;
 }
 #pet-breeds3 .search-sort {
   margin-bottom: 50px;
+  font-family: "Neonderthaw", cursive;
 }
 #pet-breeds3 .search-sort input {
   width: 72%;
@@ -1628,12 +1636,14 @@ header #upicon {
   border: 1px solid #fb8107;
   outline: none;
   margin-left: 10px;
+  font-size: 27px;
   background-color: transparent;
 }
 #pet-breeds3 .search-sort input::placeholder {
   color: #fb8107;
 }
 #pet-breeds3 .search-sort select {
+  font-size: 25px;
   height: 39.33px;
   color: #fb8107;
   border: 1px solid #fb8107;
@@ -1645,7 +1655,8 @@ header #upicon {
 #pet-breeds3 .search-sort .button {
   border: 1px solid #fb8107;
   border-radius: 7px;
-  padding: 7px 38px;
+  padding: 2px 38px;
+  font-size: 27px;
   color: #fb8107;
   background-color: transparent;
   margin-left: 80px;
@@ -1667,17 +1678,20 @@ header #upicon {
   height: 30vh;
 }
 #pet-breeds3 .cards .card h2 {
+  font-family: "Neonderthaw", cursive;
   color: rgb(252, 121, 45);
-  font-size: 17px;
+  font-size: 23px;
   padding-top: 10px;
 }
 #pet-breeds3 .cards .card h3 {
   color: rgb(253, 85, 85);
-  font-size: 21px;
+  font-size: 27px;
+  font-family: "Alumni Sans Inline One", cursive;
 }
 #pet-breeds3 .cards .card i {
-  color: rgb(236, 114, 114);
-  font-size: 17px;
+  color: rgb(250, 150, 150);
+  font-size: 21px;
+  font-family: "Fruktur", cursive;
 }
 #pet-breeds3 .cards .card p {
   color: rgb(119, 115, 113);
@@ -1685,6 +1699,8 @@ header #upicon {
   font-size: 17px;
 }
 #pet-breeds3 #showmore {
+  font-family: "Neonderthaw", cursive;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1708,9 +1724,10 @@ header #upicon {
   border-radius: 23px;
 }
 #pet-breeds4 .pet-breeds4 h1 {
-  font-size: 50px;
+  font-size: 42px;
   color: rgb(243, 82, 28);
   margin-bottom: 30px;
+  font-family: "Kumar One Outline", cursive;
 }
 #pet-breeds4 .pet-breeds4 h1 i {
   color: rgb(254, 79, 79);
@@ -1719,10 +1736,11 @@ header #upicon {
 #pet-breeds4 .pet-breeds4 a {
   text-decoration: none;
   color: red;
+  font-family: "Neonderthaw", cursive;
   border: 1px solid red;
   border-radius: 23px;
   padding: 10px 20px;
-  font-size: 17px;
+  font-size: 24px;
 }
 #pet-breeds4 .pet-breeds4 a:hover {
   background-color: rgb(243, 82, 28);
