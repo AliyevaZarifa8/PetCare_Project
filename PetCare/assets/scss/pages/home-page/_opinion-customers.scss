@@ -13,6 +13,7 @@
       row-gap: 20px;
       h1 {
         color: #2e8b57;
+        font-family: "Nosifer", cursive;
         font-size: 40px;
         font-weight: bold;
         position: relative;
@@ -30,10 +31,12 @@
       p {
         color: rgb(184, 183, 183);
         font-size: 26px;
+        font-family: "Rye", cursive;
       }
     }
     .customers-cards {
       position: relative;
+      font-family: "Rye", cursive;
       .customers-img {
         position: relative;
         overflow: hidden;
@@ -82,11 +85,13 @@
         }
         .customers-heading {
           h5 {
+            font-family: "Sansita Swashed", cursive;
             color: rgb(105, 104, 104);
           }
           p {
             color: rgb(182, 179, 179);
             padding-left: 27px;
+            font-family: "Sansita Swashed", cursive;
           }
         }
       }

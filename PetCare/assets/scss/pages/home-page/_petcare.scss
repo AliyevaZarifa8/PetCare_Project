@@ -11,6 +11,7 @@
       color: #2e8b57;
       font-size: 54px;
       position: relative;
+      font-family: "Nosifer", cursive;
 
       &::after {
         position: absolute;
@@ -23,6 +24,7 @@
       }
     }
     p {
+      font-family: "Rye", cursive;
       font-size: 23px;
       color: rgb(86, 84, 84);
     }
@@ -39,14 +41,17 @@
         color: #55db90;
       }
       h3 {
-        color: #2e8b57;
-        font-size: 23px;
+        color: #0fa550;
+        font-size: 27px;
+        font-family: "Rye", cursive;
       }
       .pet-text {
         width: 100%;
         p {
-          color: rgb(96, 91, 91);
+          color: rgb(128, 123, 123);
           width: 70%;
+          font-family: "Sansita Swashed", cursive;
+          font-weight: bold;
         }
       }
     }

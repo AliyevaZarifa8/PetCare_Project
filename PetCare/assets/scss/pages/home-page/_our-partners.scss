@@ -15,7 +15,7 @@
       color: #2e8b57;
       font-size: 54px;
       position: relative;
-
+      font-family: "Nosifer", cursive;
       &::after {
         position: absolute;
         content: "";
@@ -29,6 +29,7 @@
     p {
       font-size: 23px;
       color: rgb(86, 84, 84);
+      font-family: "Rye", cursive;
     }
   }
 

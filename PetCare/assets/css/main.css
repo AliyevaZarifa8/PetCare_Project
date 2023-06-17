@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Pirata+One&family=Rye&family=Sansita+Swashed:wght@300&family=Trade+Winds&family=Trocchi&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,9 +27,11 @@ header #header-top nav {
   height: 10vh;
 }
 header #header-top nav h1 {
-  text-shadow: 3px 3px 3px rgb(43, 252, 43);
+  text-shadow: 2px 2px 2px rgb(43, 252, 43);
   color: #fff;
-  margin-right: 35px;
+  margin-right: 55px;
+  font-family: "Nosifer", cursive;
+  font-size: 30px;
 }
 header #header-top nav #ul {
   display: flex;
@@ -41,8 +44,8 @@ header #header-top nav #ul li .a-tag {
   text-shadow: 4px 2px 2px rgb(2, 17, 2);
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
-  padding: 5px 10px;
+  font-family: "Trade Winds", cursive;
+  padding: 5px 5px;
   border-radius: 7px;
   position: relative;
 }
@@ -52,31 +55,37 @@ header #header-top nav #ul li .a-tag:hover {
 header #header-top nav #ul li .a-tag:hover::after {
   position: absolute;
   content: "";
-  height: 3px;
+  height: 1.5px;
   width: 65%;
   background-color: rgb(12, 218, 18);
-  bottom: -20%;
+  bottom: -3%;
   left: 19%;
 }
-header #header-top #header-icon .dropdown-toggle {
+header #header-top #header-icon .dropdown ul {
+  background-color: #d3f2e0;
+}
+header #header-top #header-icon .dropdown ul li a {
+  color: rgb(13, 218, 163) !important;
+}
+header #header-top #header-icon .dropdown .dropdown-toggle {
   font-size: 20px;
   text-shadow: 4px 2px 2px rgb(2, 17, 2);
   color: #fff;
   font-weight: bold;
 }
-header #header-top #header-icon .dropdown-toggle::after {
+header #header-top #header-icon .dropdown .dropdown-toggle::after {
   display: none;
 }
-header #header-top #header-icon .dropdown-toggle:hover {
+header #header-top #header-icon .dropdown .dropdown-toggle:hover {
   color: rgb(14, 184, 14);
-  border-bottom: 2px solid rgb(14, 184, 14);
 }
-header #header-top #header-icon .dropdown-toggle i {
+header #header-top #header-icon .dropdown .dropdown-toggle i {
+  padding-left: 60px;
   color: #fff;
   font-size: 23px;
   text-shadow: 1px 2px 2px rgb(31, 208, 31);
 }
-header #header-top #header-icon .dropdown-toggle i:hover {
+header #header-top #header-icon .dropdown .dropdown-toggle i:hover {
   font-size: 23px;
   color: rgb(35, 151, 35);
 }
@@ -106,20 +115,22 @@ header #upicon {
   row-gap: 20px;
 }
 #hero-banner #hero-text h1 {
-  font-size: 50px;
+  font-size: 53px;
   color: #fff;
-  font-weight: bold;
+  font-family: "Rye", cursive;
 }
 #hero-banner #hero-text p {
   font-size: 30px;
   color: rgb(244, 227, 227);
+  font-family: "Dancing Script", cursive;
 }
 #hero-banner #hero-text a {
+  font-family: "Dancing Script", cursive;
   margin-left: 15px;
-  width: 44%;
+  width: 35%;
   text-decoration: none;
   color: #fff;
-  font-size: 30px;
+  font-size: 27px;
   background-color: #3cb371;
   padding: 7px 20px;
   border-radius: 10px;
@@ -179,11 +190,13 @@ header #upicon {
 #hero #hero-text h1 {
   font-size: 50px;
   color: rgb(17, 147, 17);
+  font-family: "Rye", cursive;
 }
 #hero #hero-text .text {
   width: 100%;
 }
 #hero #hero-text .text p {
+  font-family: "Trocchi", serif;
   font-size: 20px;
   width: 87%;
   color: rgb(169, 167, 167);
@@ -235,11 +248,13 @@ header #upicon {
 #acres #acres-text h1 {
   font-size: 60px;
   color: #2e8b57;
+  font-family: "Rye", cursive;
 }
 #acres #acres-text .text {
   width: 100%;
 }
 #acres #acres-text .text p {
+  font-family: "Trocchi", serif;
   font-size: 20px;
   width: 87%;
   color: rgb(122, 120, 120);
@@ -260,6 +275,7 @@ header #upicon {
   color: #2e8b57;
   font-size: 54px;
   position: relative;
+  font-family: "Nosifer", cursive;
 }
 #petcare .petcare-text h1::after {
   position: absolute;
@@ -271,6 +287,7 @@ header #upicon {
   left: 42%;
 }
 #petcare .petcare-text p {
+  font-family: "Rye", cursive;
   font-size: 23px;
   color: rgb(86, 84, 84);
 }
@@ -288,15 +305,18 @@ header #upicon {
   color: #55db90;
 }
 #petcare .petcare-cards .petcare-card h3 {
-  color: #2e8b57;
-  font-size: 23px;
+  color: #0fa550;
+  font-size: 27px;
+  font-family: "Rye", cursive;
 }
 #petcare .petcare-cards .petcare-card .pet-text {
   width: 100%;
 }
 #petcare .petcare-cards .petcare-card .pet-text p {
-  color: rgb(96, 91, 91);
+  color: rgb(128, 123, 123);
   width: 70%;
+  font-family: "Sansita Swashed", cursive;
+  font-weight: bold;
 }
 
 #request-callback .carousel-caption {
@@ -306,19 +326,22 @@ header #upicon {
 #request-callback .carousel-caption .callback-heading h1 {
   color: #fff;
   font-weight: bold;
-  font-size: 37px;
+  font-size: 33px;
+  font-family: "Trade Winds", cursive;
 }
 #request-callback .carousel-caption .callback-parag p {
-  font-weight: 500;
-  color: rgb(71, 192, 99);
+  font-weight: 300;
+  color: rgb(99, 230, 129);
   font-size: 23px;
+  font-family: "Oleo Script Swash Caps", cursive;
 }
 #request-callback .carousel-caption button {
   padding: 10px 23px;
   color: #fff;
   border: none;
+  font-family: "Oleo Script Swash Caps", cursive;
   background-color: #3cbc73;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 12px;
   border: 2px solid transparent;
@@ -347,6 +370,7 @@ header #upicon {
 }
 #opinion-customers .customers .customers-text h1 {
   color: #2e8b57;
+  font-family: "Nosifer", cursive;
   font-size: 40px;
   font-weight: bold;
   position: relative;
@@ -363,9 +387,11 @@ header #upicon {
 #opinion-customers .customers .customers-text p {
   color: rgb(184, 183, 183);
   font-size: 26px;
+  font-family: "Rye", cursive;
 }
 #opinion-customers .customers .customers-cards {
   position: relative;
+  font-family: "Rye", cursive;
 }
 #opinion-customers .customers .customers-cards .customers-img {
   position: relative;
@@ -414,11 +440,13 @@ header #upicon {
   color: rgb(141, 138, 138);
 }
 #opinion-customers .customers .customers-cards .customers-card .customers-heading h5 {
+  font-family: "Sansita Swashed", cursive;
   color: rgb(105, 104, 104);
 }
 #opinion-customers .customers .customers-cards .customers-card .customers-heading p {
   color: rgb(182, 179, 179);
   padding-left: 27px;
+  font-family: "Sansita Swashed", cursive;
 }
 
 #our-partners {
@@ -439,6 +467,7 @@ header #upicon {
   color: #2e8b57;
   font-size: 54px;
   position: relative;
+  font-family: "Nosifer", cursive;
 }
 #our-partners .partners-text h1::after {
   position: absolute;
@@ -452,6 +481,7 @@ header #upicon {
 #our-partners .partners-text p {
   font-size: 23px;
   color: rgb(86, 84, 84);
+  font-family: "Rye", cursive;
 }
 #our-partners .swiper {
   width: 100%;
@@ -498,6 +528,7 @@ header #upicon {
   width: 80%;
   font-size: 50px;
   color: #1e7443;
+  font-family: "Rye", cursive;
 }
 #asked-questions .questions .questions-text .questions-parag {
   width: 100%;
@@ -508,8 +539,10 @@ header #upicon {
   width: 80%;
   font-size: 20px;
   color: rgb(158, 156, 156);
+  font-family: "Sansita Swashed", cursive;
 }
 #asked-questions .questions .questions-text a {
+  font-family: "Rye", cursive;
   text-decoration: none;
   border: 2px solid transparent;
   padding: 10px 29px;
@@ -529,17 +562,19 @@ header #upicon {
   font-size: 23px;
 }
 #asked-questions .questions .questions-accardion .accordion .accordion-item h2 button {
+  font-family: "Rye", cursive;
   padding: 40px 20px;
   background-color: #e8faf0;
   color: rgb(126, 121, 121);
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
-  padding-left: 50px;
+  padding-left: 48px;
 }
 #asked-questions .questions .questions-accardion .accordion .accordion-item .accordion-body {
   background-color: #f8fcfa;
 }
 #asked-questions .questions .questions-accardion .accordion .accordion-item .accordion-body p {
+  font-family: "Sansita Swashed", cursive;
   font-size: 20px;
   color: #214b33;
   text-align: center;
@@ -1021,6 +1056,7 @@ header #upicon {
   border: 3px solid #fff;
   padding: 60px 100px;
   border-radius: 13px;
+  background-color: rgba(2, 35, 26, 0.2);
 }
 #our-staff .staff-text .our-staff h1 {
   font-size: 50px;

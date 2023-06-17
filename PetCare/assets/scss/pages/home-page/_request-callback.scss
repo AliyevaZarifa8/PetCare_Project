@@ -2,27 +2,30 @@
   .carousel-caption {
     top: 300px;
     color: black;
- 
+
     .callback-heading {
       h1 {
         color: #fff;
         font-weight: bold;
-        font-size: 37px;
+        font-size: 33px;
+        font-family: "Trade Winds", cursive;
       }
     }
     .callback-parag {
       p {
-        font-weight: 500;
-        color: rgb(71, 192, 99);
+        font-weight: 300;
+        color: rgb(99, 230, 129);
         font-size: 23px;
+        font-family: "Oleo Script Swash Caps", cursive;
       }
     }
     button {
       padding: 10px 23px;
       color: #fff;
       border: none;
+      font-family: "Oleo Script Swash Caps", cursive;
       background-color: #3cbc73;
-      font-size: 23px;
+      font-size: 20px;
       font-weight: bold;
       border-radius: 12px;
       border: 2px solid transparent;
