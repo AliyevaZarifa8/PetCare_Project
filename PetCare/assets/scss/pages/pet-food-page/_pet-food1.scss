@@ -7,11 +7,12 @@
   position: relative;
   .pet-food1 {
     position: absolute;
-    top: 140px;
-    left: 220px;
+    top: 160px;
+    left: 160px;
     font-size: 50px;
-    color: #fff;
+    color: rgb(249, 250, 205);
     text-transform: capitalize;
-   
+    font-family: "Faster One", cursive;
+    transform: rotate(-20deg);
   }
 }

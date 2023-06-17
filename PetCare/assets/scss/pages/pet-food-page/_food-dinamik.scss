@@ -9,6 +9,8 @@
     margin-top: 40px;
     margin-bottom: 40px;
     position: relative;
+    font-family: "Faster One", cursive;
+    font-size: 49px;
     &::after {
       position: absolute;
       content: "";
@@ -20,12 +22,14 @@
     }
   }
   .search-sort {
+    font-family: "Beau Rivage", cursive;
     margin-bottom: 50px;
 
     input {
       width: 72%;
       text-indent: 20px;
       height: 6vh;
+      font-size: 30px;
       border-radius: 7px;
       border: 1px solid #fb8107;
       outline: none;
@@ -42,16 +46,19 @@
       text-indent: 8px;
       background-color: transparent;
       border-radius: 7px;
+      font-size: 25px;
       outline: none;
     }
 
     .button {
       border: 1px solid #fb8107;
       border-radius: 7px;
-      padding: 7px 38px;
+      padding: 3px 38px;
       color: #fb8107;
       background-color: transparent;
       margin-left: 80px;
+      font-size: 27px;
+      
     }
   }
 
@@ -72,10 +79,12 @@
       h2 {
         color: rgb(87, 86, 86);
         font-size: 20px;
+        font-family: "Almendra SC", serif;
       }
       h3 {
         color: rgb(125, 118, 118);
         font-size: 20px;
+        font-family: "Beau Rivage", cursive;
       }
       i {
         color: rgb(255, 196, 0);
@@ -84,6 +93,7 @@
         border: 1px solid rgb(240, 62, 3);
         background-color: transparent;
         padding: 7px 19px;
+        font-family: "Almendra SC", serif;
         color: rgb(240, 62, 3);
         border-radius: 19px;
         &:hover {
@@ -98,6 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Almendra SC", serif;
     margin-top: 50px;
     .showmore {
       border: 1px solid #fb8107;

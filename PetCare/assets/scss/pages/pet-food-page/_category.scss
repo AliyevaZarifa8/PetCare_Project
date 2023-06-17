@@ -14,6 +14,7 @@
       color: rgb(56, 180, 139);
       font-size: 54px;
       position: relative;
+      font-family: "Faster One", cursive;
 
       &::after {
         position: absolute;
@@ -29,6 +30,7 @@
       padding-left: 15px;
       font-size: 23px;
       color: #b87b6c;
+      font-family: "Ewert", cursive;
     }
   }
   .category-accardion {
@@ -51,9 +53,9 @@
           button {
             padding: 20px 20px;
             background-color: #f5fbf4;
-            color: rgb(241, 161, 55);
-            font-size: 25px;
-
+            color: rgb(175, 93, 56);
+            font-size: 30px;
+            font-family: "Zen Tokyo Zoo", cursive;
             padding-left: 50px;
             text-align: center;
           }
@@ -61,11 +63,12 @@
         .accordion-body {
           background-color: #f8fcfa;
           color: rgb(130, 118, 118);
-          font-size: 20px;
+          font-size: 16px;
           text-align: center;
+          font-family: "Emblema One", cursive;
           strong {
             color: #d28b79;
-            font-size: 20px;
+            font-size: 17px;
           }
         }
       }

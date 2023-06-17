@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Emblema+One&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1243,11 +1243,13 @@ header #upicon {
 }
 #pet-food1 .pet-food1 {
   position: absolute;
-  top: 140px;
-  left: 220px;
+  top: 160px;
+  left: 160px;
   font-size: 50px;
-  color: #fff;
+  color: rgb(249, 250, 205);
   text-transform: capitalize;
+  font-family: "Faster One", cursive;
+  transform: rotate(-20deg);
 }
 
 #category {
@@ -1268,6 +1270,7 @@ header #upicon {
   color: rgb(56, 180, 139);
   font-size: 54px;
   position: relative;
+  font-family: "Faster One", cursive;
 }
 #category .category-texts h1::after {
   position: absolute;
@@ -1282,6 +1285,7 @@ header #upicon {
   padding-left: 15px;
   font-size: 23px;
   color: #b87b6c;
+  font-family: "Ewert", cursive;
 }
 #category .category-accardion {
   display: flex;
@@ -1299,20 +1303,22 @@ header #upicon {
 #category .category-accardion .accordion .accordion-item h2 button {
   padding: 20px 20px;
   background-color: #f5fbf4;
-  color: rgb(241, 161, 55);
-  font-size: 25px;
+  color: rgb(175, 93, 56);
+  font-size: 30px;
+  font-family: "Zen Tokyo Zoo", cursive;
   padding-left: 50px;
   text-align: center;
 }
 #category .category-accardion .accordion .accordion-item .accordion-body {
   background-color: #f8fcfa;
   color: rgb(130, 118, 118);
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
+  font-family: "Emblema One", cursive;
 }
 #category .category-accardion .accordion .accordion-item .accordion-body strong {
   color: #d28b79;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #food-dinamik {
@@ -1327,6 +1333,8 @@ header #upicon {
   margin-top: 40px;
   margin-bottom: 40px;
   position: relative;
+  font-family: "Faster One", cursive;
+  font-size: 49px;
 }
 #food-dinamik h1::after {
   position: absolute;
@@ -1338,12 +1346,14 @@ header #upicon {
   left: 43%;
 }
 #food-dinamik .search-sort {
+  font-family: "Beau Rivage", cursive;
   margin-bottom: 50px;
 }
 #food-dinamik .search-sort input {
   width: 72%;
   text-indent: 20px;
   height: 6vh;
+  font-size: 30px;
   border-radius: 7px;
   border: 1px solid #fb8107;
   outline: none;
@@ -1360,15 +1370,17 @@ header #upicon {
   text-indent: 8px;
   background-color: transparent;
   border-radius: 7px;
+  font-size: 25px;
   outline: none;
 }
 #food-dinamik .search-sort .button {
   border: 1px solid #fb8107;
   border-radius: 7px;
-  padding: 7px 38px;
+  padding: 3px 38px;
   color: #fb8107;
   background-color: transparent;
   margin-left: 80px;
+  font-size: 27px;
 }
 #food-dinamik .cards {
   row-gap: 20px;
@@ -1388,10 +1400,12 @@ header #upicon {
 #food-dinamik .cards .card h2 {
   color: rgb(87, 86, 86);
   font-size: 20px;
+  font-family: "Almendra SC", serif;
 }
 #food-dinamik .cards .card h3 {
   color: rgb(125, 118, 118);
   font-size: 20px;
+  font-family: "Beau Rivage", cursive;
 }
 #food-dinamik .cards .card i {
   color: rgb(255, 196, 0);
@@ -1400,6 +1414,7 @@ header #upicon {
   border: 1px solid rgb(240, 62, 3);
   background-color: transparent;
   padding: 7px 19px;
+  font-family: "Almendra SC", serif;
   color: rgb(240, 62, 3);
   border-radius: 19px;
 }
@@ -1412,6 +1427,7 @@ header #upicon {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Almendra SC", serif;
   margin-top: 50px;
 }
 #food-dinamik #showmore .showmore {
@@ -1445,19 +1461,23 @@ header #upicon {
 #eat-food .eat-food .eat-text h1 {
   font-size: 43px;
   color: rgb(216, 62, 10);
+  font-family: "Faster One", cursive;
 }
 #eat-food .eat-food .eat-text h2 {
   font-size: 33px;
   color: rgb(247, 117, 74);
   text-transform: inherit;
+  font-family: "Nabla", cursive;
 }
 #eat-food .eat-food .eat-text p {
   font-size: 21px;
+  font-family: "Emblema One", cursive;
   color: rgb(231, 179, 75);
 }
 #eat-food .eat-food .eat-text button {
   border: 2px solid rgb(240, 62, 3);
   background-color: transparent;
+  font-family: "Emblema One", cursive;
   padding: 7px 19px;
   color: rgb(240, 62, 3);
   border-radius: 23px;
