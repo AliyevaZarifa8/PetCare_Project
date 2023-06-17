@@ -114,13 +114,6 @@
       "phone": 196
     },
     {
-      "id": 5,
-      "placename": "Ticarat ",
-      "placeposition": " Yevlax city, Garadag district, Lokbatan settlement",
-      "weekdays": " Weekdays: 09:00 –17:00",
-      "phone": 196
-    },
-    {
       "id": 6,
       "placename": "Ticarat ",
       "placeposition": " Agdas city, Garadag district, Lokbatan settlement",
@@ -147,27 +140,6 @@
       "placeposition": " Agsu city, Garadag district, Lokbatan settlement",
       "weekdays": " Weekdays: 09:00 –17:00",
       "phone": 196
-    },
-    {
-      "placename": "Kelly Guy",
-      "placeposition": "Ut sapiente aspernat",
-      "weekdays": "1",
-      "phone": "+1 (221) 762-6817",
-      "id": 14
-    },
-    {
-      "placename": "Malik Hahn",
-      "placeposition": "Facilis iusto dolore",
-      "weekdays": "22",
-      "phone": "+1 (231) 632-6073",
-      "id": 15
-    },
-    {
-      "placename": "Mason Terry",
-      "placeposition": "Explicabo Excepteur",
-      "weekdays": "25",
-      "phone": "+1 (335) 604-6334",
-      "id": 16
     }
   ],
   "dog-food": [
@@ -345,6 +317,20 @@
       "commit": "Sint exercitation ad",
       "select": "finnish",
       "id": 5
+    }
+  ],
+  "sigin": [
+    {
+      "email": "aliyevazarifa061@gmail.com",
+      "fullname": "Zarifa Aliyeva",
+      "password": "zarifa123",
+      "id": 1
+    },
+    {
+      "email": "cuquzuf@mailinator.com",
+      "fullname": "Minaye",
+      "password": "minnos",
+      "id": 2
     }
   ]
 }

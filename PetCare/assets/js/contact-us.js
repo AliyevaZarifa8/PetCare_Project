@@ -21,19 +21,16 @@ upIcon.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
 });
 
+let formContactus = document.querySelector(".form-contactus");
+let exampleInputFirstName = document.querySelector("#exampleInputFirstName");
+let exampleInputLastName = document.querySelector("#exampleInputLastName");
+let exampleInputEmail = document.querySelector("#exampleInputEmail1");
+let exampleInputPhoto = document.querySelector("#exampleInputPhoto");
+let textArea = document.querySelector("#textArea");
+let selectInfo = document.querySelector("#select");
+let sbmtBtn = document.querySelector(".button");
 
-
-let formContactus=document.querySelector(".form-contactus");
-let exampleInputFirstName=document.querySelector("#exampleInputFirstName");
-let exampleInputLastName=document.querySelector("#exampleInputLastName");
-let exampleInputEmail=document.querySelector("#exampleInputEmail1");
-let exampleInputPhoto=document.querySelector("#exampleInputPhoto");
-let textArea=document.querySelector("#textArea");
-let selectInfo=document.querySelector("#select");
-let sbmtBtn=document.querySelector(".button");
-
-let contactUrl="http://localhost:8080/contact"
-
+let contactUrl = "http://localhost:8080/contact";
 
 formContactus.addEventListener("submit", function (e) {
   e.preventDefault();
