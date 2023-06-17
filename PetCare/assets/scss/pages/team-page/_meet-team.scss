@@ -13,8 +13,9 @@
     row-gap: 14px;
     h1 {
       color: #2e8b57;
-      font-size: 54px;
+      font-size: 44px;
       position: relative;
+      font-family: "Rampart One", cursive;
 
       &::after {
         position: absolute;
@@ -27,13 +28,16 @@
       }
     }
     p {
-      font-size: 23px;
-      color: rgb(86, 84, 84);
+      font-size: 27px;
+      color: rgb(122, 119, 119);
+      font-family: "Ma Shan Zheng", cursive;
     }
   }
 
   .search-sort {
     margin-bottom: 20px;
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 27px;
 
     input {
       width: 72%;
@@ -91,12 +95,15 @@
 
         .meets-text {
           h1 {
-            font-size: 23px;
+            font-size: 27px;
             font-weight: bold;
-            p {
-              color: gray;
-            }
+            color: #226c56;
+            font-family: "Lily Script One", cursive;
           }
+        }
+        p {
+          color: gray;
+          font-family: "Lemon", cursive;
         }
         .meet-hover {
           display: none;
@@ -124,6 +131,8 @@
   }
 
   #showmore {
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 27px;
     display: flex;
     justify-content: center;
     align-items: center;

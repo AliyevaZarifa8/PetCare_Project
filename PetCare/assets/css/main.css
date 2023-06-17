@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rye&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Wallpoet&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -872,6 +872,7 @@ header #upicon {
   color: #2e8b57;
   font-size: 54px;
   position: relative;
+  font-family: "Rampart One", cursive;
 }
 #team .creative-text h1::after {
   position: absolute;
@@ -883,8 +884,9 @@ header #upicon {
   left: 42%;
 }
 #team .creative-text p {
-  font-size: 23px;
-  color: rgb(46, 44, 44);
+  font-size: 33px;
+  color: rgb(97, 96, 96);
+  font-family: "Ma Shan Zheng", cursive;
 }
 #team .team-img {
   overflow: hidden;
@@ -906,12 +908,14 @@ header #upicon {
   align-items: center;
 }
 #team .team-text h1 {
-  font-size: 45px;
+  font-size: 55px;
   color: #43a66e;
+  font-family: "Ma Shan Zheng", cursive;
 }
 #team .team-text p {
   font-size: 23px;
   color: rgb(124, 118, 118);
+  font-family: "Lily Script One", cursive;
 }
 #team .team-text .creative-parag {
   width: 100%;
@@ -941,8 +945,9 @@ header #upicon {
 }
 #meet-team .meet-text h1 {
   color: #2e8b57;
-  font-size: 54px;
+  font-size: 44px;
   position: relative;
+  font-family: "Rampart One", cursive;
 }
 #meet-team .meet-text h1::after {
   position: absolute;
@@ -954,11 +959,14 @@ header #upicon {
   left: 42%;
 }
 #meet-team .meet-text p {
-  font-size: 23px;
-  color: rgb(86, 84, 84);
+  font-size: 27px;
+  color: rgb(122, 119, 119);
+  font-family: "Ma Shan Zheng", cursive;
 }
 #meet-team .search-sort {
   margin-bottom: 20px;
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 27px;
 }
 #meet-team .search-sort input {
   width: 72%;
@@ -1009,11 +1017,14 @@ header #upicon {
   text-align: center;
 }
 #meet-team .meet-cards .card .meet-card .meets-text h1 {
-  font-size: 23px;
+  font-size: 27px;
   font-weight: bold;
+  color: #226c56;
+  font-family: "Lily Script One", cursive;
 }
-#meet-team .meet-cards .card .meet-card .meets-text h1 p {
+#meet-team .meet-cards .card .meet-card p {
   color: gray;
+  font-family: "Lemon", cursive;
 }
 #meet-team .meet-cards .card .meet-card .meet-hover {
   display: none;
@@ -1036,6 +1047,8 @@ header #upicon {
   color: #3af9f9;
 }
 #meet-team #showmore {
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 27px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1070,7 +1083,8 @@ header #upicon {
   background-color: rgba(2, 35, 26, 0.2);
 }
 #our-staff .staff-text .our-staff h1 {
-  font-size: 50px;
+  font-size: 46px;
+  font-family: "Nosifer", cursive;
 }
 
 #our-branches {

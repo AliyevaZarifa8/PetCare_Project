@@ -15,6 +15,7 @@
       color: #2e8b57;
       font-size: 54px;
       position: relative;
+      font-family: "Rampart One", cursive;
 
       &::after {
         position: absolute;
@@ -27,8 +28,9 @@
       }
     }
     p {
-      font-size: 23px;
-      color: rgb(46, 44, 44);
+      font-size: 33px;
+      color: rgb(97, 96, 96);
+      font-family: "Ma Shan Zheng", cursive;
     }
   }
   .team-img {
@@ -52,12 +54,14 @@
     align-items: center;
 
     h1 {
-      font-size: 45px;
+      font-size: 55px;
       color: #43a66e;
+      font-family: "Ma Shan Zheng", cursive;
     }
     p {
       font-size: 23px;
       color: rgb(124, 118, 118);
+      font-family: "Lily Script One", cursive;
     }
     .creative-parag {
       width: 100%;
