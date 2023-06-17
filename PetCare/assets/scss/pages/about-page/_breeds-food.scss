@@ -1,0 +1,32 @@
+#breeds-food {
+  background-image: url("../image/new12.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10vh;
+
+  .breeds-food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    color: #fff;
+    .breeds-text {
+      margin-left: 10vh;
+      h6 {
+        font-size: 36px;
+        color: rgb(241, 44, 44);
+        font-family: "Tilt Prism", cursive;
+      }
+      p {
+        color: #fff;
+        font-family: "Nosifer", cursive;
+        font-size: 12px;
+        i {
+          color: rgb(242, 60, 60);
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
