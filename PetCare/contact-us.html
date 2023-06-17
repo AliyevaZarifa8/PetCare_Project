@@ -19,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
+
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -62,11 +62,12 @@
                   >
                 </li>
                 <li>
-                  <a href="./signin.html" class="dropdown-item text-success fw-bold" 
+                  <a
+                    href="./signin.html"
+                    class="dropdown-item text-success fw-bold"
                     >Sign In</a
                   >
                 </li>
-                
               </ul>
             </div>
           </div>
@@ -79,81 +80,90 @@
     <section id="contacr-us">
       <div class="container">
         <div class="row contacr-us">
-          <img src="./assets/image/contact-us.png" alt="" />
+          <div class="col-lg-8 offset-lg-2">
+            <div class="form">
+              <form action="" class="form-contactus">
+                <h1>Do you want to have a dog ?</h1>
+                <h3>We Will Get Back To You Asap!</h3>
+                <div class="mb-3">
+                  <label for="exampleInputFirstName" class="form-label"
+                    >First Name :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="exampleInputFirstName"
+                    placeholder="Enter a firstname..."
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputLastName" class="form-label"
+                    >Last Name :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control shadow-none"
+                    id="exampleInputLastName"
+                    placeholder="Enter a lastname..."
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPhoto" class="form-label"
+                    >Photo</label
+                  >
+                  <input
+                    type="file"
+                    class="form-control shadow-none"
+                    id="exampleInputPhoto"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a photo..."
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control shadow-none"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter a email..."
+                  />
+                </div>
 
-          <form action="" class="form-contactus">
-            <h3>We Will Get Back To You Asap!</h3>
-            <div class="mb-3">
-              <label for="exampleInputFirstName" class="form-label"
-                >First Name :</label
-              >
-              <input
-                type="text"
-                class="form-control shadow-none"
-                id="exampleInputFirstName"
-                placeholder="Enter a firstname..."
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputLastName" class="form-label"
-                >Last Name :</label
-              >
-              <input
-                type="text"
-                class="form-control shadow-none"
-                id="exampleInputLastName"
-                placeholder="Enter a lastname..."
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPhoto" class="form-label">Photo</label>
-              <input
-                type="file"
-                class="form-control shadow-none"
-                id="exampleInputPhoto"
-                aria-describedby="emailHelp"
-                placeholder="Enter a photo..."
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control shadow-none"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Enter a email..."
-              />
-            </div>
+                <div class="mb-3">
+                  <textarea
+                    name=""
+                    id="textArea"
+                    cols="91"
+                    rows="4"
+                    placeholder="Commit and  Quistions..."
+                  ></textarea>
+                </div>
 
-            <div class="mb-3">
-              <textarea
-                name=""
-                id="textArea"
-                cols="56"
-                rows="2"
-                placeholder="Commit and Quistions..."
-              ></textarea>
-            </div>
+                <div class="mb-3">
+                  <select name="" id="select">
+                    <option value="">Select Dog Breeds</option>
+                    <option value="alaska">Alaskan Klee Kai</option>
+                    <option value="altese">Maltese</option>
+                    <option value="welshs">Welsh Springer</option>
+                    <option value="yorkshire">Yorkshire Terrier</option>
+                    <option value="neapolitan">Neapolitan Mastiff</option>
+                    <option value="basset">Basset Hound</option>
+                    <option value="löwchen">Löwchen</option>
+                    <option value="finnish">Finnish Lapphund</option>
+                  </select>
+                </div>
 
-            <div class="mb-3">
-              <select name="" id="select">
-                <option value="">Select Dog Breeds</option>
-                <option value="alaska">Alaskan Klee Kai</option>
-                <option value="altese">Maltese</option>
-                <option value="welshs">Welsh Springer</option>
-                <option value="yorkshire">Yorkshire Terrier</option>
-                <option value="neapolitan">Neapolitan Mastiff</option>
-                <option value="basset">Basset Hound</option>
-                <option value="löwchen">Löwchen</option>
-                <option value="finnish">Finnish Lapphund</option>
-              </select>
+                <div class="row">
+                  <div class="col-lg-3 offset-lg-1">
+                    <button type="submit" class="btn button">Send</button>
+                  </div>
+                </div>
+              </form>
             </div>
-
-            <button type="submit" class="btn button">Send</button>
-          </form>
+          </div>
         </div>
       </div>
     </section>

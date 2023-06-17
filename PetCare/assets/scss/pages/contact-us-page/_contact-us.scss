@@ -1,64 +1,87 @@
 #contacr-us {
   margin-top: 10vh;
-  margin-bottom: 12vh;
+  // margin-bottom: 12vh;
+  background-image: url("../image/contact-bg.jpg");
+  background-size: cover;
+  background-position-y: center;
+  height: 120vh;
   .contacr-us {
-    img {
-      position: relative;
-      width: 70%;
-      margin-left: 240px;
-    }
-    .form-contactus {
-      position: absolute;
-      top: 37vh;
-      left: 77vh;
-      width: 30%;
-
-      h3 {
-        color: brown;
-        text-align: center;
-      }
-      label {
-        color: brown;
-      }
-      input {
-        text-indent: 4px;
-        accent-color: brown;
-        &::placeholder {
+    .form {
+      margin-top: 30px;
+      background-color: rgba($color: #201e1e, $alpha: 0.2);
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+      .form-contactus {
+        padding-top: 3vh;
+        width: 80%;
+        h1 {
+          color: rgb(5, 43, 170);
+          text-align: center;
+          font-weight: bold;
+          font-family: "Love Light", cursive;
+          font-size: 50px;
+        }
+        h3 {
+          margin-top: 49px;
+          color: rgb(198, 50, 50);
+          text-align: center;
+          font-weight: bold;
+          font-family: "Love Light", cursive;
+        }
+        label {
+          color: rgb(198, 50, 50);
+          font-family: "Fleur De Leah", cursive;
+          font-size: 30px;
+          font-weight: bold;
+        }
+        input {
+          text-indent: 4px;
+          accent-color: brown;
+          &::placeholder {
+            color: rgb(94, 76, 76);
+            font-family: "Sail", cursive;
+            font-size: 21px;
+          }
+        }
+        #exampleInputPhoto {
+          background-color: rgb(245, 237, 245);
+          font-family: "Sail", cursive;
+          font-size: 20px;
           color: rgb(94, 76, 76);
         }
-      }
-      #exampleInputPhoto {
-        background-color: rgb(245, 237, 245);
-      }
-      textarea {
-        text-indent: 8px;
-        outline: none;
-        border-color: rgb(219, 210, 210);
-        &::placeholder {
-          color: brown;
+        textarea {
+          text-indent: 8px;
+          border-radius: 9px;
+          outline: none;
+          border-color: rgb(219, 210, 210);
+          &::placeholder {
+            color: brown;
+            font-family: "Fleur De Leah", cursive;
+            font-size: 22px;
+          }
         }
-      }
-      select {
-        height: 40px;
-        color: brown;
-        border: 1px solid rgb(186, 182, 182);
-        text-indent: 8px;
-      }
+        select {
+          font-family: "Fleur De Leah", cursive;
+          height: 40px;
+          color: brown;
+          border: 1px solid rgb(186, 182, 182);
+          text-indent: 8px;
+          font-size: 22px;
+        }
 
-      .form-check-label {
-        color: rgb(99, 98, 98);
-      }
-
-      .button {
-        border: 1px solid brown;
-        border-radius: 9px;
-        margin-left: 24vh;
-        padding: 7px 29px;
-        color: black;
-        font-size: 18px;
-        &:hover {
-          background-color: rgb(197, 100, 100);
-          color: #fff;
+        .button {
+          border: 2px solid brown;
+          border-radius: 9px;
+          font-family: "Sail", cursive;
+          margin-left: 24vh;
+          padding: 7px 29px;
+          color: rgb(226, 86, 86);
+          font-size: 18px;
+          &:hover {
+            background-color: rgb(197, 100, 100);
+            color: #fff;
+          }
         }
       }
     }

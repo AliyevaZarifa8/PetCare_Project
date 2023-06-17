@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Alumni+Sans+Inline+One:ital@1&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Diplomata+SC&family=Emblema+One&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Fruktur:ital@1&family=Kumar+One+Outline&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Neonderthaw&family=Nosifer&family=Nova+Oval&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Alumni+Sans+Inline+One:ital@1&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Diplomata+SC&family=Emblema+One&family=Ewert&family=Faster+One&family=Fleur+De+Leah&family=Fontdiner+Swanky&family=Fruktur:ital@1&family=Kumar+One+Outline&family=Lemon&family=Lily+Script+One&family=Love+Light&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Neonderthaw&family=Nosifer&family=Nova+Oval&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1749,62 +1749,86 @@ header #upicon {
 
 #contacr-us {
   margin-top: 10vh;
-  margin-bottom: 12vh;
+  background-image: url("../image/contact-bg.jpg");
+  background-size: cover;
+  background-position-y: center;
+  height: 120vh;
 }
-#contacr-us .contacr-us img {
-  position: relative;
-  width: 70%;
-  margin-left: 240px;
+#contacr-us .contacr-us .form {
+  margin-top: 30px;
+  background-color: rgba(32, 30, 30, 0.2);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
-#contacr-us .contacr-us .form-contactus {
-  position: absolute;
-  top: 37vh;
-  left: 77vh;
-  width: 30%;
+#contacr-us .contacr-us .form .form-contactus {
+  padding-top: 3vh;
+  width: 80%;
 }
-#contacr-us .contacr-us .form-contactus h3 {
-  color: brown;
+#contacr-us .contacr-us .form .form-contactus h1 {
+  color: rgb(5, 43, 170);
   text-align: center;
+  font-weight: bold;
+  font-family: "Love Light", cursive;
+  font-size: 50px;
 }
-#contacr-us .contacr-us .form-contactus label {
-  color: brown;
+#contacr-us .contacr-us .form .form-contactus h3 {
+  margin-top: 49px;
+  color: rgb(198, 50, 50);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Love Light", cursive;
 }
-#contacr-us .contacr-us .form-contactus input {
+#contacr-us .contacr-us .form .form-contactus label {
+  color: rgb(198, 50, 50);
+  font-family: "Fleur De Leah", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+#contacr-us .contacr-us .form .form-contactus input {
   text-indent: 4px;
   accent-color: brown;
 }
-#contacr-us .contacr-us .form-contactus input::placeholder {
+#contacr-us .contacr-us .form .form-contactus input::placeholder {
+  color: rgb(94, 76, 76);
+  font-family: "Sail", cursive;
+  font-size: 21px;
+}
+#contacr-us .contacr-us .form .form-contactus #exampleInputPhoto {
+  background-color: rgb(245, 237, 245);
+  font-family: "Sail", cursive;
+  font-size: 20px;
   color: rgb(94, 76, 76);
 }
-#contacr-us .contacr-us .form-contactus #exampleInputPhoto {
-  background-color: rgb(245, 237, 245);
-}
-#contacr-us .contacr-us .form-contactus textarea {
+#contacr-us .contacr-us .form .form-contactus textarea {
   text-indent: 8px;
+  border-radius: 9px;
   outline: none;
   border-color: rgb(219, 210, 210);
 }
-#contacr-us .contacr-us .form-contactus textarea::placeholder {
+#contacr-us .contacr-us .form .form-contactus textarea::placeholder {
   color: brown;
+  font-family: "Fleur De Leah", cursive;
+  font-size: 22px;
 }
-#contacr-us .contacr-us .form-contactus select {
+#contacr-us .contacr-us .form .form-contactus select {
+  font-family: "Fleur De Leah", cursive;
   height: 40px;
   color: brown;
   border: 1px solid rgb(186, 182, 182);
   text-indent: 8px;
+  font-size: 22px;
 }
-#contacr-us .contacr-us .form-contactus .form-check-label {
-  color: rgb(99, 98, 98);
-}
-#contacr-us .contacr-us .form-contactus .button {
-  border: 1px solid brown;
+#contacr-us .contacr-us .form .form-contactus .button {
+  border: 2px solid brown;
   border-radius: 9px;
+  font-family: "Sail", cursive;
   margin-left: 24vh;
   padding: 7px 29px;
-  color: black;
+  color: rgb(226, 86, 86);
   font-size: 18px;
 }
-#contacr-us .contacr-us .form-contactus .button:hover {
+#contacr-us .contacr-us .form .form-contactus .button:hover {
   background-color: rgb(197, 100, 100);
   color: #fff;
 }
