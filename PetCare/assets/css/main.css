@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Ewert&family=Faster+One&family=Fontdiner+Swanky&family=Lemon&family=Lily+Script+One&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Nosifer&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1112,6 +1112,7 @@ header #upicon {
   text-align: center;
 }
 #our-branches .branches-text h1 {
+  font-family: "Vast Shadow", cursive;
   font-size: 47px;
   text-transform: uppercase;
   color: rgb(7, 133, 99);
@@ -1119,6 +1120,7 @@ header #upicon {
 #our-branches .branches-text p {
   text-transform: capitalize;
   font-size: 23px;
+  font-family: "Sail", cursive;
 }
 
 #branches-work {
@@ -1140,14 +1142,18 @@ header #upicon {
 }
 #branches-work .branches-prices .branches-heading h1 {
   color: #359e62;
-  font-size: 49px;
+  font-size: 42px;
+  font-family: "Vast Shadow", cursive;
 }
 #branches-work .branches-prices .branches-heading p {
   color: rgb(176, 170, 170);
   font-size: 27px;
+  font-family: "Sail", cursive;
 }
 #branches-work .branches-prices .search-sort {
   margin-bottom: 20px;
+  font-family: "Sail", cursive;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1171,16 +1177,18 @@ header #upicon {
   background-color: #cbf5df;
 }
 #branches-work .branches-prices .branches-table table th {
+  font-family: "Ma Shan Zheng", cursive;
   color: #359e62;
-  font-size: 23px;
+  font-size: 39px;
   text-align: center;
   height: 8vh;
   padding-right: 30px;
   padding-left: 47px;
 }
 #branches-work .branches-prices .branches-table table td {
+  font-family: "Sail", cursive;
   color: rgb(84, 82, 82);
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   height: 10vh;
 }
@@ -1217,10 +1225,12 @@ header #upicon {
 #petcare-central .petcare-central h1 {
   font-size: 33px;
   color: #28cb6e;
+  font-family: "Vast Shadow", cursive;
 }
 #petcare-central .petcare-central h2 {
   font-size: 30px;
   color: #f34a2c;
+  font-family: "Sail", cursive;
 }
 
 #pet-food1 {

@@ -14,15 +14,19 @@
       text-align: center;
       h1 {
         color: #359e62;
-        font-size: 49px;
+        font-size: 42px;
+        font-family: "Vast Shadow", cursive;
       }
       p {
         color: rgb(176, 170, 170);
         font-size: 27px;
+        font-family: "Sail", cursive;
       }
     }
     .search-sort {
       margin-bottom: 20px;
+      font-family: "Sail", cursive;
+      font-size: 28px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -48,16 +52,18 @@
           }
         }
         th {
+          font-family: "Ma Shan Zheng", cursive;
           color: #359e62;
-          font-size: 23px;
+          font-size: 39px;
           text-align: center;
           height: 8vh;
           padding-right: 30px;
           padding-left: 47px;
         }
         td {
+          font-family: "Sail", cursive;
           color: rgb(84, 82, 82);
-          font-size: 20px;
+          font-size: 25px;
           text-align: center;
           height: 10vh;
           i {
