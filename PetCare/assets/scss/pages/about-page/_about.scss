@@ -4,54 +4,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      border-radius: 50%;
-      width: 100%;
-    }
-    h1 {
-      position: relative;
-      margin-bottom: 20px;
-      &::after {
-        position: absolute;
-        content: "";
-        height: 2px;
-        width: 14%;
-        background-color: #383a39;
-        bottom: -23%;
-        left: 0;
+
+    .about-card {
+      border-left: 2px solid rgb(36, 179, 223);
+      h6 {
+        position: relative;
+        margin-bottom: 20px;
+        color: #053d42;
+        font-family: "Vast Shadow", cursive;
+        &::after {
+          position: absolute;
+          content: "";
+          height: 1px;
+          width: 13%;
+          background-color: #1a5892;
+          bottom: -23%;
+          left: 0;
+        }
       }
-    }
-    .about-text {
-      width: 100%;
 
-      p {
-        font-size: 19px;
-        width: 90%;
-        color: rgb(141, 136, 136);
+      h1 {
+        font-size: 23px;
+        color: #1e6c74;
+        font-family: "Ewert", cursive;
       }
-    }
+      .about-text {
+        width: 100%;
 
-    .about-social {
-      p {
-        font-weight: bold;
-        color: rgb(130, 109, 109);
-        i {
-          font-size: 20px;
-          padding-right: 10px;
-        }
-
-        .fa-phone-volume {
-          color: rgb(54, 194, 54);
-        }
-        .fa-envelope {
-          color: rgb(240, 66, 8);
-        }
-        .fa-instagram {
-          color: rgb(237, 47, 79);
-        }
-        .fa-shield-dog {
-          font-size: 23px;
-          color: rgb(14, 195, 141);
+        p {
+          font-size: 19px;
+          width: 100%;
+          color: rgb(107, 129, 129);
+          font-family: "Nova Oval", cursive;
         }
       }
     }

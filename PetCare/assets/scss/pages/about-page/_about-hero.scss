@@ -1,0 +1,26 @@
+#about-hero {
+  background-image: url("../image/new9.jpg");
+  background-position: center;
+  background-size: cover;
+
+  .about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10vh;
+    height: 100vh;
+    .about-text {
+      transform: rotateZ(-5deg);
+      h6 {
+        font-size: 36px;
+        color: rgb(20, 85, 106);
+        font-family: "Tilt Prism", cursive;
+      }
+      h1 {
+        color: rgb(2, 157, 174);
+        font-family: "Nosifer", cursive;
+        font-size: 40px;
+      }
+    }
+  }
+}

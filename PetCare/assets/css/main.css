@@ -1833,57 +1833,69 @@ header #upicon {
   color: #fff;
 }
 
+#about-hero {
+  background-image: url("../image/new9.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#about-hero .about-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10vh;
+  height: 100vh;
+}
+#about-hero .about-hero .about-text {
+  transform: rotateZ(-5deg);
+}
+#about-hero .about-hero .about-text h6 {
+  font-size: 36px;
+  color: rgb(20, 85, 106);
+  font-family: "Tilt Prism", cursive;
+}
+#about-hero .about-hero .about-text h1 {
+  color: rgb(2, 157, 174);
+  font-family: "Nosifer", cursive;
+  font-size: 40px;
+}
+
 #about .about {
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#about .about img {
-  border-radius: 50%;
-  width: 100%;
+#about .about .about-card {
+  border-left: 2px solid rgb(36, 179, 223);
 }
-#about .about h1 {
+#about .about .about-card h6 {
   position: relative;
   margin-bottom: 20px;
+  color: #053d42;
+  font-family: "Vast Shadow", cursive;
 }
-#about .about h1::after {
+#about .about .about-card h6::after {
   position: absolute;
   content: "";
-  height: 2px;
-  width: 14%;
-  background-color: #383a39;
+  height: 1px;
+  width: 13%;
+  background-color: #1a5892;
   bottom: -23%;
   left: 0;
 }
-#about .about .about-text {
+#about .about .about-card h1 {
+  font-size: 23px;
+  color: #1e6c74;
+  font-family: "Ewert", cursive;
+}
+#about .about .about-card .about-text {
   width: 100%;
 }
-#about .about .about-text p {
+#about .about .about-card .about-text p {
   font-size: 19px;
-  width: 90%;
-  color: rgb(141, 136, 136);
-}
-#about .about .about-social p {
-  font-weight: bold;
-  color: rgb(130, 109, 109);
-}
-#about .about .about-social p i {
-  font-size: 20px;
-  padding-right: 10px;
-}
-#about .about .about-social p .fa-phone-volume {
-  color: rgb(54, 194, 54);
-}
-#about .about .about-social p .fa-envelope {
-  color: rgb(240, 66, 8);
-}
-#about .about .about-social p .fa-instagram {
-  color: rgb(237, 47, 79);
-}
-#about .about .about-social p .fa-shield-dog {
-  font-size: 23px;
-  color: rgb(14, 195, 141);
+  width: 100%;
+  color: rgb(107, 129, 129);
+  font-family: "Nova Oval", cursive;
 }
 
 footer {
