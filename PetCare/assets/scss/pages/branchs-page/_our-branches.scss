@@ -1,21 +1,15 @@
 #our-branches {
-  height: 100vh;
-  margin-top: 13vh;
+  height: 70vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
   display: flex;
   align-items: center;
-  .branches-circle {
-    overflow: hidden;
-    img {
-      width: 100%;
-      height: 100%;
+  background-image: url("../image/new22.jpg");
+  background-size: cover;
+  background-position: center;
+  border-end-start-radius: 5%;
+  border-end-end-radius: 5%;
 
-      transition: scale 2s;
-      border-radius: 50%;
-      &:hover {
-        scale: 97%;
-      }
-    }
-  }
   .branches-text {
     display: flex;
     flex-direction: column;
@@ -23,14 +17,15 @@
     text-align: center;
     h1 {
       font-family: "Vast Shadow", cursive;
-      font-size: 47px;
+      font-size: 48px;
       text-transform: uppercase;
       color: rgb(7, 133, 99);
     }
     p {
       text-transform: capitalize;
-      font-size: 23px;
-      font-family: 'Sail', cursive;
+      font-size: 25px;
+      font-family: "Sail", cursive;
+      color: #fff;
     }
   }
 }

@@ -101,6 +101,44 @@ sortBtn.addEventListener("click", function () {
   }
 });
 
+
+
+//video
+let videoIcon=document.querySelector(".video-txt")
+let video=document.querySelector(".video")
+let petBreeds4=document.querySelector(".pet-breeds4")
+let faMinus=document.querySelector(".fa-minus")
+video.style.display="none"
+
+videoIcon.addEventListener("click",function(){
+videoIcon.style.display="none"
+petBreeds4.style.display="none"
+video.style.display="block"
+faMinus.style.display="block"
+}
+)
+faMinus.addEventListener("click",function(){
+videoIcon.style.display="block"
+petBreeds4.style.display="block"
+video.style.display="none"
+faMinus.style.display="none"
+}
+)
+
+
+function controlVideo(vidFunc) {
+  let iframe = document.querySelector("iframe")[0].contentWindow;
+  iframe.postMessage(
+    '{"event":"command","func":"' + vidFunc + '","args":""}',
+    "*"
+  );
+}
+
+
+
+
+
+
 function scrollFun() {
   let x =
     document.body.scrollTop > 200 || document.documentElement.scrollTop > 200;
@@ -139,6 +177,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   on: {
     autoplayTimeLeft(s, time, progress) {
+      
       progressCircle.style.setProperty("--progress", 1 - progress);
       progressContent.textContent = `${Math.ceil(time / 1000)}s`;
     },

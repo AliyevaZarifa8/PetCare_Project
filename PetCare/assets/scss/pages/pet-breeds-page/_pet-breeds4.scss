@@ -1,34 +1,68 @@
 #pet-breeds4 {
+  background-image: url("../image/new6.jpg");
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+  margin-bottom: 10vh;
   .pet-breeds4 {
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    iframe {
-      border-radius: 23px;
-    }
     h1 {
-      font-size: 42px;
-      color: rgb(243, 82, 28);
+      font-size: 49px;
+      color: rgb(165, 21, 201);
       margin-bottom: 30px;
       font-family: "Kumar One Outline", cursive;
-      i {
-        color: rgb(254, 79, 79);
-        font-size: 30px;
-      }
     }
     a {
       text-decoration: none;
-      color: red;
-      font-family: "Neonderthaw", cursive;
-      border: 1px solid red;
-      border-radius: 23px;
-      padding: 10px 20px;
+      color: rgb(237, 36, 177);
+      font-family: "Kumar One Outline", cursive;
+      border-radius: 19px;
+      padding: 5px 20px;
       font-size: 24px;
-      &:hover {
-        background-color: rgb(243, 82, 28);
+    }
+
+    .breeds-img {
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          font-size: 70px;
+          padding: 14px 29px;
+          color: #fff;
+          border-radius: 9px;
+
+          background-image: linear-gradient(
+            90deg,
+            #9a0e91 0%,
+            #8e1ac8 35%,
+            #e11141 100%
+          );
+        }
+      }
+    }
+  }
+
+  .video {
+    iframe {
+      height: 76vh;
+      margin-top: 40px;
+      width: 100%;
+    }
+    #fa-solid {
+      display: flex;
+      justify-content: center;
+      column-gap: 20px;
+      .fa-solid {
+        padding: 10px 20px;
+        background-color: rgb(9, 163, 130);
         color: #fff;
+        border: 1px solid #f2f2f2;
+        border-radius: 15px;
+        cursor: pointer;
       }
     }
   }

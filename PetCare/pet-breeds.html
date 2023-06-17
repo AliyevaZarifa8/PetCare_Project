@@ -23,7 +23,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    
+
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -66,11 +66,12 @@
                   >
                 </li>
                 <li>
-                  <a href="./signin.html" class="dropdown-item text-success fw-bold" 
+                  <a
+                    href="./signin.html"
+                    class="dropdown-item text-success fw-bold"
                     >Sign In</a
                   >
                 </li>
-                
               </ul>
             </div>
           </div>
@@ -221,22 +222,38 @@
     <section id="pet-breeds4">
       <div class="container">
         <div class="row pet-breeds4">
-          <div class="col-lg-6">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/fcyshDExRuQ"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-lg-4">
-            <h1>Get a dog now <i class="fa-solid fa-face-grin-hearts"></i></h1>
-            <div>
+          <div class="row">
+            <div class="col-lg-8">
+              <h1>Get a dog now</h1>
+            </div>
+            <div class="col-lg-2 offset-lg-2">
               <a href="./contact-us.html">Contact Us</a>
             </div>
+          </div>
+          <div class="row breeds-img">
+            <p class="video-txt"><i class="fa-regular fa-circle-play"></i></p>
+          </div>
+        </div>
+        <div class="row video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bN9iMLG4qmg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <br /><br />
+          <br /><br />
+          <div id="fa-solid">
+            <i onClick="controlVideo('stopVideo')" class="fa-solid fa-stop"></i>
+            <i class="fa-solid fa-play" onClick="controlVideo('playVideo')"></i>
+            <i
+              onClick="controlVideo('pauseVideo')"
+              class="fa-solid fa-pause"
+            ></i>
+            <i class="fa-solid fa-minus"></i>
           </div>
         </div>
       </div>
