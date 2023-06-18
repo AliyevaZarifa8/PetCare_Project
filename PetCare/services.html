@@ -19,7 +19,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -88,12 +91,96 @@
       </div>
     </section>
 
+    <section id="slider">
+      <div class="container">
+        <div class="row">
+          <div class="slidercontainer">
+            <div class="showSlide fade">
+              <div id="medical-checkup">
+                <div class="container">
+                  <div class="row medical-checkup">
+                    <div class="col-lg-5 medical-text">
+                      <h1>Medical Checkup</h1>
+
+                      <div class="medical-parag">
+                        <p>
+                          Ut pharetra sit amet aliquam. Est velit egestas dui id
+                          ornare. Massa massa ultricies mi quis. Nunc sed
+                          blandit libero volutpat sed cras.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 medical-img">
+                      <img src="./assets/image/medical.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="showSlide fade">
+              <div id="pet-grooming">
+                <div class="container">
+                  <div class="row pet-grooming">
+                    <div class="col-lg-5 grooming-img">
+                      <img src="./assets/image/grommer.jpg" alt="" />
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 grooming-text">
+                      <h1>Pet Grooming</h1>
+                      <div class="grooming-parag">
+                        <p>
+                          Nunc sed blandit libero volutpat sed cras. Malesuada
+                          bibendum arcu vitae elementum curabitur vitae nunc sed
+                          massa eget.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="showSlide fade">
+              <div id="pet-transport">
+                <div class="container">
+                  <div class="row pet-transport">
+                    <div class="col-lg-5 transport-text">
+                      <h1>Pet Transport</h1>
+                      <div class="transport-parag">
+                        <p>
+                          Est velit egestas dui id ornare. Massa massa ultricies
+                          mi quis. Nunc sed blandit libero volutpat sed cras
+                          vitae elementum.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 transport-img">
+                      <img src="./assets/image/domestic.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="left" onclick="nextSlide(-1)"
+              ><i class="fa-solid fa-angles-left"></i
+            ></a>
+            <a class="right" onclick="nextSlide(1)"
+              ><i class="fa-solid fa-angles-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <!-- 
     <section id="medical-checkup">
       <div class="container">
         <div class="row medical-checkup">
           <div class="col-lg-5 medical-text">
             <h1>Medical Checkup</h1>
-           
+
             <div class="medical-parag">
               <p>
                 Ut pharetra sit amet aliquam. Est velit egestas dui id ornare.
@@ -145,7 +232,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="prices-plans">
       <div class="container">
@@ -243,6 +330,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/js/services.js"></script>
   </body>
 </html>
