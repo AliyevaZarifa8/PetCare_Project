@@ -1510,6 +1510,9 @@ header #upicon {
 #food-dinamik .cards .card i {
   color: rgb(255, 196, 0);
 }
+#food-dinamik .cards .card span {
+  font-family: "Almendra SC", serif;
+}
 #food-dinamik .cards .card button {
   border: 1px solid rgb(240, 62, 3);
   background-color: transparent;
@@ -2080,32 +2083,74 @@ header #upicon {
 }
 
 footer {
+  background-color: #2e8b57;
+}
+footer .footer-top #footer-top {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  margin-left: 120px;
+}
+footer .footer-top #footer-top h1 {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Nosifer", cursive;
+  padding: 5px 5px;
+  position: relative;
+}
+footer .footer-top #footer-top h1::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 15%;
+  background-color: rgb(143, 216, 187);
+  bottom: -3%;
+  left: 2%;
+}
+footer .footer-top #footer-top p {
+  font-family: "Nova Oval", cursive;
+  font-size: 19px;
+  color: rgb(216, 247, 237);
+  position: relative;
+}
+footer .footer-top #footer-top p:hover::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 35%;
+  background-color: rgb(143, 216, 187);
+  bottom: -3%;
+  left: 0%;
+}
+footer .footer-top #footer-top i {
+  color: rgb(216, 247, 237);
+  margin-right: 20px;
+  font-size: 20px;
+  position: relative;
+}
+footer .footer-top #footer-top i:hover::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 99%;
+  background-color: rgb(143, 216, 187);
+  bottom: -30%;
+  left: 0%;
+}
+footer hr {
+  background-color: rgb(143, 216, 187);
+}
+footer .footer-bottom {
+  font-family: "Beau Rivage", cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2e8b57;
-  height: 15vh;
-}
-footer:hover p {
-  color: #3cbe74;
-}
-footer:hover span {
+  height: 10vh;
+  font-size: 25px;
   color: #fff;
 }
-footer:hover i {
-  color: #fff;
-}
-footer p {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-}
-footer p i {
-  color: #18c262;
-}
-footer p span {
-  color: #41ed8c;
-  text-shadow: 1px 1px 1px rgb(88, 221, 88);
+footer .footer-bottom i {
+  font-size: 19px;
 }
 
 #admin {
@@ -3119,6 +3164,7 @@ footer p span {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2px;
 }
 #login .login-bg {
   text-align: center;
@@ -3163,6 +3209,7 @@ footer p span {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2px;
 }
 #sign .sign-bg {
   text-align: center;

@@ -1,32 +1,80 @@
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #2e8b57;
-  height: 15vh;
 
-  &:hover {
-    p {
-      color: #3cbe74;
-    }
-    span {
-      color: #fff;
-    }
-    i {
-      color: #fff;
+  .footer-top {
+    #footer-top {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 40px;
+      margin-left: 120px;
+      h1 {
+        font-size: 18px;
+        color: #fff;
+        font-family: "Nosifer", cursive;
+        padding: 5px 5px;
+        position: relative;
+        &::after {
+          position: absolute;
+          content: "";
+          height: 1px;
+          width: 15%;
+          background-color: rgb(143, 216, 187);
+          bottom: -3%;
+          left: 2%;
+        }
+      }
+      p {
+        font-family: "Nova Oval", cursive;
+        // font-weight: bold;
+        font-size: 19px;
+        color: rgb(216, 247, 237);
+        position: relative;
+        &:hover {
+          &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 35%;
+            background-color: rgb(143, 216, 187);
+            bottom: -3%;
+            left: 0%;
+          }
+        }
+      }
+      i {
+        color: rgb(216, 247, 237);
+        margin-right: 20px;
+        font-size: 20px;
+        position: relative;
+        &:hover {
+          &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 99%;
+            background-color: rgb(143, 216, 187);
+            bottom: -30%;
+            left: 0%;
+          }
+        }
+      }
     }
   }
-  p {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
 
+  hr {
+    background-color: rgb(143, 216, 187);
+  }
+
+  .footer-bottom {
+    font-family: "Beau Rivage", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 25px;
+    color: #fff;
     i {
-      color: #18c262;
-    }
-    span {
-      color: #41ed8c;
-      text-shadow: 1px 1px 1px rgb(88, 221, 88);
+      font-size: 19px;
     }
   }
 }
