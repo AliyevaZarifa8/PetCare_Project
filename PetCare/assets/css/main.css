@@ -320,7 +320,7 @@ header #upicon {
 }
 
 #request-callback .carousel-caption {
-  top: 300px;
+  top: 240px;
   color: black;
 }
 #request-callback .carousel-caption .callback-heading h1 {
@@ -633,7 +633,7 @@ header #upicon {
   font-size: 18px;
   transition: 0.1s ease;
   border-radius: 0 7px 7px 0;
-  background-color: rgba(30, 161, 133, 0.8);
+  background-color: rgba(42, 137, 116, 0.8);
 }
 #slider .right {
   right: 0;
@@ -919,7 +919,7 @@ header #upicon {
 
 #team {
   margin-top: 12vh;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1160,23 +1160,24 @@ header #upicon {
   background-position-y: center;
   background-size: cover;
   margin-bottom: 10vh;
+  margin-top: 10vh;
 }
 #count .count {
   text-align: center;
 }
 #count .count h2 {
-  color: rgb(26, 172, 128);
+  color: rgb(217, 125, 44);
   font-family: "Nosifer", cursive;
   font-size: 40px;
 }
 #count .count p {
-  color: rgb(58, 188, 151);
+  color: rgb(165, 136, 92);
   font-family: "Tilt Prism", cursive;
   font-weight: bold;
   font-size: 30px;
 }
 #count .count h1 {
-  color: rgb(18, 193, 111);
+  color: #8e1606;
   font-size: 23px;
   margin-bottom: 30px;
   font-family: "Rye", cursive;
@@ -1185,8 +1186,8 @@ header #upicon {
 #count .count span {
   font-family: "Rye", cursive;
   border-radius: 50%;
-  color: #3da693;
-  background-color: rgba(33, 184, 126, 0.1);
+  color: rgb(232, 60, 8);
+  background-color: rgba(247, 147, 179, 0.1);
   padding: 25px;
   font-size: 37px;
 }
@@ -1334,22 +1335,21 @@ header #upicon {
 }
 
 #pet-food1 {
-  margin-top: 10vh;
-  background-image: url("../image/pet-food5.jpg");
+  background-image: url("../image/new12.jpg");
   background-position: center;
-  height: 100vh;
+  height: 60vh;
   background-size: cover;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #pet-food1 .pet-food1 {
-  position: absolute;
-  top: 160px;
-  left: 160px;
   font-size: 50px;
-  color: rgb(249, 250, 205);
+  color: rgb(231, 231, 185);
   text-transform: capitalize;
-  font-family: "Faster One", cursive;
-  transform: rotate(-20deg);
+  margin-left: 600px;
+  font-family: "Nosifer", cursive;
+  transform: rotateX(-20deg);
 }
 
 #category {
@@ -1398,27 +1398,27 @@ header #upicon {
   background-color: transparent;
 }
 #category .category-accardion .accordion .accordion-item:hover .accordion-body {
-  background-color: #fcfbf0;
+  background-color: #f5f5f1;
 }
 #category .category-accardion .accordion .accordion-item h2 button {
   padding: 20px 20px;
-  background-color: #f5fbf4;
-  color: rgb(175, 93, 56);
+  background-color: #fff;
+  color: rgb(13, 160, 113);
   font-size: 30px;
-  font-family: "Zen Tokyo Zoo", cursive;
+  font-family: "Neonderthaw", cursive;
   padding-left: 50px;
   text-align: center;
 }
 #category .category-accardion .accordion .accordion-item .accordion-body {
   background-color: #f8fcfa;
   color: rgb(130, 118, 118);
-  font-size: 16px;
+  font-size: 26px;
   text-align: center;
-  font-family: "Emblema One", cursive;
+  font-family: "Beau Rivage", cursive;
 }
 #category .category-accardion .accordion .accordion-item .accordion-body strong {
   color: #d28b79;
-  font-size: 17px;
+  font-size: 27px;
 }
 
 #food-dinamik {
@@ -1565,21 +1565,22 @@ header #upicon {
 }
 #eat-food .eat-food .eat-text h2 {
   font-size: 33px;
-  color: rgb(247, 117, 74);
+  color: rgb(176, 52, 10);
   text-transform: inherit;
-  font-family: "Nabla", cursive;
+  font-family: "Faster One", cursive;
 }
 #eat-food .eat-food .eat-text p {
-  font-size: 21px;
-  font-family: "Emblema One", cursive;
-  color: rgb(231, 179, 75);
+  font-size: 33px;
+  font-family: "Beau Rivage", cursive;
+  color: rgb(220, 171, 73);
 }
 #eat-food .eat-food .eat-text button {
   border: 2px solid rgb(240, 62, 3);
   background-color: transparent;
-  font-family: "Emblema One", cursive;
-  padding: 7px 19px;
+  font-family: "Beau Rivage", cursive;
+  padding: 1px 29px;
   color: rgb(240, 62, 3);
+  font-size: 29px;
   border-radius: 23px;
 }
 #eat-food .eat-food .eat-text button:hover {

@@ -26,21 +26,22 @@
       }
       h2 {
         font-size: 33px;
-        color: rgb(247, 117, 74);
+        color: rgb(176, 52, 10);
         text-transform: inherit;
-        font-family: "Nabla", cursive;
+        font-family: "Faster One", cursive;
       }
       p {
-        font-size: 21px;
-        font-family: "Emblema One", cursive;
-        color: rgb(231, 179, 75);
+        font-size: 33px;
+        font-family: "Beau Rivage", cursive;
+        color: rgb(220, 171, 73);
       }
       button {
         border: 2px solid rgb(240, 62, 3);
         background-color: transparent;
-        font-family: "Emblema One", cursive;
-        padding: 7px 19px;
+        font-family: "Beau Rivage", cursive;
+        padding: 1px 29px;
         color: rgb(240, 62, 3);
+        font-size: 29px;
         border-radius: 23px;
         &:hover {
           background-color: rgb(240, 62, 3);

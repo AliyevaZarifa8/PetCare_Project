@@ -1,18 +1,17 @@
 #pet-food1 {
-  margin-top: 10vh;
-  background-image: url("../image/pet-food5.jpg");
+  background-image: url("../image/new12.jpg");
   background-position: center;
-  height: 100vh;
+  height: 60vh;
   background-size: cover;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .pet-food1 {
-    position: absolute;
-    top: 160px;
-    left: 160px;
     font-size: 50px;
-    color: rgb(249, 250, 205);
+    color: rgb(231, 231, 185);
     text-transform: capitalize;
-    font-family: "Faster One", cursive;
-    transform: rotate(-20deg);
+    margin-left: 600px;
+    font-family: "Nosifer", cursive;
+    transform: rotateX(-20deg);
   }
 }
