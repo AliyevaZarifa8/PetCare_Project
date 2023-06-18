@@ -3135,22 +3135,37 @@ footer p span {
   height: 100vh;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#sign h1 {
-  color: rgb(42, 42, 216);
+#sign .sign-bg {
+  text-align: center;
 }
-#sign .sign input {
+#sign .sign-bg h1 {
+  color: rgb(11, 185, 104);
+  font-family: "Nosifer", cursive;
+}
+#sign .sign-bg .sign input {
+  font-family: "Sail", cursive;
+  font-size: 22px;
+  margin-top: 30px;
   border: 2px solid black;
   outline: none;
+  border-radius: 23px;
+  text-indent: 20px;
 }
-#sign .sign input::placeholder {
-  color: rgb(25, 176, 176);
+#sign .sign-bg .sign input::placeholder {
+  color: rgb(86, 190, 169);
 }
-#sign .sign .button {
-  color: rgb(42, 42, 216);
-  border: 2px solid rgb(42, 42, 216);
-  padding: 6px 20px;
-  border-radius: 9px;
+#sign .sign-bg .sign .button {
+  color: rgb(37, 226, 138);
+  border: 2px solid rgb(11, 185, 104);
+  padding: 1px 29px;
+  border-radius: 23px;
+  margin-top: 20px;
+  font-size: 27px;
+  font-family: "Fleur De Leah", cursive;
 }
 
 /*# sourceMappingURL=main.css.map */
