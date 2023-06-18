@@ -1,10 +1,6 @@
 let navbar = document.querySelector("#navbar");
-let footer = document.querySelector("footer");
-
 const upIcon = document.querySelector("#upicon");
-navbar.style.background = "rgb(5, 24, 87)";
-footer.style.background = "rgb(5, 24, 87)";
-upIcon.style.color = "rgb(2, 20, 271)";
+navbar.style.background = "#2e8b57";
 
 function scrollFun() {
   let x =

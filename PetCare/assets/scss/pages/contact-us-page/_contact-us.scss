@@ -1,47 +1,43 @@
 #contacr-us {
   margin-top: 10vh;
   // margin-bottom: 12vh;
-  background-image: url("../image/contact-bg.jpg");
+  background-image: url("../image/signinbg.jpg");
   background-size: cover;
   background-position-y: center;
-  height: 120vh;
+  height: 100vh;
   .contacr-us {
     .form {
       margin-top: 30px;
-      background-color: rgba($color: #201e1e, $alpha: 0.2);
+      background-color: rgba($color: #1ad251, $alpha: 0.2);
       display: flex;
       justify-content: center;
       padding-bottom: 30px;
       .form-contactus {
         padding-top: 3vh;
-        width: 80%;
+        width: 60%;
         h1 {
-          color: rgb(5, 43, 170);
+          color: rgb(8, 132, 116);
           text-align: center;
           font-weight: bold;
           font-family: "Love Light", cursive;
           font-size: 50px;
         }
         h3 {
-          margin-top: 49px;
-          color: rgb(198, 50, 50);
+          margin-top: 19px;
+          margin-bottom: 19px;
+          color: rgb(237, 99, 65);
           text-align: center;
           font-weight: bold;
-          font-family: "Love Light", cursive;
+          font-family: "Sail", cursive;
         }
-        label {
-          color: rgb(198, 50, 50);
-          font-family: "Fleur De Leah", cursive;
-          font-size: 30px;
-          font-weight: bold;
-        }
+
         input {
           text-indent: 4px;
-          accent-color: brown;
+
           &::placeholder {
-            color: rgb(94, 76, 76);
-            font-family: "Sail", cursive;
-            font-size: 21px;
+            color: brown;
+            font-family: "Fleur De Leah", cursive;
+            font-size: 29px;
           }
         }
         #exampleInputPhoto {
@@ -71,13 +67,13 @@
         }
 
         .button {
-          border: 2px solid brown;
-          border-radius: 9px;
+          border: 2px solid rgb(39, 240, 213);
           font-family: "Sail", cursive;
           margin-left: 24vh;
           padding: 7px 29px;
-          color: rgb(226, 86, 86);
-          font-size: 18px;
+          color: rgb(17, 235, 206);
+          font-size: 22px;
+          border-radius: 23px;
           &:hover {
             background-color: rgb(197, 100, 100);
             color: #fff;
