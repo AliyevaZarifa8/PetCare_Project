@@ -26,6 +26,7 @@ let exampleInputFirstName = document.querySelector("#exampleInputFirstName");
 let exampleInputLastName = document.querySelector("#exampleInputLastName");
 let exampleInputEmail = document.querySelector("#exampleInputEmail1");
 let exampleInputPhoto = document.querySelector("#exampleInputPhoto");
+let phone = document.querySelector("#phone");
 let textArea = document.querySelector("#textArea");
 let selectInfo = document.querySelector("#select");
 let sbmtBtn = document.querySelector(".button");
@@ -40,6 +41,7 @@ formContactus.addEventListener("submit", function (e) {
     email: exampleInputEmail.value,
     firstname: exampleInputFirstName.value,
     lastname: exampleInputLastName.value,
+    phone: phone.value,
     commit: textArea.value,
     select: selectInfo.value,
   };

@@ -1879,14 +1879,14 @@ header #upicon {
 
 #contacr-us {
   margin-top: 10vh;
-  background-image: url("../image/signinbg.jpg");
+  background-image: url("../image/new-cnt2.webp");
   background-size: cover;
   background-position-y: center;
   height: 100vh;
 }
 #contacr-us .contacr-us .form {
   margin-top: 30px;
-  background-color: rgba(26, 210, 81, 0.2);
+  background-color: rgba(17, 45, 36, 0.4);
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
@@ -1955,6 +1955,31 @@ header #upicon {
 #contacr-us .contacr-us .form .form-contactus .button:hover {
   background-color: rgb(197, 100, 100);
   color: #fff;
+}
+#contacr-us .contact-icon {
+  color: rgb(83, 228, 141);
+  font-family: "Love Light", cursive;
+}
+#contacr-us .contact-icon p {
+  font-size: 33px;
+}
+#contacr-us .contact-icon p i {
+  font-size: 24px;
+}
+#contacr-us .contact-icon span {
+  font-size: 27px;
+}
+#contacr-us .contact-icon span i {
+  font-size: 22px;
+}
+#contacr-us .contact-icon .fa-phone-volume {
+  color: rgb(12, 158, 29);
+}
+#contacr-us .contact-icon .fa-envelope-open-text {
+  color: #d12222;
+}
+#contacr-us .contact-icon .fa-location-dot {
+  color: rgb(213, 44, 44);
 }
 
 #about-hero {

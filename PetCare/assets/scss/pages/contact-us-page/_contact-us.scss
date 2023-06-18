@@ -1,14 +1,14 @@
 #contacr-us {
   margin-top: 10vh;
   // margin-bottom: 12vh;
-  background-image: url("../image/signinbg.jpg");
+  background-image: url("../image/new-cnt2.webp");
   background-size: cover;
   background-position-y: center;
   height: 100vh;
   .contacr-us {
     .form {
       margin-top: 30px;
-      background-color: rgba($color: #1ad251, $alpha: 0.2);
+      background-color: rgba($color: #112d24, $alpha: 0.4);
       display: flex;
       justify-content: center;
       padding-bottom: 30px;
@@ -80,6 +80,33 @@
           }
         }
       }
+    }
+  }
+
+  .contact-icon {
+    color: rgb(83, 228, 141);
+    font-family: "Love Light", cursive;
+    p {
+      font-size: 33px;
+
+      i {
+        font-size: 24px;
+      }
+    }
+    span {
+      font-size: 27px;
+      i {
+        font-size: 22px;
+      }
+    }
+    .fa-phone-volume {
+      color: rgb(12, 158, 29);
+    }
+    .fa-envelope-open-text {
+      color: #d12222;
+    }
+    .fa-location-dot {
+      color: rgb(213, 44, 44);
     }
   }
 }

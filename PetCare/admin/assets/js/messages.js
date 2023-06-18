@@ -22,6 +22,7 @@ async function drawMessages() {
           <b><i>${element.lastname} ${element.firstname}</i></b>
         </div>
         <div id="text">
+        <p>Tel : ${element.phone} </p>
           <p>Email : ${element.email} </p>
           <p>Commit : ${element.commit} </p>
           <i>Dog Breeds :${element.select} </i>
