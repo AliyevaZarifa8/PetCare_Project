@@ -278,7 +278,7 @@
       "email": "zarifa@mailinator.com",
       "firstname": "Alieffa",
       "lastname": "Zarifa",
-      "phone":"+99450 789 34 78",
+      "phone": "+99450 789 34 78",
       "commit": "Sint sapiente velitaskzgrsgh ,rkjejrihbfuygu jftuj skdtetrr ddyee ehrgt ",
       "select": "finnish",
       "id": 1
@@ -288,7 +288,7 @@
       "email": "bejeca@mailinator.com",
       "firstname": "Candace",
       "lastname": "Black",
-      "phone":"+99450 789 34 78",
+      "phone": "+99450 789 34 78",
       "commit": "Omnis voluptatem ne",
       "select": "neapolitan",
       "id": 2
@@ -298,7 +298,7 @@
       "email": "hidicyqabo@mailinator.com",
       "firstname": "Sheila",
       "lastname": "Mccoy",
-      "phone":"+99450 789 34 78",
+      "phone": "+99450 789 34 78",
       "commit": "Animi magni volupta",
       "select": "altese",
       "id": 3
@@ -307,7 +307,7 @@
       "photo": "./assets/image/ct-dg3.jpg",
       "email": "gehirovuhu@mailinator.com",
       "firstname": "Rana",
-      "phone":"+99450 789 34 78",
+      "phone": "+99450 789 34 78",
       "lastname": "Reeves",
       "commit": "Tempora rerum incidi",
       "select": "löwchen",
@@ -317,7 +317,7 @@
       "photo": "./assets/image/bg-dog.jpg",
       "email": "bajanizeg@mailinator.com",
       "firstname": "Paki",
-      "phone":"+99450 789 34 78",
+      "phone": "+99450 789 34 78",
       "lastname": "Leblanc",
       "commit": "Sint exercitation ad",
       "select": "finnish",
@@ -329,13 +329,30 @@
       "email": "aliyevazarifa061@gmail.com",
       "fullname": "Zarifa Aliyeva",
       "password": "zarifa123",
+      "isadmin": true,
       "id": 1
     },
     {
       "email": "cuquzuf@mailinator.com",
       "fullname": "Minaye",
       "password": "minnos",
+      "isadmin": false,
       "id": 2
+    },
+   
+    {
+      "email": "misir@gmail.com",
+      "fullname": "Misir Ceferli",
+      "password": "misir2",
+      "isadmin": false,
+      "id": 4
+    },
+    {
+      "email": "misir@gmail.com",
+      "fullname": "Misir Ceferli",
+      "password": "misir8",
+      "isadmin": false,
+      "id": 5
     }
   ]
 }

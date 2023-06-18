@@ -32,15 +32,15 @@ formLogin.addEventListener("submit", async (e) => {
   console.log(data);
   if (
     data.find(
-      (obj) => obj.fullname == userName.value && obj.password == passWord.value
+      (obj) => obj.fullname == userName.value 
+      && obj.password == passWord.value
+      && obj.isadmin==false
     )
   ) {
     window.location = "index.html";
   }
   if (
-    data.find(
-      (obj) => obj.fullname == "Zarifa Aliyeva" && obj.password == "zarifa123"
-    )
+    data.find((obj) => obj.isadmin==true)
   ) {
     window.location = "./admin/admin.html";
   } else {

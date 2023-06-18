@@ -34,6 +34,7 @@ formSign.addEventListener("submit", function (e) {
     email: email.value,
     fullname: fullName.value,
     password: password.value,
+    isadmin:false
   };
 
   axios.post(signUrl, obj);
