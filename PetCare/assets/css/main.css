@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Alumni+Sans+Inline+One:ital@1&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Diplomata+SC&family=Emblema+One&family=Ewert&family=Faster+One&family=Fleur+De+Leah&family=Fontdiner+Swanky&family=Fruktur:ital@1&family=Kumar+One+Outline&family=Lemon&family=Lily+Script+One&family=Love+Light&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Neonderthaw&family=Nosifer&family=Nova+Oval&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&family=Alumni+Sans+Inline+One:ital@1&family=Arbutus&family=Beau+Rivage&family=Bungee+Shade&family=Dancing+Script:wght@700&family=Diplomata&family=Diplomata+SC&family=Emblema+One&family=Ewert&family=Faster+One&family=Fleur+De+Leah&family=Fontdiner+Swanky&family=Fruktur:ital@1&family=Josefin+Sans:ital,wght@1,300&family=Kumar+One+Outline&family=Lemon&family=Lily+Script+One&family=Love+Light&family=Ma+Shan+Zheng&family=Moo+Lah+Lah&family=Nabla&family=Neonderthaw&family=Nosifer&family=Nova+Oval&family=Oleo+Script+Swash+Caps&family=Pattaya&family=Permanent+Marker&family=Pirata+One&family=Rampart+One&family=Rye&family=Sail&family=Sansita+Swashed:wght@300&family=Smokum&family=Tilt+Prism&family=Trade+Winds&family=Trocchi&family=Vast+Shadow&family=Wallpoet&family=Zen+Tokyo+Zoo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -998,6 +998,7 @@ header #upicon {
   padding-top: 40px;
   padding-bottom: 40px;
   margin-top: 10vh;
+  margin-bottom: 10vh;
   align-items: center;
 }
 #meet-team .meet-text {
@@ -1152,11 +1153,11 @@ header #upicon {
 }
 
 #count {
-  height: 60vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../image/new15.jpg");
+  background-image: url("../image/reyting3.avif");
   background-position-y: center;
   background-size: cover;
   margin-bottom: 10vh;
@@ -1164,21 +1165,24 @@ header #upicon {
 }
 #count .count {
   text-align: center;
+  margin-top: 270px;
 }
 #count .count h2 {
-  color: rgb(217, 125, 44);
+  color: rgb(246, 123, 16);
   font-family: "Nosifer", cursive;
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 #count .count p {
-  color: rgb(165, 136, 92);
+  color: rgb(252, 250, 249);
   font-family: "Tilt Prism", cursive;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 #count .count h1 {
-  color: #8e1606;
-  font-size: 23px;
+  color: #147d4c;
+  font-size: 33px;
   margin-bottom: 30px;
   font-family: "Rye", cursive;
   font-weight: bold;
@@ -1186,8 +1190,8 @@ header #upicon {
 #count .count span {
   font-family: "Rye", cursive;
   border-radius: 50%;
-  color: rgb(232, 60, 8);
-  background-color: rgba(247, 147, 179, 0.1);
+  color: rgb(199, 59, 35);
+  background-color: rgba(149, 105, 156, 0.1);
   padding: 25px;
   font-size: 37px;
 }
@@ -1286,7 +1290,8 @@ header #upicon {
   padding-left: 47px;
 }
 #branches-work .branches-prices .branches-table table td {
-  font-family: "Sail", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
   color: rgb(84, 82, 82);
   font-size: 25px;
   text-align: center;
@@ -1402,16 +1407,16 @@ header #upicon {
 }
 #category .category-accardion .accordion .accordion-item h2 button {
   padding: 20px 20px;
-  background-color: #fff;
-  color: rgb(13, 160, 113);
-  font-size: 30px;
-  font-family: "Neonderthaw", cursive;
+  background-color: #e7e8e4;
+  color: rgb(33, 117, 117);
+  font-size: 20px;
+  font-family: "Nova Oval", cursive;
   padding-left: 50px;
   text-align: center;
 }
 #category .category-accardion .accordion .accordion-item .accordion-body {
   background-color: #f8fcfa;
-  color: rgb(130, 118, 118);
+  color: rgb(21, 19, 19);
   font-size: 26px;
   text-align: center;
   font-family: "Beau Rivage", cursive;
@@ -1575,19 +1580,20 @@ header #upicon {
 #eat-food .eat-food .eat-text p {
   font-size: 33px;
   font-family: "Beau Rivage", cursive;
-  color: rgb(220, 171, 73);
+  color: rgb(49, 47, 44);
 }
 #eat-food .eat-food .eat-text button {
-  border: 2px solid rgb(240, 62, 3);
+  border: 1px solid rgb(43, 41, 40);
   background-color: transparent;
   font-family: "Beau Rivage", cursive;
   padding: 1px 29px;
-  color: rgb(240, 62, 3);
+  color: rgb(42, 39, 39);
   font-size: 29px;
   border-radius: 23px;
 }
 #eat-food .eat-food .eat-text button:hover {
-  background-color: rgb(240, 62, 3);
+  background-color: rgb(245, 64, 115);
+  border-color: rgb(240, 62, 3);
   color: #fff;
   font-weight: bold;
 }
@@ -1603,20 +1609,20 @@ header #upicon {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  background-position: center;
-  background-image: url("../image/pet-breeds1.jpg");
+  background-size: 1200px;
+  background-position-x: center;
+  background-image: url("../image/pet-breeds3.webp");
 }
 #pet-breeds .swiper-slide .slider-text h1 {
   color: rgb(82, 179, 7);
   font-size: 80px;
-  font-family: "Nosifer", cursive;
+  font-family: "Vast Shadow", cursive;
 }
 #pet-breeds .swiper-slide .slider-text h2 {
-  color: rgb(89, 47, 26);
+  color: rgb(82, 179, 7);
   font-size: 72px;
-  margin-top: 25vh;
-  font-family: "Nosifer", cursive;
+  margin-top: 23vh;
+  font-family: "Vast Shadow", cursive;
 }
 #pet-breeds .swiper-button-next,
 #pet-breeds .swiper-button-prev {
@@ -1633,7 +1639,7 @@ header #upicon {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: rgb(18, 199, 154);
+  color: rgb(13, 61, 49);
 }
 #pet-breeds .autoplay-progress svg {
   --progress: 0;
@@ -1886,6 +1892,7 @@ header #upicon {
   background-size: cover;
   background-position-y: center;
   height: 100vh;
+  margin-bottom: 3px;
 }
 #contacr-us .contacr-us .form {
   margin-top: 30px;
@@ -1908,7 +1915,7 @@ header #upicon {
 #contacr-us .contacr-us .form .form-contactus h3 {
   margin-top: 19px;
   margin-bottom: 19px;
-  color: rgb(237, 99, 65);
+  color: rgb(237, 194, 65);
   text-align: center;
   font-weight: bold;
   font-family: "Sail", cursive;
@@ -1925,7 +1932,7 @@ header #upicon {
   background-color: rgb(245, 237, 245);
   font-family: "Fleur De Leah", cursive;
   font-size: 23px;
-  color: rgb(94, 76, 76);
+  color: brown;
 }
 #contacr-us .contacr-us .form .form-contactus textarea {
   text-indent: 8px;
@@ -1947,16 +1954,16 @@ header #upicon {
   font-size: 22px;
 }
 #contacr-us .contacr-us .form .form-contactus .button {
-  border: 2px solid rgb(39, 240, 213);
+  border: 2px solid rgb(237, 194, 65);
   font-family: "Sail", cursive;
   margin-left: 24vh;
   padding: 7px 29px;
-  color: rgb(17, 235, 206);
+  color: rgb(237, 194, 65);
   font-size: 22px;
   border-radius: 23px;
 }
 #contacr-us .contacr-us .form .form-contactus .button:hover {
-  background-color: rgb(197, 100, 100);
+  background-color: rgb(237, 194, 65);
   color: #fff;
 }
 #contacr-us .contact-icon {

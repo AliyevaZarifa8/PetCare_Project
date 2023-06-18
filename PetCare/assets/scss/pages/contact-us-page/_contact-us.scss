@@ -5,6 +5,7 @@
   background-size: cover;
   background-position-y: center;
   height: 100vh;
+  margin-bottom: 3px;
   .contacr-us {
     .form {
       margin-top: 30px;
@@ -25,7 +26,7 @@
         h3 {
           margin-top: 19px;
           margin-bottom: 19px;
-          color: rgb(237, 99, 65);
+          color: rgb(237, 194, 65);
           text-align: center;
           font-weight: bold;
           font-family: "Sail", cursive;
@@ -44,7 +45,7 @@
           background-color: rgb(245, 237, 245);
           font-family: "Fleur De Leah", cursive;
           font-size: 23px;
-          color: rgb(94, 76, 76);
+          color: brown;
         }
         textarea {
           text-indent: 8px;
@@ -67,15 +68,15 @@
         }
 
         .button {
-          border: 2px solid rgb(39, 240, 213);
+          border: 2px solid rgb(237, 194, 65);
           font-family: "Sail", cursive;
           margin-left: 24vh;
           padding: 7px 29px;
-          color: rgb(17, 235, 206);
+          color:rgb(237, 194, 65);
           font-size: 22px;
           border-radius: 23px;
           &:hover {
-            background-color: rgb(197, 100, 100);
+            background-color: rgb(237, 194, 65);
             color: #fff;
           }
         }

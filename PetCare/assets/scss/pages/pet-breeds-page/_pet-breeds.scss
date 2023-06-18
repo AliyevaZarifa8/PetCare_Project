@@ -11,22 +11,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
+    background-size: 1200px;
+    background-position-x: center;
 
-    background-image: url("../image/pet-breeds1.jpg");
+    background-image: url("../image/pet-breeds3.webp");
 
     .slider-text {
       h1 {
         color: rgb(82, 179, 7);
         font-size: 80px;
-        font-family: "Nosifer", cursive;
+        font-family: "Vast Shadow", cursive;
       }
       h2 {
-        color: rgb(89, 47, 26);
+        color: rgb(82, 179, 7);
         font-size: 72px;
-        margin-top: 25vh;
-        font-family: "Nosifer", cursive;
+
+        margin-top: 23vh;
+        font-family: "Vast Shadow", cursive;
       }
     }
   }
@@ -46,7 +47,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: rgb(18, 199, 154);
+    color: rgb(13, 61, 49);
   }
 
   .autoplay-progress svg {
