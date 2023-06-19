@@ -1864,21 +1864,12 @@ header #upicon {
   width: 100%;
   height: 100%;
 }
-#pet-breeds3 .cards .card .breeds-hover i {
-  color: rgb(9, 199, 155);
-  font-size: 30px;
-}
-#pet-breeds3 .cards .card .breeds-hover .fa-bookmark {
-  color: rgb(16, 125, 234);
-}
-#pet-breeds3 .cards .card .breeds-hover .fa-heart {
-  color: red;
+#pet-breeds3 .cards .card .breeds-hover img {
+  width: 40px;
+  height: 40px;
 }
 #pet-breeds3 .cards .card .breeds-hover button {
   padding: 0;
-}
-#pet-breeds3 .cards .card .breeds-hover button .fa-eye {
-  color: #e05a17;
 }
 #pet-breeds3 #showmore {
   font-family: "Neonderthaw", cursive;
@@ -2752,14 +2743,9 @@ footer .footer-bottom i {
   text-align: center;
   font-size: 21px;
 }
-#admin .admin .breeds-activity #pet-breeds3 .cards .card .fa-eraser {
-  color: red;
-  font-size: 22px;
-  margin-right: 10px;
-}
-#admin .admin .breeds-activity #pet-breeds3 .cards .card .fa-pen-to-square {
-  font-size: 20px;
-  color: rgb(38, 192, 38);
+#admin .admin .breeds-activity #pet-breeds3 .cards .card .img {
+  width: 30px;
+  height: 30px;
 }
 #admin .admin .breeds-activity #pet-breeds3 #showmore {
   display: flex;

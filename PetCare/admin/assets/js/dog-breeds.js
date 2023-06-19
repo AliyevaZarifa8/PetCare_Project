@@ -37,9 +37,14 @@ async function drawBranches() {
         </p>
       </div>
       <div>
-      <i class="fa-solid fa-eraser" onclick=deleteBreeds("${element.id}")></i>
+      <img src="../assets/image/delete.png" class="img" alt="" onclick=deleteBreeds("${
+        element.id
+      }")>
+    
+     
       <a href="breeds-crud.html?id=${element.id}">
-      <i class="fa-regular fa-pen-to-square"></i></a>
+      <img src="../assets/image/edit.png" class="img" alt="">
+      </a>
       </div>
     </div>
   </div>
@@ -97,10 +102,8 @@ async function deleteBreeds(id) {
   axios.delete(`${breedsUrl}/${id}`);
 }
 
+let logOut = document.querySelector(".admin-exit");
 
-let logOut=document.querySelector(".admin-exit");
-
-
-logOut.addEventListener("click", function(){
-    window.location="../index.html"
-})
+logOut.addEventListener("click", function () {
+  window.location = "../index.html";
+});

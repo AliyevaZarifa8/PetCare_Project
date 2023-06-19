@@ -43,12 +43,18 @@ async function drawBranches() {
         </p>
       </div>
       <div class="breeds-hover">
-      <i class="fa-regular fa-bookmark" onclick=addBasket("${element.id}")></i>
+      <img src="./assets/image/bskt.png " alt="" id="save"  onclick=addBasket("${
+        element.id
+      }")>
       <button type="button" class="btn shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <i class="fa-solid fa-eye"></i>
+      <img src="./assets/image/eye1.png " id="details" alt="">
      </button>
-     
-     <i class="fa-regular fa-heart" onclick=addFav("${element.id}")></i>
+      <img src="./assets/image/likes.png " id="like" alt="" onclick=addFav("${
+        element.id
+      }")>
+
+   
+
      </div>
     </div>
   </div>
@@ -109,7 +115,6 @@ sortBtn.addEventListener("click", function () {
   }
 });
 
-
 const setBasket = JSON.parse(localStorage.getItem("setBaskets")) || [];
 async function addBasket(userId) {
   const res = await axios(`${breedsUrl}/${userId}`);
@@ -125,7 +130,6 @@ async function addBasket(userId) {
   }
 }
 
-
 const getBasket = JSON.parse(localStorage.getItem("getBaskets")) || [];
 async function addFav(userId) {
   const res = await axios(`${breedsUrl}/${userId}`);
@@ -140,12 +144,6 @@ async function addFav(userId) {
     alert("Character already exists in your list!");
   }
 }
-
-
-
-
-
-
 
 //video
 let videoIcon = document.querySelector(".video-txt");
