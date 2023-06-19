@@ -42,6 +42,14 @@ async function drawBranches() {
         ${element.breedstext.slice(0, 40)} ...
         </p>
       </div>
+      <div class="breeds-hover">
+      <i class="fa-regular fa-bookmark" onclick=addBasket("${element.id}")></i>
+      <button type="button" class="btn shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="fa-solid fa-eye"></i>
+     </button>
+     
+     <i class="fa-regular fa-heart" onclick=addFav("${element.id}")></i>
+     </div>
     </div>
   </div>
         
@@ -100,6 +108,44 @@ sortBtn.addEventListener("click", function () {
     drawBranches();
   }
 });
+
+
+const setBasket = JSON.parse(localStorage.getItem("setBaskets")) || [];
+async function addBasket(userId) {
+  const res = await axios(`${breedsUrl}/${userId}`);
+  const data = await res.data;
+
+  isTrue = setBasket.some((element) => element.id === data.id);
+
+  if (!isTrue) {
+    setBasket.push(data);
+    localStorage.setItem("setBaskets", JSON.stringify(setBasket));
+  } else {
+    alert("Character already exists in your list!");
+  }
+}
+
+
+const getBasket = JSON.parse(localStorage.getItem("getBaskets")) || [];
+async function addFav(userId) {
+  const res = await axios(`${breedsUrl}/${userId}`);
+  const data = await res.data;
+
+  isTrue = getBasket.some((element) => element.id === data.id);
+
+  if (!isTrue) {
+    getBasket.push(data);
+    localStorage.setItem("getBaskets", JSON.stringify(getBasket));
+  } else {
+    alert("Character already exists in your list!");
+  }
+}
+
+
+
+
+
+
 
 //video
 let videoIcon = document.querySelector(".video-txt");

@@ -44,7 +44,7 @@ function getallFav() {
                <i class="fa-regular fa-star text-warning"></i>
               ${element.starprice}</p>
              
-              <i class="fa-solid fa-eraser text-danger text-center" onclick=removeBas("${element.id}")></i>
+              <i class="fa-solid fa-eraser text-danger text-center" onclick=removeFav("${element.id}")></i>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ function getallFav() {
 }
 getallFav();
 
-function removeBas(id) {
+function removeFav(id) {
   favFood = favFood.filter((el) => el.id != id);
   localStorage.setItem("favFoods", JSON.stringify(favFood));
   getallFav();

@@ -77,6 +77,13 @@
       margin-bottom: 30px;
       display: flex;
       flex-direction: column;
+      &:hover {
+        .breeds-hover {
+          display: flex;
+          border-radius: 23px;
+          background-color: rgba(rgb(7, 122, 51), $alpha: 0.2);
+        }
+      }
       img {
         border-radius: 20px;
         height: 30vh;
@@ -101,6 +108,38 @@
         color: rgb(119, 115, 113);
         text-align: center;
         font-size: 17px;
+      }
+
+      .breeds-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        row-gap: 20px;
+        padding-right: 29px;
+        width: 100%;
+        height: 100%;
+
+        i {
+          color: rgb(9, 199, 155);
+          font-size: 30px;
+        }
+        .fa-bookmark {
+          color: rgb(16, 125, 234);
+        }
+
+        .fa-heart {
+          color: red;
+        }
+        button {
+          padding: 0;
+          .fa-eye {
+            color: #e05a17;
+          }
+        }
       }
     }
   }
