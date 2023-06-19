@@ -1,7 +1,7 @@
 let navbar = document.querySelector("#navbar");
 const upIcon = document.querySelector("#upicon");
 navbar.style.background = "#2e8b57";
-
+let modalDialog = document.querySelector("#modal-dialog");
 let petBreeds = document.querySelector("#pet-breedss");
 let selectBreeds = document.querySelector("#select");
 let searchInp = document.querySelector("#search");
@@ -46,9 +46,18 @@ async function drawBranches() {
       <img src="./assets/image/bskt.png " alt="" id="save"  onclick=addBasket("${
         element.id
       }")>
-      <button type="button" class="btn shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <img src="./assets/image/eye1.png " id="details" alt="">
-     </button>
+
+      <button
+      type="button"
+      class="btn"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
+    >
+    <img src="./assets/image/eye1.png " id="details" alt="" onclick=viewBreeds("${
+      element.id
+    }")>
+    </button>
+      
       <img src="./assets/image/likes.png " id="like" alt="" onclick=addFav("${
         element.id
       }")>
@@ -144,6 +153,43 @@ async function addFav(userId) {
     alert("Character already exists in your list!");
   }
 }
+
+async function viewBreeds(id) {
+  const res = await axios(`${breedsUrl}/${id}`);
+  const data = res.data;
+  modalDialog.innerHTML = `
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success mx-5 px-5" id="staticBackdropLabel">
+                  Breeds : ${data.breedsname}
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="${data.photo}" alt="" width="300" />
+                <p class="text-danger">Price : ${data.prices}</p>
+                <p>
+                ${data.breedstext}
+              </p>
+              </div>
+              <div class="modal-footer text-center">
+                <button
+                  type="button"
+                  class="btn btn-success text-center"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+  `;
+}
+viewBreeds();
 
 //video
 let videoIcon = document.querySelector(".video-txt");

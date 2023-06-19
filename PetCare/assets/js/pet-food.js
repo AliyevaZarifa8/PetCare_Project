@@ -2,7 +2,6 @@ let navbar = document.querySelector("#navbar");
 const upIcon = document.querySelector("#upicon");
 const petFoods = document.querySelector("#pet-foods");
 navbar.style.background = "#2e8b57";
-
 let modalDialog = document.querySelector(".modal-dialog");
 let selectFood = document.querySelector("#select");
 let searchInp = document.querySelector("#search");
