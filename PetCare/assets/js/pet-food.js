@@ -54,7 +54,7 @@ async function drawFood() {
       <i class="fa-solid fa-eye"></i>
      </button>
      
-     <i class="fa-regular fa-heart" onclick=addBasket("${element.id}")></i>
+     <i class="fa-regular fa-heart" onclick=addFav("${element.id}")></i>
      </div>
     </div>
   </div>
@@ -115,7 +115,6 @@ sortBtn.addEventListener("click", function () {
   }
 });
 
-
 const favStorage = JSON.parse(localStorage.getItem("favUser")) || [];
 async function addBasket(userId) {
   const res = await axios(`${foodUrl}/${userId}`);
@@ -125,9 +124,23 @@ async function addBasket(userId) {
 
   if (!isTrue) {
     favStorage.push(data);
-    localStorage.setItem("favUser",JSON.stringify(favStorage));
+    localStorage.setItem("favUser", JSON.stringify(favStorage));
   } else {
-    alert("Character already exists in favorite list!");
+    alert("Character already exists in your list!");
+  }
+}
+const favFood = JSON.parse(localStorage.getItem("favFoods")) || [];
+async function addFav(userId) {
+  const res = await axios(`${foodUrl}/${userId}`);
+  const data = await res.data;
+
+  isTrue = favFood.some((element) => element.id === data.id);
+
+  if (!isTrue) {
+    favFood.push(data);
+    localStorage.setItem("favFoods", JSON.stringify(favFood));
+  } else {
+    alert("Character already exists in your list!");
   }
 }
 
@@ -174,6 +187,3 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
-
-
-

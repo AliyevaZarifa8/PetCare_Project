@@ -1,7 +1,7 @@
 let navbar = document.querySelector("#navbar");
 const upIcon = document.querySelector("#upicon");
 navbar.style.background = "#2e8b57";
-const foodUrl = "http://localhost:8080/dog-food";
+
 function scrollFun() {
   let x =
     document.body.scrollTop > 200 || document.documentElement.scrollTop > 200;
@@ -21,14 +21,14 @@ upIcon.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
 });
 
-let basket = document.querySelector("#basket");
+let favorit = document.querySelector("#favorit");
 
-let favUser = JSON.parse(localStorage.getItem("favUser")) || [];
+let favFood = JSON.parse(localStorage.getItem("favFoods")) || [];
 
-function getallBasket() {
-  basket.innerHTML = "";
-  favUser.forEach((element) => {
-    basket.innerHTML += `
+function getallFav() {
+  favorit.innerHTML = "";
+  favFood.forEach((element) => {
+    favorit.innerHTML += `
         <div class="col-3 p-2 text-center">
           <div class="card " style="width: 18rem">
             <img src="${element.photo}"  class="card-img-top" alt="..." />
@@ -43,7 +43,7 @@ function getallBasket() {
                <i class="fa-solid fa-star text-warning"></i>
                <i class="fa-regular fa-star text-warning"></i>
               ${element.starprice}</p>
-              <i class="fa-regular fa-heart text-danger" onclick=addFavs("${element.id}")></i>
+             
               <i class="fa-solid fa-eraser text-danger text-center" onclick=removeBas("${element.id}")></i>
             </div>
           </div>
@@ -52,27 +52,10 @@ function getallBasket() {
         `;
   });
 }
-getallBasket();
+getallFav();
 
 function removeBas(id) {
-  favUser = favUser.filter((el) => el.id != id);
-  localStorage.setItem("favUser", JSON.stringify(favUser));
-  getallBasket();
-}
-
-
-
-const favItem = JSON.parse(localStorage.getItem("favFoods")) || [];
-async function addFavs(userId) {
-  const res = await axios(`${foodUrl}/${userId}`);
-  const data = await res.data;
-
-  isTrue = favItem.some((element) => element.id === data.id);
-
-  if (!isTrue) {
-    favItem.push(data);
-    localStorage.setItem("favFoods",JSON.stringify(favItem));
-  } else {
-    alert("Character already exists in your list!");
-  }
+  favFood = favFood.filter((el) => el.id != id);
+  localStorage.setItem("favFoods", JSON.stringify(favFood));
+  getallFav();
 }
