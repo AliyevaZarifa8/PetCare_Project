@@ -11,6 +11,21 @@
   #hero-text {
     display: flex;
     flex-direction: column;
+    animation: moveup 1s linear 1;
+    animation-delay: 4s;
+    // visibility: hidden;
+    animation-fill-mode: forwards;
+
+    @keyframes moveup {
+      0% {
+        transform: translateX(-100px);
+        visibility: visible;
+      }
+      100% {
+        transform: translateY(0);
+        visibility: visible;
+      }
+    }
 
     margin-top: 12vh;
     row-gap: 20px;

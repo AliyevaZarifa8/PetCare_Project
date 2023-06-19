@@ -32,12 +32,28 @@ header #header-top nav h1 {
   margin-right: 55px;
   font-family: "Nosifer", cursive;
   font-size: 30px;
+  animation: movedown 1s linear 1;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes movedown {
+  0% {
+    transform: translateY(-60px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
 }
 header #header-top nav #ul {
   display: flex;
   margin: auto 0;
   align-items: center;
   column-gap: 30px;
+  animation: movedown 1s linear 1;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 header #header-top nav #ul li .a-tag {
   font-size: 20px;
@@ -60,6 +76,11 @@ header #header-top nav #ul li .a-tag:hover::after {
   background-color: rgb(12, 218, 18);
   bottom: -3%;
   left: 19%;
+}
+header #header-top #header-icon {
+  animation: movedown 1s linear 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 header #header-top #header-icon .dropdown ul {
   background-color: #d3f2e0;
@@ -111,8 +132,21 @@ header #upicon {
 #hero-banner #hero-text {
   display: flex;
   flex-direction: column;
+  animation: moveup 1s linear 1;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
   margin-top: 12vh;
   row-gap: 20px;
+}
+@keyframes moveup {
+  0% {
+    transform: translateX(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
 }
 #hero-banner #hero-text h1 {
   font-size: 53px;
@@ -159,6 +193,19 @@ header #upicon {
   flex-direction: column;
   row-gap: 20px;
   overflow: hidden;
+  animation: moveup 1s linear 1;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes moveup {
+  0% {
+    transform: translateX(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
 }
 #hero #hero-img1 img {
   width: 100%;
@@ -171,6 +218,9 @@ header #upicon {
 }
 #hero #hero-img2 {
   overflow: hidden;
+  animation: moveup 1s linear 1;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
 #hero #hero-img2 img {
   width: 100%;
@@ -186,6 +236,19 @@ header #upicon {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  animation: moveupp 1s linear 1;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+@keyframes moveupp {
+  0% {
+    transform: translateX(100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
 }
 #hero #hero-text h1 {
   font-size: 50px;
@@ -212,10 +275,23 @@ header #upicon {
   align-items: center;
 }
 #acres #acres-img1 {
+  animation: zoom 1s linear 1;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
   overflow: hidden;
+}
+@keyframes zoom {
+  0% {
+    transform: translateX(100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
 }
 #acres #acres-img1 img {
   width: 100%;
@@ -229,6 +305,9 @@ header #upicon {
 #acres #acres-img2 {
   margin-right: 20px;
   overflow: hidden;
+  animation: zoom 1s linear 1;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
 }
 #acres #acres-img2 img {
   height: 58vh;
@@ -244,6 +323,19 @@ header #upicon {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  animation: zoomt 1s linear 1;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomt {
+  0% {
+    transform: translateX(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+  }
 }
 #acres #acres-text h1 {
   font-size: 60px;
