@@ -45,7 +45,17 @@ async function drawFood() {
         <i class="fa-regular fa-star"></i>
         <span>${element.starprice}</span>
       </p>
-      <div><button>Buy Now</button></div>
+      <div>
+      <button id="button">Buy Now</button>
+      </div>
+      <div class="food-hover">
+      <i class="fa-regular fa-bookmark" onclick=addBasket("${element.id}")></i>
+      <button type="button" class="btn shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="fa-solid fa-eye"></i>
+     </button>
+     
+     <i class="fa-regular fa-heart" onclick=addBasket("${element.id}")></i>
+     </div>
     </div>
   </div>
         
@@ -105,6 +115,22 @@ sortBtn.addEventListener("click", function () {
   }
 });
 
+
+const favStorage = JSON.parse(localStorage.getItem("favUser")) || [];
+async function addBasket(userId) {
+  const res = await axios(`${foodUrl}/${userId}`);
+  const data = await res.data;
+
+  isTrue = favStorage.some((element) => element.id === data.id);
+
+  if (!isTrue) {
+    favStorage.push(data);
+    localStorage.setItem("favUser",JSON.stringify(favStorage));
+  } else {
+    alert("Character already exists in favorite list!");
+  }
+}
+
 function scrollFun() {
   let x =
     document.body.scrollTop > 200 || document.documentElement.scrollTop > 200;
@@ -148,3 +174,6 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+
+

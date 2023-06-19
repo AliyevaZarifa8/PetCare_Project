@@ -346,46 +346,6 @@
       "commit": "Repudiandae voluptat",
       "select": "altese",
       "id": 5
-    },
-    {
-      "photo": "./assets/image/undefined",
-      "email": "",
-      "firstname": "",
-      "lastname": "",
-      "phone": "",
-      "commit": "",
-      "select": "",
-      "id": 6
-    },
-    {
-      "photo": "./assets/image/undefined",
-      "email": "",
-      "firstname": "",
-      "lastname": "",
-      "phone": "",
-      "commit": "",
-      "select": "",
-      "id": 7
-    },
-    {
-      "photo": "./assets/image/undefined",
-      "email": "",
-      "firstname": "",
-      "lastname": "",
-      "phone": "",
-      "commit": "",
-      "select": "",
-      "id": 8
-    },
-    {
-      "photo": "./assets/image/undefined",
-      "email": "taryxywefo@mailinator.com",
-      "firstname": "Candace",
-      "lastname": "Bishop",
-      "phone": "+1 (845) 277-3983",
-      "commit": "Est porro eum non si",
-      "select": "yorkshire",
-      "id": 9
     }
   ],
   "sigin": [
@@ -444,6 +404,27 @@
       "password": "Pa$$w0rd!",
       "isadmin": false,
       "id": 9
+    },
+    {
+      "email": "leyla@gmail.com",
+      "fullname": "Aliyeva Leyla",
+      "password": "zerife23",
+      "isadmin": false,
+      "id": 10
+    },
+    {
+      "email": "kananamirov@gmail.com",
+      "fullname": "Kanan Amirov",
+      "password": "1532",
+      "isadmin": false,
+      "id": 11
+    },
+    {
+      "email": "ulfet@gmail.com",
+      "fullname": "Ulfet Zakirli",
+      "password": "777666000",
+      "isadmin": false,
+      "id": 12
     }
   ]
 }
