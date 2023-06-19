@@ -1,101 +1,121 @@
 #admin {
-  #pet-breeds3 {
-    background-color: #fff;
-    border-radius: 6%;
-    margin-bottom: 17vh;
-    padding-bottom: 10vh;
-
-    .search-sort {
-      margin-bottom: 90px;
-      margin-top: 19px;
-      input {
-        width: 72%;
-        text-indent: 20px;
-        height: 6vh;
-        border-radius: 7px;
-        border: 1px solid #703ee4;
-        outline: none;
-        margin-left: 10px;
-        background-color: transparent;
-        &::placeholder {
-          color: #703ee4;
-        }
-      }
-      select {
-        height: 39.33px;
-        color: #703ee4;
-        border: 1px solid #703ee4;
-        text-indent: 8px;
-        background-color: transparent;
-        border-radius: 7px;
-        outline: none;
-      }
-
-      .button {
-        border: 1px solid #703ee4;
-        border-radius: 7px;
-        padding: 7px 38px;
-        color: #703ee4;
-        background-color: transparent;
-        margin-left: 80px;
-      }
-    }
-
-    .cards {
-      row-gap: 20px;
-
-      .card {
-        padding: 14px 27px;
+  .admin {
+    .breeds-activity {
+      width: 80%;
+      margin-left: 20%;
+      margin-top: 40px;
+      h2 {
         text-align: center;
-        border-radius: 27px;
-        border: 2px solid #7363b4;
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        img {
-          border-radius: 20px;
-          height: 25vh;
-        }
-        h2 {
-          color: rgb(117, 14, 235);
-          font-size: 17px;
-          padding-top: 10px;
-        }
-        h3 {
-          color: rgb(67, 6, 165);
-          font-size: 21px;
-        }
-        i {
-          color: rgb(58, 14, 237);
-          font-size: 17px;
-        }
-        p {
-          color: rgb(89, 73, 147);
-          text-align: center;
-          font-size: 17px;
-        }
-        .fa-eraser {
-          color: red;
-          font-size: 22px;
-          margin-right: 10px;
-        }
-        .fa-pen-to-square {
-          font-size: 20px;
-          color: rgb(38, 192, 38);
-        }
+        color: rgb(85, 85, 239);
+        font-family: "Nosifer", cursive;
       }
-    }
-    #showmore {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 50px;
-      .showmore {
-        border: 1px solid #703ee4;
-        border-radius: 7px;
-        padding: 7px 38px;
-        color: #703ee4;
+      #fa-medrt {
+        display: flex;
+        justify-content: end;
+        margin-right: 90px;
+        font-size: 27px;
+      }
+      #pet-breeds3 {
         background-color: transparent;
+        border-radius: 6%;
+        margin-bottom: 17vh;
+        padding-bottom: 10vh;
+
+        .search-sort {
+          margin-bottom: 90px;
+          margin-top: 19px;
+          input {
+            width: 72%;
+            text-indent: 20px;
+            height: 7vh;
+            border-radius: 7px;
+            border: 1px solid #703ee4;
+            outline: none;
+            margin-left: 10px;
+            background-color: transparent;
+            color: #703ee4;
+            &::placeholder {
+              color: #703ee4;
+            }
+          }
+          select {
+            height: 7vh;
+            color: #703ee4;
+            border: 1px solid #703ee4;
+            text-indent: 8px;
+            background-color: transparent;
+            border-radius: 7px;
+            outline: none;
+          }
+
+          .button {
+            border: 1px solid #703ee4;
+            border-radius: 7px;
+            padding: 7px 38px;
+            color: #703ee4;
+            background-color: transparent;
+            margin-left: 80px;
+          }
+        }
+
+        .cards {
+          row-gap: 20px;
+
+          .card {
+            padding: 14px 27px;
+            text-align: center;
+            border-radius: 27px;
+            border: 2px solid #7363b4;
+            margin-bottom: 30px;
+            display: flex;
+            background-color: rgba($color: #000000, $alpha: 0.2);
+            flex-direction: column;
+            img {
+              border-radius: 20px;
+              height: 25vh;
+            }
+            h2 {
+              color: rgb(222, 214, 232);
+              font-size: 19px;
+              padding-top: 10px;
+            }
+            h3 {
+              color: rgb(168, 139, 213);
+              font-size: 27px;
+            }
+            i {
+              color: rgb(232, 230, 243);
+              font-size: 23px;
+            }
+            p {
+              color: rgb(89, 73, 147);
+              text-align: center;
+              font-size: 21px;
+            }
+            .fa-eraser {
+              color: red;
+              font-size: 22px;
+              margin-right: 10px;
+            }
+            .fa-pen-to-square {
+              font-size: 20px;
+              color: rgb(38, 192, 38);
+            }
+          }
+        }
+        #showmore {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+          .showmore {
+            border: 1px solid #703ee4;
+            border-radius: 7px;
+            padding: 7px 38px;
+            color: #703ee4;
+            background-color: transparent;
+          }
+        }
       }
     }
   }

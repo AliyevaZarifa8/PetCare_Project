@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
   <body>
+
     <section id="admin">
       <div class="admin">
         <div class="admin-panel">
@@ -72,73 +73,65 @@
             <i class="fa-solid fa-arrow-right-from-bracket"></i>LogOut
           </div>
         </div>
+
     
-        
-    <div class="crud-activity">
-     
-      <section id="branches-crud">
-       <div class="container">
-        <div class="row">
-      <div class="col-lg-6 offset-lg-3">
-        <form action="" class="form-branches">
-          <h2 id="heading">Add Branches</h2>
-          <div class="mb-3">
-            <label for="placename" class="form-label"
-              >Place Name :</label
-            >
-            <input
-              type="text"
-              class="form-control shadow-none"
-              id="placename"
-              placeholder="Enter a placename..."
-            />
-          </div>
-          <div class="mb-3">
-            <label for="placeposition" class="form-label"
-              >Place Position :</label
-            >
-            <input
-              type="text"
-              class="form-control shadow-none"
-              id="placeposition"
-              placeholder="Enter a placeposition..."
-            />
-          </div>
-        
-          <div class="mb-3">
-            <label for="weekdays" class="form-label"
-              >Weekdays : </label>
-            <input
-              type="text"
-              class="form-control shadow-none"
-              id="weekdays"
-              aria-describedby="emailHelp"
-              placeholder="Enter a weekdays..."
-            />
-          </div>
-          <div class="mb-3">
-            <label for="phone" class="form-label"
-              >Phone: </label
-            >
-            <input
-              type="tel"
-              class="form-control shadow-none"
-              id="phone"
-              aria-describedby="emailHelp"
-              placeholder="Enter a phone..."
-            />
-          </div>
-    
-            <div class="row">
-              <div class="col-lg-3 offset-lg-5">
-                <button type="submit" class="btn button">Submit</button>
+
+        <div class="user-activity">
+            <h2>User List</h2>
+            
+            <section id="user-work">
+              <div class="container">
+                <div class="user">
+                  <div class="row search-sort">
+                    <input
+                      size="120"
+                      type="text"
+                      id="search"
+                      placeholder="Search a team member..."
+                    />
+                  </div>
+                  <div class="user-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Id</th>
+                          <th>Name</th>
+                          <th>Email</th>
+                          <th>Admin</th>
+                          <th></th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <div class="justify-content-center" id="spinner">
+                          <div
+                            class="spinner-border text-success"
+                            role="status"
+                          >
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                        </div>
+                        <!-- <tr>
+                            <td>
+                              <i class="fa-solid fa-landmark-dome"></i> Ticarat branch
+                            </td>
+                            <td>
+                              <i class="fa-solid fa-location-dot"></i>
+                              Baku city, Garadag district, Lokbatan settlement
+                            </td>
+                            <td>
+                              <i class="fa-solid fa-calendar-check"></i> Weekdays: 09:00 –
+                              17:00
+                            </td>
+                            <td><i class="fa-solid fa-phone-volume"></i> 196</td>
+                          </tr> -->
+                      </tbody>
+                    </table>
+                 
+                </div>
               </div>
-            </div> 
-        </form>
-      </div>
-        </div>
-       </div>
-        </div>
+            </section>
+            </div>
       </div>
     </section>
 
@@ -153,9 +146,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="../admin/assets/js/branches-crud.js"></script>
+    <script src="./assets/js/user.js"></script>
   </body>
 </html>
-
-
-

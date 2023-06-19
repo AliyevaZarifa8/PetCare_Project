@@ -23,107 +23,122 @@
   </head>
   <body>
     <section id="admin">
-      <div class="">
-        <h1>Admin Panel</h1>
-        <div class="admin">
-          <div class="admin-panel">
-            <div class="admin-photo">
-              <img src="./assets/image/profil.jpg" width="100" alt="" />
-              <h3>Alieffa Zarifa</h3>
-              <p>
-                <i class="fa-solid fa-envelope-open-text"></i> petcare@gmail.com
-              </p>
-              <div>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-solid fa-link"></i>
-                <i class="fa-brands fa-discord"></i>
-              </div>
-            </div>
-            <hr />
-            <ul>
-              <li><a href="./prices-plans.html">Prices-Plans</a></li>
-              <li><a href="./branches-info.html">Branches</a></li>
-              <li><a href="./meet-team.html">Team</a></li>
-              <li><a href="./dog-food.html">Dog Food</a></li>
-              <li><a href="./dog-breeds.html">Dog Breeds</a></li>
-              <li>
-                <a href="./messages.html">Messages</a>
-              </li>
-            </ul>
-            <hr />
-            <div class="admin-help">
-              <a href=""><i class="fa-solid fa-gear"></i> Setting </a><br />
-              <a href=""><i class="fa-solid fa-question"></i> Help </a>
-            </div>
+      <div class="admin">
+        <div class="admin-panel">
+          <div class="admin-photo">
+            <img src="./assets/image/profil.jpg" width="100" alt="" />
+            <h3>Alieffa Zarifa</h3>
+          </div>
+          <hr />
+          <ul>
+            <li>
+              <a href="./prices-plans.html"
+                ><i class="fa-solid fa-hand-holding-dollar"></i> Prices-Plans</a
+              >
+            </li>
+            <li>
+              <a href="./branches-info.html"
+                ><i class="fa-solid fa-location-crosshairs"></i> Branches</a
+              >
+            </li>
+            <li>
+              <a href="./meet-team.html"
+                ><i class="fa-brands fa-teamspeak"></i> Team</a
+              >
+            </li>
+            <li>
+              <a href="./dog-food.html"
+                ><i class="fa-solid fa-bone"></i> Dog Food</a
+              >
+            </li>
+            <li>
+              <a href="./dog-breeds.html"
+                ><i class="fa-solid fa-shield-dog"></i> Dog Breeds</a
+              >
+            </li>
+            <li>
+              <a href="./user.html"
+                ><i class="fa-solid fa-people-group"></i> User</a
+              >
+            </li>
+            <li>
+              <a href="./messages.html"
+                ><i class="fa-solid fa-comment-dots"></i> Messages</a
+              >
+            </li>
+          </ul>
+          <hr />
+          <div class="admin-exit">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>LogOut
+          </div>
+        </div>
+
+        
+    <div class="crud-activity">
+   
+      <section id="breeds-crud">
+       <div class="container">
+        <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <form action="" class="form-breeds">
+          <h2 id="heading">Add Prices-Plans</h2>
+          <div class="mb-3">
+            <label for="breedsname" class="form-label"
+              >Breeds Name :</label
+            >
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="breedsname"
+              placeholder="Enter a breeds name..."
+            />
+          </div>
+          <div class="mb-3">
+            <label for="prices" class="form-label"
+              >Price :</label
+            >
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="prices"
+              placeholder="Enter a price..."
+            />
+          </div>
+        
+          <div class="mb-3">
+            <label for="photo" class="form-label"
+              >Photo : </label>
+            <input
+              type="file"
+              class="form-control shadow-none"
+              id="photo"
+              aria-describedby="emailHelp"
+              placeholder="Enter a photo..."
+            />
           </div>
 
-          <div class="crud-activity">
-            <h2 id="heading">Add Prices-Plans</h2>
-            <section id="breeds-crud">
-             <div class="container">
-              <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-              <form action="" class="form-breeds">
-                <div class="mb-3">
-                  <label for="breedsname" class="form-label"
-                    >Breeds Name :</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control shadow-none"
-                    id="breedsname"
-                    placeholder="Enter a breeds name..."
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="prices" class="form-label"
-                    >Price :</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control shadow-none"
-                    id="prices"
-                    placeholder="Enter a price..."
-                  />
-                </div>
-              
-                <div class="mb-3">
-                  <label for="photo" class="form-label"
-                    >Photo : </label>
-                  <input
-                    type="file"
-                    class="form-control shadow-none"
-                    id="photo"
-                    aria-describedby="emailHelp"
-                    placeholder="Enter a photo..."
-                  />
-                </div>
-
-                <div class="mb-3">
-                  <label for="breedstext" class="form-label"
-                    >Breeds Text: </label
-                  >
-                  <input
-                    type="text"
-                    class="form-control shadow-none"
-                    id="breedstext"
-                    aria-describedby="emailHelp"
-                    placeholder="Enter a breeds text..."
-                  />
-                </div>
-
-                  <div class="row">
-                    <div class="col-lg-3 offset-lg-5">
-                      <button type="submit" class="btn button">Submit</button>
-                    </div>
-                  </div> 
-              </form>
-            </div>
-              </div>
-             </div>
-              </div>
-            </section>
+          <div class="mb-3">
+            <label for="breedstext" class="form-label"
+              >Breeds Text: </label
+            >
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="breedstext"
+              aria-describedby="emailHelp"
+              placeholder="Enter a breeds text..."
+            />
           </div>
+
+            <div class="row">
+              <div class="col-lg-3 offset-lg-5">
+                <button type="submit" class="btn button">Submit</button>
+              </div>
+            </div> 
+        </form>
+      </div>
+        </div>
+       </div>
         </div>
       </div>
     </section>

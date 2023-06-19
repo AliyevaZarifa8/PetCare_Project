@@ -1,0 +1,62 @@
+#admin {
+  .admin {
+    .crud-activity {
+      width: 80%;
+      margin-left: 17%;
+      margin-top: 40px;
+      height: 100vh;
+
+      #meet-crud {
+        display: flex;
+        justify-content: center;
+        .form-meet {
+          margin-top: 20vh;
+          h2 {
+            text-align: center;
+            color: rgb(85, 85, 239);
+            font-family: "Nosifer", cursive;
+            margin-bottom: 30px;
+          }
+          label {
+            font-family: "Sail", cursive;
+            font-size: 23px;
+            color: rgb(14, 123, 212);
+            font-weight: bold;
+            margin-left: 12px;
+          }
+          #photo {
+            color: rgb(59, 142, 244);
+          }
+          input {
+            font-family: "Fleur De Leah", cursive;
+            font-size: 23px;
+            text-indent: 4px;
+            border-color: rgb(96, 96, 212);
+            border-radius: 27px;
+            height: 6vh;
+            &::placeholder {
+              color: rgb(59, 142, 244);
+            }
+          }
+          #photo {
+            background-color: rgb(241, 247, 250);
+          }
+
+          .button {
+            font-family: "Sail", cursive;
+            border: 1px solid rgb(91, 56, 156);
+            border-radius: 20px;
+            margin-top: 3vh;
+            padding: 7px 29px;
+            color: rgb(108, 70, 159);
+            font-size: 21px;
+            &:hover {
+              background-color: rgb(175, 115, 214);
+              color: rgb(136, 7, 154);
+            }
+          }
+        }
+      }
+    }
+  }
+}

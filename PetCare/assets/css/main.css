@@ -2161,91 +2161,115 @@ footer .footer-bottom i {
 }
 
 #admin {
-  margin-top: 15px;
-}
-#admin h1 {
-  text-align: center;
-  color: rgb(10, 169, 169);
-  margin-bottom: 4vh;
+  background-image: url("../image/admin.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 #admin .admin {
+  position: relative;
   display: flex;
 }
 #admin .admin hr {
-  color: rgb(87, 205, 205);
+  color: rgb(250, 250, 49);
   width: 80%;
-  margin-left: 27px;
+  margin-left: 32px;
 }
 #admin .admin .admin-panel {
-  border-radius: 11px;
-  border: 1px solid rgb(9, 151, 118);
-  height: 90vh;
-  width: 25%;
-  margin-left: 5px;
+  margin-top: 50px;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 #admin .admin .admin-panel .admin-photo {
-  height: 40vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #admin .admin .admin-panel .admin-photo img {
   border-radius: 50%;
 }
 #admin .admin .admin-panel .admin-photo h3 {
-  color: rgb(69, 124, 241);
-}
-#admin .admin .admin-panel .admin-photo i {
-  font-size: 20px;
-  color: rgb(26, 119, 185);
-}
-#admin .admin .admin-panel .admin-photo p {
-  color: rgb(9, 149, 173);
-  font-size: 19px;
-}
-#admin .admin .admin-panel .admin-photo p i {
-  font-size: 20px;
-  color: rgb(7, 212, 212);
+  color: rgb(16, 224, 61);
+  font-family: "Sail", cursive;
+  font-size: 27px;
+  margin-top: 10px;
 }
 #admin .admin .admin-panel ul {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#admin .admin .admin-panel ul li {
+  padding: 7px 10px;
 }
 #admin .admin .admin-panel ul li a {
+  color: rgb(250, 248, 248);
   text-decoration: none;
-  color: rgb(15, 190, 202);
-  font-weight: bold;
+  font-size: 33px;
+  font-family: "Fleur De Leah", cursive;
 }
-#admin .admin .admin-panel .admin-help {
-  height: 20vh;
+#admin .admin .admin-panel ul li a i {
+  font-size: 23px;
+  color: #fff;
+  margin-right: 10px;
 }
-#admin .admin .admin-panel .admin-help a {
-  text-decoration: none;
-  color: rgb(12, 173, 223);
-  margin-left: 29px;
+#admin .admin .admin-panel ul li a .fa-hand-holding-dollar {
+  color: rgb(35, 152, 35);
 }
-#admin .admin .admin-panel .admin-help a i {
-  font-size: 17px;
-  color: rgb(34, 180, 212);
+#admin .admin .admin-panel ul li a .fa-location-crosshairs {
+  color: rgb(39, 39, 235);
+}
+#admin .admin .admin-panel ul li a .fa-teamspeak {
+  color: red;
+}
+#admin .admin .admin-panel ul li a .fa-bone {
+  color: rgb(235, 205, 165);
+}
+#admin .admin .admin-panel ul li a .fa-shield-dog {
+  color: rgb(233, 9, 84);
+}
+#admin .admin .admin-panel ul li a .fa-people-group {
+  color: blueviolet;
+}
+#admin .admin .admin-panel ul li a .fa-comment-dots {
+  color: rgb(44, 149, 214);
+}
+#admin .admin .admin-panel .admin-exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  color: rgb(30, 231, 64);
+  font-family: "Sail", cursive;
+}
+#admin .admin .admin-panel .admin-exit i {
+  font-size: 23px;
+  margin-right: 10px;
 }
 #admin .admin .daily-activity {
-  width: 75%;
+  width: 80%;
+  margin-left: 20%;
+  height: 120vh;
 }
 #admin .admin .daily-activity h2 {
+  font-family: "Nosifer", cursive;
   text-align: center;
-  color: rgb(13, 13, 109);
+  color: rgb(96, 96, 212);
+  margin-top: 10vh;
 }
 
 #admin .admin .prices-activity {
-  width: 75%;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 40px;
 }
 #admin .admin .prices-activity h2 {
   text-align: center;
-  color: rgb(13, 13, 109);
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
 }
 #admin .admin .prices-activity #fa-medrt {
   display: flex;
@@ -2256,23 +2280,24 @@ footer .footer-bottom i {
   font-size: 23px;
 }
 #admin .admin .prices-activity #prices-plans {
-  background-color: #fff;
+  background-color: transparent;
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card {
   margin-top: 20px;
   border-color: rgb(4, 4, 148);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card h1 {
   color: rgb(76, 76, 234);
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card h2 {
-  color: rgb(36, 196, 196);
+  color: rgb(137, 227, 227);
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card i {
   color: aquamarine;
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card p {
-  color: rgb(15, 96, 96);
+  color: rgb(190, 183, 183);
 }
 #admin .admin .prices-activity #prices-plans .prices-plans .prices-dinamk .prices-card .fa-eraser {
   color: red;
@@ -2285,11 +2310,14 @@ footer .footer-bottom i {
 }
 
 #admin .admin .meet-activity {
-  width: 75%;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 40px;
 }
 #admin .admin .meet-activity h2 {
   text-align: center;
-  color: rgb(13, 13, 109);
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
 }
 #admin .admin .meet-activity #fa-medrt {
   display: flex;
@@ -2300,10 +2328,13 @@ footer .footer-bottom i {
   font-size: 23px;
 }
 #admin .admin .meet-activity #meet-team {
-  background-color: #fff;
+  background-color: transparent;
 }
 #admin .admin .meet-activity #meet-team .search-sort input {
   border: 1px solid rgb(32, 94, 240);
+  height: 8vh;
+  background-color: transparent;
+  color: rgb(32, 94, 240);
 }
 #admin .admin .meet-activity #meet-team .search-sort input::placeholder {
   color: rgb(32, 94, 240);
@@ -2316,6 +2347,7 @@ footer .footer-bottom i {
 #admin .admin .meet-activity #meet-team .meet-cards .card {
   border: 1px solid rgb(32, 94, 240);
   padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 #admin .admin .meet-activity #meet-team .meet-cards .card img {
   width: 100%;
@@ -2323,11 +2355,11 @@ footer .footer-bottom i {
   height: 26vh;
 }
 #admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .meets-text h1 {
-  color: rgb(20, 94, 159);
+  color: rgb(141, 196, 245);
   font-size: 27px;
 }
 #admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .meets-text p {
-  color: rgb(81, 162, 237);
+  color: rgb(102, 137, 173);
 }
 #admin .admin .meet-activity #meet-team .meet-cards .card .meet-card .meet-hover {
   display: none;
@@ -2355,14 +2387,19 @@ footer .footer-bottom i {
   background-color: transparent;
 }
 
+#admin .branches-activity {
+  width: 80%;
+  margin-left: 17%;
+  margin-top: 40px;
+}
 #admin .branches-activity h2 {
   text-align: center;
-  font-size: 34px;
-  color: #063e7f;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
 }
 #admin .branches-activity #branches-work {
   margin-bottom: 90px;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 12%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -2374,33 +2411,35 @@ footer .footer-bottom i {
   align-items: center;
 }
 #admin .branches-activity #branches-work .branches-prices .search-sort input {
+  width: 70%;
   text-indent: 10px;
   height: 6vh;
   border-radius: 7px;
   border: 1px solid rgb(40, 119, 214);
   outline: none;
   margin-left: 10px;
+  color: rgb(241, 243, 247);
   background-color: transparent;
 }
 #admin .branches-activity #branches-work .branches-prices .search-sort input::placeholder {
-  color: rgb(40, 119, 214);
+  color: rgb(241, 243, 247);
 }
 #admin .branches-activity #branches-work .branches-prices .branches-table {
-  width: 100%;
+  width: 90%;
 }
 #admin .branches-activity #branches-work .branches-prices .branches-table table tr:hover {
-  background-color: #cedeeb;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 #admin .branches-activity #branches-work .branches-prices .branches-table table th {
-  color: rgb(79, 146, 227);
-  font-size: 23px;
+  color: rgb(238, 240, 243);
+  font-size: 33px;
   text-align: center;
   height: 8vh;
   padding-right: 30px;
   padding-left: 47px;
 }
 #admin .branches-activity #branches-work .branches-prices .branches-table table td {
-  color: rgb(10, 147, 157);
+  color: rgb(169, 237, 247);
   font-size: 20px;
   text-align: center;
   height: 10vh;
@@ -2431,34 +2470,31 @@ footer .footer-bottom i {
   font-size: 20px;
   color: rgb(30, 187, 30);
 }
-#admin .branches-activity #branches-work .branches-prices .branches-table #showmore {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-#admin .branches-activity #branches-work .branches-prices .branches-table #showmore .showmore {
-  border: 1px solid rgb(40, 119, 214);
-  border-radius: 7px;
-  padding: 7px 38px;
-  color: rgb(40, 119, 214);
-  background-color: transparent;
-}
 
-#admin #food-dinamik {
-  background-color: #fff;
+#admin .admin .food-activity {
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+#admin .admin .food-activity h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+}
+#admin .admin .food-activity #food-dinamik {
+  background-color: transparent;
   border-radius: 6%;
   margin-bottom: 17vh;
   padding-bottom: 10vh;
 }
-#admin #food-dinamik h1 {
+#admin .admin .food-activity #food-dinamik h1 {
   text-align: center;
   color: rgb(6, 177, 21);
   margin-top: 40px;
   margin-bottom: 40px;
   position: relative;
 }
-#admin #food-dinamik h1::after {
+#admin .admin .food-activity #food-dinamik h1::after {
   position: absolute;
   content: "";
   height: 2px;
@@ -2467,24 +2503,25 @@ footer .footer-bottom i {
   bottom: -23%;
   left: 43%;
 }
-#admin #food-dinamik .search-sort {
+#admin .admin .food-activity #food-dinamik .search-sort {
   margin-bottom: 50px;
   padding-top: 20px;
 }
-#admin #food-dinamik .search-sort input {
+#admin .admin .food-activity #food-dinamik .search-sort input {
   width: 72%;
   text-indent: 20px;
-  height: 6vh;
+  height: 7vh;
   border-radius: 7px;
   border: 1px solid #29bce4;
   outline: none;
   margin-left: 10px;
   background-color: transparent;
-}
-#admin #food-dinamik .search-sort input::placeholder {
   color: #29bce4;
 }
-#admin #food-dinamik .search-sort select {
+#admin .admin .food-activity #food-dinamik .search-sort input::placeholder {
+  color: #29bce4;
+}
+#admin .admin .food-activity #food-dinamik .search-sort select {
   height: 39.33px;
   color: #29bce4;
   border: 1px solid #29bce4;
@@ -2492,8 +2529,9 @@ footer .footer-bottom i {
   background-color: transparent;
   border-radius: 7px;
   outline: none;
+  height: 7vh;
 }
-#admin #food-dinamik .search-sort .button {
+#admin .admin .food-activity #food-dinamik .search-sort .button {
   border: 1px solid #29bce4;
   border-radius: 7px;
   padding: 7px 38px;
@@ -2501,50 +2539,52 @@ footer .footer-bottom i {
   background-color: transparent;
   margin-left: 80px;
 }
-#admin #food-dinamik .food-table {
+#admin .admin .food-activity #food-dinamik .food-table {
   width: 100%;
 }
-#admin #food-dinamik .food-table table tr:hover {
-  background-color: #cedeeb;
+#admin .admin .food-activity #food-dinamik .food-table table tr:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
-#admin #food-dinamik .food-table table th {
-  color: rgb(9, 92, 131);
-  font-size: 23px;
+#admin .admin .food-activity #food-dinamik .food-table table th {
+  font-family: "Ma Shan Zheng", cursive;
+  color: rgb(215, 228, 235);
+  font-size: 39px;
   text-align: center;
   height: 8vh;
   padding-right: 30px;
   padding-left: 47px;
 }
-#admin #food-dinamik .food-table table td {
-  color: rgb(7, 84, 90);
-  font-size: 20px;
+#admin .admin .food-activity #food-dinamik .food-table table td {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(165, 222, 226);
+  font-size: 33px;
   text-align: center;
   height: 10vh;
 }
-#admin #food-dinamik .food-table table td img {
+#admin .admin .food-activity #food-dinamik .food-table table td img {
   width: 18%;
 }
-#admin #food-dinamik .food-table table td i {
+#admin .admin .food-activity #food-dinamik .food-table table td i {
   font-size: 20px;
   padding-left: 20px;
   padding-right: 3px;
 }
-#admin #food-dinamik .food-table table td .fa-eraser {
+#admin .admin .food-activity #food-dinamik .food-table table td .fa-eraser {
   color: red;
-  font-size: 22px;
+  font-size: 26px;
   margin-right: 10px;
 }
-#admin #food-dinamik .food-table table td .fa-pen-to-square {
-  font-size: 20px;
+#admin .admin .food-activity #food-dinamik .food-table table td .fa-pen-to-square {
+  font-size: 26px;
   color: rgb(30, 187, 30);
 }
-#admin #food-dinamik #showmore {
+#admin .admin .food-activity #food-dinamik #showmore {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
-#admin #food-dinamik #showmore .showmore {
+#admin .admin .food-activity #food-dinamik #showmore .showmore {
   border: 1px solid #29bce4;
   border-radius: 7px;
   padding: 7px 38px;
@@ -2552,31 +2592,48 @@ footer .footer-bottom i {
   background-color: transparent;
 }
 
-#admin #pet-breeds3 {
-  background-color: #fff;
+#admin .admin .breeds-activity {
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+#admin .admin .breeds-activity h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+}
+#admin .admin .breeds-activity #fa-medrt {
+  display: flex;
+  justify-content: end;
+  margin-right: 90px;
+  font-size: 27px;
+}
+#admin .admin .breeds-activity #pet-breeds3 {
+  background-color: transparent;
   border-radius: 6%;
   margin-bottom: 17vh;
   padding-bottom: 10vh;
 }
-#admin #pet-breeds3 .search-sort {
+#admin .admin .breeds-activity #pet-breeds3 .search-sort {
   margin-bottom: 90px;
   margin-top: 19px;
 }
-#admin #pet-breeds3 .search-sort input {
+#admin .admin .breeds-activity #pet-breeds3 .search-sort input {
   width: 72%;
   text-indent: 20px;
-  height: 6vh;
+  height: 7vh;
   border-radius: 7px;
   border: 1px solid #703ee4;
   outline: none;
   margin-left: 10px;
   background-color: transparent;
-}
-#admin #pet-breeds3 .search-sort input::placeholder {
   color: #703ee4;
 }
-#admin #pet-breeds3 .search-sort select {
-  height: 39.33px;
+#admin .admin .breeds-activity #pet-breeds3 .search-sort input::placeholder {
+  color: #703ee4;
+}
+#admin .admin .breeds-activity #pet-breeds3 .search-sort select {
+  height: 7vh;
   color: #703ee4;
   border: 1px solid #703ee4;
   text-indent: 8px;
@@ -2584,7 +2641,7 @@ footer .footer-bottom i {
   border-radius: 7px;
   outline: none;
 }
-#admin #pet-breeds3 .search-sort .button {
+#admin .admin .breeds-activity #pet-breeds3 .search-sort .button {
   border: 1px solid #703ee4;
   border-radius: 7px;
   padding: 7px 38px;
@@ -2592,56 +2649,57 @@ footer .footer-bottom i {
   background-color: transparent;
   margin-left: 80px;
 }
-#admin #pet-breeds3 .cards {
+#admin .admin .breeds-activity #pet-breeds3 .cards {
   row-gap: 20px;
 }
-#admin #pet-breeds3 .cards .card {
+#admin .admin .breeds-activity #pet-breeds3 .cards .card {
   padding: 14px 27px;
   text-align: center;
   border-radius: 27px;
   border: 2px solid #7363b4;
   margin-bottom: 30px;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
   flex-direction: column;
 }
-#admin #pet-breeds3 .cards .card img {
+#admin .admin .breeds-activity #pet-breeds3 .cards .card img {
   border-radius: 20px;
   height: 25vh;
 }
-#admin #pet-breeds3 .cards .card h2 {
-  color: rgb(117, 14, 235);
-  font-size: 17px;
+#admin .admin .breeds-activity #pet-breeds3 .cards .card h2 {
+  color: rgb(222, 214, 232);
+  font-size: 19px;
   padding-top: 10px;
 }
-#admin #pet-breeds3 .cards .card h3 {
-  color: rgb(67, 6, 165);
-  font-size: 21px;
+#admin .admin .breeds-activity #pet-breeds3 .cards .card h3 {
+  color: rgb(168, 139, 213);
+  font-size: 27px;
 }
-#admin #pet-breeds3 .cards .card i {
-  color: rgb(58, 14, 237);
-  font-size: 17px;
+#admin .admin .breeds-activity #pet-breeds3 .cards .card i {
+  color: rgb(232, 230, 243);
+  font-size: 23px;
 }
-#admin #pet-breeds3 .cards .card p {
+#admin .admin .breeds-activity #pet-breeds3 .cards .card p {
   color: rgb(89, 73, 147);
   text-align: center;
-  font-size: 17px;
+  font-size: 21px;
 }
-#admin #pet-breeds3 .cards .card .fa-eraser {
+#admin .admin .breeds-activity #pet-breeds3 .cards .card .fa-eraser {
   color: red;
   font-size: 22px;
   margin-right: 10px;
 }
-#admin #pet-breeds3 .cards .card .fa-pen-to-square {
+#admin .admin .breeds-activity #pet-breeds3 .cards .card .fa-pen-to-square {
   font-size: 20px;
   color: rgb(38, 192, 38);
 }
-#admin #pet-breeds3 #showmore {
+#admin .admin .breeds-activity #pet-breeds3 #showmore {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
-#admin #pet-breeds3 #showmore .showmore {
+#admin .admin .breeds-activity #pet-breeds3 #showmore .showmore {
   border: 1px solid #703ee4;
   border-radius: 7px;
   padding: 7px 38px;
@@ -2649,273 +2707,143 @@ footer .footer-bottom i {
   background-color: transparent;
 }
 
-#admin #meessages {
-  margin-top: 10vh;
+#admin .admin .meessages-activity {
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+#admin .admin .meessages-activity h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+}
+#admin .admin .meessages-activity #meessages {
+  margin-top: 5vh;
   width: 75%;
 }
-#admin #meessages .card {
-  border-color: red;
-  padding: 10px 30px;
+#admin .admin .meessages-activity #meessages .card {
+  border-color: rgb(40, 215, 130);
+  padding: 10px 40px;
+  border-radius: 23px;
   margin-left: 40px;
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-#admin #meessages .card #img-text {
+#admin .admin .meessages-activity #meessages .card #img-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#admin #meessages .card #img-text img {
+#admin .admin .meessages-activity #meessages .card #img-text img {
   width: 14%;
   height: 10vh;
   border-radius: 50%;
 }
-#admin #meessages .card #img-text b {
-  color: red;
+#admin .admin .meessages-activity #meessages .card #img-text b {
+  font-size: 23px;
+  color: rgb(40, 215, 130);
 }
-#admin #meessages .card #text {
+#admin .admin .meessages-activity #meessages .card #text {
   text-align: center;
-  color: rgb(24, 5, 133);
+  color: rgb(215, 212, 234);
+  font-size: 25px;
+  font-family: "Fleur De Leah", cursive;
 }
-#admin #meessages .card #icon {
+#admin .admin .meessages-activity #meessages .card #icon {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-#admin #meessages .card #icon .fa-eraser {
+#admin .admin .meessages-activity #meessages .card #icon .fa-eraser {
   color: red;
   font-size: 22px;
   margin-right: 10px;
 }
-#admin #meessages #showmore {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-#admin #meessages #showmore .showmore {
-  border: 1px solid rgb(240, 7, 89);
-  border-radius: 7px;
-  padding: 7px 38px;
-  color: rgb(240, 9, 117);
-  background-color: transparent;
-}
 
-#admin {
-  margin-top: 15px;
-}
-#admin h1 {
-  text-align: center;
-  color: rgb(10, 169, 169);
-  margin-bottom: 4vh;
-}
-#admin .admin {
-  display: flex;
-}
-#admin .admin hr {
-  color: rgb(87, 205, 205);
+#admin .admin .prics-activity {
   width: 80%;
-  margin-left: 27px;
+  margin-left: 17%;
+  height: 100vh;
 }
-#admin .admin .admin-panel {
-  border-radius: 11px;
-  border: 1px solid rgb(9, 151, 118);
-  height: 90vh;
-  width: 25%;
-  margin-left: 5px;
-}
-#admin .admin .admin-panel .admin-photo {
-  height: 40vh;
+#admin .admin .prics-activity #prices-crud {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
-#admin .admin .admin-panel .admin-photo img {
-  border-radius: 50%;
+#admin .admin .prics-activity #prices-crud .form-prices {
+  margin-top: 20vh;
 }
-#admin .admin .admin-panel .admin-photo h3 {
-  color: rgb(69, 124, 241);
-}
-#admin .admin .admin-panel .admin-photo i {
-  font-size: 20px;
-  color: rgb(26, 119, 185);
-}
-#admin .admin .admin-panel .admin-photo p {
-  color: rgb(9, 149, 173);
-  font-size: 19px;
-}
-#admin .admin .admin-panel .admin-photo p i {
-  font-size: 20px;
-  color: rgb(7, 212, 212);
-}
-#admin .admin .admin-panel ul {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
-}
-#admin .admin .admin-panel ul li a {
-  text-decoration: none;
-  color: rgb(15, 190, 202);
-  font-weight: bold;
-}
-#admin .admin .admin-panel .admin-help {
-  height: 20vh;
-}
-#admin .admin .admin-panel .admin-help a {
-  text-decoration: none;
-  color: rgb(12, 173, 223);
-  margin-left: 29px;
-}
-#admin .admin .admin-panel .admin-help a i {
-  font-size: 17px;
-  color: rgb(34, 180, 212);
-}
-#admin .admin .crud-activity {
-  width: 75%;
-}
-#admin .admin .crud-activity h2 {
+#admin .admin .prics-activity #prices-crud .form-prices h2 {
   text-align: center;
-  color: rgb(34, 34, 186);
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+  margin-bottom: 20px;
 }
-#admin .admin .crud-activity #prices-crud {
-  display: flex;
-  justify-content: center;
+#admin .admin .prics-activity #prices-crud .form-prices textarea {
+  border-color: rgb(96, 96, 212);
+  border-radius: 27px;
+  height: 6vh;
+  font-family: "Fleur De Leah", cursive;
+  outline: none;
+  text-indent: 20px;
+  font-size: 29px;
 }
-#admin .admin .crud-activity #prices-crud .form-prices {
-  margin-top: 50px;
+#admin .admin .prics-activity #prices-crud .form-prices textarea::placeholder {
+  color: rgb(59, 142, 244);
 }
-#admin .admin .crud-activity #prices-crud .form-prices label {
-  color: rgb(9, 84, 145);
-  font-weight: bold;
-}
-#admin .admin .crud-activity #prices-crud .form-prices input {
+#admin .admin .prics-activity #prices-crud .form-prices input {
+  font-size: 30px;
+  font-family: "Fleur De Leah", cursive;
   text-indent: 4px;
   border-color: rgb(96, 96, 212);
+  border-radius: 27px;
+  height: 6vh;
 }
-#admin .admin .crud-activity #prices-crud .form-prices input::placeholder {
+#admin .admin .prics-activity #prices-crud .form-prices input::placeholder {
   color: rgb(59, 142, 244);
 }
-#admin .admin .crud-activity #prices-crud .form-prices #photo {
-  background-color: rgb(241, 247, 250);
-}
-#admin .admin .crud-activity #prices-crud .form-prices textarea {
-  border-radius: 11px;
-  text-indent: 8px;
-  outline: none;
-  border-color: rgb(96, 96, 212);
-}
-#admin .admin .crud-activity #prices-crud .form-prices textarea::placeholder {
-  color: rgb(59, 142, 244);
-}
-#admin .admin .crud-activity #prices-crud .form-prices .button {
-  border: 1px solid rgb(96, 96, 212);
-  border-radius: 9px;
-  margin-bottom: 14vh;
+#admin .admin .prics-activity #prices-crud .form-prices .button {
+  border: 1px solid rgb(84, 8, 215);
+  border-radius: 28px;
+  margin-top: 3vh;
+  font-family: "Sail", cursive;
   padding: 7px 29px;
-  color: black;
-  font-size: 18px;
+  color: rgb(84, 8, 215);
+  font-size: 23px;
 }
-#admin .admin .crud-activity #prices-crud .form-prices .button:hover {
-  background-color: rgb(162, 232, 248);
-  color: rgb(65, 67, 135);
+#admin .admin .prics-activity #prices-crud .form-prices .button:hover {
+  background-color: rgb(175, 115, 214);
+  color: rgb(136, 7, 154);
 }
 
-#admin {
-  margin-top: 15px;
-}
-#admin h1 {
-  text-align: center;
-  color: rgb(10, 169, 169);
-  margin-bottom: 4vh;
-}
-#admin .admin {
-  display: flex;
-}
-#admin .admin hr {
-  color: rgb(87, 205, 205);
-  width: 80%;
-  margin-left: 27px;
-}
-#admin .admin .admin-panel {
-  border-radius: 11px;
-  border: 1px solid rgb(9, 151, 118);
-  height: 90vh;
-  width: 25%;
-  margin-left: 5px;
-}
-#admin .admin .admin-panel .admin-photo {
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#admin .admin .admin-panel .admin-photo img {
-  border-radius: 50%;
-}
-#admin .admin .admin-panel .admin-photo h3 {
-  color: rgb(69, 124, 241);
-}
-#admin .admin .admin-panel .admin-photo i {
-  font-size: 20px;
-  color: rgb(26, 119, 185);
-}
-#admin .admin .admin-panel .admin-photo p {
-  color: rgb(9, 149, 173);
-  font-size: 19px;
-}
-#admin .admin .admin-panel .admin-photo p i {
-  font-size: 20px;
-  color: rgb(7, 212, 212);
-}
-#admin .admin .admin-panel ul {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
-}
-#admin .admin .admin-panel ul li a {
-  text-decoration: none;
-  color: rgb(15, 190, 202);
-  font-weight: bold;
-}
-#admin .admin .admin-panel .admin-help {
-  height: 20vh;
-}
-#admin .admin .admin-panel .admin-help a {
-  text-decoration: none;
-  color: rgb(12, 173, 223);
-  margin-left: 29px;
-}
-#admin .admin .admin-panel .admin-help a i {
-  font-size: 17px;
-  color: rgb(34, 180, 212);
-}
 #admin .admin .crud-activity {
-  width: 75%;
-}
-#admin .admin .crud-activity h2 {
-  text-align: center;
-  color: rgb(34, 34, 186);
+  width: 80%;
+  margin-left: 17%;
+  margin-top: 40px;
+  height: 100vh;
 }
 #admin .admin .crud-activity #branches-crud {
   display: flex;
   justify-content: center;
 }
 #admin .admin .crud-activity #branches-crud .form-branches {
-  margin-top: 50px;
+  margin-top: 20vh;
+}
+#admin .admin .crud-activity #branches-crud .form-branches h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+  margin-bottom: 30px;
 }
 #admin .admin .crud-activity #branches-crud .form-branches label {
-  color: rgb(9, 84, 145);
+  color: rgb(14, 123, 212);
   font-weight: bold;
+  margin-left: 12px;
 }
 #admin .admin .crud-activity #branches-crud .form-branches input {
   text-indent: 4px;
   border-color: rgb(96, 96, 212);
+  border-radius: 27px;
+  height: 6vh;
 }
 #admin .admin .crud-activity #branches-crud .form-branches input::placeholder {
   color: rgb(59, 142, 244);
@@ -2924,242 +2852,248 @@ footer .footer-bottom i {
   background-color: rgb(241, 247, 250);
 }
 #admin .admin .crud-activity #branches-crud .form-branches .button {
-  border: 1px solid rgb(96, 96, 212);
-  border-radius: 9px;
-  margin-bottom: 14vh;
+  font-family: "Sail", cursive;
+  border: 1px solid rgb(91, 56, 156);
+  border-radius: 20px;
+  margin-top: 3vh;
   padding: 7px 29px;
-  color: black;
-  font-size: 18px;
+  color: rgb(108, 70, 159);
+  font-size: 21px;
 }
 #admin .admin .crud-activity #branches-crud .form-branches .button:hover {
-  background-color: rgb(162, 232, 248);
-  color: rgb(102, 106, 222);
+  background-color: rgb(175, 115, 214);
+  color: rgb(136, 7, 154);
 }
 
-#admin {
-  margin-top: 15px;
+#admin .admin .crud-activity {
+  width: 80%;
+  margin-left: 17%;
+  margin-top: 40px;
+  height: 100vh;
 }
+#admin .admin .crud-activity #meet-crud {
+  display: flex;
+  justify-content: center;
+}
+#admin .admin .crud-activity #meet-crud .form-meet {
+  margin-top: 20vh;
+}
+#admin .admin .crud-activity #meet-crud .form-meet h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+  margin-bottom: 30px;
+}
+#admin .admin .crud-activity #meet-crud .form-meet label {
+  font-family: "Sail", cursive;
+  font-size: 23px;
+  color: rgb(14, 123, 212);
+  font-weight: bold;
+  margin-left: 12px;
+}
+#admin .admin .crud-activity #meet-crud .form-meet #photo {
+  color: rgb(59, 142, 244);
+}
+#admin .admin .crud-activity #meet-crud .form-meet input {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 23px;
+  text-indent: 4px;
+  border-color: rgb(96, 96, 212);
+  border-radius: 27px;
+  height: 6vh;
+}
+#admin .admin .crud-activity #meet-crud .form-meet input::placeholder {
+  color: rgb(59, 142, 244);
+}
+#admin .admin .crud-activity #meet-crud .form-meet #photo {
+  background-color: rgb(241, 247, 250);
+}
+#admin .admin .crud-activity #meet-crud .form-meet .button {
+  font-family: "Sail", cursive;
+  border: 1px solid rgb(91, 56, 156);
+  border-radius: 20px;
+  margin-top: 3vh;
+  padding: 7px 29px;
+  color: rgb(108, 70, 159);
+  font-size: 21px;
+}
+#admin .admin .crud-activity #meet-crud .form-meet .button:hover {
+  background-color: rgb(175, 115, 214);
+  color: rgb(136, 7, 154);
+}
+
 #admin h1 {
   text-align: center;
   color: rgb(10, 169, 169);
   margin-bottom: 4vh;
 }
-#admin .admin {
-  display: flex;
-}
-#admin .admin hr {
-  color: rgb(87, 205, 205);
-  width: 80%;
-  margin-left: 27px;
-}
-#admin .admin .admin-panel {
-  border-radius: 11px;
-  border: 1px solid rgb(9, 151, 118);
-  height: 90vh;
-  width: 25%;
-  margin-left: 5px;
-}
-#admin .admin .admin-panel .admin-photo {
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#admin .admin .admin-panel .admin-photo img {
-  border-radius: 50%;
-}
-#admin .admin .admin-panel .admin-photo h3 {
-  color: rgb(69, 124, 241);
-}
-#admin .admin .admin-panel .admin-photo i {
-  font-size: 20px;
-  color: rgb(26, 119, 185);
-}
-#admin .admin .admin-panel .admin-photo p {
-  color: rgb(9, 149, 173);
-  font-size: 19px;
-}
-#admin .admin .admin-panel .admin-photo p i {
-  font-size: 20px;
-  color: rgb(7, 212, 212);
-}
-#admin .admin .admin-panel ul {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
-}
-#admin .admin .admin-panel ul li a {
-  text-decoration: none;
-  color: rgb(15, 190, 202);
-  font-weight: bold;
-}
-#admin .admin .admin-panel .admin-help {
-  height: 20vh;
-}
-#admin .admin .admin-panel .admin-help a {
-  text-decoration: none;
-  color: rgb(12, 173, 223);
-  margin-left: 29px;
-}
-#admin .admin .admin-panel .admin-help a i {
-  font-size: 17px;
-  color: rgb(34, 180, 212);
-}
 #admin .admin .crud-activity {
-  width: 75%;
-}
-#admin .admin .crud-activity h2 {
-  text-align: center;
-  color: rgb(241, 15, 15);
+  width: 80%;
+  margin-left: 17%;
+  height: 120vh;
 }
 #admin .admin .crud-activity #food-crud {
   display: flex;
   justify-content: center;
 }
 #admin .admin .crud-activity #food-crud .form-food {
-  margin-top: 50px;
+  margin-top: 14vh;
+}
+#admin .admin .crud-activity #food-crud .form-food h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+  margin-bottom: 20px;
 }
 #admin .admin .crud-activity #food-crud .form-food label {
-  color: rgb(241, 15, 15);
+  font-family: "Sail", cursive;
+  font-size: 23px;
+  color: rgb(14, 123, 212);
   font-weight: bold;
-}
-#admin .admin .crud-activity #food-crud .form-food input {
-  text-indent: 4px;
-  border-color: rgb(241, 15, 15);
-}
-#admin .admin .crud-activity #food-crud .form-food input::placeholder {
-  color: rgb(244, 128, 128);
+  margin-left: 12px;
 }
 #admin .admin .crud-activity #food-crud .form-food #photo {
-  background-color: rgb(246, 188, 188);
+  color: rgb(59, 142, 244);
+}
+#admin .admin .crud-activity #food-crud .form-food input {
+  height: 7vh;
+  border-radius: 27px;
+  font-size: 30px;
+  font-family: "Fleur De Leah", cursive;
+  text-indent: 4px;
+  border-color: rgb(96, 96, 212);
+}
+#admin .admin .crud-activity #food-crud .form-food input::placeholder {
+  color: rgb(59, 142, 244);
 }
 #admin .admin .crud-activity #food-crud .form-food .button {
-  border: 1px solid rgb(241, 15, 15);
+  border: 1px solid rgb(96, 96, 212);
   border-radius: 9px;
   margin-bottom: 14vh;
   padding: 7px 29px;
-  color: black;
-  font-size: 18px;
+  color: rgb(96, 96, 212);
+  font-size: 23px;
+  font-family: "Sail", cursive;
 }
 #admin .admin .crud-activity #food-crud .form-food .button:hover {
-  background-color: rgb(241, 15, 15);
+  background-color: rgb(96, 96, 212);
   color: rgb(239, 197, 197);
 }
 
-#admin {
-  margin-top: 15px;
-}
-#admin h1 {
-  text-align: center;
-  color: rgb(10, 169, 169);
-  margin-bottom: 4vh;
-}
-#admin .admin {
-  display: flex;
-}
-#admin .admin hr {
-  color: rgb(87, 205, 205);
-  width: 80%;
-  margin-left: 27px;
-}
-#admin .admin .admin-panel {
-  border-radius: 11px;
-  border: 1px solid rgb(9, 151, 118);
-  height: 90vh;
-  width: 25%;
-  margin-left: 5px;
-}
-#admin .admin .admin-panel .admin-photo {
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#admin .admin .admin-panel .admin-photo img {
-  border-radius: 50%;
-}
-#admin .admin .admin-panel .admin-photo h3 {
-  color: rgb(69, 124, 241);
-}
-#admin .admin .admin-panel .admin-photo i {
-  font-size: 20px;
-  color: rgb(26, 119, 185);
-}
-#admin .admin .admin-panel .admin-photo p {
-  color: rgb(9, 149, 173);
-  font-size: 19px;
-}
-#admin .admin .admin-panel .admin-photo p i {
-  font-size: 20px;
-  color: rgb(7, 212, 212);
-}
-#admin .admin .admin-panel ul {
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
-}
-#admin .admin .admin-panel ul li a {
-  text-decoration: none;
-  color: rgb(15, 190, 202);
-  font-weight: bold;
-}
-#admin .admin .admin-panel .admin-help {
-  height: 20vh;
-}
-#admin .admin .admin-panel .admin-help a {
-  text-decoration: none;
-  color: rgb(12, 173, 223);
-  margin-left: 29px;
-}
-#admin .admin .admin-panel .admin-help a i {
-  font-size: 17px;
-  color: rgb(34, 180, 212);
-}
 #admin .admin .crud-activity {
-  width: 75%;
-}
-#admin .admin .crud-activity h2 {
-  text-align: center;
-  color: rgb(7, 147, 124);
+  width: 80%;
+  margin-left: 17%;
+  margin-top: 40px;
+  height: 100vh;
 }
 #admin .admin .crud-activity #breeds-crud {
   display: flex;
   justify-content: center;
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds {
-  margin-top: 50px;
+  margin-top: 14vh;
+}
+#admin .admin .crud-activity #breeds-crud .form-breeds h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+  margin-bottom: 30px;
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds label {
-  color: rgb(7, 147, 124);
+  font-family: "Sail", cursive;
+  font-size: 23px;
+  color: rgb(14, 123, 212);
   font-weight: bold;
+  margin-left: 12px;
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds input {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 27px;
   text-indent: 4px;
-  border-color: rgb(7, 147, 124);
+  border-color: rgb(96, 96, 212);
+  border-radius: 27px;
+  height: 6vh;
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds input::placeholder {
-  color: rgb(16, 216, 183);
+  color: rgb(59, 142, 244);
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds #photo {
-  background-color: rgb(233, 250, 249);
+  color: rgb(59, 142, 244);
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds .button {
-  border: 1px solid rgb(7, 147, 124);
-  border-radius: 9px;
-  margin-bottom: 14vh;
+  font-family: "Sail", cursive;
+  border: 1px solid rgb(91, 56, 156);
+  border-radius: 20px;
+  margin-top: 3vh;
   padding: 7px 29px;
-  color: black;
-  font-size: 18px;
+  color: rgb(108, 70, 159);
+  font-size: 21px;
 }
 #admin .admin .crud-activity #breeds-crud .form-breeds .button:hover {
-  background-color: rgb(7, 147, 124);
-  color: rgb(4, 75, 114);
+  background-color: rgb(175, 115, 214);
+  color: rgb(136, 7, 154);
+}
+
+#admin .user-activity {
+  width: 80%;
+  margin-left: 21%;
+  margin-top: 40px;
+}
+#admin .user-activity h2 {
+  text-align: center;
+  color: rgb(85, 85, 239);
+  font-family: "Nosifer", cursive;
+}
+#admin .user-activity #user-work {
+  margin-bottom: 90px;
+  background-color: transparent;
+  border-radius: 12%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#admin .user-activity #user-work .user .search-sort {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#admin .user-activity #user-work .user .search-sort input {
+  width: 70%;
+  text-indent: 10px;
+  height: 6vh;
+  border-radius: 7px;
+  border: 1px solid rgb(40, 119, 214);
+  outline: none;
+  font-size: 27px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: rgb(40, 119, 214);
+  font-family: "Fleur De Leah", cursive;
+}
+#admin .user-activity #user-work .user .search-sort input::placeholder {
+  color: rgb(40, 119, 214);
+}
+#admin .user-activity #user-work .user .user-table {
+  width: 90%;
+}
+#admin .user-activity #user-work .user .user-table table tr:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#admin .user-activity #user-work .user .user-table table th {
+  font-family: "Sail", cursive;
+  color: rgb(238, 240, 243);
+  font-size: 33px;
+  text-align: center;
+  height: 8vh;
+  padding-right: 30px;
+  padding-left: 47px;
+}
+#admin .user-activity #user-work .user .user-table table td {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(169, 237, 247);
+  font-size: 20px;
+  text-align: center;
+  height: 10vh;
 }
 
 #login {

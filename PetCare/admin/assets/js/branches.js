@@ -2,10 +2,11 @@ let searchInp = document.querySelector("#search");
 let tBody = document.querySelector("tbody");
 let spinnerInfo = document.querySelector("#spinner");
 spinnerInfo.style.display = "flex";
+let branchesWork = document.querySelector("#branches-work");
 let showMore = document.querySelector(".showmore");
 let filterData = [];
 let getallData = [];
-let maxLen = 5;
+
 const branchesUrl = "http://localhost:8080/branches";
 
 async function drawBranches() {
@@ -15,8 +16,7 @@ async function drawBranches() {
   spinnerInfo.style.display = "none";
   filterData =
     filterData.length || searchInp.value
-      ? filterData.slice(0, maxLen)
-      : getallData.slice(0, maxLen);
+      ? filterData : getallData;
   tBody.innerHTML = "";
 
   filterData.forEach((element) => {
@@ -44,6 +44,7 @@ async function drawBranches() {
 drawBranches();
 
 searchInp.addEventListener("input", function (e) {
+  branchesWork.style.height = "100vh";
   spinnerInfo.style.display = "flex";
   filterData = getallData.filter((item) => {
     return item.placeposition
@@ -54,14 +55,15 @@ searchInp.addEventListener("input", function (e) {
   spinnerInfo.style.display = "none";
 });
 
-showMore.addEventListener("click", function () {
-  getallData.length > maxLen + 4
-    ? (maxLen += 5)
-    : (maxLen = maxLen - (maxLen - getallData.length));
-  drawBranches();
-  filterData = getallData.slice(0, maxLen);
-});
 
 async function deleteBranches(id) {
   axios.delete(`${branchesUrl}/${id}`);
 }
+
+
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})

@@ -1,14 +1,10 @@
-http://localhost:8080/prices-plans
+/* http://localhost:8080/prices-plans
 http://localhost:8080/meet-team
 http://localhost:8080/branches
 http://localhost:8080/dog-food
 http://localhost:8080/pet-breeds
 http://localhost:8080/contact
-http://localhost:8080/sigin
+http://localhost:8080/sigin */
 
 
 
-FONT FAMLY
-
-font-family: 'Bungee Shade', cursive;
-font-family: 'Faster One', cursive;

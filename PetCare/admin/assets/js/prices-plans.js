@@ -1,13 +1,12 @@
 const pricesDnmk = document.querySelector(".prices-dinamk");
 const pricesUrl = "http://localhost:8080/prices-plans";
 
-
 function drawPrices(array) {
   pricesDnmk.innerHTML = "";
   array.forEach((element) => {
     pricesDnmk.innerHTML += `
  
-    <div class="col-lg-4">
+    <div class="col-lg-5 offset-lg-1">
               <div class="card prices-card">
                 <h1>${element.title}</h1>
                 <h2>$ ${element.prices}</h2>
@@ -37,8 +36,14 @@ async function getallData() {
 
 getallData();
 
-
 async function deleteCard(id) {
   axios.delete(`${pricesUrl}/${id}`);
 }
 
+
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})

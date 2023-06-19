@@ -9,6 +9,13 @@ let id = new URLSearchParams(window.location.search).get("id");
 const foodUrl = "http://localhost:8080/dog-food";
 
 
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})
+
 
 
 

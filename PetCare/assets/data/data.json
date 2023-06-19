@@ -333,26 +333,61 @@
       "id": 1
     },
     {
-      "email": "cuquzuf@mailinator.com",
-      "fullname": "Minaye",
-      "password": "minnos",
-      "isadmin": false,
-      "id": 2
-    },
-   
-    {
-      "email": "misir@gmail.com",
-      "fullname": "Misir Ceferli",
-      "password": "misir2",
-      "isadmin": false,
-      "id": 4
-    },
-    {
       "email": "misir@gmail.com",
       "fullname": "Misir Ceferli",
       "password": "misir8",
       "isadmin": false,
+      "id": 2
+    },
+    {
+      "email": "cuquzuf@mailinator.com",
+      "fullname": "Aliyeva Minaye",
+      "password": "minnos",
+      "isadmin": false,
+      "id": 3
+    },
+    {
+      "email": "farhad@mailinator.com",
+      "fullname": "Aliyev Farhad",
+      "password": "farhad9",
+      "isadmin": false,
+      "id": 4
+    },
+    {
+      "email": "matanat@mailinator.com",
+      "fullname": "Mahammadova Matanat",
+      "password": "Pa$$w0rd!",
+      "isadmin": false,
       "id": 5
+    },
+    {
+      "email": "yahya@mailinator.com",
+      "fullname": "Aliyev Yahya",
+      "password": "Pa$$w0rd!",
+      "isadmin": false,
+      "id": 6
+    },
+    {
+      "email": "xeri@mailinator.com",
+      "fullname": "Aliyeva Xeyransa",
+      "password": "Pa$$w0rd!",
+      "isadmin": false,
+      "id": 7
+    },
+    {
+      "email": "sabisutofuda@mailinator.com",
+      "fullname": "Aliyeva Sabina",
+      "password": "Pa$$w0rd!",
+      "isadmin": false,
+      "id": 8
+    },
+
+    {
+      "email": "miris@mailinator.com",
+      "fullname": "Movsumov Mirismayol",
+      "password": "Pa$$w0rd!",
+      "isadmin": false,
+      "id": 9
     }
   ]
 }

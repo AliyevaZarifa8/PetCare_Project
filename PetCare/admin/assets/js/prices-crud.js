@@ -11,7 +11,12 @@ let id = new URLSearchParams(window.location.search).get("id");
 const pricesUrl = "http://localhost:8080/prices-plans";
 
 
+let logOut=document.querySelector(".admin-exit");
 
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})
 
 
 async function editCard() {
@@ -50,4 +55,21 @@ async function editCard() {
       axios.post(pricesUrl, obj);
     }
   });
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

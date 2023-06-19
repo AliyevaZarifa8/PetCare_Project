@@ -1,53 +1,56 @@
 #admin {
-  #meessages {
-    margin-top: 10vh;
-    width: 75%;
-    .card {
-      border-color: red;
-      padding: 10px 30px;
-      margin-left: 40px;
-      margin-bottom: 20px;
-      #img-text {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        img {
-          width: 14%;
-          height: 10vh;
-          border-radius: 50%;
-        }
-        b {
-          color: red;
-        }
-      }
-      #text {
+  .admin {
+    .meessages-activity {
+      width: 80%;
+      margin-left: 20%;
+      margin-top: 40px;
+      h2 {
         text-align: center;
-        color: rgb(24, 5, 133);
+        color: rgb(85, 85, 239);
+        font-family: "Nosifer", cursive;
       }
+      #meessages {
+        margin-top: 5vh;
+        width: 75%;
+        .card {
+          border-color: rgb(40, 215, 130);
+          padding: 10px 40px;
+          border-radius: 23px;
+          margin-left: 40px;
+          margin-bottom: 20px;
+          background-color: rgba($color: #000000, $alpha: 0.2);
+          #img-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+              width: 14%;
+              height: 10vh;
+              border-radius: 50%;
+            }
+            b {
+              font-size: 23px;
+              color: rgb(40, 215, 130);
+            }
+          }
+          #text {
+            text-align: center;
+            color: rgb(215, 212, 234);
+            font-size: 25px;
+            font-family: "Fleur De Leah", cursive;
+          }
 
-      #icon {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        .fa-eraser {
-          color: red;
-          font-size: 22px;
-          margin-right: 10px;
+          #icon {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            .fa-eraser {
+              color: red;
+              font-size: 22px;
+              margin-right: 10px;
+            }
+          }
         }
-      }
-    }
-    #showmore {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10px;
-      margin-bottom: 40px;
-      .showmore {
-        border: 1px solid rgb(240, 7, 89);
-        border-radius: 7px;
-        padding: 7px 38px;
-        color: rgb(240, 9, 117);
-        background-color: transparent;
       }
     }
   }

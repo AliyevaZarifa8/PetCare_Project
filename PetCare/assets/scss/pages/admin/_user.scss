@@ -1,7 +1,7 @@
 #admin {
-  .branches-activity {
+  .user-activity {
     width: 80%;
-    margin-left: 17%;
+    margin-left: 21%;
     margin-top: 40px;
 
     h2 {
@@ -9,13 +9,13 @@
       color: rgb(85, 85, 239);
       font-family: "Nosifer", cursive;
     }
-    #branches-work {
+    #user-work {
       margin-bottom: 90px;
       background-color: transparent;
       border-radius: 12%;
       padding-top: 40px;
       padding-bottom: 40px;
-      .branches-prices {
+      .user {
         .search-sort {
           margin-bottom: 35px;
           display: flex;
@@ -28,15 +28,17 @@
             border-radius: 7px;
             border: 1px solid rgb(40, 119, 214);
             outline: none;
+            font-size: 27px;
             margin-left: 10px;
-            color: rgb(241, 243, 247);
             background-color: transparent;
+            color: rgb(40, 119, 214);
+            font-family: "Fleur De Leah", cursive;
             &::placeholder {
-              color: rgb(241, 243, 247);
+              color: rgb(40, 119, 214);
             }
           }
         }
-        .branches-table {
+        .user-table {
           width: 90%;
           table {
             tr {
@@ -45,6 +47,7 @@
               }
             }
             th {
+              font-family: "Sail", cursive;
               color: rgb(238, 240, 243);
               font-size: 33px;
               text-align: center;
@@ -53,36 +56,11 @@
               padding-left: 47px;
             }
             td {
+              font-family: "Josefin Sans", sans-serif;
               color: rgb(169, 237, 247);
               font-size: 20px;
               text-align: center;
               height: 10vh;
-              i {
-                font-size: 20px;
-                padding-left: 20px;
-                padding-right: 3px;
-              }
-              .fa-landmark-dome {
-                color: rgb(7, 105, 104);
-              }
-              .fa-location-dot {
-                color: rgb(252, 46, 5);
-              }
-              .fa-calendar-check {
-                color: #0c59b1;
-              }
-              .fa-phone-volume {
-                color: #36a567;
-              }
-              .fa-eraser {
-                color: red;
-                font-size: 22px;
-                margin-right: 10px;
-              }
-              .fa-pen-to-square {
-                font-size: 20px;
-                color: rgb(30, 187, 30);
-              }
             }
           }
         }

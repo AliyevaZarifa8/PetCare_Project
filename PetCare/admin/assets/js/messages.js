@@ -1,7 +1,7 @@
 let contactUrl = "http://localhost:8080/contact";
 let showMore = document.querySelector(".showmore");
 let meessagesCard = document.querySelector(".meessages");
-let maxLen = 2;
+
 let getallData = [];
 let filterData = [];
 
@@ -9,7 +9,7 @@ async function drawMessages() {
   const res = await axios(contactUrl);
   const data = res.data;
   getallData = data;
-  filterData = getallData.slice(0, maxLen);
+  filterData = getallData;
 
   meessagesCard.innerHTML = "";
 
@@ -37,19 +37,14 @@ async function drawMessages() {
 }
 drawMessages();
 
-
 async function deleteCard(id) {
   await axios.delete(`${contactUrl}/${id}`);
- }
-
- 
-showMore.addEventListener("click", function () {
-  getallData.length > maxLen + 1
-    ? (maxLen += 2)
-    : (maxLen = maxLen - (maxLen - getallData.length));
-  drawMessages();
-  filterData = getallData.slice(0, maxLen);
-});
+}
 
 
+let logOut=document.querySelector(".admin-exit");
 
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})

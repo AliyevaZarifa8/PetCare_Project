@@ -5,12 +5,12 @@ let showMore = document.querySelector(".showmore");
 let spinnerInfo = document.querySelector("#spinnerr");
 let tBody = document.querySelector("tbody");
 spinnerInfo.style.display = "flex";
+let foodDinamik = document.querySelector("#food-dinamik");
 let filterData = [];
 let getallData = [];
 let sortData = [];
 let evrData = [];
 let sort = "asc";
-let maxLen = 5;
 const foodUrl = "http://localhost:8080/dog-food";
 
 async function drawFood() {
@@ -18,10 +18,7 @@ async function drawFood() {
   const data = res.data;
   getallData = data;
   spinnerInfo.style.display = "none";
-  filterData =
-    filterData.length || searchInp.value
-      ? filterData.slice(0, maxLen)
-      : getallData.slice(0, maxLen);
+  filterData = filterData.length || searchInp.value ? filterData : getallData;
 
   tBody.innerHTML = "";
 
@@ -30,10 +27,10 @@ async function drawFood() {
     
     <tr>
                   <td>${element.id} </td>
-                  <td><img src=".${element.photo}"  alt="" /></td>
                   <td> ${element.category} </td>
                   <td>${element.price}</td>
                   <td>${element.starprice}</td>
+                  <td><img src=".${element.photo}"  alt="" /></td>
                   <td>  <i class="fa-solid fa-eraser" onclick=deleteFood("${element.id}")></i></td>
                   <td>  <a href="food-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a></td>
       </tr>
@@ -43,15 +40,8 @@ async function drawFood() {
 }
 drawFood();
 
-showMore.addEventListener("click", function () {
-  getallData.length > maxLen + 4
-    ? (maxLen += 5)
-    : (maxLen = maxLen - (maxLen - getallData.length));
-  drawFood();
-  filterData = getallData.slice(0, maxLen);
-});
-
 searchInp.addEventListener("input", function (e) {
+  foodDinamik.style.height = "100vh";
   spinnerInfo.style.display = "flex";
   filterData = getallData.filter((item) => {
     return item.category.toLowerCase().includes(e.target.value.toLowerCase());
@@ -97,3 +87,9 @@ sortBtn.addEventListener("click", function () {
 async function deleteFood(id) {
   axios.delete(`${foodUrl}/${id}`);
 }
+
+let logOut = document.querySelector(".admin-exit");
+
+logOut.addEventListener("click", function () {
+  window.location = "../index.html";
+});

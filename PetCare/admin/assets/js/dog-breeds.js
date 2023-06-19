@@ -4,13 +4,14 @@ let searchInp = document.querySelector("#search");
 let sortBtn = document.querySelector("#sort");
 let showMore = document.querySelector(".showmore");
 let spinnerInfo = document.querySelector("#spinner");
+let petBreeds3 = document.querySelector("#pet-breeds3");
 spinnerInfo.style.display = "flex";
 let filterData = [];
 let getallData = [];
 let sortData = [];
 let evrData = [];
 let sort = "asc";
-let maxLen = 4;
+
 const breedsUrl = "http://localhost:8080/pet-breeds";
 
 async function drawBranches() {
@@ -18,16 +19,13 @@ async function drawBranches() {
   const data = res.data;
   getallData = data;
   spinnerInfo.style.display = "none";
-  filterData =
-    filterData.length || searchInp.value
-      ? filterData.slice(0, maxLen)
-      : getallData.slice(0, maxLen);
+  filterData = filterData.length || searchInp.value ? filterData : getallData;
 
   petBreeds.innerHTML = "";
 
   filterData.forEach((element) => {
     petBreeds.innerHTML += `
-    <div class="col-lg-3">
+    <div class="col-lg-4">
     <div class="card">
       <img src=".${element.photo}" alt="" />
       <h2>Dog Breeds:</h2>
@@ -35,12 +33,13 @@ async function drawBranches() {
       <i>Prices : $${element.prices}</i>
       <div>
         <p>
-        ${element.breedstext.slice(0, 30)} ...
+        ${element.breedstext.slice(0, 40)} ...
         </p>
       </div>
       <div>
       <i class="fa-solid fa-eraser" onclick=deleteBreeds("${element.id}")></i>
-      <a href="breeds-crud.html?id=${element.id}"><i class="fa-regular fa-pen-to-square"></i></a>
+      <a href="breeds-crud.html?id=${element.id}">
+      <i class="fa-regular fa-pen-to-square"></i></a>
       </div>
     </div>
   </div>
@@ -50,15 +49,8 @@ async function drawBranches() {
 }
 drawBranches();
 
-showMore.addEventListener("click", function () {
-  getallData.length > maxLen + 3
-    ? (maxLen += 4)
-    : (maxLen = maxLen - (maxLen - getallData.length));
-  drawBranches();
-  filterData = getallData.slice(0, maxLen);
-});
-
 searchInp.addEventListener("input", function (e) {
+  petBreeds3.style.height = "100vh";
   spinnerInfo.style.display = "flex";
   filterData = getallData.filter((item) => {
     return item.breedsname.toLowerCase().includes(e.target.value.toLowerCase());
@@ -101,9 +93,14 @@ sortBtn.addEventListener("click", function () {
   }
 });
 
-
-
-
 async function deleteBreeds(id) {
   axios.delete(`${breedsUrl}/${id}`);
 }
+
+
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})

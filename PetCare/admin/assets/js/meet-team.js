@@ -3,13 +3,13 @@ let searchInp = document.querySelector("#search");
 let sortBtn = document.querySelector("#sort");
 let showMore = document.querySelector(".showmore");
 let spinnerInfo = document.querySelector("#spinner");
+let meetTeam = document.querySelector("#meet-team");
 spinnerInfo.style.display = "flex";
 let filterData = [];
 let getallData = [];
 let sortData = [];
 let evrData = [];
 let sort = "asc";
-let maxLen = 3;
 const teamUrl = "http://localhost:8080/meet-team";
 
 async function drawTeam() {
@@ -17,10 +17,7 @@ async function drawTeam() {
   const data = res.data;
   getallData = data;
   spinnerInfo.style.display = "none";
-  filterData =
-    filterData.length || searchInp.value
-      ? filterData.slice(0, maxLen)
-      : getallData.slice(0, maxLen);
+  filterData = filterData.length || searchInp.value ? filterData : getallData;
 
   meetCards.innerHTML = "";
 
@@ -47,15 +44,8 @@ async function drawTeam() {
 }
 drawTeam();
 
-showMore.addEventListener("click", function () {
-  getallData.length > maxLen + 2
-    ? (maxLen += 3)
-    : (maxLen = maxLen - (maxLen - getallData.length));
-  drawTeam();
-  filterData = getallData.slice(0, maxLen);
-});
-
 searchInp.addEventListener("input", function (e) {
+  meetTeam.style.height = "100vh";
   spinnerInfo.style.display = "flex";
   filterData = getallData.filter((item) => {
     return item.fullname.toLowerCase().includes(e.target.value.toLowerCase());
@@ -89,10 +79,12 @@ sortBtn.addEventListener("click", function () {
   }
 });
 
-
-
-
-
 async function deleteTeam(id) {
   axios.delete(`${teamUrl}/${id}`);
 }
+
+let logOut = document.querySelector(".admin-exit");
+
+logOut.addEventListener("click", function () {
+  window.location = "../index.html";
+});

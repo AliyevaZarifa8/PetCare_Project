@@ -8,6 +8,13 @@ const teamUrl = "http://localhost:8080/meet-team";
 
 
 
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})
+
 
 
 async function editTeam() {

@@ -10,6 +10,13 @@ const breedsUrl = "http://localhost:8080/pet-breeds";
 
 
 
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})
+
 
 
 async function editBreeds() {

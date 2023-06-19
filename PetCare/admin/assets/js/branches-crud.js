@@ -10,6 +10,13 @@ const branchesUrl = "http://localhost:8080/branches";
 
 
 
+let logOut=document.querySelector(".admin-exit");
+
+
+logOut.addEventListener("click", function(){
+    window.location="../index.html"
+})
+
 
 async function editBranches() {
     const res = await axios(`${branchesUrl}/${id}`);
