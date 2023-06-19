@@ -25,7 +25,7 @@ let favorit = document.querySelector("#favorit");
 
 let favFood = JSON.parse(localStorage.getItem("favFoods")) || [];
 
-function getallFav() {
+function getallFavFood() {
   favorit.innerHTML = "";
   favFood.forEach((element) => {
     favorit.innerHTML += `
@@ -52,10 +52,10 @@ function getallFav() {
         `;
   });
 }
-getallFav();
+getallFavFood();
 
 function removeFav(id) {
   favFood = favFood.filter((el) => el.id != id);
   localStorage.setItem("favFoods", JSON.stringify(favFood));
-  getallFav();
+  getallFavFood();
 }

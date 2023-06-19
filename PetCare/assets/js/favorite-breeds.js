@@ -21,7 +21,7 @@ upIcon.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
 });
 
-let favorit = document.querySelector("#breeds-fav");
+const favorit = document.querySelector("#breeds-fav");
 
 let getBasket = JSON.parse(localStorage.getItem("getBaskets")) || [];
 
