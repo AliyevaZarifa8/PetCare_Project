@@ -48,6 +48,20 @@ searchInp.addEventListener("input", function (e) {
   spinnerInfo.style.display = "none";
 });
 
-function IsAdmin(id) {
-    alert(`Are you sure you want to make user id  ${id} an admin ?`);
+async function IsAdmin(id) {
+  let res = await axios(`${userUrl}/${id}`);
+  let data = res.data;
+  console.log(data);
+  if (data.isadmin==false) {
+    alert(
+      `Are you sure you want to make user id  ${data.fullname} an admin ?`
+    );
+  } else {
+    alert(`Are you sure you want to remove user id  ${data.fullname} an admin ?`);
+  }
+
+  let obj = {
+    isadmin: !data.isadmin,
+  };
+  axios.patch(`${userUrl}/${id}`, obj);
 }

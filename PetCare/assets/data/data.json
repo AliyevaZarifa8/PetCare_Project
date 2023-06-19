@@ -336,7 +336,7 @@
       "email": "misir@gmail.com",
       "fullname": "Misir Ceferli",
       "password": "misir8",
-      "isadmin": false,
+      "isadmin": true,
       "id": 2
     },
     {
@@ -381,7 +381,6 @@
       "isadmin": false,
       "id": 8
     },
-
     {
       "email": "miris@mailinator.com",
       "fullname": "Movsumov Mirismayol",
