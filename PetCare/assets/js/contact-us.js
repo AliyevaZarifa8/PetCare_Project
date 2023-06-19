@@ -48,3 +48,11 @@ formContactus.addEventListener("submit", function (e) {
 
   axios.post(contactUrl, obj);
 });
+
+sbmtBtn.addEventListener("click", function () {
+  exampleInputFirstName.value && exampleInputEmail.value
+    ? alert(
+        "Your message has been sent successfully, We will contact you soon.  Thanks for choosing us :)"
+      )
+    : alert("Pls enter form :(");
+});

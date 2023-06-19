@@ -3095,6 +3095,12 @@ footer .footer-bottom i {
   text-align: center;
   height: 10vh;
 }
+#admin .user-activity #user-work .user .user-table table td .fa-unlock-keyhole {
+  color: blue;
+}
+#admin .user-activity #user-work .user .user-table table td .fa-eraser {
+  color: red;
+}
 
 #login {
   background-image: url("../image/loginbg.webp");

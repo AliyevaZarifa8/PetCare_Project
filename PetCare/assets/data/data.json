@@ -26,6 +26,33 @@
       "dailypay": "Home Pickup",
       "dailyextr": ">Minimum charge $15",
       "text": "  Trainer staff with the vehicle $0.5 extra for each mile 30% discount for extra dog."
+    },
+    {
+      "title": "Architecto ea et por",
+      "prices": "580",
+      "daily": "Enim in sed elit in",
+      "dailypay": "Tempora est officiis",
+      "dailyextr": "Omnis esse ut verit",
+      "text": "Aute perferendis sed",
+      "id": 4
+    },
+    {
+      "title": "Totam praesentium co",
+      "prices": "71",
+      "daily": "Sunt autem aliquid ",
+      "dailypay": "Esse sunt consequat",
+      "dailyextr": "Voluptatem duis por",
+      "text": "Sapiente illo ut pla",
+      "id": 5
+    },
+    {
+      "title": "Labore et in ut do n",
+      "prices": "689",
+      "daily": "Ad velit id irure es",
+      "dailypay": "Obcaecati amet sint",
+      "dailyextr": "Officia error mollit",
+      "text": "Ipsam ea labore repr",
+      "id": 6
     }
   ],
   "meet-team": [
@@ -140,6 +167,13 @@
       "placeposition": " Agsu city, Garadag district, Lokbatan settlement",
       "weekdays": " Weekdays: 09:00 –17:00",
       "phone": 196
+    },
+    {
+      "placename": "Vaughan Dudley",
+      "placeposition": "Cupiditate nulla vol",
+      "weekdays": "17:00-23:00",
+      "phone": "+1 (446) 966-4869",
+      "id": 10
     }
   ],
   "dog-food": [
@@ -284,16 +318,6 @@
       "id": 1
     },
     {
-      "photo": "./assets/image/branches.jpg",
-      "email": "bejeca@mailinator.com",
-      "firstname": "Candace",
-      "lastname": "Black",
-      "phone": "+99450 789 34 78",
-      "commit": "Omnis voluptatem ne",
-      "select": "neapolitan",
-      "id": 2
-    },
-    {
       "photo": "./assets/image/ct-dg1.jpg",
       "email": "hidicyqabo@mailinator.com",
       "firstname": "Sheila",
@@ -304,24 +328,64 @@
       "id": 3
     },
     {
-      "photo": "./assets/image/ct-dg3.jpg",
-      "email": "gehirovuhu@mailinator.com",
-      "firstname": "Rana",
-      "phone": "+99450 789 34 78",
-      "lastname": "Reeves",
-      "commit": "Tempora rerum incidi",
-      "select": "löwchen",
+      "photo": "./assets/image/acres-1.jpg",
+      "email": "nowagojezu@mailinator.com",
+      "firstname": "Octavia",
+      "lastname": "Holt",
+      "phone": "+1 (227) 449-5092",
+      "commit": "Exercitation est qua",
+      "select": "welshs",
       "id": 4
     },
     {
-      "photo": "./assets/image/bg-dog.jpg",
-      "email": "bajanizeg@mailinator.com",
-      "firstname": "Paki",
-      "phone": "+99450 789 34 78",
-      "lastname": "Leblanc",
-      "commit": "Sint exercitation ad",
-      "select": "finnish",
+      "photo": "./assets/image/admin.jpg",
+      "email": "visasalydo@mailinator.com",
+      "firstname": "Libby",
+      "lastname": "Simon",
+      "phone": "+1 (977) 122-9788",
+      "commit": "Repudiandae voluptat",
+      "select": "altese",
       "id": 5
+    },
+    {
+      "photo": "./assets/image/undefined",
+      "email": "",
+      "firstname": "",
+      "lastname": "",
+      "phone": "",
+      "commit": "",
+      "select": "",
+      "id": 6
+    },
+    {
+      "photo": "./assets/image/undefined",
+      "email": "",
+      "firstname": "",
+      "lastname": "",
+      "phone": "",
+      "commit": "",
+      "select": "",
+      "id": 7
+    },
+    {
+      "photo": "./assets/image/undefined",
+      "email": "",
+      "firstname": "",
+      "lastname": "",
+      "phone": "",
+      "commit": "",
+      "select": "",
+      "id": 8
+    },
+    {
+      "photo": "./assets/image/undefined",
+      "email": "taryxywefo@mailinator.com",
+      "firstname": "Candace",
+      "lastname": "Bishop",
+      "phone": "+1 (845) 277-3983",
+      "commit": "Est porro eum non si",
+      "select": "yorkshire",
+      "id": 9
     }
   ],
   "sigin": [
@@ -338,13 +402,6 @@
       "password": "misir8",
       "isadmin": true,
       "id": 2
-    },
-    {
-      "email": "cuquzuf@mailinator.com",
-      "fullname": "Aliyeva Minaye",
-      "password": "minnos",
-      "isadmin": false,
-      "id": 3
     },
     {
       "email": "farhad@mailinator.com",

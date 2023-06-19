@@ -34,9 +34,12 @@ formSign.addEventListener("submit", function (e) {
     email: email.value,
     fullname: fullName.value,
     password: password.value,
-    isadmin:false
+    isadmin: false,
   };
 
-  axios.post(signUrl, obj);
-  window.location = "index.html";
+
+  fullName.value && password.value
+  ? axios.post(signUrl, obj) && (window.location = "index.html")
+  :alert("pls fill form :(")
 });
+

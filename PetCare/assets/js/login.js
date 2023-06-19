@@ -1,4 +1,5 @@
 let formLogin = document.querySelector(".login");
+let sbmtBtn = document.querySelector(".button");
 let userName = document.querySelector("#username");
 let passWord = document.querySelector("#password");
 let signUrl = "http://localhost:8080/sigin";
@@ -29,19 +30,29 @@ formLogin.addEventListener("submit", async (e) => {
   e.preventDefault();
   let res = await axios(signUrl);
   let data = await res.data;
-  console.log(data);
-  if (
+
+
+
+  if (!userName.value && !passWord.value) {
+    alert("Pls enter username and password !");
+    window.location = "login.html";
+  } else if (
     data.find(
-      (obj) => obj.fullname == userName.value 
-      && obj.password == passWord.value
-      && obj.isadmin==false
+      (obj) =>
+        obj.fullname == userName.value &&
+        obj.password == passWord.value &&
+        obj.isadmin == false
     )
   ) {
     window.location = "index.html";
-  }
-  if (
-    data.find((obj) => obj.isadmin==true)
-  ) {
+  } else if (
+    data.find(
+      (obj) =>
+        obj.fullname == userName.value &&
+        obj.password == passWord.value &&
+        obj.isadmin == true
+    
+  )) {
     window.location = "./admin/admin.html";
   } else {
     alert("This account does not exist, please signin!");

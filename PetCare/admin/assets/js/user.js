@@ -30,7 +30,11 @@ async function drawUser() {
                     <td>${element.fullname}</td>
                     <td>${element.email}</td>
                     <td>${element.isadmin}</td>
+
+                    
                     <td><i id="isadmin" class="fa-solid fa-unlock-keyhole"  onclick=IsAdmin("${element.id}")></i></td>
+
+                    <td>  <i class="fa-solid fa-eraser" onclick=deleteUser("${element.id}")></i></td>
         </tr>
             
             `;
@@ -65,3 +69,9 @@ async function IsAdmin(id) {
   };
   axios.patch(`${userUrl}/${id}`, obj);
 }
+
+
+async function deleteUser(id) {
+    axios.delete(`${userUrl}/${id}`);
+  }
+  
