@@ -3,6 +3,7 @@ const upIcon = document.querySelector("#upicon");
 const petFoods = document.querySelector("#pet-foods");
 navbar.style.background = "#2e8b57";
 
+let modalDialog = document.querySelector(".modal-dialog");
 let selectFood = document.querySelector("#select");
 let searchInp = document.querySelector("#search");
 let sortBtn = document.querySelector("#sort");
@@ -50,10 +51,14 @@ async function drawFood() {
       </div>
       <div class="food-hover">
       <i class="fa-regular fa-bookmark" onclick=addBasket("${element.id}")></i>
-      <button type="button" class="btn shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <i class="fa-solid fa-eye"></i>
-     </button>
-     
+      <button
+      type="button"
+      class="btn"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
+    >
+    <i class="fa-solid fa-eye"  onclick=viewDetails("${element.id}")></i>
+    </button>
      <i class="fa-regular fa-heart" onclick=addFav("${element.id}")></i>
      </div>
     </div>
@@ -143,6 +148,52 @@ async function addFav(userId) {
     alert("Character already exists in your list!");
   }
 }
+
+async function viewDetails(id) {
+  const res = await axios(`${foodUrl}/${id}`);
+  const data = res.data;
+  modalDialog.innerHTML = `
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success mx-5 px-5" id="staticBackdropLabel">
+                  Category:${data.category}
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="${data.photo}" alt="" width="200" />
+                <p class="text-danger">Price : ${data.price}</p>
+                <p>
+               <i class="fa-solid fa-star text-warning"></i>
+               <i class="fa-solid fa-star text-warning"></i>
+               <i class="fa-solid fa-star text-warning"></i>
+               <i class="fa-solid fa-star text-warning"></i>
+               <i class="fa-regular fa-star text-warning"></i>
+               <span>${data.starprice}</span>
+              </p>
+              </div>
+              <div class="modal-footer text-center">
+                <button
+                  type="button"
+                  class="btn btn-success text-center"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+        
+  
+  
+  
+  `;
+}
+viewDetails();
 
 function scrollFun() {
   let x =

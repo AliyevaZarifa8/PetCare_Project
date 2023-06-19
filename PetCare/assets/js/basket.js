@@ -43,8 +43,9 @@ function getallBasket() {
                <i class="fa-solid fa-star text-warning"></i>
                <i class="fa-regular fa-star text-warning"></i>
               ${element.starprice}</p>
-              <i class="fa-regular fa-heart text-danger" onclick=addFavs("${element.id}")></i>
+              <i class="fa-regular fa-heart text-danger mx-3" onclick=addFavs("${element.id}")></i>
               <i class="fa-solid fa-eraser text-danger text-center" onclick=removeBas("${element.id}")></i>
+              
             </div>
           </div>
         </div>
@@ -60,8 +61,6 @@ function removeBas(id) {
   getallBasket();
 }
 
-
-
 const favItem = JSON.parse(localStorage.getItem("favFoods")) || [];
 async function addFavs(userId) {
   const res = await axios(`${foodUrl}/${userId}`);
@@ -71,7 +70,7 @@ async function addFavs(userId) {
 
   if (!isTrue) {
     favItem.push(data);
-    localStorage.setItem("favFoods",JSON.stringify(favItem));
+    localStorage.setItem("favFoods", JSON.stringify(favItem));
   } else {
     alert("Character already exists in your list!");
   }
