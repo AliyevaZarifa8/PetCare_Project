@@ -10,11 +10,9 @@ const closeIcon = document.querySelector("#close");
 menuBar.style.display = "none";
 
 menuIcon.addEventListener("click", function () {
-
   menuBar.style.display = "block";
 });
 closeIcon.addEventListener("click", function () {
-
   menuBar.style.display = "none";
 });
 
@@ -23,7 +21,7 @@ function drawPrices(array) {
   array.forEach((element) => {
     pricesDnmk.innerHTML += `
  
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-md-6">
               <div class="card prices-card">
                 <h1>${element.title}</h1>
                 <h2>$ ${element.prices}</h2>

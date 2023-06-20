@@ -1243,6 +1243,32 @@ header #upicon {
   color: #fff;
   font-family: "Wallpoet", cursive;
 }
+@media only screen and (max-width: 992px) {
+  #services .services-text {
+    height: 90vh;
+  }
+  #services .services-text #services-text {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+  }
+  #services .services-text #services-text h1 {
+    transform: rotate(-13deg);
+    color: #fff;
+    font-size: 63px;
+    margin-bottom: 20px;
+    font-family: "Tilt Prism", cursive;
+  }
+  #services .services-text #services-text p {
+    transform: rotate(-13deg);
+    font-size: 25px;
+    color: #fff;
+    font-family: "Wallpoet", cursive;
+  }
+}
 
 #slider {
   /* Fading animation */
@@ -1347,6 +1373,48 @@ header #upicon {
 #medical-checkup .medical-checkup .medical-img img:hover {
   scale: 90%;
 }
+@media only screen and (max-width: 992px) {
+  #medical-checkup .medical-checkup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #medical-checkup .medical-checkup .medical-text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    text-align: center;
+  }
+  #medical-checkup .medical-checkup .medical-text h1 {
+    color: #2e8b57;
+    font-family: "Tilt Prism", cursive;
+  }
+  #medical-checkup .medical-checkup .medical-text .medical-parag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #medical-checkup .medical-checkup .medical-text .medical-parag p {
+    width: 100%;
+    font-size: 33px;
+    font-family: "Smokum", cursive;
+  }
+  #medical-checkup .medical-checkup .medical-img {
+    overflow: hidden;
+  }
+  #medical-checkup .medical-checkup .medical-img img {
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    transition: scale 2s;
+    border-radius: 6%;
+  }
+  #medical-checkup .medical-checkup .medical-img img:hover {
+    scale: 90%;
+  }
+}
 
 #pet-grooming {
   border-radius: 12%;
@@ -1389,6 +1457,47 @@ header #upicon {
 #pet-grooming .pet-grooming .grooming-img img:hover {
   scale: 90%;
 }
+@media only screen and (max-width: 992px) {
+  #pet-grooming .pet-grooming {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pet-grooming .pet-grooming .grooming-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    text-align: center;
+  }
+  #pet-grooming .pet-grooming .grooming-text h1 {
+    color: #2e8b57;
+    font-family: "Tilt Prism", cursive;
+  }
+  #pet-grooming .pet-grooming .grooming-text .grooming-parag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #pet-grooming .pet-grooming .grooming-text .grooming-parag p {
+    width: 90%;
+    font-size: 30px;
+    font-family: "Smokum", cursive;
+  }
+  #pet-grooming .pet-grooming .grooming-img {
+    overflow: hidden;
+  }
+  #pet-grooming .pet-grooming .grooming-img img {
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    transition: scale 2s;
+    border-radius: 6%;
+  }
+  #pet-grooming .pet-grooming .grooming-img img:hover {
+    scale: 90%;
+  }
+}
 
 #pet-transport .pet-transport {
   height: 100vh;
@@ -1427,6 +1536,48 @@ header #upicon {
 }
 #pet-transport .pet-transport .transport-img img:hover {
   scale: 90%;
+}
+@media only screen and (max-width: 992px) {
+  #pet-transport .pet-transport {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pet-transport .pet-transport .transport-text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    text-align: center;
+  }
+  #pet-transport .pet-transport .transport-text h1 {
+    color: #2e8b57;
+    font-family: "Tilt Prism", cursive;
+  }
+  #pet-transport .pet-transport .transport-text .transport-parag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #pet-transport .pet-transport .transport-text .transport-parag p {
+    width: 100%;
+    font-size: 33px;
+    font-family: "Smokum", cursive;
+  }
+  #pet-transport .pet-transport .transport-img {
+    overflow: hidden;
+  }
+  #pet-transport .pet-transport .transport-img img {
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    transition: scale 2s;
+    border-radius: 6%;
+  }
+  #pet-transport .pet-transport .transport-img img:hover {
+    scale: 90%;
+  }
 }
 
 #prices-plans {
@@ -1503,6 +1654,81 @@ header #upicon {
   color: #fff;
 }
 
+@media only screen and (max-width: 992px) {
+  #prices-plans {
+    background-color: #f0fef6;
+    border-radius: 1%;
+  }
+  #prices-plans .prices-plans {
+    display: flex;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #prices-plans .prices-plans .prices-heading {
+    text-align: center;
+    padding-top: 60px;
+  }
+  #prices-plans .prices-plans .prices-heading h1 {
+    color: #359e62;
+    font-size: 49px;
+    font-family: "Tilt Prism", cursive;
+  }
+  #prices-plans .prices-plans .prices-heading p {
+    color: rgb(176, 170, 170);
+    font-size: 27px;
+    font-family: "Smokum", cursive;
+  }
+  #prices-plans .prices-plans .prices-card {
+    font-family: "Pattaya", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    height: 70vh;
+    border-radius: 27px;
+    color: rgb(176, 170, 170);
+    margin-bottom: 30px;
+  }
+  #prices-plans .prices-plans .prices-card h1 {
+    color: #359e62;
+    font-size: 40px;
+    font-family: "Smokum", cursive;
+  }
+  #prices-plans .prices-plans .prices-card h2 {
+    color: #4ff999;
+  }
+  #prices-plans .prices-plans .prices-card i {
+    color: rgb(142, 139, 139);
+  }
+  #prices-plans .prices-plans .prices-card .card-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #prices-plans .prices-plans .prices-card .card-text p {
+    width: 69%;
+    font-size: 19px;
+  }
+  #prices-plans .prices-plans .prices-card button {
+    border: 2px solid #42c179;
+    font-family: "Smokum", cursive;
+    color: #42c179;
+    padding: 7px 10px;
+    border-radius: 7px;
+    font-weight: bold;
+  }
+  #prices-plans .prices-plans .prices-card button:hover {
+    background-color: #42c179;
+    color: #fff;
+  }
+}
 #boarding-prices .boarding-prices {
   height: 100vh;
   display: flex;

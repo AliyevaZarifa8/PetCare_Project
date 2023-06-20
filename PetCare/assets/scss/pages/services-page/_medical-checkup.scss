@@ -6,6 +6,7 @@
     align-items: center;
 
     .medical-text {
+    
       display: flex;
       flex-direction: column;
       row-gap: 29px;
@@ -36,6 +37,51 @@
         border-radius: 6%;
         &:hover {
           scale: 90%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .medical-checkup {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .medical-text {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 29px;
+        text-align: center;
+        h1 {
+          color: #2e8b57;
+          font-family: "Tilt Prism", cursive;
+        }
+
+        .medical-parag {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          p {
+            width: 100%;
+            font-size: 33px;
+            font-family: "Smokum", cursive;
+          }
+        }
+      }
+      .medical-img {
+        overflow: hidden;
+        img {
+          width: 80%;
+          height: 100%;
+          margin-left: 80px;
+          transition: scale 2s;
+          border-radius: 6%;
+          &:hover {
+            scale: 90%;
+          }
         }
       }
     }

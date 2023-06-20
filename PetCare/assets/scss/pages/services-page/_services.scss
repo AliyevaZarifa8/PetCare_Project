@@ -27,4 +27,33 @@
       }
     }
   }
+
+  @media only screen and (max-width: 992px) {
+    .services-text {
+      height: 90vh;
+
+      #services-text {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #fff;
+
+        h1 {
+          transform: rotate(-13deg);
+          color: #fff;
+          font-size: 63px;
+          margin-bottom: 20px;
+          font-family: "Tilt Prism", cursive;
+        }
+        p {
+          transform: rotate(-13deg);
+          font-size: 25px;
+          color: #fff;
+          font-family: "Wallpoet", cursive;
+        }
+      }
+    }
+  }
 }

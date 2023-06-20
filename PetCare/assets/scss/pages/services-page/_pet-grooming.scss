@@ -39,4 +39,47 @@
       }
     }
   }
+
+  @media only screen and (max-width: 992px) {
+    .pet-grooming {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .grooming-text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 29px;
+        text-align: center;
+        h1 {
+          color: #2e8b57;
+          font-family: "Tilt Prism", cursive;
+        }
+        .grooming-parag {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          p {
+            width: 90%;
+            font-size: 30px;
+            font-family: "Smokum", cursive;
+          }
+        }
+      }
+      .grooming-img {
+        overflow: hidden;
+        img {
+          width: 80%;
+          height: 100%;
+          margin-left: 80px;
+          transition: scale 2s;
+          border-radius: 6%;
+          &:hover {
+            scale: 90%;
+          }
+        }
+      }
+    }
+  }
 }
