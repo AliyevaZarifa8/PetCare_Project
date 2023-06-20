@@ -16,11 +16,9 @@ const closeIcon = document.querySelector("#close");
 menuBar.style.display = "none";
 
 menuIcon.addEventListener("click", function () {
-
   menuBar.style.display = "block";
 });
 closeIcon.addEventListener("click", function () {
-
   menuBar.style.display = "none";
 });
 let filterData = [];
@@ -45,7 +43,7 @@ async function drawFood() {
 
   filterData.forEach((element) => {
     petFoods.innerHTML += `
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6">
     <div class="card">
       <img src="${element.photo}" alt="" />
       <h2>Category:</h2>

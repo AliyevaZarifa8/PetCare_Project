@@ -1,6 +1,6 @@
 #eat-food {
   .eat-food {
-    height: 90vh;
+    padding-bottom: 200px;
     display: flex;
     align-items: center;
 
@@ -48,6 +48,64 @@
           border-color: rgb(240, 62, 3);
           color: #fff;
           font-weight: bold;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .eat-food {
+      display: flex;
+      align-items: center;
+      padding-bottom: 60px;
+
+      .eat-img {
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: scale 3s;
+          border-radius: 17px;
+          &:hover {
+            scale: 120%;
+          }
+        }
+      }
+      .eat-text {
+        margin-left: 30px;
+        text-align: center;
+        margin-bottom: 70px;
+        margin-top: 70px;
+        h1 {
+          font-size: 43px;
+          color: rgb(216, 62, 10);
+          font-family: "Faster One", cursive;
+        }
+        h2 {
+          font-size: 33px;
+          color: rgb(176, 52, 10);
+          text-transform: inherit;
+          font-family: "Faster One", cursive;
+        }
+        p {
+          font-size: 33px;
+          font-family: "Beau Rivage", cursive;
+          color: rgb(49, 47, 44);
+        }
+        button {
+          border: 1px solid rgb(43, 41, 40);
+          background-color: transparent;
+          font-family: "Beau Rivage", cursive;
+          padding: 1px 29px;
+          color: rgb(42, 39, 39);
+          font-size: 29px;
+          border-radius: 23px;
+          &:hover {
+            background-color: rgb(245, 64, 115);
+            border-color: rgb(240, 62, 3);
+            color: #fff;
+            font-weight: bold;
+          }
         }
       }
     }
