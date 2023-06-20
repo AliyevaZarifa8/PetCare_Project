@@ -66,4 +66,23 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
+
+  @media only screen and (max-width: 992px) {
+    .slider-text {
+      h1 {
+        color: rgb(82, 179, 7);
+        font-size: 80px;
+        font-family: "Vast Shadow", cursive;
+        margin-left: 0;
+        padding-left: 0;
+      }
+      h2 {
+        color: rgb(82, 179, 7);
+        font-size: 72px;
+        margin-left: 7vh;
+        margin-top: 23vh;
+        font-family: "Vast Shadow", cursive;
+      }
+    }
+  }
 }

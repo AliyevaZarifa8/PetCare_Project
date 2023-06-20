@@ -3084,9 +3084,26 @@ header #upicon {
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
+@media only screen and (max-width: 992px) {
+  #pet-breeds .slider-text h1 {
+    color: rgb(82, 179, 7);
+    font-size: 80px;
+    font-family: "Vast Shadow", cursive;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #pet-breeds .slider-text h2 {
+    color: rgb(82, 179, 7);
+    font-size: 72px;
+    margin-left: 7vh;
+    margin-top: 23vh;
+    font-family: "Vast Shadow", cursive;
+  }
+}
 
 #owner-dog .owner-dog {
-  height: 90vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3135,6 +3152,60 @@ header #upicon {
 }
 #owner-dog .owner-dog .own-img img:hover {
   scale: 120%;
+}
+@media only screen and (max-width: 992px) {
+  #owner-dog .owner-dog {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  #owner-dog .owner-dog .own-text {
+    text-align: center;
+  }
+  #owner-dog .owner-dog .own-text h1 {
+    font-size: 36px;
+    text-transform: capitalize;
+    color: rgb(11, 165, 129);
+    font-family: "Diplomata SC", cursive;
+  }
+  #owner-dog .owner-dog .own-text div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #owner-dog .owner-dog .own-text div p {
+    width: 90%;
+    font-size: 19px;
+    color: rgb(157, 146, 146);
+    font-family: "Nova Oval", cursive;
+  }
+  #owner-dog .owner-dog .own-text a {
+    text-decoration: none;
+    color: rgb(11, 165, 129);
+    border: 2px solid rgb(11, 165, 129);
+    border-radius: 23px;
+    padding: 8px 24px;
+    font-family: "Nova Oval", cursive;
+  }
+  #owner-dog .owner-dog .own-text a:hover {
+    color: #fff;
+    background-color: rgb(11, 165, 129);
+  }
+  #owner-dog .owner-dog .own-img {
+    overflow: hidden;
+  }
+  #owner-dog .owner-dog .own-img img {
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 20px;
+  }
+  #owner-dog .owner-dog .own-img img:hover {
+    scale: 120%;
+  }
 }
 
 #pet-breeds3 {
@@ -3281,6 +3352,151 @@ header #upicon {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 992px) {
+  #pet-breeds3 {
+    background-color: rgb(250, 250, 224);
+    border-radius: 1%;
+    margin-bottom: 17vh;
+    padding-bottom: 10vh;
+  }
+  #pet-breeds3 h1 {
+    text-align: center;
+    color: rgb(240, 75, 60);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Kumar One Outline", cursive;
+  }
+  #pet-breeds3 h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 14%;
+    background-color: rgb(6, 217, 24);
+    bottom: -23%;
+    left: 43%;
+  }
+  #pet-breeds3 p {
+    color: rgb(218, 95, 42);
+    text-align: center;
+    font-size: 23px;
+    font-family: "Nova Oval", cursive;
+  }
+  #pet-breeds3 .search-sort {
+    margin-bottom: 50px;
+    font-family: "Neonderthaw", cursive;
+  }
+  #pet-breeds3 .search-sort input {
+    width: 100%;
+    text-indent: 20px;
+    height: 6vh;
+    border-radius: 7px;
+    border: 1px solid #fb8107;
+    outline: none;
+    margin-left: 10px;
+    font-size: 27px;
+    background-color: transparent;
+  }
+  #pet-breeds3 .search-sort input::placeholder {
+    color: #fb8107;
+  }
+  #pet-breeds3 .search-sort select {
+    font-size: 25px;
+    height: 46px;
+    color: #fb8107;
+    border: 1px solid #fb8107;
+    text-indent: 8px;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+  }
+  #pet-breeds3 .search-sort .button {
+    border: 1px solid #fb8107;
+    border-radius: 7px;
+    padding: 2px 38px;
+    font-size: 27px;
+    color: #fb8107;
+    background-color: transparent;
+    margin-left: 80px;
+  }
+  #pet-breeds3 .cards {
+    row-gap: 20px;
+  }
+  #pet-breeds3 .cards .card {
+    padding: 14px 27px;
+    text-align: center;
+    border-radius: 27px;
+    border: 2px solid #fed56c;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #pet-breeds3 .cards .card:hover .breeds-hover {
+    display: flex;
+    border-radius: 23px;
+    background-color: rgba(7, 122, 51, 0.2);
+  }
+  #pet-breeds3 .cards .card img {
+    border-radius: 20px;
+    height: 30vh;
+  }
+  #pet-breeds3 .cards .card h2 {
+    font-family: "Neonderthaw", cursive;
+    color: rgb(252, 121, 45);
+    font-size: 23px;
+    padding-top: 10px;
+  }
+  #pet-breeds3 .cards .card h3 {
+    color: rgb(253, 85, 85);
+    font-size: 27px;
+    font-family: "Alumni Sans Inline One", cursive;
+  }
+  #pet-breeds3 .cards .card i {
+    color: rgb(250, 150, 150);
+    font-size: 21px;
+    font-family: "Fruktur", cursive;
+  }
+  #pet-breeds3 .cards .card p {
+    color: rgb(119, 115, 113);
+    text-align: center;
+    font-size: 17px;
+  }
+  #pet-breeds3 .cards .card .breeds-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    padding-right: 29px;
+    width: 100%;
+    height: 100%;
+  }
+  #pet-breeds3 .cards .card .breeds-hover img {
+    width: 40px;
+    height: 40px;
+  }
+  #pet-breeds3 .cards .card .breeds-hover button {
+    padding: 0;
+  }
+  #pet-breeds3 #showmore {
+    font-family: "Neonderthaw", cursive;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  #pet-breeds3 #showmore .showmore {
+    border: 1px solid #fb8107;
+    border-radius: 7px;
+    padding: 7px 38px;
+    color: #fb8107;
+    background-color: transparent;
+  }
+}
 #pet-breeds4 {
   background-image: url("../image/new6.jpg");
   background-size: cover;
