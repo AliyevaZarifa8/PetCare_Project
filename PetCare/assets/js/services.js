@@ -3,6 +3,20 @@ const upIcon = document.querySelector("#upicon");
 const pricesDnmk = document.querySelector(".prices-dinamk");
 navbar.style.background = "#2e8b57";
 const pricesUrl = "http://localhost:8080/prices-plans";
+const menuIcon = document.querySelector("#menu");
+const menuBar = document.querySelector("#menubar");
+const closeIcon = document.querySelector("#close");
+
+menuBar.style.display = "none";
+
+menuIcon.addEventListener("click", function () {
+
+  menuBar.style.display = "block";
+});
+closeIcon.addEventListener("click", function () {
+
+  menuBar.style.display = "none";
+});
 
 function drawPrices(array) {
   pricesDnmk.innerHTML = "";

@@ -1,6 +1,20 @@
 let navbar = document.querySelector("#navbar");
 const upIcon = document.querySelector("#upicon");
 navbar.style.background = "#2e8b57";
+const menuIcon = document.querySelector("#menu");
+const menuBar = document.querySelector("#menubar");
+const closeIcon = document.querySelector("#close");
+
+menuBar.style.display = "none";
+
+menuIcon.addEventListener("click", function () {
+
+  menuBar.style.display = "block";
+});
+closeIcon.addEventListener("click", function () {
+
+  menuBar.style.display = "none";
+});
 
 function scrollFun() {
   let x =

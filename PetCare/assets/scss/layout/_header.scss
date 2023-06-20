@@ -75,6 +75,9 @@ header {
     }
 
     #header-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       animation: movedown 1s linear 1;
       animation-delay: 3s;
       // visibility: hidden;
@@ -112,6 +115,11 @@ header {
           }
         }
       }
+
+      #menu {
+        display: none;
+        width: 30px;
+      }
     }
   }
 
@@ -123,5 +131,39 @@ header {
     font-size: 36px;
     color: #3cb371;
     z-index: 10;
+  }
+
+  @media only screen and (max-width: 992px) {
+    #header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+
+        #ul {
+          display: none;
+        }
+      }
+      #header-icon {
+        #menu {
+          display: block;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    #upicon {
+      position: fixed;
+      right: 90px;
+      bottom: 30px;
+      padding: 10px;
+      font-size: 36px;
+      color: #3cb371;
+      z-index: 10;
+    }
   }
 }

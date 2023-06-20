@@ -5,6 +5,20 @@ let searchInp = document.querySelector("#search");
 let tBody = document.querySelector("tbody");
 let spinnerInfo = document.querySelector("#spinner");
 spinnerInfo.style.display = "flex";
+const menuIcon = document.querySelector("#menu");
+const menuBar = document.querySelector("#menubar");
+const closeIcon = document.querySelector("#close");
+
+menuBar.style.display = "none";
+
+menuIcon.addEventListener("click", function () {
+
+  menuBar.style.display = "block";
+});
+closeIcon.addEventListener("click", function () {
+
+  menuBar.style.display = "none";
+});
 let filterData = [];
 let getallData = [];
 const branchesUrl = "http://localhost:8080/branches";
