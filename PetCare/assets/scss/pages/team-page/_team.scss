@@ -1,6 +1,6 @@
 #team {
-  margin-top: 12vh;
-  height: 80vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,6 +71,39 @@
       p {
         width: 80%;
         text-align: center;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    padding-bottom: 50px;
+    .team-text {
+      padding-top: 70px;
+      border-radius: 9px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        font-size: 55px;
+        color: #43a66e;
+        font-family: "Ma Shan Zheng", cursive;
+      }
+      p {
+        font-size: 23px;
+        color: rgb(124, 118, 118);
+        font-family: "Lily Script One", cursive;
+      }
+      .creative-parag {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          width: 80%;
+          text-align: center;
+        }
       }
     }
   }

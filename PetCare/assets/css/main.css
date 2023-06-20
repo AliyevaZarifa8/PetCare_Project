@@ -1271,6 +1271,8 @@ header #upicon {
 }
 
 #slider {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   /* Fading animation */
 }
 #slider .showSlide {
@@ -1779,8 +1781,8 @@ header #upicon {
 }
 
 #team {
-  margin-top: 12vh;
-  height: 80vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1851,6 +1853,39 @@ header #upicon {
 #team .team-text .creative-parag p {
   width: 80%;
   text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  #team {
+    padding-bottom: 50px;
+  }
+  #team .team-text {
+    padding-top: 70px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #team .team-text h1 {
+    font-size: 55px;
+    color: #43a66e;
+    font-family: "Ma Shan Zheng", cursive;
+  }
+  #team .team-text p {
+    font-size: 23px;
+    color: rgb(124, 118, 118);
+    font-family: "Lily Script One", cursive;
+  }
+  #team .team-text .creative-parag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #team .team-text .creative-parag p {
+    width: 80%;
+    text-align: center;
+  }
 }
 
 #meet-team {
@@ -1988,6 +2023,142 @@ header #upicon {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 992px) {
+  #meet-team {
+    background-color: #e3fce4;
+    border-radius: 1%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    align-items: center;
+  }
+  #meet-team .meet-text {
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  #meet-team .meet-text h1 {
+    color: #2e8b57;
+    font-size: 44px;
+    position: relative;
+    font-family: "Rampart One", cursive;
+  }
+  #meet-team .meet-text h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 17%;
+    background-color: rgb(12, 218, 18);
+    bottom: -23%;
+    left: 42%;
+  }
+  #meet-team .meet-text p {
+    font-size: 27px;
+    color: rgb(122, 119, 119);
+    font-family: "Ma Shan Zheng", cursive;
+  }
+  #meet-team .search-sort {
+    margin-bottom: 20px;
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 27px;
+  }
+  #meet-team .search-sort input {
+    width: 100%;
+    text-indent: 20px;
+    height: 6vh;
+    border-radius: 7px;
+    border: 1px solid rgb(77, 199, 77);
+    outline: none;
+    margin-left: 10px;
+  }
+  #meet-team .search-sort input::placeholder {
+    color: #2e8b57;
+  }
+  #meet-team .search-sort .button {
+    border: 1px solid rgb(77, 199, 77);
+    border-radius: 7px;
+    padding: 7px 38px;
+    color: #0dc78f;
+    background-color: transparent;
+    margin-left: 80px;
+  }
+  #meet-team .meet-cards {
+    row-gap: 20px;
+  }
+  #meet-team .meet-cards .card {
+    border: 1px solid rgb(9, 249, 9);
+    border-radius: 23px;
+    position: relative;
+    padding: 10px 19px;
+  }
+  #meet-team .meet-cards .card:hover .meet-card .meet-hover {
+    display: flex;
+    border-radius: 23px;
+    background-color: rgba(7, 122, 51, 0.2);
+  }
+  #meet-team .meet-cards .card img {
+    width: 100%;
+    border-radius: 23px;
+    height: 31vh;
+  }
+  #meet-team .meet-cards .card .meet-card {
+    display: flex;
+    flex-direction: column;
+    padding: 29px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  #meet-team .meet-cards .card .meet-card .meets-text h1 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #226c56;
+    font-family: "Lily Script One", cursive;
+  }
+  #meet-team .meet-cards .card .meet-card p {
+    color: gray;
+    font-family: "Lemon", cursive;
+  }
+  #meet-team .meet-cards .card .meet-card .meet-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 20px;
+    padding-right: 29px;
+    width: 100%;
+    height: 100%;
+  }
+  #meet-team .meet-cards .card .meet-card .meet-hover i {
+    color: #fff;
+    font-size: 30px;
+  }
+  #meet-team .meet-cards .card .meet-card .meet-hover i:hover {
+    color: #3af990;
+  }
+  #meet-team #showmore {
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  #meet-team #showmore .showmore {
+    border: 1px solid rgb(77, 199, 77);
+    border-radius: 7px;
+    padding: 7px 38px;
+    color: #0dc78f;
+    background-color: transparent;
+  }
+}
 #our-staff {
   background-image: url("../image/team.jpg");
   background-position: center;
@@ -2014,7 +2185,8 @@ header #upicon {
 }
 
 #count {
-  height: 100vh;
+  padding-top: 350px;
+  padding-top: 270px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2026,7 +2198,8 @@ header #upicon {
 }
 #count .count {
   text-align: center;
-  margin-top: 270px;
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
 #count .count h2 {
   color: rgb(246, 123, 16);

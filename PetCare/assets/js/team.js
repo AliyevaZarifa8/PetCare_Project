@@ -14,11 +14,9 @@ const closeIcon = document.querySelector("#close");
 menuBar.style.display = "none";
 
 menuIcon.addEventListener("click", function () {
-
   menuBar.style.display = "block";
 });
 closeIcon.addEventListener("click", function () {
-
   menuBar.style.display = "none";
 });
 let filterData = [];
@@ -43,7 +41,7 @@ async function drawTeam() {
 
   filterData.forEach((element) => {
     meetCards.innerHTML += `
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6">
     <div class="card">
       <img src="${element.photo}" alt="" />
       <div class="meet-card">
@@ -128,61 +126,55 @@ upIcon.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
 });
 
-
-
-
-
 //count
 
-document.addEventListener("DOMContentLoaded", function() {
-  let elements = document.querySelectorAll(".scroll-counter")
+document.addEventListener("DOMContentLoaded", function () {
+  let elements = document.querySelectorAll(".scroll-counter");
 
-  elements.forEach(function(item) {
-    item.counterAlreadyFired = false
-    item.counterSpeed = item.getAttribute("data-counter-time") / 45
-    item.counterTarget = +item.innerText
-    item.counterCount = 0
-    item.counterStep = item.counterTarget / item.counterSpeed
+  elements.forEach(function (item) {
+    item.counterAlreadyFired = false;
+    item.counterSpeed = item.getAttribute("data-counter-time") / 45;
+    item.counterTarget = +item.innerText;
+    item.counterCount = 0;
+    item.counterStep = item.counterTarget / item.counterSpeed;
 
-    item.updateCounter = function() {
-      item.counterCount = item.counterCount + item.counterStep
-      item.innerText = Math.ceil(item.counterCount)
+    item.updateCounter = function () {
+      item.counterCount = item.counterCount + item.counterStep;
+      item.innerText = Math.ceil(item.counterCount);
 
       if (item.counterCount < item.counterTarget) {
-        setTimeout(item.updateCounter, item.counterSpeed)
+        setTimeout(item.updateCounter, item.counterSpeed);
       } else {
-        item.innerText = item.counterTarget
+        item.innerText = item.counterTarget;
       }
-    }
-  })
+    };
+  });
 
   var isElementVisible = function isElementVisible(el) {
-    let scroll = window.scrollY || window.pageYOffset
-    let boundsTop = el.getBoundingClientRect().top + scroll
+    let scroll = window.scrollY || window.pageYOffset;
+    let boundsTop = el.getBoundingClientRect().top + scroll;
     let viewport = {
       top: scroll,
       bottom: scroll + window.innerHeight,
-    }
+    };
     var bounds = {
       top: boundsTop,
       bottom: boundsTop + el.clientHeight,
-    }
+    };
     return (
       (bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom) ||
       (bounds.top <= viewport.bottom && bounds.top >= viewport.top)
-    )
-  }
+    );
+  };
 
-  
   var handleScroll = function handleScroll() {
-    elements.forEach(function(item, id) {
-      if (true === item.counterAlreadyFired) return
-      if (!isElementVisible(item)) return
-      item.updateCounter()
-      item.counterAlreadyFired = true
-    })
-  }
+    elements.forEach(function (item, id) {
+      if (true === item.counterAlreadyFired) return;
+      if (!isElementVisible(item)) return;
+      item.updateCounter();
+      item.counterAlreadyFired = true;
+    });
+  };
 
-
-  window.addEventListener("scroll", handleScroll)
-})
+  window.addEventListener("scroll", handleScroll);
+});
