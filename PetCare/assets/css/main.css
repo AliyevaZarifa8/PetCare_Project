@@ -3797,7 +3797,8 @@ header #upicon {
 }
 
 #about .about {
-  height: 90vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3846,25 +3847,53 @@ header #upicon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding-top: 180px;
+  padding-bottom: 100px;
   color: #fff;
 }
-#breeds-food .breeds-food .breeds-text {
+#breeds-food .breeds-food .text-bred .breeds-text {
   margin-left: 10vh;
 }
-#breeds-food .breeds-food .breeds-text h6 {
+#breeds-food .breeds-food .text-bred .breeds-text h6 {
   font-size: 36px;
   color: rgb(241, 44, 44);
   font-family: "Tilt Prism", cursive;
 }
-#breeds-food .breeds-food .breeds-text p {
+#breeds-food .breeds-food .text-bred .breeds-text p {
   color: #fff;
   font-family: "Nosifer", cursive;
   font-size: 12px;
 }
-#breeds-food .breeds-food .breeds-text p i {
+#breeds-food .breeds-food .text-bred .breeds-text p i {
   color: rgb(242, 60, 60);
   font-size: 19px;
+}
+@media only screen and (max-width: 992px) {
+  #breeds-food .breeds-food {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: #fff;
+  }
+  #breeds-food .breeds-food .text-bred .breeds-text {
+    margin-left: 10vh;
+  }
+  #breeds-food .breeds-food .text-bred .breeds-text h6 {
+    font-size: 36px;
+    color: rgb(241, 44, 44);
+    font-family: "Tilt Prism", cursive;
+  }
+  #breeds-food .breeds-food .text-bred .breeds-text p {
+    color: #fff;
+    font-family: "Nosifer", cursive;
+    font-size: 12px;
+  }
+  #breeds-food .breeds-food .text-bred .breeds-text p i {
+    color: rgb(242, 60, 60);
+    font-size: 19px;
+  }
 }
 
 footer {

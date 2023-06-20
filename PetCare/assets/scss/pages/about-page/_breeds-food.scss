@@ -8,23 +8,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 100vh;
+    padding-top: 180px;
+    padding-bottom: 100px;
     color: #fff;
-    .breeds-text {
-      margin-left: 10vh;
-      h6 {
-        font-size: 36px;
-        color: rgb(241, 44, 44);
-        font-family: "Tilt Prism", cursive;
+
+    .text-bred {
+      .breeds-text {
+        margin-left: 10vh;
+        h6 {
+          font-size: 36px;
+          color: rgb(241, 44, 44);
+          font-family: "Tilt Prism", cursive;
+        }
+        p {
+          color: #fff;
+          font-family: "Nosifer", cursive;
+          font-size: 12px;
+          i {
+            color: rgb(242, 60, 60);
+            font-size: 19px;
+          }
+        }
       }
-      p {
-        color: #fff;
-        font-family: "Nosifer", cursive;
-        font-size: 12px;
-        i {
-          color: rgb(242, 60, 60);
-          font-size: 19px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .breeds-food {
+      display: flex;
+      justify-content: end;
+      align-items: end;
+
+      padding-top: 180px;
+      padding-bottom: 100px;
+      color: #fff;
+      .text-bred {
+        .breeds-text {
+          margin-left: 10vh;
+          h6 {
+            font-size: 36px;
+            color: rgb(241, 44, 44);
+            font-family: "Tilt Prism", cursive;
+          }
+          p {
+            color: #fff;
+            font-family: "Nosifer", cursive;
+            font-size: 12px;
+            i {
+              color: rgb(242, 60, 60);
+              font-size: 19px;
+            }
+          }
         }
       }
     }
