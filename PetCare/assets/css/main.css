@@ -2231,7 +2231,8 @@ header #upicon {
 }
 
 #our-branches {
-  height: 70vh;
+  padding-top: 250px;
+  padding-bottom: 270px;
   margin-top: 10vh;
   margin-bottom: 5vh;
   display: flex;
@@ -2250,7 +2251,7 @@ header #upicon {
 }
 #our-branches .branches-text h1 {
   font-family: "Vast Shadow", cursive;
-  font-size: 48px;
+  font-size: 54px;
   text-transform: uppercase;
   color: rgb(7, 133, 99);
 }
@@ -2261,6 +2262,40 @@ header #upicon {
   color: #fff;
 }
 
+@media only screen and (max-width: 992px) {
+  #our-branches {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-image: url("../image/new22.jpg");
+    background-size: cover;
+    background-position: center;
+    border-end-start-radius: 5%;
+    border-end-end-radius: 5%;
+  }
+  #our-branches .branches-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+  }
+  #our-branches .branches-text h1 {
+    font-family: "Vast Shadow", cursive;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: rgb(7, 133, 99);
+  }
+  #our-branches .branches-text p {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: "Sail", cursive;
+    color: #fff;
+  }
+}
 #branches-work {
   margin-bottom: 90px;
   background-color: #eafbf0;
@@ -2349,11 +2384,101 @@ header #upicon {
   color: #36a567;
 }
 
+@media only screen and (max-width: 992px) {
+  #branches-work {
+    margin-bottom: 90px;
+    background-color: #eafbf0;
+    border-radius: 1%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #branches-work .branches-prices {
+    display: flex;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #branches-work .branches-prices .branches-heading {
+    text-align: center;
+  }
+  #branches-work .branches-prices .branches-heading h1 {
+    color: #359e62;
+    font-size: 42px;
+    font-family: "Vast Shadow", cursive;
+  }
+  #branches-work .branches-prices .branches-heading p {
+    color: rgb(176, 170, 170);
+    font-size: 27px;
+    font-family: "Sail", cursive;
+  }
+  #branches-work .branches-prices .search-sort {
+    margin-bottom: 20px;
+    font-family: "Sail", cursive;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #branches-work .branches-prices .search-sort input {
+    text-indent: 10px;
+    height: 6vh;
+    border-radius: 7px;
+    border: 1px solid rgb(77, 199, 77);
+    outline: none;
+    margin-left: 10px;
+    background-color: transparent;
+  }
+  #branches-work .branches-prices .search-sort input::placeholder {
+    color: #22b462;
+  }
+  #branches-work .branches-prices .branches-table {
+    width: 100%;
+  }
+  #branches-work .branches-prices .branches-table table tr:hover {
+    background-color: #cbf5df;
+  }
+  #branches-work .branches-prices .branches-table table th {
+    font-family: "Ma Shan Zheng", cursive;
+    color: #359e62;
+    font-size: 39px;
+    text-align: center;
+    height: 6vh;
+    padding-right: 30px;
+    padding-left: 47px;
+  }
+  #branches-work .branches-prices .branches-table table td {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(84, 82, 82);
+    font-size: 20px;
+    text-align: center;
+    height: 6vh;
+  }
+  #branches-work .branches-prices .branches-table table td i {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 3px;
+  }
+  #branches-work .branches-prices .branches-table table td .fa-landmark-dome {
+    color: rgb(7, 105, 104);
+  }
+  #branches-work .branches-prices .branches-table table td .fa-location-dot {
+    color: rgb(252, 46, 5);
+  }
+  #branches-work .branches-prices .branches-table table td .fa-calendar-check {
+    color: #0c59b1;
+  }
+  #branches-work .branches-prices .branches-table table td .fa-phone-volume {
+    color: #36a567;
+  }
+}
 #petcare-central .petcare-central {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
   margin-bottom: 10vh;
 }
@@ -2371,6 +2496,30 @@ header #upicon {
   border-radius: 4%;
   width: 100%;
   height: 90vh;
+}
+@media only screen and (max-width: 992px) {
+  #petcare-central .petcare-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  #petcare-central .petcare-central h1 {
+    font-size: 33px;
+    color: #28cb6e;
+    font-family: "Vast Shadow", cursive;
+  }
+  #petcare-central .petcare-central h2 {
+    font-size: 30px;
+    color: #f34a2c;
+    font-family: "Sail", cursive;
+  }
+  #petcare-central .petcare-central .petcare-map iframe {
+    border-radius: 4%;
+    width: 100%;
+    height: 60vh;
+  }
 }
 
 #pet-food1 {

@@ -1,5 +1,6 @@
 #our-branches {
-  height: 70vh;
+  padding-top: 250px;
+  padding-bottom: 270px;
   margin-top: 10vh;
   margin-bottom: 5vh;
   display: flex;
@@ -17,7 +18,7 @@
     text-align: center;
     h1 {
       font-family: "Vast Shadow", cursive;
-      font-size: 48px;
+      font-size: 54px;
       text-transform: uppercase;
       color: rgb(7, 133, 99);
     }
@@ -26,6 +27,42 @@
       font-size: 25px;
       font-family: "Sail", cursive;
       color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #our-branches {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-image: url("../image/new22.jpg");
+    background-size: cover;
+    background-position: center;
+    border-end-start-radius: 5%;
+    border-end-end-radius: 5%;
+
+    .branches-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: start;
+      h1 {
+        font-family: "Vast Shadow", cursive;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: rgb(7, 133, 99);
+      }
+      p {
+        text-transform: capitalize;
+        font-size: 25px;
+        font-family: "Sail", cursive;
+        color: #fff;
+      }
     }
   }
 }
