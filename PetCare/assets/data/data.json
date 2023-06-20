@@ -182,63 +182,63 @@
       "photo": "./assets/image/dry-food1.webp",
       "category": "Dry Food",
       "price": 23.78,
-      "starprice": 12.345
+      "starprice": 2.7
     },
     {
       "id": 2,
       "photo": "./assets/image/wet-food2.png",
       "category": "Wet Food",
       "price": 239.78,
-      "starprice": 12.345
+      "starprice": 4.7
     },
     {
       "id": 3,
       "photo": "./assets/image/vegtr-food2.webp",
       "category": "Veterinary Diets",
       "price": 34.78,
-      "starprice": 11.345
+      "starprice": 1.7
     },
     {
       "id": 4,
       "photo": "./assets/image/premium-food2.png",
       "category": "Premium Food",
       "price": 16.78,
-      "starprice": 12.345
+      "starprice": 4
     },
     {
       "id": 5,
       "photo": "./assets/image/fresh-food2.jpg",
       "category": "Fresh Meals",
       "price": 27.99,
-      "starprice": 19.345
+      "starprice": 2.7
     },
     {
       "id": 6,
       "photo": "./assets/image/topping-food2.jpg",
       "category": "Food Toppings",
       "price": 37.9,
-      "starprice": 29.345
+      "starprice": 4.7
     },
     {
       "id": 7,
       "photo": "./assets/image/raw-food2.webp",
       "category": "Raw Food",
       "price": 45.78,
-      "starprice": 35.345
+      "starprice": 3
     },
     {
       "id": 8,
       "photo": "./assets/image/premium-food2.png",
       "category": "Premium Food",
       "price": 16.78,
-      "starprice": 12.345
+      "starprice": 5
     },
     {
       "id": 9,
       "photo": "./assets/image/raw-food2.webp",
       "category": "Raw Food",
       "price": 45.78,
-      "starprice": 35.345
+      "starprice": 2
     }
   ],
   "pet-breeds": [
