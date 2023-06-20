@@ -21,7 +21,7 @@ function drawPrices(array) {
   array.forEach((element) => {
     pricesDnmk.innerHTML += `
  
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="card prices-card">
                 <h1>${element.title}</h1>
                 <h2>$ ${element.prices}</h2>

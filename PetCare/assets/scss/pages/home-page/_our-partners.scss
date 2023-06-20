@@ -113,4 +113,34 @@
       }
     }
   }
+
+  @media only screen and (max-width: 992px) {
+    .partners-text {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 27px;
+      margin-bottom: 40px;
+      h1 {
+        color: #2e8b57;
+        font-size: 34px;
+        position: relative;
+        font-family: "Nosifer", cursive;
+        &::after {
+          position: absolute;
+          content: "";
+          height: 2px;
+          width: 17%;
+          background-color: rgb(12, 218, 18);
+          bottom: -30%;
+          left: 42%;
+        }
+      }
+      p {
+        font-size: 21px;
+        color: rgb(86, 84, 84);
+        font-family: "Rye", cursive;
+      }
+    }
+  }
 }

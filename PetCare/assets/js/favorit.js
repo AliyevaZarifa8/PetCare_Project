@@ -8,11 +8,9 @@ const closeIcon = document.querySelector("#close");
 menuBar.style.display = "none";
 
 menuIcon.addEventListener("click", function () {
-
   menuBar.style.display = "block";
 });
 closeIcon.addEventListener("click", function () {
-
   menuBar.style.display = "none";
 });
 
@@ -43,7 +41,7 @@ function getallFavFood() {
   favorit.innerHTML = "";
   favFood.forEach((element) => {
     favorit.innerHTML += `
-        <div class="col-3 p-2 text-center">
+        <div class="col-lg-3 p-2 col-md-6 col-sm-10  text-center">
           <div class="card " style="width: 18rem">
             <img src="${element.photo}"  class="card-img-top" alt="..." />
             <div class="card-body">

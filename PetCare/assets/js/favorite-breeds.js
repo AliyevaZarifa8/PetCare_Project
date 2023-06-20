@@ -43,7 +43,7 @@ function getallFav() {
   favorit.innerHTML = "";
   getBasket.forEach((element) => {
     favorit.innerHTML += `
-    <div class="col-lg-3 text-center">
+    <div class="col-lg-3 col-md-6 col-sm-10 text-center">
     <div class="card">
       <img src="${element.photo}" alt="" />
       <h2>Dog Breeds:</h2>

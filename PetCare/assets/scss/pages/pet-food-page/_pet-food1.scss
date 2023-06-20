@@ -14,4 +14,15 @@
     font-family: "Nosifer", cursive;
     transform: rotateX(-20deg);
   }
+  @media only screen and (max-width: 768px) {
+    .pet-food1 {
+      font-size: 50px;
+      color: rgb(231, 231, 185);
+      text-transform: capitalize;
+
+      margin-left: 400px;
+      font-family: "Nosifer", cursive;
+      transform: rotateX(-20deg);
+    }
+  }
 }

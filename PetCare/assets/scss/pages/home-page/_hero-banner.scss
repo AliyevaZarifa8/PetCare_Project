@@ -62,9 +62,9 @@
   }
 
   @media only screen and (max-width: 992px) {
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
     #hero-text {
-  
-
       margin-top: 12vh;
       row-gap: 20px;
       h1 {
@@ -79,6 +79,26 @@
       }
       a {
         width: 27%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #hero-text {
+      margin-top: 12vh;
+      row-gap: 20px;
+      h1 {
+        font-size: 53px;
+        color: #fff;
+        font-family: "Rye", cursive;
+      }
+      p {
+        font-size: 35px;
+        color: rgb(244, 227, 227);
+        font-family: "Dancing Script", cursive;
+      }
+      a {
+        width: 40%;
       }
     }
   }

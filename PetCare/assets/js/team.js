@@ -41,7 +41,7 @@ async function drawTeam() {
 
   filterData.forEach((element) => {
     meetCards.innerHTML += `
-    <div class="col-lg-3 col-md-6">
+    <div class="col-lg-3 col-md-6 col-sm-12">
     <div class="card">
       <img src="${element.photo}" alt="" />
       <div class="meet-card">

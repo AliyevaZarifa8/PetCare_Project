@@ -183,3 +183,98 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  #branches-work {
+    margin-bottom: 90px;
+    background-color: #eafbf0;
+    border-radius: 1%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .branches-prices {
+      display: flex;
+      row-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .branches-heading {
+        text-align: center;
+        h1 {
+          color: #359e62;
+          font-size: 42px;
+          font-family: "Vast Shadow", cursive;
+        }
+        p {
+          color: rgb(176, 170, 170);
+          font-size: 27px;
+          font-family: "Sail", cursive;
+        }
+      }
+      .search-sort {
+        margin-bottom: 20px;
+        font-family: "Sail", cursive;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+          width: 94%;
+          text-indent: 10px;
+          height: 6vh;
+          border-radius: 7px;
+          border: 1px solid rgb(77, 199, 77);
+          outline: none;
+          margin-left: 10px;
+          background-color: transparent;
+          &::placeholder {
+            color: #22b462;
+          }
+        }
+      }
+      .branches-table {
+        width: 100%;
+        table {
+          tr {
+            &:hover {
+              background-color: #cbf5df;
+            }
+          }
+          th {
+            font-family: "Ma Shan Zheng", cursive;
+            color: #359e62;
+            font-size: 39px;
+            text-align: center;
+            height: 6vh;
+            padding-right: 0;
+            padding-left: 0;
+          }
+          td {
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: bold;
+            color: rgb(84, 82, 82);
+            font-size: 20px;
+            text-align: center;
+            height: 6vh;
+            i {
+              font-size: 20px;
+              padding-left: 20px;
+              padding-right: 3px;
+            }
+            .fa-landmark-dome {
+              color: rgb(7, 105, 104);
+            }
+            .fa-location-dot {
+              color: rgb(252, 46, 5);
+            }
+            .fa-calendar-check {
+              color: #0c59b1;
+            }
+            .fa-phone-volume {
+              color: #36a567;
+            }
+          }
+        }
+      }
+    }
+  }
+}

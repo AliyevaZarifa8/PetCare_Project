@@ -43,7 +43,7 @@ function getallBasket() {
   basket.innerHTML = "";
   favUser.forEach((element) => {
     basket.innerHTML += `
-        <div class="col-3 p-2 text-center">
+        <div class="col-lg-3 p-2 col-md-6 col-sm-10  text-center">
           <div class="card " style="width: 18rem">
             <img src="${element.photo}"  class="card-img-top" alt="..." />
             <div class="card-body">

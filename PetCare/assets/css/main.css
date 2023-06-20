@@ -261,6 +261,10 @@ header #upicon {
   font-size: 27px;
 }
 @media only screen and (max-width: 992px) {
+  #hero-banner {
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
   #hero-banner #hero-text {
     margin-top: 12vh;
     row-gap: 20px;
@@ -277,6 +281,25 @@ header #upicon {
   }
   #hero-banner #hero-text a {
     width: 27%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #hero-banner #hero-text {
+    margin-top: 12vh;
+    row-gap: 20px;
+  }
+  #hero-banner #hero-text h1 {
+    font-size: 53px;
+    color: #fff;
+    font-family: "Rye", cursive;
+  }
+  #hero-banner #hero-text p {
+    font-size: 35px;
+    color: rgb(244, 227, 227);
+    font-family: "Dancing Script", cursive;
+  }
+  #hero-banner #hero-text a {
+    width: 40%;
   }
 }
 
@@ -422,6 +445,132 @@ header #upicon {
     width: 100%;
   }
   #hero #hero-img-text #hero-text .text p {
+    font-family: "Trocchi", serif;
+    font-size: 20px;
+    width: 87%;
+    color: rgb(169, 167, 167);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #hero #hero-img-text {
+    display: flex;
+    align-items: center;
+  }
+  #hero #hero-img-text #hero-img1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow: hidden;
+    animation: moveup 1s linear 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes moveup {
+    0% {
+      transform: translateX(-100px);
+      visibility: visible;
+    }
+    100% {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  #hero #hero-img-text #hero-img1 img {
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 12%;
+  }
+  #hero #hero-img-text #hero-img1 img:hover {
+    scale: 90%;
+  }
+  #hero #hero-img-text #hero-img2 {
+    display: none;
+  }
+  #hero #hero-img-text #hero-text {
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    animation: moveupp 1s linear 1;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+  }
+  #hero #hero-img-text #hero-text h1 {
+    font-size: 30px;
+    color: rgb(17, 147, 17);
+    font-family: "Rye", cursive;
+  }
+  #hero #hero-img-text #hero-text .text {
+    width: 100%;
+  }
+  #hero #hero-img-text #hero-text .text p {
+    margin-left: 30px;
+    font-family: "Trocchi", serif;
+    font-size: 20px;
+    width: 87%;
+    color: rgb(169, 167, 167);
+  }
+}
+@media only screen and (max-width: 576px) {
+  #hero #hero-img-text {
+    display: flex;
+    align-items: center;
+  }
+  #hero #hero-img-text #hero-img1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow: hidden;
+    animation: moveup 1s linear 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes moveup {
+    0% {
+      transform: translateX(-100px);
+      visibility: visible;
+    }
+    100% {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  #hero #hero-img-text #hero-img1 img {
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 12%;
+  }
+  #hero #hero-img-text #hero-img1 img:hover {
+    scale: 90%;
+  }
+  #hero #hero-img-text #hero-img2 {
+    display: none !important;
+  }
+  #hero #hero-img-text #hero-text {
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    animation: moveupp 1s linear 1;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+  }
+  #hero #hero-img-text #hero-text h1 {
+    font-size: 30px;
+    color: rgb(17, 147, 17);
+    font-family: "Rye", cursive;
+  }
+  #hero #hero-img-text #hero-text .text {
+    width: 100%;
+  }
+  #hero #hero-img-text #hero-text .text p {
+    margin-left: 30px;
     font-family: "Trocchi", serif;
     font-size: 20px;
     width: 87%;
@@ -599,6 +748,89 @@ header #upicon {
     color: rgb(122, 120, 120);
   }
 }
+@media only screen and (max-width: 768px) {
+  #acres {
+    border-radius: 1%;
+    padding-top: 100px;
+  }
+  #acres #acres-img-text {
+    display: flex;
+    align-items: center;
+  }
+  #acres #acres-img-text #acres-img1 {
+    animation: zoom 1s linear 1;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow: hidden;
+  }
+  #acres #acres-img-text #acres-img1 img {
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 12%;
+  }
+  #acres #acres-img-text #acres-img1 img:hover {
+    scale: 90%;
+  }
+  #acres #acres-img-text #acres-img2 {
+    margin-right: 20px;
+    display: none;
+    overflow: hidden;
+    animation: zoom 1s linear 1;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+  }
+  #acres #acres-img-text #acres-img2 img {
+    height: 58vh;
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 8%;
+  }
+  #acres #acres-img-text #acres-img2 img:hover {
+    scale: 90%;
+  }
+  #acres #acres-img-text #acres-text {
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    animation: zoomt 1s linear 1;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes zoomt {
+    0% {
+      transform: translateX(-100px);
+      visibility: visible;
+    }
+    100% {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  #acres #acres-img-text #acres-text h1 {
+    font-size: 30px;
+    color: #2e8b57;
+    font-family: "Rye", cursive;
+  }
+  #acres #acres-img-text #acres-text .text {
+    width: 100%;
+  }
+  #acres #acres-img-text #acres-text .text p {
+    margin-left: 30px;
+    font-family: "Trocchi", serif;
+    font-size: 20px;
+    width: 87%;
+    color: rgb(122, 120, 120);
+  }
+}
 #petcare {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -687,6 +919,65 @@ header #upicon {
     font-weight: bold;
   }
 }
+@media only screen and (max-width: 768px) {
+  #petcare .petcare-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+  #petcare .petcare-text h1 {
+    color: #2e8b57;
+    font-size: 44px;
+    position: relative;
+    font-family: "Nosifer", cursive;
+  }
+  #petcare .petcare-text h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 17%;
+    background-color: rgb(12, 218, 18);
+    bottom: -23%;
+    left: 42%;
+  }
+  #petcare .petcare-text p {
+    font-family: "Rye", cursive;
+    font-size: 23px;
+    color: rgb(86, 84, 84);
+  }
+  #petcare .petcare-cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #petcare .petcare-cards .petcare-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 20px;
+  }
+  #petcare .petcare-cards .petcare-card i {
+    margin-top: 20px;
+    font-size: 42px;
+    color: #55db90;
+  }
+  #petcare .petcare-cards .petcare-card h3 {
+    color: #0fa550;
+    font-size: 27px;
+    font-family: "Rye", cursive;
+  }
+  #petcare .petcare-cards .petcare-card .pet-text {
+    width: 100%;
+  }
+  #petcare .petcare-cards .petcare-card .pet-text p {
+    color: rgb(128, 123, 123);
+    width: 100%;
+    font-family: "Sansita Swashed", cursive;
+    font-weight: bold;
+  }
+}
 
 #request-callback .carousel-caption {
   top: 240px;
@@ -723,6 +1014,40 @@ header #upicon {
 @media only screen and (max-width: 992px) {
   #request-callback .carousel-caption {
     top: 160px;
+    color: black;
+  }
+  #request-callback .carousel-caption .callback-heading h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Trade Winds", cursive;
+  }
+  #request-callback .carousel-caption .callback-parag p {
+    font-weight: 300;
+    color: rgb(99, 230, 129);
+    font-size: 19px;
+    font-family: "Oleo Script Swash Caps", cursive;
+  }
+  #request-callback .carousel-caption button {
+    padding: 7px 20px;
+    color: #fff;
+    border: none;
+    font-family: "Oleo Script Swash Caps", cursive;
+    background-color: #3cbc73;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid transparent;
+  }
+  #request-callback .carousel-caption button:hover {
+    border-color: #3cbc73;
+    background-color: transparent;
+    color: #3cbc73;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #request-callback .carousel-caption {
+    top: 40px;
     color: black;
   }
   #request-callback .carousel-caption .callback-heading h1 {
@@ -957,6 +1282,109 @@ header #upicon {
     align-items: center;
   }
 }
+@media only screen and (max-width: 768px) {
+  #opinion-customers .customers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 27px;
+  }
+  #opinion-customers .customers .customers-text {
+    text-align: center;
+    display: flex;
+    row-gap: 20px;
+  }
+  #opinion-customers .customers .customers-text h1 {
+    color: #2e8b57;
+    font-family: "Nosifer", cursive;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+  }
+  #opinion-customers .customers .customers-text h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 20%;
+    background-color: rgb(12, 218, 18);
+    bottom: -30%;
+    left: 40%;
+  }
+  #opinion-customers .customers .customers-text p {
+    color: rgb(184, 183, 183);
+    font-size: 26px;
+    font-family: "Rye", cursive;
+  }
+  #opinion-customers .customers .customers-cards {
+    position: relative;
+    font-family: "Rye", cursive;
+  }
+  #opinion-customers .customers .customers-cards .customers-img {
+    position: static;
+    overflow: hidden;
+  }
+  #opinion-customers .customers .customers-cards .customers-img img {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+  }
+  #opinion-customers .customers .customers-cards .customers-img img:hover {
+    scale: 90%;
+  }
+  #opinion-customers .customers .customers-cards .customers-card {
+    display: none;
+    align-items: center;
+    height: 44vh;
+    background-color: #fafdfb;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+  }
+  #opinion-customers .customers .customers-cards .customers-card:hover {
+    background-color: #b9e4c6;
+  }
+  #opinion-customers .customers .customers-cards .customers-card i {
+    color: #49ce83;
+    font-size: 45px;
+    position: absolute;
+    top: -10px;
+    left: -60px;
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-parag {
+    width: 100%;
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-parag p {
+    width: 90%;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(141, 138, 138);
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-heading h5 {
+    font-family: "Sansita Swashed", cursive;
+    color: rgb(105, 104, 104);
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-heading p {
+    color: rgb(182, 179, 179);
+    padding-left: 27px;
+    font-family: "Sansita Swashed", cursive;
+  }
+  #opinion-customers .customers .customers-cards .cstmr-card {
+    margin-top: 30px;
+    display: flex;
+    height: 44vh;
+    background-color: #c5f4d4;
+    border-radius: 3%;
+    width: 97%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    align-items: center;
+  }
+}
 
 #our-partners {
   padding-top: 200px;
@@ -1068,6 +1496,35 @@ header #upicon {
   }
   #our-partners .swiper .swiper-slide img:hover {
     scale: 90%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #our-partners .partners-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin-bottom: 40px;
+  }
+  #our-partners .partners-text h1 {
+    color: #2e8b57;
+    font-size: 34px;
+    position: relative;
+    font-family: "Nosifer", cursive;
+  }
+  #our-partners .partners-text h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 17%;
+    background-color: rgb(12, 218, 18);
+    bottom: -30%;
+    left: 42%;
+  }
+  #our-partners .partners-text p {
+    font-size: 21px;
+    color: rgb(86, 84, 84);
+    font-family: "Rye", cursive;
   }
 }
 
@@ -2473,6 +2930,96 @@ header #upicon {
     color: #36a567;
   }
 }
+@media only screen and (max-width: 992px) {
+  #branches-work {
+    margin-bottom: 90px;
+    background-color: #eafbf0;
+    border-radius: 1%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #branches-work .branches-prices {
+    display: flex;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #branches-work .branches-prices .branches-heading {
+    text-align: center;
+  }
+  #branches-work .branches-prices .branches-heading h1 {
+    color: #359e62;
+    font-size: 42px;
+    font-family: "Vast Shadow", cursive;
+  }
+  #branches-work .branches-prices .branches-heading p {
+    color: rgb(176, 170, 170);
+    font-size: 27px;
+    font-family: "Sail", cursive;
+  }
+  #branches-work .branches-prices .search-sort {
+    margin-bottom: 20px;
+    font-family: "Sail", cursive;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #branches-work .branches-prices .search-sort input {
+    width: 94%;
+    text-indent: 10px;
+    height: 6vh;
+    border-radius: 7px;
+    border: 1px solid rgb(77, 199, 77);
+    outline: none;
+    margin-left: 10px;
+    background-color: transparent;
+  }
+  #branches-work .branches-prices .search-sort input::placeholder {
+    color: #22b462;
+  }
+  #branches-work .branches-prices .branches-table {
+    width: 100%;
+  }
+  #branches-work .branches-prices .branches-table table tr:hover {
+    background-color: #cbf5df;
+  }
+  #branches-work .branches-prices .branches-table table th {
+    font-family: "Ma Shan Zheng", cursive;
+    color: #359e62;
+    font-size: 39px;
+    text-align: center;
+    height: 6vh;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #branches-work .branches-prices .branches-table table td {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(84, 82, 82);
+    font-size: 20px;
+    text-align: center;
+    height: 6vh;
+  }
+  #branches-work .branches-prices .branches-table table td i {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 3px;
+  }
+  #branches-work .branches-prices .branches-table table td .fa-landmark-dome {
+    color: rgb(7, 105, 104);
+  }
+  #branches-work .branches-prices .branches-table table td .fa-location-dot {
+    color: rgb(252, 46, 5);
+  }
+  #branches-work .branches-prices .branches-table table td .fa-calendar-check {
+    color: #0c59b1;
+  }
+  #branches-work .branches-prices .branches-table table td .fa-phone-volume {
+    color: #36a567;
+  }
+}
 #petcare-central .petcare-central {
   display: flex;
   justify-content: center;
@@ -2538,6 +3085,16 @@ header #upicon {
   margin-left: 600px;
   font-family: "Nosifer", cursive;
   transform: rotateX(-20deg);
+}
+@media only screen and (max-width: 768px) {
+  #pet-food1 .pet-food1 {
+    font-size: 50px;
+    color: rgb(231, 231, 185);
+    text-transform: capitalize;
+    margin-left: 400px;
+    font-family: "Nosifer", cursive;
+    transform: rotateX(-20deg);
+  }
 }
 
 #category {
@@ -2844,6 +3401,162 @@ header #upicon {
   }
   #food-dinamik .cards .card img {
     height: 32vh;
+  }
+  #food-dinamik .cards .card h2 {
+    color: rgb(87, 86, 86);
+    font-size: 20px;
+    font-family: "Almendra SC", serif;
+  }
+  #food-dinamik .cards .card h3 {
+    color: rgb(125, 118, 118);
+    font-size: 20px;
+    font-family: "Beau Rivage", cursive;
+  }
+  #food-dinamik .cards .card i {
+    color: rgb(255, 196, 0);
+  }
+  #food-dinamik .cards .card span {
+    font-family: "Almendra SC", serif;
+  }
+  #food-dinamik .cards .card #button {
+    border: 1px solid rgb(240, 62, 3);
+    background-color: transparent;
+    padding: 7px 19px;
+    font-family: "Almendra SC", serif;
+    color: rgb(240, 62, 3);
+    border-radius: 19px;
+  }
+  #food-dinamik .cards .card #button:hover {
+    background-color: rgb(240, 62, 3);
+    color: #fff;
+    font-weight: bold;
+  }
+  #food-dinamik .cards .card .food-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    padding-right: 29px;
+    width: 100%;
+    height: 100%;
+  }
+  #food-dinamik .cards .card .food-hover i {
+    color: rgb(9, 199, 155);
+    font-size: 30px;
+  }
+  #food-dinamik .cards .card .food-hover .fa-bookmark {
+    color: rgb(16, 125, 234);
+  }
+  #food-dinamik .cards .card .food-hover .fa-heart {
+    color: red;
+  }
+  #food-dinamik .cards .card .food-hover button {
+    padding: 0;
+  }
+  #food-dinamik .cards .card .food-hover button .fa-eye {
+    color: #e05a17;
+  }
+  #food-dinamik #showmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Almendra SC", serif;
+    margin-top: 50px;
+  }
+  #food-dinamik #showmore .showmore {
+    border: 1px solid #fb8107;
+    border-radius: 7px;
+    padding: 7px 38px;
+    color: #fb8107;
+    background-color: transparent;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #food-dinamik {
+    background-color: rgb(250, 250, 224);
+    border-radius: 1%;
+    margin-bottom: 17vh;
+    padding-bottom: 10vh;
+  }
+  #food-dinamik h1 {
+    text-align: center;
+    color: rgb(6, 177, 21);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    font-family: "Faster One", cursive;
+    font-size: 49px;
+  }
+  #food-dinamik h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 14%;
+    background-color: rgb(6, 217, 24);
+    bottom: -23%;
+    left: 43%;
+  }
+  #food-dinamik .search-sort {
+    font-family: "Beau Rivage", cursive;
+    margin-bottom: 50px;
+  }
+  #food-dinamik .search-sort input {
+    width: 92%;
+    text-indent: 20px;
+    height: 6vh;
+    font-size: 30px;
+    border-radius: 7px;
+    border: 1px solid #fb8107;
+    outline: none;
+    margin-left: 10px;
+    background-color: transparent;
+  }
+  #food-dinamik .search-sort input::placeholder {
+    color: #fb8107;
+  }
+  #food-dinamik .search-sort select {
+    height: 48px;
+    color: #fb8107;
+    border: 1px solid #fb8107;
+    text-indent: 8px;
+    background-color: transparent;
+    border-radius: 7px;
+    font-size: 25px;
+    outline: none;
+  }
+  #food-dinamik .search-sort .button {
+    border: 1px solid #fb8107;
+    border-radius: 7px;
+    padding: 3px 38px;
+    color: #fb8107;
+    background-color: transparent;
+    margin-left: 80px;
+    font-size: 27px;
+  }
+  #food-dinamik .cards {
+    row-gap: 20px;
+  }
+  #food-dinamik .cards .card {
+    padding: 14px 27px;
+    text-align: center;
+    border-radius: 27px;
+    border: 2px solid #ffa64d;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #food-dinamik .cards .card:hover .food-hover {
+    display: flex;
+    border-radius: 23px;
+    background-color: rgba(7, 122, 51, 0.2);
+  }
+  #food-dinamik .cards .card img {
+    height: 38vh;
+    width: 97%;
   }
   #food-dinamik .cards .card h2 {
     color: rgb(87, 86, 86);
@@ -3497,6 +4210,151 @@ header #upicon {
     background-color: transparent;
   }
 }
+@media only screen and (max-width: 768px) {
+  #pet-breeds3 {
+    background-color: rgb(250, 250, 224);
+    border-radius: 1%;
+    margin-bottom: 17vh;
+    padding-bottom: 10vh;
+  }
+  #pet-breeds3 h1 {
+    text-align: center;
+    color: rgb(240, 75, 60);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Kumar One Outline", cursive;
+  }
+  #pet-breeds3 h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 14%;
+    background-color: rgb(6, 217, 24);
+    bottom: -23%;
+    left: 43%;
+  }
+  #pet-breeds3 p {
+    color: rgb(218, 95, 42);
+    text-align: center;
+    font-size: 23px;
+    font-family: "Nova Oval", cursive;
+  }
+  #pet-breeds3 .search-sort {
+    margin-bottom: 50px;
+    font-family: "Neonderthaw", cursive;
+  }
+  #pet-breeds3 .search-sort input {
+    width: 100%;
+    text-indent: 20px;
+    height: 6vh;
+    border-radius: 7px;
+    border: 1px solid #fb8107;
+    outline: none;
+    margin-left: 10px;
+    font-size: 27px;
+    background-color: transparent;
+  }
+  #pet-breeds3 .search-sort input::placeholder {
+    color: #fb8107;
+  }
+  #pet-breeds3 .search-sort select {
+    font-size: 25px;
+    height: 46px;
+    color: #fb8107;
+    border: 1px solid #fb8107;
+    text-indent: 8px;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+  }
+  #pet-breeds3 .search-sort .button {
+    border: 1px solid #fb8107;
+    border-radius: 7px;
+    padding: 2px 38px;
+    font-size: 27px;
+    color: #fb8107;
+    background-color: transparent;
+    margin-left: 80px;
+  }
+  #pet-breeds3 .cards {
+    row-gap: 20px;
+  }
+  #pet-breeds3 .cards .card {
+    padding: 14px 27px;
+    text-align: center;
+    border-radius: 27px;
+    border: 2px solid #fed56c;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #pet-breeds3 .cards .card:hover .breeds-hover {
+    display: flex;
+    border-radius: 23px;
+    background-color: rgba(7, 122, 51, 0.2);
+  }
+  #pet-breeds3 .cards .card img {
+    border-radius: 20px;
+    height: 35vh;
+  }
+  #pet-breeds3 .cards .card h2 {
+    font-family: "Neonderthaw", cursive;
+    color: rgb(252, 121, 45);
+    font-size: 23px;
+    padding-top: 10px;
+  }
+  #pet-breeds3 .cards .card h3 {
+    color: rgb(253, 85, 85);
+    font-size: 27px;
+    font-family: "Alumni Sans Inline One", cursive;
+  }
+  #pet-breeds3 .cards .card i {
+    color: rgb(250, 150, 150);
+    font-size: 21px;
+    font-family: "Fruktur", cursive;
+  }
+  #pet-breeds3 .cards .card p {
+    color: rgb(119, 115, 113);
+    text-align: center;
+    font-size: 17px;
+  }
+  #pet-breeds3 .cards .card .breeds-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    padding-right: 29px;
+    width: 100%;
+    height: 100%;
+  }
+  #pet-breeds3 .cards .card .breeds-hover img {
+    width: 40px;
+    height: 40px;
+  }
+  #pet-breeds3 .cards .card .breeds-hover button {
+    padding: 0;
+  }
+  #pet-breeds3 #showmore {
+    font-family: "Neonderthaw", cursive;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  #pet-breeds3 #showmore .showmore {
+    border: 1px solid #fb8107;
+    border-radius: 7px;
+    padding: 7px 38px;
+    color: #fb8107;
+    background-color: transparent;
+  }
+}
 #pet-breeds4 {
   background-image: url("../image/new6.jpg");
   background-size: cover;
@@ -3965,6 +4823,73 @@ footer .footer-bottom {
 }
 footer .footer-bottom i {
   font-size: 19px;
+}
+@media only screen and (max-width: 768px) {
+  footer #footer-top {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    margin-left: 120px;
+  }
+  footer #footer-top h1 {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Nosifer", cursive;
+    padding: 5px 5px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  footer #footer-top h1::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 15%;
+    background-color: rgb(143, 216, 187);
+    bottom: -3%;
+    left: 2%;
+  }
+  footer #footer-top p {
+    font-family: "Nova Oval", cursive;
+    font-size: 19px;
+    color: rgb(216, 247, 237);
+    position: relative;
+  }
+  footer #footer-top p:hover::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 35%;
+    background-color: rgb(143, 216, 187);
+    bottom: -3%;
+    left: 0%;
+  }
+  footer #footer-top i {
+    color: rgb(216, 247, 237);
+    margin-right: 20px;
+    font-size: 20px;
+    position: relative;
+  }
+  footer #footer-top i:hover::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 99%;
+    background-color: rgb(143, 216, 187);
+    bottom: -30%;
+    left: 0%;
+  }
+  footer .footer-bottom {
+    font-family: "Beau Rivage", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 17px;
+    color: #fff;
+  }
+  footer .footer-bottom i {
+    font-size: 19px;
+  }
 }
 
 #admin {
@@ -4931,7 +5856,7 @@ footer .footer-bottom i {
   font-family: "Sail", cursive;
   font-size: 22px;
   margin-top: 30px;
-  border: 2px solid black;
+  border: 2px solid transparent;
   outline: none;
   border-radius: 23px;
   text-indent: 20px;
@@ -4968,10 +5893,11 @@ footer .footer-bottom i {
   font-family: "Nosifer", cursive;
 }
 #sign .sign-bg .sign input {
+  outline: none;
   font-family: "Sail", cursive;
   font-size: 22px;
   margin-top: 30px;
-  border: 2px solid black;
+  border: 2px solid transparent;
   outline: none;
   border-radius: 23px;
   text-indent: 20px;

@@ -87,4 +87,64 @@
       }
     }
   }
+  @media only screen and (max-width: 768px) {
+    .petcare-text {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 14px;
+      h1 {
+        color: #2e8b57;
+        font-size: 44px;
+        position: relative;
+        font-family: "Nosifer", cursive;
+
+        &::after {
+          position: absolute;
+          content: "";
+          height: 2px;
+          width: 17%;
+          background-color: rgb(12, 218, 18);
+          bottom: -23%;
+          left: 42%;
+        }
+      }
+      p {
+        font-family: "Rye", cursive;
+        font-size: 23px;
+        color: rgb(86, 84, 84);
+      }
+    }
+    .petcare-cards {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .petcare-card {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        gap: 20px;
+        i {
+          margin-top: 20px;
+          font-size: 42px;
+          color: #55db90;
+        }
+        h3 {
+          color: #0fa550;
+          font-size: 27px;
+          font-family: "Rye", cursive;
+        }
+        .pet-text {
+          width: 100%;
+          p {
+            color: rgb(128, 123, 123);
+            width: 100%;
+            font-family: "Sansita Swashed", cursive;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
 }

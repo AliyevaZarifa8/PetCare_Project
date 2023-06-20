@@ -77,4 +77,77 @@ footer {
       font-size: 19px;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    #footer-top {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 40px;
+      margin-left: 120px;
+      h1 {
+        font-size: 18px;
+        color: #fff;
+        font-family: "Nosifer", cursive;
+        padding: 5px 5px;
+        position: relative;
+        margin-bottom: 10px;
+        &::after {
+          position: absolute;
+          content: "";
+          height: 1px;
+          width: 15%;
+          background-color: rgb(143, 216, 187);
+          bottom: -3%;
+          left: 2%;
+        }
+      }
+      p {
+        font-family: "Nova Oval", cursive;
+        // font-weight: bold;
+        font-size: 19px;
+        color: rgb(216, 247, 237);
+        position: relative;
+        &:hover {
+          &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 35%;
+            background-color: rgb(143, 216, 187);
+            bottom: -3%;
+            left: 0%;
+          }
+        }
+      }
+      i {
+        color: rgb(216, 247, 237);
+        margin-right: 20px;
+        font-size: 20px;
+        position: relative;
+        &:hover {
+          &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 99%;
+            background-color: rgb(143, 216, 187);
+            bottom: -30%;
+            left: 0%;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      font-family: "Beau Rivage", cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      font-size: 17px;
+      color: #fff;
+      i {
+        font-size: 19px;
+      }
+    }
+  }
 }
