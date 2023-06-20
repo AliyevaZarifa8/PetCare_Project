@@ -1,90 +1,158 @@
 #hero {
   background-color: #fff;
   border-radius: 5%;
-
+  padding-top: 200px;
+  padding-bottom: 200px;
   #hero-img-text {
-    height: 100vh;
     display: flex;
     align-items: center;
-  }
-  #hero-img1 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    overflow: hidden;
-    animation: moveup 1s linear 1;
-    animation-delay: 5s;
-    // visibility: hidden;
-    animation-fill-mode: forwards;
+    #hero-img1 {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      overflow: hidden;
+      animation: moveup 1s linear 1;
+      animation-delay: 5s;
+      // visibility: hidden;
+      animation-fill-mode: forwards;
 
-    @keyframes moveup {
-      0% {
-        transform: translateX(-100px);
-        visibility: visible;
+      @keyframes moveup {
+        0% {
+          transform: translateX(-100px);
+          visibility: visible;
+        }
+        100% {
+          transform: translateY(0);
+          visibility: visible;
+        }
       }
-      100% {
-        transform: translateY(0);
-        visibility: visible;
-      }
-    }
-    img {
-      width: 100%;
-      height: 100%;
-      transition: scale 2s;
-      border-radius: 12%;
-      &:hover {
-        scale: 90%;
-      }
-    }
-  }
-  #hero-img2 {
-    overflow: hidden;
-    animation: moveup 1s linear 1;
-    animation-delay: 5s;
-    // visibility: hidden;
-    animation-fill-mode: forwards;
-    img {
-      width: 100%;
-      height: 100%;
-      transition: scale 2s;
-      border-radius: 8%;
-      &:hover {
-        scale: 90%;
+      img {
+        width: 100%;
+        height: 100%;
+        transition: scale 2s;
+        border-radius: 12%;
+        &:hover {
+          scale: 90%;
+        }
       }
     }
-  }
-  #hero-text {
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    animation: moveupp 1s linear 1;
-    animation-delay: 6s;
-    // visibility: hidden;
-    animation-fill-mode: forwards;
+    #hero-img2 {
+      overflow: hidden;
+      animation: moveup 1s linear 1;
+      animation-delay: 5s;
+      // visibility: hidden;
+      animation-fill-mode: forwards;
+      img {
+        width: 100%;
+        height: 100%;
+        transition: scale 2s;
+        border-radius: 8%;
+        &:hover {
+          scale: 90%;
+        }
+      }
+    }
+    #hero-text {
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      animation: moveupp 1s linear 1;
+      animation-delay: 6s;
+      // visibility: hidden;
+      animation-fill-mode: forwards;
 
-    @keyframes moveupp {
-      0% {
-        transform: translateX(100px);
-        visibility: visible;
+      @keyframes moveupp {
+        0% {
+          transform: translateX(100px);
+          visibility: visible;
+        }
+        100% {
+          transform: translateY(0);
+          visibility: visible;
+        }
       }
-      100% {
-        transform: translateY(0);
-        visibility: visible;
+      h1 {
+        font-size: 50px;
+        color: rgb(17, 147, 17);
+        font-family: "Rye", cursive;
+      }
+      .text {
+        width: 100%;
+        p {
+          font-family: "Trocchi", serif;
+          font-size: 20px;
+          width: 87%;
+          color: rgb(169, 167, 167);
+        }
       }
     }
-    h1 {
-      font-size: 50px;
-      color: rgb(17, 147, 17);
-      font-family: "Rye", cursive;
-    }
-    .text {
-      width: 100%;
-      p {
-        font-family: "Trocchi", serif;
-        font-size: 20px;
-        width: 87%;
-        color: rgb(169, 167, 167);
+  }
+
+  @media only screen and (max-width: 992px) {
+    #hero-img-text {
+      display: flex;
+      align-items: center;
+
+      #hero-img1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        overflow: hidden;
+        animation: moveup 1s linear 1;
+        animation-delay: 5s;
+        // visibility: hidden;
+        animation-fill-mode: forwards;
+
+        @keyframes moveup {
+          0% {
+            transform: translateX(-100px);
+            visibility: visible;
+          }
+          100% {
+            transform: translateY(0);
+            visibility: visible;
+          }
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          transition: scale 2s;
+          border-radius: 12%;
+          &:hover {
+            scale: 90%;
+          }
+        }
+      }
+      #hero-img2 {
+        display: none;
+      }
+      #hero-text {
+        margin-top: 100px;
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        animation: moveupp 1s linear 1;
+        animation-delay: 6s;
+
+        animation-fill-mode: forwards;
+
+        h1 {
+          font-size: 51px;
+          color: rgb(17, 147, 17);
+          font-family: "Rye", cursive;
+        }
+        .text {
+          width: 100%;
+          p {
+            font-family: "Trocchi", serif;
+            font-size: 20px;
+            width: 87%;
+            color: rgb(169, 167, 167);
+          }
+        }
       }
     }
   }

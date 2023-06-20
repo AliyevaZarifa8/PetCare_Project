@@ -1,91 +1,180 @@
 #acres {
   background-color: #e0e8d9;
   border-radius: 12%;
+  padding-top: 200px;
+  padding-bottom: 200px;
   #acres-img-text {
-    height: 100vh;
     display: flex;
     align-items: center;
-  }
-  #acres-img1 {
-    animation: zoom 1s linear 1;
-    animation-delay: 10s;
-    // visibility: hidden;
-    animation-fill-mode: forwards;
+    #acres-img1 {
+      animation: zoom 1s linear 1;
+      animation-delay: 10s;
+      // visibility: hidden;
+      animation-fill-mode: forwards;
 
-    @keyframes zoom {
-      0% {
-        transform: translateX(100px);
-        visibility: visible;
+      @keyframes zoom {
+        0% {
+          transform: translateX(100px);
+          visibility: visible;
+        }
+        100% {
+          transform: translateY(0);
+          visibility: visible;
+        }
       }
-      100% {
-        transform: translateY(0);
-        visibility: visible;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        transition: scale 2s;
+        border-radius: 12%;
+        &:hover {
+          scale: 90%;
+        }
       }
     }
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    overflow: hidden;
-    img {
-      width: 100%;
-      height: 100%;
-      transition: scale 2s;
-      border-radius: 12%;
-      &:hover {
-        scale: 90%;
+    #acres-img2 {
+      margin-right: 20px;
+      overflow: hidden;
+      animation: zoom 1s linear 1;
+      animation-delay: 10s;
+      // visibility: hidden;
+      animation-fill-mode: forwards;
+      img {
+        height: 58vh;
+        width: 100%;
+        height: 100%;
+        transition: scale 2s;
+        border-radius: 8%;
+        &:hover {
+          scale: 90%;
+        }
+      }
+    }
+    #acres-text {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      animation: zoomt 1s linear 1;
+      animation-delay: 11s;
+      // visibility: hidden;
+      animation-fill-mode: forwards;
+
+      @keyframes zoomt {
+        0% {
+          transform: translateX(-100px);
+          visibility: visible;
+        }
+        100% {
+          transform: translateY(0);
+          visibility: visible;
+        }
+      }
+
+      h1 {
+        font-size: 60px;
+        color: #2e8b57;
+        font-family: "Rye", cursive;
+      }
+      .text {
+        width: 100%;
+        p {
+          font-family: "Trocchi", serif;
+          font-size: 20px;
+          width: 87%;
+          color: rgb(122, 120, 120);
+        }
       }
     }
   }
-  #acres-img2 {
-    margin-right: 20px;
-    overflow: hidden;
-    animation: zoom 1s linear 1;
-    animation-delay: 10s;
-    // visibility: hidden;
-    animation-fill-mode: forwards;
-    img {
-      height: 58vh;
-      width: 100%;
-      height: 100%;
-      transition: scale 2s;
-      border-radius: 8%;
-      &:hover {
-        scale: 90%;
-      }
-    }
-  }
-  #acres-text {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    animation: zoomt 1s linear 1;
-    animation-delay: 11s;
-    // visibility: hidden;
-    animation-fill-mode: forwards;
+}
 
-    @keyframes zoomt {
-      0% {
-        transform: translateX(-100px);
-        visibility: visible;
+@media only screen and (max-width: 992px) {
+  #acres {
+    border-radius: 1%;
+    padding-top: 100px;
+    #acres-img-text {
+      display: flex;
+      align-items: center;
+      #acres-img1 {
+        animation: zoom 1s linear 1;
+        animation-delay: 10s;
+        // visibility: hidden;
+        animation-fill-mode: forwards;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: scale 2s;
+          border-radius: 12%;
+          &:hover {
+            scale: 90%;
+          }
+        }
       }
-      100% {
-        transform: translateY(0);
-        visibility: visible;
+      #acres-img2 {
+        margin-right: 20px;
+        display: none;
+        overflow: hidden;
+        animation: zoom 1s linear 1;
+        animation-delay: 10s;
+        // visibility: hidden;
+        animation-fill-mode: forwards;
+        img {
+          height: 58vh;
+          width: 100%;
+          height: 100%;
+          transition: scale 2s;
+          border-radius: 8%;
+          &:hover {
+            scale: 90%;
+          }
+        }
       }
-    }
+      #acres-text {
+        margin-top: 100px;
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        animation: zoomt 1s linear 1;
+        animation-delay: 11s;
+        // visibility: hidden;
+        animation-fill-mode: forwards;
 
-    h1 {
-      font-size: 60px;
-      color: #2e8b57;
-      font-family: "Rye", cursive;
-    }
-    .text {
-      width: 100%;
-      p {
-        font-family: "Trocchi", serif;
-        font-size: 20px;
-        width: 87%;
-        color: rgb(122, 120, 120);
+        @keyframes zoomt {
+          0% {
+            transform: translateX(-100px);
+            visibility: visible;
+          }
+          100% {
+            transform: translateY(0);
+            visibility: visible;
+          }
+        }
+
+        h1 {
+          font-size: 44px;
+          color: #2e8b57;
+          font-family: "Rye", cursive;
+        }
+        .text {
+          width: 100%;
+          p {
+            font-family: "Trocchi", serif;
+            font-size: 20px;
+            width: 87%;
+            color: rgb(122, 120, 120);
+          }
+        }
       }
     }
   }

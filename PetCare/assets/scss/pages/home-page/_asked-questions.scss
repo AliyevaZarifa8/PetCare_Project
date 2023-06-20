@@ -1,5 +1,6 @@
 #asked-questions {
-  height: 100vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
 
@@ -73,6 +74,88 @@
               font-size: 20px;
               color: #214b33;
               text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .questions {
+      .questions-text {
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+        text-align: center;
+        .questions-heading {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          h1 {
+            width: 100%;
+            font-size: 40px;
+            color: #1e7443;
+            font-family: "Rye", cursive;
+          }
+        }
+        .questions-parag {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          p {
+            width: 80%;
+            font-size: 20px;
+            color: rgb(158, 156, 156);
+            font-family: "Sansita Swashed", cursive;
+          }
+        }
+        a {
+          font-family: "Rye", cursive;
+          text-decoration: none;
+          border: 2px solid transparent;
+          padding: 10px 29px;
+          margin-left: 0px;
+          margin-right: 50px;
+          color: #fff;
+          background-color: #2e8b57;
+          border-radius: 17px;
+          font-weight: bold;
+          font-size: 20px;
+          &:hover {
+            background-color: transparent;
+            border-color: #2e8b57;
+            color: #2e8b57;
+          }
+          i {
+            font-size: 23px;
+          }
+        }
+      }
+      .questions-accardion {
+        .accordion {
+          .accordion-item {
+            h2 {
+              button {
+                font-family: "Rye", cursive;
+                padding: 40px 20px;
+                background-color: #e8faf0;
+                color: rgb(126, 121, 121);
+                font-size: 17px;
+                font-weight: 500;
+                padding-left: 48px;
+              }
+            }
+            .accordion-body {
+              background-color: #f8fcfa;
+              p {
+                font-family: "Sansita Swashed", cursive;
+                font-size: 20px;
+                color: #214b33;
+                text-align: center;
+              }
             }
           }
         }

@@ -9,11 +9,11 @@
 
 header {
   position: fixed;
-  width: 100%;
   top: 0;
   left: 0;
   background-color: transparent;
   z-index: 10;
+  width: 100%;
 }
 header #header-top {
   display: flex;
@@ -260,17 +260,37 @@ header #upicon {
 #hero-banner #hero-text a i {
   font-size: 27px;
 }
+@media only screen and (max-width: 992px) {
+  #hero-banner #hero-text {
+    margin-top: 12vh;
+    row-gap: 20px;
+  }
+  #hero-banner #hero-text h1 {
+    font-size: 53px;
+    color: #fff;
+    font-family: "Rye", cursive;
+  }
+  #hero-banner #hero-text p {
+    font-size: 35px;
+    color: rgb(244, 227, 227);
+    font-family: "Dancing Script", cursive;
+  }
+  #hero-banner #hero-text a {
+    width: 27%;
+  }
+}
 
 #hero {
   background-color: #fff;
   border-radius: 5%;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 #hero #hero-img-text {
-  height: 100vh;
   display: flex;
   align-items: center;
 }
-#hero #hero-img1 {
+#hero #hero-img-text #hero-img1 {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -289,31 +309,31 @@ header #upicon {
     visibility: visible;
   }
 }
-#hero #hero-img1 img {
+#hero #hero-img-text #hero-img1 img {
   width: 100%;
   height: 100%;
   transition: scale 2s;
   border-radius: 12%;
 }
-#hero #hero-img1 img:hover {
+#hero #hero-img-text #hero-img1 img:hover {
   scale: 90%;
 }
-#hero #hero-img2 {
+#hero #hero-img-text #hero-img2 {
   overflow: hidden;
   animation: moveup 1s linear 1;
   animation-delay: 5s;
   animation-fill-mode: forwards;
 }
-#hero #hero-img2 img {
+#hero #hero-img-text #hero-img2 img {
   width: 100%;
   height: 100%;
   transition: scale 2s;
   border-radius: 8%;
 }
-#hero #hero-img2 img:hover {
+#hero #hero-img-text #hero-img2 img:hover {
   scale: 90%;
 }
-#hero #hero-text {
+#hero #hero-img-text #hero-text {
   margin-left: 100px;
   display: flex;
   flex-direction: column;
@@ -332,31 +352,94 @@ header #upicon {
     visibility: visible;
   }
 }
-#hero #hero-text h1 {
+#hero #hero-img-text #hero-text h1 {
   font-size: 50px;
   color: rgb(17, 147, 17);
   font-family: "Rye", cursive;
 }
-#hero #hero-text .text {
+#hero #hero-img-text #hero-text .text {
   width: 100%;
 }
-#hero #hero-text .text p {
+#hero #hero-img-text #hero-text .text p {
   font-family: "Trocchi", serif;
   font-size: 20px;
   width: 87%;
   color: rgb(169, 167, 167);
 }
+@media only screen and (max-width: 992px) {
+  #hero #hero-img-text {
+    display: flex;
+    align-items: center;
+  }
+  #hero #hero-img-text #hero-img1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow: hidden;
+    animation: moveup 1s linear 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes moveup {
+    0% {
+      transform: translateX(-100px);
+      visibility: visible;
+    }
+    100% {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  #hero #hero-img-text #hero-img1 img {
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 12%;
+  }
+  #hero #hero-img-text #hero-img1 img:hover {
+    scale: 90%;
+  }
+  #hero #hero-img-text #hero-img2 {
+    display: none;
+  }
+  #hero #hero-img-text #hero-text {
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    animation: moveupp 1s linear 1;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+  }
+  #hero #hero-img-text #hero-text h1 {
+    font-size: 51px;
+    color: rgb(17, 147, 17);
+    font-family: "Rye", cursive;
+  }
+  #hero #hero-img-text #hero-text .text {
+    width: 100%;
+  }
+  #hero #hero-img-text #hero-text .text p {
+    font-family: "Trocchi", serif;
+    font-size: 20px;
+    width: 87%;
+    color: rgb(169, 167, 167);
+  }
+}
 
 #acres {
   background-color: #e0e8d9;
   border-radius: 12%;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 #acres #acres-img-text {
-  height: 100vh;
   display: flex;
   align-items: center;
 }
-#acres #acres-img1 {
+#acres #acres-img-text #acres-img1 {
   animation: zoom 1s linear 1;
   animation-delay: 10s;
   animation-fill-mode: forwards;
@@ -375,33 +458,33 @@ header #upicon {
     visibility: visible;
   }
 }
-#acres #acres-img1 img {
+#acres #acres-img-text #acres-img1 img {
   width: 100%;
   height: 100%;
   transition: scale 2s;
   border-radius: 12%;
 }
-#acres #acres-img1 img:hover {
+#acres #acres-img-text #acres-img1 img:hover {
   scale: 90%;
 }
-#acres #acres-img2 {
+#acres #acres-img-text #acres-img2 {
   margin-right: 20px;
   overflow: hidden;
   animation: zoom 1s linear 1;
   animation-delay: 10s;
   animation-fill-mode: forwards;
 }
-#acres #acres-img2 img {
+#acres #acres-img-text #acres-img2 img {
   height: 58vh;
   width: 100%;
   height: 100%;
   transition: scale 2s;
   border-radius: 8%;
 }
-#acres #acres-img2 img:hover {
+#acres #acres-img-text #acres-img2 img:hover {
   scale: 90%;
 }
-#acres #acres-text {
+#acres #acres-img-text #acres-text {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -419,23 +502,106 @@ header #upicon {
     visibility: visible;
   }
 }
-#acres #acres-text h1 {
+#acres #acres-img-text #acres-text h1 {
   font-size: 60px;
   color: #2e8b57;
   font-family: "Rye", cursive;
 }
-#acres #acres-text .text {
+#acres #acres-img-text #acres-text .text {
   width: 100%;
 }
-#acres #acres-text .text p {
+#acres #acres-img-text #acres-text .text p {
   font-family: "Trocchi", serif;
   font-size: 20px;
   width: 87%;
   color: rgb(122, 120, 120);
 }
 
+@media only screen and (max-width: 992px) {
+  #acres {
+    border-radius: 1%;
+    padding-top: 100px;
+  }
+  #acres #acres-img-text {
+    display: flex;
+    align-items: center;
+  }
+  #acres #acres-img-text #acres-img1 {
+    animation: zoom 1s linear 1;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow: hidden;
+  }
+  #acres #acres-img-text #acres-img1 img {
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 12%;
+  }
+  #acres #acres-img-text #acres-img1 img:hover {
+    scale: 90%;
+  }
+  #acres #acres-img-text #acres-img2 {
+    margin-right: 20px;
+    display: none;
+    overflow: hidden;
+    animation: zoom 1s linear 1;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+  }
+  #acres #acres-img-text #acres-img2 img {
+    height: 58vh;
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+    border-radius: 8%;
+  }
+  #acres #acres-img-text #acres-img2 img:hover {
+    scale: 90%;
+  }
+  #acres #acres-img-text #acres-text {
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    animation: zoomt 1s linear 1;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes zoomt {
+    0% {
+      transform: translateX(-100px);
+      visibility: visible;
+    }
+    100% {
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+  #acres #acres-img-text #acres-text h1 {
+    font-size: 44px;
+    color: #2e8b57;
+    font-family: "Rye", cursive;
+  }
+  #acres #acres-img-text #acres-text .text {
+    width: 100%;
+  }
+  #acres #acres-img-text #acres-text .text p {
+    font-family: "Trocchi", serif;
+    font-size: 20px;
+    width: 87%;
+    color: rgb(122, 120, 120);
+  }
+}
 #petcare {
-  height: 100vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
 }
@@ -492,6 +658,35 @@ header #upicon {
   font-family: "Sansita Swashed", cursive;
   font-weight: bold;
 }
+@media only screen and (max-width: 992px) {
+  #petcare .petcare-cards {
+    margin-top: 40px;
+  }
+  #petcare .petcare-cards .petcare-card {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 20px;
+  }
+  #petcare .petcare-cards .petcare-card i {
+    margin-top: 20px;
+    font-size: 42px;
+    color: #55db90;
+  }
+  #petcare .petcare-cards .petcare-card h3 {
+    color: #0fa550;
+    font-size: 27px;
+    font-family: "Rye", cursive;
+  }
+  #petcare .petcare-cards .petcare-card .pet-text {
+    width: 100%;
+  }
+  #petcare .petcare-cards .petcare-card .pet-text p {
+    color: rgb(128, 123, 123);
+    width: 90%;
+    font-family: "Sansita Swashed", cursive;
+    font-weight: bold;
+  }
+}
 
 #request-callback .carousel-caption {
   top: 240px;
@@ -525,9 +720,44 @@ header #upicon {
   background-color: transparent;
   color: #3cbc73;
 }
+@media only screen and (max-width: 992px) {
+  #request-callback .carousel-caption {
+    top: 160px;
+    color: black;
+  }
+  #request-callback .carousel-caption .callback-heading h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Trade Winds", cursive;
+  }
+  #request-callback .carousel-caption .callback-parag p {
+    font-weight: 300;
+    color: rgb(99, 230, 129);
+    font-size: 19px;
+    font-family: "Oleo Script Swash Caps", cursive;
+  }
+  #request-callback .carousel-caption button {
+    padding: 7px 20px;
+    color: #fff;
+    border: none;
+    font-family: "Oleo Script Swash Caps", cursive;
+    background-color: #3cbc73;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid transparent;
+  }
+  #request-callback .carousel-caption button:hover {
+    border-color: #3cbc73;
+    background-color: transparent;
+    color: #3cbc73;
+  }
+}
 
 #opinion-customers {
-  height: 110vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-top: 17px;
 }
 #opinion-customers .customers {
@@ -589,7 +819,6 @@ header #upicon {
   height: 44vh;
   background-color: #fafdfb;
   border-radius: 7%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 60px;
@@ -622,9 +851,116 @@ header #upicon {
   padding-left: 27px;
   font-family: "Sansita Swashed", cursive;
 }
+#opinion-customers .customers .cstmr-card {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  #opinion-customers .customers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 27px;
+  }
+  #opinion-customers .customers .customers-text {
+    text-align: center;
+    display: flex;
+    row-gap: 20px;
+  }
+  #opinion-customers .customers .customers-text h1 {
+    color: #2e8b57;
+    font-family: "Nosifer", cursive;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+  }
+  #opinion-customers .customers .customers-text h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 20%;
+    background-color: rgb(12, 218, 18);
+    bottom: -30%;
+    left: 40%;
+  }
+  #opinion-customers .customers .customers-text p {
+    color: rgb(184, 183, 183);
+    font-size: 26px;
+    font-family: "Rye", cursive;
+  }
+  #opinion-customers .customers .customers-cards {
+    position: relative;
+    font-family: "Rye", cursive;
+  }
+  #opinion-customers .customers .customers-cards .customers-img {
+    position: static;
+    overflow: hidden;
+  }
+  #opinion-customers .customers .customers-cards .customers-img img {
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+    transition: scale 2s;
+  }
+  #opinion-customers .customers .customers-cards .customers-img img:hover {
+    scale: 90%;
+  }
+  #opinion-customers .customers .customers-cards .customers-card {
+    display: none;
+    align-items: center;
+    height: 44vh;
+    background-color: #fafdfb;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+  }
+  #opinion-customers .customers .customers-cards .customers-card:hover {
+    background-color: #b9e4c6;
+  }
+  #opinion-customers .customers .customers-cards .customers-card i {
+    color: #49ce83;
+    font-size: 45px;
+    position: absolute;
+    top: -10px;
+    left: -60px;
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-parag {
+    width: 100%;
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-parag p {
+    width: 90%;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(141, 138, 138);
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-heading h5 {
+    font-family: "Sansita Swashed", cursive;
+    color: rgb(105, 104, 104);
+  }
+  #opinion-customers .customers .customers-cards .customers-card .customers-heading p {
+    color: rgb(182, 179, 179);
+    padding-left: 27px;
+    font-family: "Sansita Swashed", cursive;
+  }
+  #opinion-customers .customers .customers-cards .cstmr-card {
+    margin-top: 30px;
+    display: flex;
+    height: 44vh;
+    background-color: #c5f4d4;
+    border-radius: 3%;
+    width: 97%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    align-items: center;
+  }
+}
 
 #our-partners {
-  height: 100vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
   background-color: #f8fdf3;
@@ -681,9 +1017,63 @@ header #upicon {
 #our-partners .swiper .swiper-slide img:hover {
   scale: 90%;
 }
+@media only screen and (max-width: 992px) {
+  #our-partners .partners-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    margin-bottom: 40px;
+  }
+  #our-partners .partners-text h1 {
+    color: #2e8b57;
+    font-size: 44px;
+    position: relative;
+    font-family: "Nosifer", cursive;
+  }
+  #our-partners .partners-text h1::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 17%;
+    background-color: rgb(12, 218, 18);
+    bottom: -30%;
+    left: 42%;
+  }
+  #our-partners .partners-text p {
+    font-size: 23px;
+    color: rgb(86, 84, 84);
+    font-family: "Rye", cursive;
+  }
+  #our-partners .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  #our-partners .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  #our-partners .swiper .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    border-radius: 5%;
+    width: 130%;
+    height: 100%;
+    transition: scale 2s;
+  }
+  #our-partners .swiper .swiper-slide img:hover {
+    scale: 90%;
+  }
+}
 
 #asked-questions {
-  height: 100vh;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
 }
@@ -752,6 +1142,77 @@ header #upicon {
   font-size: 20px;
   color: #214b33;
   text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  #asked-questions .questions .questions-text {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    text-align: center;
+  }
+  #asked-questions .questions .questions-text .questions-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #asked-questions .questions .questions-text .questions-heading h1 {
+    width: 100%;
+    font-size: 40px;
+    color: #1e7443;
+    font-family: "Rye", cursive;
+  }
+  #asked-questions .questions .questions-text .questions-parag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #asked-questions .questions .questions-text .questions-parag p {
+    width: 80%;
+    font-size: 20px;
+    color: rgb(158, 156, 156);
+    font-family: "Sansita Swashed", cursive;
+  }
+  #asked-questions .questions .questions-text a {
+    font-family: "Rye", cursive;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 29px;
+    margin-left: 0px;
+    margin-right: 50px;
+    color: #fff;
+    background-color: #2e8b57;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #asked-questions .questions .questions-text a:hover {
+    background-color: transparent;
+    border-color: #2e8b57;
+    color: #2e8b57;
+  }
+  #asked-questions .questions .questions-text a i {
+    font-size: 23px;
+  }
+  #asked-questions .questions .questions-accardion .accordion .accordion-item h2 button {
+    font-family: "Rye", cursive;
+    padding: 40px 20px;
+    background-color: #e8faf0;
+    color: rgb(126, 121, 121);
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 48px;
+  }
+  #asked-questions .questions .questions-accardion .accordion .accordion-item .accordion-body {
+    background-color: #f8fcfa;
+  }
+  #asked-questions .questions .questions-accardion .accordion .accordion-item .accordion-body p {
+    font-family: "Sansita Swashed", cursive;
+    font-size: 20px;
+    color: #214b33;
+    text-align: center;
+  }
 }
 
 #services {
