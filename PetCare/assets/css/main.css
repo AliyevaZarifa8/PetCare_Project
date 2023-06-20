@@ -3264,11 +3264,12 @@ header #upicon {
   font-size: 25px;
   font-family: Times;
   line-height: 1;
+  font-family: "Beau Rivage", cursive;
 }
 #food-dinamik .cards .card .stars::before {
-  content: "☆☆☆☆☆";
+  content: "★★★★★";
   letter-spacing: 3px;
-  background: linear-gradient(90deg, #fc0 var(--percent), #fff var(--percent));
+  background: linear-gradient(90deg, rgb(237, 209, 94) var(--percent), #fff var(--percent));
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;

@@ -6,14 +6,13 @@ const menuIcon = document.querySelector("#menu");
 const menuBar = document.querySelector("#menubar");
 const closeIcon = document.querySelector("#close");
 
+
 menuBar.style.display = "none";
 
 menuIcon.addEventListener("click", function () {
-
   menuBar.style.display = "block";
 });
 closeIcon.addEventListener("click", function () {
-
   menuBar.style.display = "none";
 });
 function scrollFun() {
@@ -49,7 +48,7 @@ function getallBasket() {
             <div class="card-body">
               <h5 class="card-title text-success">Category : ${element.category} </h5>
               <hr />
-              <p class="card-text text-primary">Price : ${element.price}.</p>
+              <p class="card-text text-primary my-5">Price : ${element.price}.</p>
               <p class="card-text "> 
               <i class="fa-solid fa-star text-warning"></i>
                <i class="fa-solid fa-star text-warning"></i>
@@ -79,9 +78,10 @@ const favItem = JSON.parse(localStorage.getItem("favFoods")) || [];
 async function addFavs(userId) {
   const res = await axios(`${foodUrl}/${userId}`);
   const data = await res.data;
-
+ 
+  
   isTrue = favItem.some((element) => element.id === data.id);
-
+ 
   if (!isTrue) {
     favItem.push(data);
     localStorage.setItem("favFoods", JSON.stringify(favItem));

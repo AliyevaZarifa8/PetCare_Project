@@ -28,6 +28,7 @@ let evrData = [];
 let sort = "asc";
 let maxLen = 8;
 const breedsUrl = "http://localhost:8080/pet-breeds";
+// let signUrl = "http://localhost:8080/sigin";
 
 async function drawBranches() {
   const res = await axios(breedsUrl);
@@ -140,6 +141,14 @@ const setBasket = JSON.parse(localStorage.getItem("setBaskets")) || [];
 async function addBasket(userId) {
   const res = await axios(`${breedsUrl}/${userId}`);
   const data = await res.data;
+  // const resSign = await axios(`${signUrl}`);
+  // const dataSign = await resSign.data;
+  // console.log(dataSign);
+  // dataSign.forEach(item=>{
+  //   item?.isadmin
+  //   ? setBasket.push(data) && localStorage.setItem("setBaskets", JSON.stringify(setBasket))
+  //   :alert("Pls register!") && (window.location = "signin.html");
+  // })
 
   isTrue = setBasket.some((element) => element.id === data.id);
 

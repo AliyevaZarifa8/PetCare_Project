@@ -16,11 +16,9 @@ const closeIcon = document.querySelector("#close");
 menuBar.style.display = "none";
 
 menuIcon.addEventListener("click", function () {
-
   menuBar.style.display = "block";
 });
 closeIcon.addEventListener("click", function () {
-
   menuBar.style.display = "none";
 });
 let filterData = [];
@@ -30,6 +28,7 @@ let evrData = [];
 let sort = "asc";
 let maxLen = 8;
 const foodUrl = "http://localhost:8080/dog-food";
+// let signUrl = "http://localhost:8080/sigin";
 
 async function drawFood() {
   const res = await axios(foodUrl);
@@ -45,13 +44,14 @@ async function drawFood() {
 
   filterData.forEach((element) => {
     petFoods.innerHTML += `
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6 col-sm-12">
     <div class="card">
       <img src="${element.photo}" alt="" />
       <h2>Category:</h2>
       <h2>${element.category}</h2>
       <h3>Price: $ ${element.price}</h3>
-      <div class="stars" style="--starprice :${element.starprice}" >${element.starprice}</div>
+      <div class="stars my-4" style="--starprice :${element.starprice}" >
+      ${element.starprice}</div>
       <div>
       <button id="button">Buy Now</button>
       </div>
@@ -130,7 +130,14 @@ const favStorage = JSON.parse(localStorage.getItem("favUser")) || [];
 async function addBasket(userId) {
   const res = await axios(`${foodUrl}/${userId}`);
   const data = await res.data;
-
+  // const resSign = await axios(`${signUrl}`);
+  // const dataSign = await resSign.data;
+  // console.log(dataSign);
+  // dataSign.forEach(item=>{
+  //   item?.isadmin
+  //   ? favItem.push(data) && localStorage.setItem("favFoods", JSON.stringify(favItem))
+  //   :alert("Pls register!") && (window.location = "signin.html");
+  // })
   isTrue = favStorage.some((element) => element.id === data.id);
 
   if (!isTrue) {
@@ -144,7 +151,14 @@ const favFood = JSON.parse(localStorage.getItem("favFoods")) || [];
 async function addFav(userId) {
   const res = await axios(`${foodUrl}/${userId}`);
   const data = await res.data;
-
+//  const resSign = await axios(`${signUrl}`);
+//   const dataSign = await resSign.data;
+//   console.log(dataSign);
+//   dataSign.forEach(item=>{
+//     item?.isadmin
+//     ? favItem.push(data) && localStorage.setItem("favFoods", JSON.stringify(favItem))
+//     :alert("Pls register!") && (window.location = "signin.html");
+//   })
   isTrue = favFood.some((element) => element.id === data.id);
 
   if (!isTrue) {
